@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-26 traditions · 34 restricted items · 64 disclosures · 77 claims · 74 sources
+29 traditions · 37 restricted items · 68 disclosures · 88 claims · 80 sources
 
 ## Traditions
 
@@ -34,6 +34,9 @@
 - [Shugendō](#trad-0024) (1 item)
 - [Arrernte religion](#trad-0025) (1 item)
 - [Pitjantjatjara religion](#trad-0026) (1 item)
+- [Midewiwin (Grand Medicine Society)](#trad-0027) (1 item)
+- [Kwakwaka'wakw religion](#trad-0028) (1 item)
+- [Sámi religion (noaidi practice)](#trad-0029) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -1225,6 +1228,134 @@ Knowledge of sacred sites and objects, paintings and rock engravings explained t
   - Where: SRC-0063: paras 3 and 17–19
   - Assessment: Library count from the author's search of the National Library of Australia catalogue.
 
+<a id="trad-0027"></a>
+
+## Midewiwin (Grand Medicine Society)
+
+`TRAD-0027` · indigenous tradition · founded unknown · Great Lakes and upper Mississippi (Ojibwe and neighbouring Anishinaabe peoples) · active · [Wikidata `Q538136`](https://www.wikidata.org/wiki/Q538136)
+
+A graded medicine society of Mide' priests, entered by initiation and payment; its songs and teachings are recorded on birch-bark scrolls.
+
+<a id="item-0035"></a>
+
+### Degree initiations and the 'shooting' of the migis shell
+
+`ITEM-0035` · initiatory rite · currently practiced
+
+The ceremonies of the four degrees, in which officiating priests 'shoot' the sacred migis shell into the candidate with their medicine bags, and the songs, remedies and instruction given at each degree.
+
+- **Restricted to:** Initiated Mide' of the corresponding degree
+- **How:** fee, grade requirement, oral only
+- **Stated reason:** Secrets and remedies that have been paid for lose their virtue if passed on for nothing (CLM-0080)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1891 | academic research | full | Hoffman describes the ceremonies of all four degrees, with songs, mnemonic birch-bark charts and the preparatory instruction; not yet checked degree by degree | [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670)) | unassessed | Hoffman says the chief priests agreed to impart the rites to him (CLM-0081). |
+
+**Claims**
+
+- `CLM-0078` *content* · **single source** · reviewed: In the initiation, four officiating Mide' priests in turn thrust their medicine bags at the candidate, 'shooting' the sacred migis shell into his body; at the last thrust, aimed at his head, he falls forward as if lifeless, and a migis shell then drops from his mouth, where he had been told beforehand to hold it. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 215
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The same device recurs at a later degree, where the candidate spits out a shell he had hidden in his mouth (p. 265).
+- `CLM-0079` *content* · **single source** · reviewed: After a new member is admitted, the Mide' on each side of the lodge take turns pretending to shoot the migis into members of the other side, who fall over, gag and pretend to cough up a migis shell, show it round, and then pretend to swallow it again. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 265–266
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0080` *stated reason* · **single source** · reviewed: Mide' priests charge for every remedy or secret they pass on, because it is believed that a secret that was paid for cannot be given away for nothing without its power being weakened or destroyed by the manido that guards it. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 221
+  - Assessment: Hoffman reports the belief and adds that the practice is not only mercenary. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0081` *other* · **single source** · reviewed: The chief Mide' priests agreed to impart the ceremonies to Hoffman so that a complete description could be preserved for their descendants, because they expected that the 'pagan rites' could not be kept up much longer. (1880s)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 300
+  - Assessment: Hoffman's own account of how he obtained the material. He also expected the ceremonies to go on being held in secret. Checked against the Internet Archive text on 2026-11-04.
+
+<a id="trad-0028"></a>
+
+## Kwakwaka'wakw religion
+
+`TRAD-0028` · indigenous tradition · founded ancient · Northern Vancouver Island and the adjacent mainland coast (British Columbia) · active
+
+Older literature calls the people Kwakiutl. The winter ceremonial is organised in dancing societies led by the hamatsa (Wikidata Q5644160 for the hamatsa). Wikidata has no item for the religion.
+
+<a id="item-0036"></a>
+
+### Hamatsa initiation and the eating of flesh
+
+`ITEM-0036` · initiatory rite · currently modified
+
+The initiation of a new hamatsa, who is held to be taken away to the woods by the cannibal spirit BaxbakualanuXsiwae and returns possessed, biting people and eating human flesh before he is tamed.
+
+- **Restricted to:** Initiated members of the hamatsa society and the other winter-ceremonial societies
+- **How:** grade requirement, social sanction
+- **Stated reason:** Not yet recorded from a Kwakwaka'wakw source
+- **Notes:** Boas (SRC-0076, pp. 440–441) already reports that by the 1890s the biting was done by a sleight of hand (CLM-0082).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1897 | academic research | partial | The hamatsa's seclusion, return, biting and corpse-eating, the preparation of the corpse and the hamatsa songs; Boas's text for pp. 436–443 checked | [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0082` *content* · **single source** · reviewed: The hamatsa returning from the woods bites pieces of flesh out of the arms and chests of the people. By the 1890s the flesh was no longer really bitten out: the hamatsa pulled up the skin with his teeth, sucked out blood, and secretly cut off a small piece of skin with a small sharp knife; the piece was not swallowed but hidden behind his ear and returned to its owner after the dance, as an assurance that it would not be used against him in witchcraft. (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: pp. 438 (biting), 440–441 (the knife)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Boas also writes that a person bitten was formerly believed to suffer inflammation if the hamatsa drank hot water after swallowing the flesh (p. 440).
+- `CLM-0083` *content* · **single source** · reviewed: A new hamatsa may return from the woods with a corpse, which must be that of one of his own dead relatives. The healers take a mummified body down from a tree burial, soak it in salt water, remove the decayed flesh with stripped hemlock twigs until only skin remains, and smoke it over the novice's hut; the hands and feet are cut away because eating them is believed to bring immediate death. After the dance the master of ceremonies cuts the body and hands out the flesh; the hamatsas must bolt it without chewing, and the onlookers count how many bites each swallows. (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: pp. 441–443
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0084` *historical practice* · **single source** · reviewed: At Newettee a female slave asked to dance for the hamatsa was killed with an axe by her master as she danced, and was eaten by the hamatsa. (before the 1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: p. 440
+  - Assessment: Boas reports this as the account of Q'omEna'kula, who took part and had died a few years before Boas wrote; Q'omEna'kula told him fresh human flesh was much harder to eat than dried corpses. Testimony relayed second-hand; no independent source recorded yet. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0085` *suppression* (official condemnation) · **single source** · reviewed: The potlatch was illegal under Canada's Indian Act from 1885 to 1951. People who attended Chief Dan Cranmer's potlatch at Village Island in 1921 were charged and tried; the chiefs were made to sign a promise to give up the potlatch, twenty who refused were jailed, and the community's masks and regalia (the Potlatch Collection) were taken under this agreement. The law was dropped from the Indian Act in 1951 but never formally repealed. (1885–1951)
+  - Supported by: [The Meaning of U'mista](#src-0077) ([umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php))
+  - Where: SRC-0077: whole page
+  - Assessment: Community source. The page does not list which hamatsa regalia were among the confiscated items, or the text of the statute. Read on 2026-11-04.
+
+<a id="trad-0029"></a>
+
+## Sámi religion (noaidi practice)
+
+`TRAD-0029` · indigenous tradition · founded ancient · Sápmi (northern Norway, Sweden, Finland and the Kola Peninsula) · dormant · [Wikidata `Q735329`](https://www.wikidata.org/wiki/Q735329)
+
+Ritual specialists (noaidi) used the drum (goavddis, runebomme) for divination and healing. The practice was prosecuted as witchcraft by Danish-Norwegian and Swedish authorities in the 17th and 18th centuries (CLM-0087).
+
+<a id="item-0037"></a>
+
+### The noaidi drum (goavddis) and the meaning of its figures
+
+`ITEM-0037` · transmitted technique · currently unknown
+
+The drum painted with figures of gods, spirits, people and animals, struck to move a pointer across the figures for divination, healing and finding lost things, and the knowledge of what each figure means.
+
+- **Restricted to:** Noaidi and drum owners
+- **How:** social sanction, oral only
+- **Stated reason:** Not yet recorded from a Sámi source
+- **Notes:** Nearly all early knowledge of the figures comes from missionaries and court records (CLM-0086).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+|  | academic research | summary | How Paulsen grouped the figures (nature and Christian); no figure-by-figure meanings | [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen)) | verified |  (reviewed) |
+| 1692 | court record | partial | Paulsen's own explanation of the 25 figures on his drum and of its uses, given in court | [Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692](#src-0080) (no online copy) | unassessed | Recorded on 9–10 February 1692; coverage as described in SRC-0079. |
+
+**Claims**
+
+- `CLM-0086` *content* · **single source** · reviewed: Questioned in court in 1692, the noaidi Anders Paulsen identified 25 figures on his drum. He explained five through nature (storm, thunder, wild reindeer, the sun and the moon) and the rest through Christian ideas (the Trinity, the church, biblical figures and the devil). He said the drum could ease women's pain in childbirth, find stolen property and drive out dark forces. (1692)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen))
+  - Where: SRC-0078: section on the 1692 trial; SRC-0079: section on the drum
+  - Assessment: SRC-0079 gives the figures, SRC-0078 the uses. Both draw on the same court record (SRC-0080), so they count as one origin. SRC-0079 warns that the court record is an important source but should not be taken at face value, and that Paulsen gave conflicting accounts of where his drum came from. Read on 2026-11-04.
+- `CLM-0087` *suppression* (official condemnation) · **independently corroborated** · reviewed: In 1609 King Christian IV of Denmark-Norway made using a Sámi drum a crime of witchcraft punishable by death. Anders Paulsen was arrested and his drum seized in December 1691; he was tried at Vadsø on 9–10 February 1692 and killed with an axe on 11 February while awaiting a final verdict, and in 1693 the district judge took the drum to Copenhagen. (1609–1693)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen))
+  - Where: SRC-0078: background and trial sections; SRC-0079: whole article
+  - Assessment: The two sources are independent secondary works by different authors. They differ on the killer: SRC-0078 says a jailor, SRC-0079 a person not legally responsible for his actions. The 1609 proclamation and the 1693 transfer each rest on one of them only (SRC-0078 and SRC-0079 respectively). Read on 2026-11-04.
+- `CLM-0088` *change* · **independently corroborated** · reviewed: Paulsen's drum went to the Danish national museum. It was lent to the Sámi collections at Karasjok in 1979, and in 2022 Denmark transferred ownership to the Karasjok museum (RiddoDuottarMuseat). (1693–2022)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen))
+  - Where: SRC-0078: return section; SRC-0079: final section
+  - Assessment: Both sources agree on the 1979 deposit and the 2022 transfer; SRC-0078 dates the Danish Ministry of Culture announcement to 24 January 2022. Read on 2026-11-04.
+
 ## Sources
 
 <a id="src-0001"></a>
@@ -2212,3 +2343,87 @@ Knowledge of sacred sites and objects, paintings and rock engravings explained t
 - **Links:** [www.austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html)
 - **Notes:** Paper given at the 'Traditional Knowledge, Intellectual Property and Indigenous Culture' conference, Benjamin N. Cardozo School of Law, New York, 21–22 February 2002. Discusses Foster v Mountford in the section 'Case law', citing (1976) 29 FLR 233.
 - **Cited in claims:** `CLM-0063` · `CLM-0064`
+
+<a id="src-0075"></a>
+
+### The Midē'wiwin or "Grand Medicine Society" of the Ojibwa
+
+`SRC-0075` · Walter James Hoffman · 1891 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `b24883670`](https://archive.org/details/b24883670)
+- **Notes:** Seventh Annual Report of the Bureau of Ethnology, 1885–'86 (Washington, 1891), pp. 143–300. Hoffman's fieldwork in Minnesota followed a Bureau survey with Garrick Mallery. Read in the Internet Archive text on 2026-11-04.
+- **Discloses:** [Degree initiations and the 'shooting' of the migis shell](#item-0035)
+- **Cited in claims:** `CLM-0078` · `CLM-0079` · `CLM-0080` · `CLM-0081`
+
+<a id="src-0076"></a>
+
+### The Social Organization and the Secret Societies of the Kwakiutl Indians
+
+`SRC-0076` · Franz Boas · 1897 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `socialorganizati00boas`](https://archive.org/details/socialorganizati00boas)
+- **Notes:** Report of the U.S. National Museum for 1895 (Washington, 1897), pp. 311–738. Read in the Internet Archive text on 2026-11-04.
+- **Discloses:** [Hamatsa initiation and the eating of flesh](#item-0036)
+- **Cited in claims:** `CLM-0082` · `CLM-0083` · `CLM-0084`
+
+<a id="src-0077"></a>
+
+### The Meaning of U'mista
+
+`SRC-0077` · U'mista Cultural Society · website
+
+- **Provenance:** official release
+- **Authenticity:** verified
+- **Verification:** Site of the U'mista Cultural Centre, Alert Bay, which holds the repatriated Potlatch Collection; read on 2026-11-04.
+- **Rights:** copyrighted
+- **Links:** [umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php)
+- **Notes:** Part of the centre's online exhibition on the 1921 Cranmer potlatch and the return of the regalia.
+- **Cited in claims:** `CLM-0085`
+
+<a id="src-0078"></a>
+
+### Return of a Sámi Drum
+
+`SRC-0078` · Elin Hofverberg · 2022 · website
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** In Custodia Legis, the Law Library of Congress blog, by a foreign law specialist of the Law Library; read on 2026-11-04.
+- **Rights:** public domain
+- **Links:** [blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)
+- **Notes:** 2 February 2022. A work of a US federal employee.
+- **Cited in claims:** `CLM-0086` · `CLM-0087` · `CLM-0088`
+
+<a id="src-0079"></a>
+
+### Anders Paulsen
+
+`SRC-0079` · Einar Niemi; Liv Helene Willumsen; Rune Blix Hagen · website
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** Store norske leksikon; signed article by three historians at UiT The Arctic University of Norway, last updated 5 October 2026; read on 2026-11-04.
+- **Rights:** copyrighted
+- **Linked copy:** 2026 edition
+- **Links:** [snl.no](https://snl.no/Anders_Paulsen)
+- **Notes:** In Norwegian. The name is spelled Paulsen here and Poulsen in SRC-0078.
+- **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
+- **Cited in claims:** `CLM-0086` · `CLM-0087` · `CLM-0088`
+
+<a id="src-0080"></a>
+
+### Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692
+
+`SRC-0080` · Finnmark local court (Niels Knagenhielm, sorenskriver) · 1692 · court record
+
+- **Provenance:** court filing → archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Notes:** Not yet read for this dataset; known here through SRC-0078 and SRC-0079. SRC-0079 calls it the most extensive source material of all the Finnmark witchcraft cases.
+- **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
