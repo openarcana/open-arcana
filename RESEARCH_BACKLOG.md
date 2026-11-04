@@ -1,0 +1,23 @@
+# Research priorities
+
+Open Arcana seeks sourced knowledge within its scope even when it has been withheld, discouraged, disputed or suppressed. The same rules apply to every tradition and to evidence from members, former members, scholars, critics and outsiders. This seed is a starting collection, not a survey from which to infer the prevalence of secrecy or the character of a people.
+
+Start with the specific restricted rite, initiation, practice, teaching or text. Establish who had access and what the source actually reveals. Misconduct and coercion belong when they form part of that practice or its enforcement; general scandals do not qualify simply because someone concealed them. An item may remain a reference when its actual content is still unavailable, but that limit must be explicit.
+
+The generated [evidence and review backlog](QUALITY.md) identifies existing records needing work. Use it alongside these discovery priorities:
+
+1. **Inspect the cited material directly.** Locate unreviewed disclosures and sources that are known only through reports. Record the exact work, edition, pages, exhibits or timestamps inspected. Where access remains unavailable, keep that gap explicit.
+2. **Find overlooked content.** Search bibliographies, archives, court records, discontinued publications, exposure literature, first-person accounts, leaks, recordings and document dumps. Use shadow-library catalogues and metadata dumps, including Anna’s Archive, Z-Library, LibGen and Nexus/STC, alongside other discovery routes. Search IPFS and torrent manifests when a relevant file or collection can be identified. Record evidence of withholding or suppression as its own claim. A removal, objection or taboo establishes neither the truth nor the falsehood of the underlying content.
+3. **Expand geographical and language coverage.** Seek sources on African traditions and other regions absent or thinly represented in the current seed, including relevant local-language publications. Add precise traditions and practices rather than treating a continent or population as a single tradition. An empty search result is a coverage gap, not evidence that nothing exists.
+4. **Include first-person and opposing accounts.** Seek practitioners' explanations, accounts from former participants, critical scholarship and evidence that contradicts existing assertions. Evaluate what each source can establish; neither insider status nor opposition settles accuracy.
+5. **Trace dependence and separate assertions.** Follow citations and copies back to their upstream origins. Two accounts can agree because they repeat one text. Split compound claims when their components have different support or apply to different times or versions.
+6. **Date practice evidence.** Check claims that something is practiced, modified or discontinued against evidence for a named period. Preserve historical observations without converting them into present-day assertions.
+7. **Make source copies recoverable.** Record a stable source or archive link, edition and capture details in source notes. Hash the exact captured bytes when a copy is available. Document access gaps and rights assessments; never fabricate a hash or imply that metadata licensing licenses the cited text.
+
+For each research pull request, keep a short search record: the question, collections and queries searched, languages, search date, sources found, parts actually inspected, findings and unresolved gaps. Include unsuccessful searches when they explain a consequential coverage limit. These records make selection choices open to challenge without treating the existing catalogue as exhaustive.
+
+Use authorized library access, including The Wikipedia Library, to inspect scholarly sources. Search results, reviews and publisher descriptions can identify a work but do not establish that its contents have been read. Record the edition and passages actually inspected; cite stable public bibliographic links rather than account-specific access URLs. Access to read a work does not grant redistribution rights.
+
+The generated source-format and provenance counts expose discovery gaps without assigning trust by category or imposing quotas. Use the [discovery guide](research/SOURCE_DISCOVERY.md) for file, recording and dump workflows. Prefer specific recoverable artifacts and direct inspection over adding undifferentiated bulk references.
+
+For Indigenous traditions, use the [coverage register](research/INDIGENOUS_COVERAGE.md) and its linked inspection record. It distinguishes current catalogue coverage from uninspected leads and regions still missing. A general expectation that material was withheld is a research question, not support for a particular ritual claim.

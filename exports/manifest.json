@@ -1,0 +1,26 @@
+{
+  "dataset": {
+    "name": "open-arcana",
+    "version": "0.3.0",
+    "metadata_license": "CC0-1.0",
+    "snapshot_sha256": "661d9463d157f8847368bb1258e08fffd48dd136661880b3edbf8c6328dd1ea1"
+  },
+  "canonical_inputs": {
+    "datapackage.json": "ec344e01e695d0f086669078a749d252a0254ebd7d5261747e1762ad4cecdd99",
+    "data/traditions.csv": "8e64a525e5a4b446af80ddd33af4b15a82bb1af9dbb55d0f22e95658224138e3",
+    "data/restricted_items.csv": "1acccfd40153bf0545ebdf39b580951d9b97998c8f73e5932b0d4dbee3b18f57",
+    "data/sources.csv": "26e743778738a8c5babf86c2228f2073fc6907d906daec20382e3fdbce33df71",
+    "data/disclosures.csv": "bcd854e143c95e72703ec91361d9ef34c3e328453a48954170fa2ceb4e200121",
+    "data/claims.csv": "8bf25e948e67d43616a5fb66e744f8d44087b34a7956fba2724ffbdf529614fe",
+    "data/source_artifacts.csv": "0973409abff87059bdffff2ae21d00e43490da2ef8c6b32ec921e3cab27ff1d5"
+  },
+  "counts": {
+    "traditions": 40,
+    "restricted_items": 53,
+    "sources": 106,
+    "disclosures": 95,
+    "claims": 200,
+    "source_artifacts": 17
+  },
+  "source_text_rights": "Separate from metadata; see each source and SOURCE_POLICY.md."
+}

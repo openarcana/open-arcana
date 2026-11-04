@@ -1,0 +1,21 @@
+# Changelog
+
+## 0.3.0 (unreleased)
+
+- Audit the eight Indigenous additions against their scope evidence. Distinguish explicit secrecy, restricted transmission and initiation; clarify that performance roles, payment and ritual purpose do not by themselves establish confidentiality. Narrow the Barasana exclusion claim and move the public Hee Biki overview out of the restricted-item catalogue into contextual source/artifact records.
+- Expand Indigenous coverage with six tradition records, seven restricted items, nine sources, eight disclosures, 41 attributed claims and nine artifacts. Add Cherokee formula manuscripts, the Chaui Pawnee Hako’s secret division, Osage transfer rights, Selk’nam Hain and song documentation, Barasana initiation, Arctic specialist training, Arrernte name transmission and a community co-produced Yuruparí film retained as a contextual discovery lead. Record inspected portions, dependence and remaining geographical gaps; do not infer modern practice from historical accounts.
+- Add `controlled_access` for restrictions on entry, viewing, custodianship and transmission, with the actual eligibility rule described in the record and supported by cited claims.
+- Add a leak/media batch: 15 claims, three restricted items, four sources and eight artifact records. Inspect a leaked 612-page OT compilation and its torrent metainfo, covert-video captions and selected frames, an exposed homunculus instruction, and audio/archive metadata with explicit inspection limits. Retain an embedded ritual-murder allegation as contradicted with counterevidence.
+- Add `source_artifacts` to distinguish works from payloads, streams, transcripts and manifests; export those links to JSONL and SQLite. Accept IPFS/torrent identifiers without an HTTP mirror, check capture metadata, and flag shared bytes for dependence review. Generate source-format, provenance and artifact-inspection counts without treating categories as trust scores.
+- Explicitly include shadow libraries and distributed archives in the discovery workflow; provenance, anonymity and medium are evidence indicators, never categorical eligibility gates.
+- Add 30 attributed claims and four restricted initiation items, drawing on seven new sources: Sande and Poro initiations, DOS admission and branding, a historical Oghar initiation account, and expanded O.T.O. sexual degree teachings. Preserve source, observation and dating limits; these additions do not establish present-day practice.
+- Define the scope around restricted rites, initiations, practices, teachings and texts. Remove unpublished scandal-oriented draft additions that did not meet that scope, and retain a research selection record. Document authorized library access without conflating search results or reviews with direct inspection.
+- Extend the vocabulary for investigation reports and for blackmail or violence enforcing secrecy or admission.
+- Reject unsourced claims, duplicate evidence ids, inconsistent corroboration labels, malformed records and unusable source URLs. Source-independence assessments remain a human responsibility.
+- Show every review status in the catalogue. Flag undated practice status explicitly and retain record and source qualifications in JSONL.
+- Add `independent_source_ids` to claims and `status_as_of` / `status_claim_ids` to items. Retain all seed assertions; reassess unsupported labels rather than removing the evidence.
+- Move the package descriptor from `schema/datapackage.json` to the repository root, `datapackage.json`, with child resource paths. Semicolon-list constraints and foreign keys are namespaced extensions checked by the project validator.
+- Add dataset snapshot metadata, complete tradition context in claim JSONL, SQL tables for source and status-claim joins, a manifest and a generated evidence backlog.
+- Add regression tests, generated-file verification and a CI workflow. Optional Parquet files are removed when they cannot be regenerated, preventing stale exports.
+
+Consumers using CSV column positions should switch to column names. JSONL retains the canonical fields and adds `dataset`, `quality_issues` and, for claims, `tradition`. The dataset license applies to its own records; cited works retain their own rights.

@@ -2,7 +2,7 @@
   "name": "open-arcana",
   "title": "Open Arcana",
   "description": "An open, versioned, machine-readable dataset documenting secrecy in religious, spiritual and esoteric traditions: what is restricted, from whom, why, and when and how it became public.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "licenses": [
     {
       "name": "CC0-1.0",
@@ -10,11 +10,11 @@
       "title": "CC0 1.0 (applies to the dataset's own metadata, not to the third-party works it cites)"
     }
   ],
-  "homepage": "https://github.com/openarcana",
+  "homepage": "https://github.com/openarcana/open-arcana",
   "resources": [
     {
       "name": "traditions",
-      "path": "../data/traditions.csv",
+      "path": "data/traditions.csv",
       "format": "csv",
       "schema": {
         "primaryKey": "id",
@@ -86,11 +86,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "profile": "tabular-data-resource"
     },
     {
       "name": "restricted_items",
-      "path": "../data/restricted_items.csv",
+      "path": "data/restricted_items.csv",
       "format": "csv",
       "schema": {
         "primaryKey": "id",
@@ -153,20 +154,21 @@
           {
             "name": "restriction_mechanism",
             "type": "string",
-            "description": "Semicolon-separated list.",
-            "constraints": {
-              "enum_list": [
-                "oath",
-                "vow",
-                "nda",
-                "fee",
-                "oral_only",
-                "grade_requirement",
-                "copyright_claim",
-                "social_sanction",
-                "unknown"
-              ]
-            }
+            "description": "Semicolon-separated list. blackmail: threatening damaging disclosures or loss of pledged assets; violence_or_threat: physical violence or threats enforcing secrecy or participation. controlled_access: restricting entry, viewing, custodianship or transmission to specified people or roles; describe the rule in restricted_to and the cited claims.",
+            "openarcana:enumList": [
+              "oath",
+              "vow",
+              "nda",
+              "fee",
+              "oral_only",
+              "grade_requirement",
+              "copyright_claim",
+              "social_sanction",
+              "unknown",
+              "blackmail",
+              "violence_or_threat",
+              "controlled_access"
+            ]
           },
           {
             "name": "stated_reason",
@@ -184,7 +186,21 @@
                 "discontinued",
                 "unknown"
               ]
+            },
+            "description": "Recorded practice status. Provisional unless dated and linked to reviewed status claims; never infer present-day practice from an old disclosure alone."
+          },
+          {
+            "name": "status_as_of",
+            "type": "string",
+            "description": "Date (YYYY-MM-DD) for which the linked status evidence applies; not a claim that the status remains current. Blank when not established.",
+            "constraints": {
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
             }
+          },
+          {
+            "name": "status_claim_ids",
+            "type": "string",
+            "description": "Semicolon-separated reviewed claim ids documenting the recorded status, for this item. Without these and status_as_of, current_status is provisional."
           },
           {
             "name": "description",
@@ -195,12 +211,22 @@
             "name": "notes",
             "type": "string"
           }
+        ],
+        "openarcana:listForeignKeys": [
+          {
+            "fields": "status_claim_ids",
+            "reference": {
+              "resource": "claims",
+              "fields": "id"
+            }
+          }
         ]
-      }
+      },
+      "profile": "tabular-data-resource"
     },
     {
       "name": "sources",
-      "path": "../data/sources.csv",
+      "path": "data/sources.csv",
       "format": "csv",
       "schema": {
         "primaryKey": "id",
@@ -259,7 +285,10 @@
                 "photograph",
                 "film",
                 "broadcast",
-                "social_media"
+                "social_media",
+                "report",
+                "document",
+                "collection"
               ]
             }
           },
@@ -280,26 +309,27 @@
             "type": "string",
             "description": "How the material came to light, as an ordered semicolon-separated chain, earliest step first (e.g. 'court_filing;anonymous_posting'). Informs, but does not by itself establish, source_authenticity; see SOURCE_POLICY.md.",
             "constraints": {
-              "required": true,
-              "enum_list": [
-                "official_release",
-                "member_publication",
-                "published_exposure",
-                "defector_account",
-                "court_filing",
-                "official_seizure",
-                "insider_leak",
-                "intrusion",
-                "infiltration",
-                "covert_recording",
-                "anonymous_posting",
-                "archival_collection",
-                "academic_fieldwork",
-                "scholarship",
-                "reconstruction",
-                "unknown"
-              ]
-            }
+              "required": true
+            },
+            "openarcana:enumList": [
+              "official_release",
+              "member_publication",
+              "published_exposure",
+              "defector_account",
+              "court_filing",
+              "official_seizure",
+              "insider_leak",
+              "intrusion",
+              "infiltration",
+              "covert_recording",
+              "anonymous_posting",
+              "archival_collection",
+              "academic_fieldwork",
+              "scholarship",
+              "reconstruction",
+              "unknown",
+              "investigative_reporting"
+            ]
           },
           {
             "name": "source_authenticity",
@@ -346,11 +376,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "profile": "tabular-data-resource"
     },
     {
       "name": "disclosures",
-      "path": "../data/disclosures.csv",
+      "path": "data/disclosures.csv",
       "format": "csv",
       "schema": {
         "primaryKey": "id",
@@ -427,7 +458,8 @@
                 "journalism",
                 "academic_research",
                 "voluntary_release",
-                "reconstruction"
+                "reconstruction",
+                "investigative_report"
               ]
             }
           },
@@ -469,11 +501,12 @@
           }
         ]
       },
-      "description": "Each event in which a restricted item became public through a source. Records that the source contains the material; whether the source is authentic is in sources.source_authenticity, and whether specific assertions are true is in claims."
+      "description": "Each event in which a restricted item became public through a source. Records that the source contains the material; whether the source is authentic is in sources.source_authenticity, and whether specific assertions are true is in claims.",
+      "profile": "tabular-data-resource"
     },
     {
       "name": "claims",
-      "path": "../data/claims.csv",
+      "path": "data/claims.csv",
       "format": "csv",
       "description": "Specific assertions about a restricted item, each with the sources that support or contradict it. Separates what a source says from whether it is authentic and whether it is true.",
       "schema": {
@@ -515,18 +548,16 @@
             "name": "suppression_method",
             "type": "string",
             "description": "Only for claims of type suppression, where it is required. How it was done, semicolon-separated: court_injunction (a court order stopped publication or distribution), publication_withdrawn (a publisher or author pulled the work), archive_restricted (an archive, museum or library closed access), scholarly_self_censorship (scholars withheld or blurred material they had), official_denial_later_admitted (the tradition denied something it later acknowledged), official_condemnation (a religious or state authority condemned the teaching as heresy or banned it, so that it survives mainly through its opponents), apologetic_reinterpretation (a literal practice recast as symbolic or allegorical), community_pressure (protests, threats or sanctions against publication).",
-            "constraints": {
-              "enum_list": [
-                "court_injunction",
-                "publication_withdrawn",
-                "archive_restricted",
-                "scholarly_self_censorship",
-                "official_denial_later_admitted",
-                "official_condemnation",
-                "apologetic_reinterpretation",
-                "community_pressure"
-              ]
-            }
+            "openarcana:enumList": [
+              "court_injunction",
+              "publication_withdrawn",
+              "archive_restricted",
+              "scholarly_self_censorship",
+              "official_denial_later_admitted",
+              "official_condemnation",
+              "apologetic_reinterpretation",
+              "community_pressure"
+            ]
           },
           {
             "name": "statement",
@@ -559,6 +590,11 @@
             "name": "supporting_source_ids",
             "type": "string",
             "description": "Semicolon-separated source ids."
+          },
+          {
+            "name": "independent_source_ids",
+            "type": "string",
+            "description": "Semicolon-separated subset of supporting_source_ids counted as independent. Required for independently_corroborated; the independence assessment must be explained in verification_notes."
           },
           {
             "name": "contradicting_source_ids",
@@ -596,10 +632,11 @@
               "resource": "restricted_items",
               "fields": "id"
             }
-          },
+          }
+        ],
+        "openarcana:listForeignKeys": [
           {
             "fields": "supporting_source_ids",
-            "list": true,
             "reference": {
               "resource": "sources",
               "fields": "id"
@@ -607,14 +644,161 @@
           },
           {
             "fields": "contradicting_source_ids",
-            "list": true,
+            "reference": {
+              "resource": "sources",
+              "fields": "id"
+            }
+          },
+          {
+            "fields": "independent_source_ids",
             "reference": {
               "resource": "sources",
               "fields": "id"
             }
           }
         ]
+      },
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "source_artifacts",
+      "path": "data/source_artifacts.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "primaryKey": "id",
+        "foreignKeys": [
+          {
+            "fields": "source_id",
+            "reference": {
+              "resource": "sources",
+              "fields": "id"
+            }
+          }
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "ARTF- identifier",
+            "constraints": {
+              "required": true,
+              "pattern": "^ARTF-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "source_id",
+            "type": "string",
+            "description": "The source work or collection represented by this file or stream.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "artifact_kind",
+            "type": "string",
+            "description": "The represented artifact, not its reputation or eligibility.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "document",
+                "collection",
+                "audio",
+                "video",
+                "image",
+                "transcript",
+                "torrent_metadata"
+              ]
+            }
+          },
+          {
+            "name": "media_type",
+            "type": "string",
+            "description": "Recorded MIME type, when established."
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "HTTP(S) file, player or catalogue URL; notes distinguish direct payloads from metadata."
+          },
+          {
+            "name": "ipfs_cid",
+            "type": "string",
+            "description": "A CID reported for this artifact; content addressing alone does not establish authenticity.",
+            "constraints": {
+              "pattern": "^(Qm[1-9A-HJ-NP-Za-km-z]{44}|b[a-z2-7]{10,}|z[1-9A-HJ-NP-Za-km-z]{10,})$"
+            }
+          },
+          {
+            "name": "btih",
+            "type": "string",
+            "description": "BitTorrent v1 info-hash, lower-case hexadecimal. It identifies a torrent payload manifest, not the raw file SHA-256.",
+            "constraints": {
+              "pattern": "^[0-9a-f]{40}$"
+            }
+          },
+          {
+            "name": "member_path",
+            "type": "string",
+            "description": "Exact member path when the artifact is inside a bundle."
+          },
+          {
+            "name": "sha256",
+            "type": "string",
+            "description": "SHA-256 computed from the exact captured artifact bytes. Do not copy an unverified publisher hash into this field.",
+            "constraints": {
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          {
+            "name": "size_bytes",
+            "type": "string",
+            "description": "Exact captured byte count; blank when no complete file was captured.",
+            "constraints": {
+              "pattern": "^[0-9]+$"
+            }
+          },
+          {
+            "name": "inspection_status",
+            "type": "string",
+            "description": "How much of this artifact was inspected; independent of source authenticity or truth.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "metadata_only",
+                "partial",
+                "complete"
+              ]
+            }
+          },
+          {
+            "name": "inspected_parts",
+            "type": "string",
+            "description": "Pages, time ranges, frames, files or metadata inspected. Complete metadata inspection does not mean the payload was inspected.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "accessed_on",
+            "type": "string",
+            "description": "Date of this inspection (YYYY-MM-DD).",
+            "constraints": {
+              "required": true,
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Origin, transformations, access limits, reported identifiers and reasons for the inspection status.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ]
       }
     }
-  ]
+  ],
+  "profile": "tabular-data-package"
 }

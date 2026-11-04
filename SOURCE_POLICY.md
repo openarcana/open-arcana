@@ -7,11 +7,21 @@ Open Arcana is a truth-seeking directory. It records what traditions keep secret
 - **One standard for every tradition.** Country, region, tribe, size, age and number of followers make no difference. A world religion, a small sect, an indigenous tradition and a magical order are all held to the same rules.
 - **No special status.** Calling something sacred, secret or taboo does not exempt it from being recorded. Calling something heretical or dangerous does not make it a target.
 - **Past and present.** Current practices are in scope as much as historical ones. Record whether an item is still practiced, modified or abandoned.
-- **Describe, don't judge.** The tradition's own account and stated reasons are recorded next to those of critics and outsiders. The dataset does not decide which is true. That is left to the evidence and to whoever uses it.
+- **Record perspectives and assess factual claims.** The tradition's own account and stated reasons are recorded next to those of critics and outsiders. Apply the same evidence tests to all of them. Stronger evidence receives stronger support labels; equal treatment does not imply equal evidentiary weight. Readers can inspect and challenge the assessment.
 
 ## Inclusion
 
+Records concern specific restricted rites, initiations, practices, teachings, texts, oral transmissions or internal manuals. Identify what was restricted, to whom, and how the source documents it. Misconduct belongs in a record when it is part of that practice or its enforcement. A scandal, accusation, private affair or confidential investigation does not qualify merely because a group wanted it kept quiet.
+
+Record the evidence that puts each item in scope: for example, an explicit confidentiality or transmission rule, controlled access, or a described initiation. A sacred label, specialist role, fee or exclusive performance role does not by itself establish secrecy. A public description can establish that an initiation exists without revealing its restricted content; keep that limit explicit. The purpose of a rite and the reason for restricting access are separate claims.
+
 Open Arcana applies no categorical exclusion based on a source's origin, method of acquisition, institutional authorization, religious status or perceived legitimacy. Official publications, historical exposures, leaked documents, material obtained through unauthorized access or infiltration, anonymous disclosures, reconstructions and firsthand testimony are all eligible.
+
+Within that subject scope, relevance and the quality of the evidence determine its treatment. No academic, institutional or public-domain preference applies. Leaked scans, internal manuals, recordings, photographs, messages, database exports and mixed document dumps are eligible. Unknown provenance is an uncertainty to record, not a reason to reject a source. Neither an institutional imprint nor an unauthorized release supplies an automatic authenticity or truth judgement.
+
+Anna’s Archive, Z-Library, Library Genesis, Nexus/STC, IPFS, torrents and other archives may be used to discover and identify material. A repository or transport is an access route, not an independent evidentiary origin. Assess the actual file, edition, recording or collection; a mirror does not gain or lose factual credibility just by moving hosts. Access or redistribution rights are recorded separately from evidentiary quality.
+
+Sacred status, taboo, offence, respect for an institution or fear of reputational damage is not by itself a reason to leave out sourced knowledge. Describe relevant content precisely, with its context and uncertainty, rather than obscuring it through euphemism. Evidence eligibility and permission to host a third-party text remain separate questions. Apply the same inclusion standard to material supporting and challenging a tradition's account.
 
 Inclusion is not endorsement or verification. Each source is recorded with its provenance and an assessment of its authenticity, and each specific assertion is recorded with the sources that support or contradict it.
 
@@ -32,6 +42,8 @@ The dataset never lets one judgement stand in for another:
 
 A genuine initiation manual can describe a ceremony that was never performed, was performed differently, or has since been dropped. Each of those is a separate claim, needing its own evidence.
 
+`restriction_mechanism` can include `controlled_access`: restricted entry to a ritual space, viewing of objects, custodianship or transmission rights. Describe the actual rule in `restricted_to` and the cited claims, including gender, initiation, lineage or role where documented. This value does not assert a particular sanction or an oath.
+
 ## Provenance
 
 Every source records how it came to light in its `provenance` field. When material passed through several hands, list each step in order, earliest first, separated by semicolons: for example `court_filing;anonymous_posting` for court exhibits later posted online.
@@ -51,11 +63,20 @@ Every source records how it came to light in its `provenance` field. When materi
 | `anonymous_posting` | Posted anonymously, with no traceable chain of custody |
 | `archival_collection` | Held in a library, archive or manuscript collection |
 | `academic_fieldwork` | Gathered by researchers through fieldwork, interviews or excavation |
+| `investigative_reporting` | Firsthand journalistic or institutional investigation, including interviews and human-rights monitoring outside academic fieldwork |
 | `scholarship` | Edited, translated or analysed by scholars from texts and other existing material, without fieldwork |
 | `reconstruction` | Pieced together from fragments or secondary accounts |
 | `unknown` | Origin not established |
 
 Provenance informs the authenticity assessment but does not settle it. Use `verification_notes` to say what is known about the chain of custody.
+
+### Copies, streams and bundles
+
+`source_artifacts` separates a source work from its particular files, streams, transcripts and bundle manifests. Each artifact links to a source and records its format, HTTP URL and/or IPFS CID or BitTorrent v1 info-hash, a member path where relevant, and what was actually inspected. There is no HTTP-only eligibility requirement: a content identifier can identify an artifact without a live web mirror.
+
+`sha256` and `size_bytes` describe bytes actually captured together. A publisher-reported digest remains in notes until checked. A torrent info-hash identifies its bencoded payload manifest; it is not the payload file’s SHA-256. An IPFS CID does not by itself prove the content was retrieved or authenticated. Hashes of OCR, captions, transcripts or re-encodings identify those derivatives, not their originals. Identifier syntax checks do not verify remote availability or payload integrity.
+
+`inspection_status` is `metadata_only`, `partial` or `complete` for that artifact, with exact inspected portions. Inspecting a complete catalogue response or torrent manifest does not mean its advertised payload has been inspected. A recording’s transcript can be inspected while its audio remains unchecked. In mixed dumps, assess individual components and versions; do not extend one authentic page’s status to the whole bundle. Identical captured bytes linked to multiple sources are flagged for dependence review rather than automatically counted as independent evidence.
 
 ### Dates
 
@@ -111,7 +132,13 @@ A claim is one specific assertion about a restricted item, such as what a ceremo
 
 ### Independence
 
-Sources count as independent only if neither derives from the other and they do not share an upstream origin. A book that reprints a leak, two newspapers quoting the same press release, or postings that copy court exhibits are not independent of their origin. Explain in `verification_notes` which sources were counted as independent and why.
+Sources count as independent only if neither derives from the other and they do not share an upstream origin. A book that reprints a leak, two newspapers quoting the same press release, or postings that copy court exhibits are not independent of their origin. Different authors, publishers or court cases alone do not establish independence. List the supporting sources counted as independent in `independent_source_ids`, and explain the checks and their scope in `verification_notes`. For `independently_corroborated`, the record must be reviewed, have locators and identify at least two distinct independent supporting sources, with no contradicting sources. Automatic validation checks this consistency; it cannot establish independence by itself.
+
+Keep claims narrow enough that their support label applies to the entire assertion. Split out a detail that rests on only one source rather than lending it the corroboration of neighbouring details. If independence has not been established, retain the evidence under `single_source`, or `insufficient` when the evidence itself has not been established.
+
+### Practice status and dates
+
+The `current_status` on an item is a recorded assessment, not an assertion that an old account still applies today. Link reviewed, supported claims for the same item in `status_claim_ids`, and give the date for which they establish that status in `status_as_of`. A `practiced` status needs a `current_practice` claim; `modified` and `discontinued` need a `change` claim. A date records the scope of the evidence, not a guarantee that a practice has continued since then. Without linked, dated evidence, a seed status remains provisional and is flagged in the catalogue and exports. Historical observations belong in `historical_practice`, even when their source describes them as current at the time.
 
 ### Testimony and documents
 
@@ -136,6 +163,8 @@ Suppression is not evidence of truth, and openness is not evidence of falsehood.
 
 ## Disclosures
 
+`investigative_report` identifies disclosures through institutional investigation reports, distinct from academic research or a journalistic article. A report remains eligible only when it documents material within the scope above.
+
 A disclosure records that a source made a restricted item public, and how much of it:
 
 | `extent` | Meaning |
@@ -150,6 +179,8 @@ Use `coverage` to say which parts, degrees, versions or editions the source cove
 ## Review status
 
 `review_status`, on disclosures and claims, records whether a maintainer has checked the record against its sources: `unreviewed`, `reviewed` or `disputed`. It says nothing about authenticity or truth.
+
+Every status is displayed explicitly in the catalogue and preserved in the exports. [`QUALITY.md`](QUALITY.md) and `exports/quality.json` expose incomplete evidence; they do not impose an exclusion rule or calculate a truth score. Record-level qualifications travel with JSONL records for people and automated consumers.
 
 ## Who may be named
 
