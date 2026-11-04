@@ -1393,10 +1393,10 @@ An all-night rite in which a healer and the participants eat psilocybin mushroom
   - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100))
   - Where: SRC-0081: p. 118
   - Assessment: Wasson adds that when the verdict is death the patient and family resign themselves and begin preparing the wake. Read on Google Books on 2026-11-04.
-- `CLM-0091` *historical practice* · **single source** · reviewed: Before Wasson came, no Mazatec revealed what they knew about the mushrooms to outsiders. Mazatecs spoke of the vigils in a low voice and avoided saying the mushrooms' Mazatec name, calling them the little things or the little saints, as their ancestors had. (before 1955)
-  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
-  - Where: SRC-0082: p. 79
-  - Assessment: María Sabina's own testimony. Wasson says (SRC-0081, p. 101) that the mushrooms had been a secret of certain Indian peoples for centuries and that no anthropologist had described the rite, which is consistent but is his own judgement rather than evidence of the practice. Read in the Internet Archive search-inside text on 2026-11-04.
+- `CLM-0091` *historical practice* · **single source** · reviewed: Before Wasson came, no Mazatec revealed what they knew about the mushrooms to outsiders. Mazatecs spoke of the vigils in a low voice and avoided saying the mushrooms' Mazatec name, 'nti xi tjo (also written 'nti-xi-tjo, or 'nti sheeto by Wasson: 'that which springs forth', with 'nti a particle of reverence and endearment), calling them instead the little things or the little saints, as their ancestors had. (before 1955)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) · [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) · [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0082: p. 79; SRC-0081: p. 102 (the name); SRC-0083: section on childhood (the name and its meaning)
+  - Assessment: The secrecy and the avoidance of the name are María Sabina's own testimony (SRC-0082). SRC-0082 also prints the name, but with tone marks the search-inside text does not render legibly; the spellings given here are Wasson's, who says he used the name when first asking about the mushroom, and Allen's, who glosses it. Wasson also says (SRC-0081, p. 101) that the mushrooms had been a secret of certain Indian peoples for centuries and that no anthropologist had described the rite, which is consistent with her account but is his own judgement rather than evidence of the practice. Read on 2026-11-04.
 - `CLM-0092` *other* · **independently corroborated** · reviewed: Wasson was admitted through the town's síndico: he asked the official, Filemón, in confidence and using the Mazatec name of the mushroom, to help him learn its secrets, and Filemón led him to the curandera. María Sabina later said she had only obeyed the síndico. (1955)
   - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) · [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
   - Where: SRC-0081: p. 102; SRC-0082: p. 79
@@ -2503,7 +2503,7 @@ An all-night rite in which a healer and the participants eat psilocybin mushroom
 - **Links:** [books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)
 - **Notes:** Life 42, no. 19 (13 May 1957), pp. 100–102, 109–120, in the series Great Adventures. Wasson's account of the vigil he attended at Huautla de Jiménez on 29–30 June 1955. Calls the curandera 'Eva Mendez' and the language 'Mixeteco' (CLM-0093).
 - **Discloses:** [The mushroom vigil (velada) and the 'saint children'](#item-0038)
-- **Cited in claims:** `CLM-0089` · `CLM-0090` · `CLM-0092`
+- **Cited in claims:** `CLM-0089` · `CLM-0090` · `CLM-0091` · `CLM-0092`
 
 <a id="src-0082"></a>
 
@@ -2531,13 +2531,13 @@ An all-night rite in which a healer and the participants eat psilocybin mushroom
 - **Rights:** copyrighted
 - **Links:** [erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml)
 - **Notes:** From the author's Mushroom Pioneers; archived by Erowid with his permission (page last modified 21 February 2015). Draws mainly on Wasson and Estrada. Read in Chrome on 2026-11-04.
-- **Cited in claims:** `CLM-0093` · `CLM-0095`
+- **Cited in claims:** `CLM-0091` · `CLM-0093` · `CLM-0095`
 
 <a id="src-0084"></a>
 
 ### An Act further to amend "The Indian Act, 1880" (Statutes of Canada 1884, chapter 27)
 
-`SRC-0084` · Parliament of Canada · 1884 · court record
+`SRC-0084` · Parliament of Canada · 1884 · legislation
 
 - **Provenance:** official release
 - **Authenticity:** probable
