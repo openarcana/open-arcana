@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 39 disclosures · 7 claims · 38 sources
+19 traditions · 22 restricted items · 39 disclosures · 20 claims · 38 sources
 
 ## Traditions
 
@@ -57,13 +57,25 @@ The three ceremonies through which a candidate becomes a Master Mason including 
 | 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) ([archive.org](https://archive.org/details/bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785)) | unassessed |  |
 | 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) ([archive.org](https://archive.org/details/bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776)) | unassessed |  |
 | 1826 | defector testimony | full |  | [Illustrations of Masonry](#src-0005) ([archive.org](https://archive.org/details/illustrationsofm00morg)) | unassessed | Author was a self-described former member. |
-| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/duncansmasonicri00dunc)) | unassessed |  |
+| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan)) | unassessed |  |
 
 **Claims**
 
 - `CLM-0001` *historical practice* · **single source**: A three-degree system ending in the Master Mason degree was being worked in English lodges. (by 1730)
   - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
   - Assessment: Prichard's exposure describes the third degree; no second independent source is recorded yet.
+- `CLM-0008` *content* · **single source**: In the Entered Apprentice obligation the candidate promises not to write, print, carve or engrave the secrets, under a penalty of having his throat cut, his tongue taken from the roof of his mouth and his heart plucked out, these to be buried in the sea sands a cable's length from shore, and his body burnt and the ashes scattered. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Enter'd 'Prentice's Part, pp. 11–12
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0009` *content* · **single source**: In the Entered Apprentice obligation the candidate swears under a penalty of having his throat cut across, his tongue torn out by its roots and his body buried in the rough sands of the sea at low-water mark. (1860s (United States))
+  - Supported by: [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan))
+  - Where: p. 35
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Pagination is that of the Dick & Fitzgerald third edition as marked in the open transcription. Not counted as corroborating the 1730 wording: Duncan may draw on earlier exposures.
+- `CLM-0010` *content* · **single source**: The Master's Part tells how Hiram was killed by three Fellow-Crafts with a setting maul, setting tool and setting beadle, hidden under rubbish and then buried on the brow of a hill, and found fifteen days later by fifteen brethren when a shrub came away easily from the disturbed ground; a sprig of cassia was placed at the head of the grave. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Master's Part, pp. 25–27
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
 
 <a id="item-0002"></a>
 
@@ -81,6 +93,21 @@ Gestures and words used by members to identify each other by degree.
 |---|---|---|---|---|---|---|
 | 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no online copy) | unassessed |  |
 | 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0011` *content* · **single source**: The Entered Apprentice sign is made by drawing the four fingers of the right hand across the throat; the token is the ball of the thumb pressed on the first knuckle of the other's forefinger; the words Boaz and Jachin, the two pillars of Solomon's porch, are given by lettering them alternately. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Enter'd 'Prentice's Part
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The OCR does not preserve page numbers for this part.
+- `CLM-0012` *content* · **single source**: The Master's word, Machbenah, said to mean 'the builder is smitten', is whispered in the ear while the two men stand on the Five Points of Fellowship: hand to hand, foot to foot, cheek to cheek, knee to knee and hand in back. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Master's Part, pp. 27–28
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0013` *content* · **single source**: The pass-word of the Fellow Craft degree is Shibboleth and that of the Master Mason degree is Tubal Cain; the grand word of the Master Mason degree, Mah-Hah-Bone, is given in low breath on the Five Points of Fellowship. (1860s (United States))
+  - Supported by: [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan))
+  - Where: pp. 60, 89, 120
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Pagination is that of the Dick & Fitzgerald third edition as marked in the open transcription.
 
 <a id="trad-0002"></a>
 
@@ -261,6 +288,14 @@ A Sanskrit ceremony performed at instruction and a mantra given privately to eac
 - `CLM-0004` *content* · **single source**: Instruction begins with a puja chanted in Sanskrit by the teacher, at which the student makes offerings. (1970s)
   - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
   - Assessment: Based on the court's findings in Malnak v. Yogi.
+- `CLM-0014` *content* · **single source**: Each student received a mantra individually at a puja held in a closed room with only the teacher present, having brought a white handkerchief, flowers and fruit, before a table holding a picture of Guru Dev; a week or two earlier the student signed a promise never to reveal the mantra. (1970s)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
+  - Where: 440 F. Supp. at 1305
+  - Assessment: Checked against the opinion text on CourtListener on 2026-11-04. These are the court's findings of undisputed fact.
+- `CLM-0015` *content* · **single source**: In the English translation of the puja chant supplied by the defendants, the teacher offers a series of items (a seat, ablution, cloth, sandalpaste, rice, a flower, incense, light, water, fruit, a betel leaf, a coconut and camphor light) to the lotus feet of Shri Guru Dev, bowing down after each. (1970s)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
+  - Where: 440 F. Supp. at 1306–1307
+  - Assessment: Checked against the opinion text on CourtListener on 2026-11-04. Complements CLM-0004.
 
 <a id="trad-0008"></a>
 
@@ -372,7 +407,14 @@ A rite using five substances or acts conventionally forbidden in orthodox practi
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/b24878376)) | unassessed |  |
+| 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0016` *content* · **single source**: The text names the five elements of worship as wine, meat, fish, parched grain and woman, ranks the kinds of each, says wine taken without the accompanying purificatory food is like poison, and holds that in the Kali age the fifth element should be only the practitioner's own wife.
+  - Supported by: [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077))
+  - Where: ch. VI, vv. 1–14 (1913 ed., pp. 103–104)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Read from the readable copy of the same 1913 edition (ia:dli.ernet.205077). The text treats the elements as literal substances, with restrictions.
 
 <a id="trad-0012"></a>
 
@@ -511,6 +553,13 @@ What was done, said and shown to initiates in the sanctuary at Eleusis.
 | c. 195 | exposure publication | partial | What Clement presents as the initiates' formula, with polemical claims about the rites. | [Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)](#src-0031) ([archive.org](https://archive.org/details/clementofalexand00clem)) | unassessed |  |
 | 1961 | academic research | summary |  | [Eleusis and the Eleusinian Mysteries](#src-0032) ([openlibrary.org](https://openlibrary.org/works/OL4397162W)) | unassessed |  |
 
+**Claims**
+
+- `CLM-0017` *content* · **single source**: The password (synthema) of the Eleusinian initiates was a formula stating that the initiate had fasted, drunk the kykeon, taken something from the chest, handled it, and returned it by way of the basket to the chest. (c. 195 CE)
+  - Supported by: [Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)](#src-0031) ([archive.org](https://archive.org/details/clementofalexand00clem))
+  - Where: Protrepticus 2.21 (Loeb ed. pp. 42–43)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Butterworth renders kykeon as 'the draught' and notes an emendation that would change 'having done my task' to 'having tasted'. The source is hostile and its access to the rites is not established.
+
 <a id="trad-0017"></a>
 
 ## Mithraic Mysteries
@@ -534,6 +583,13 @@ A sequence of grades through which initiates advanced, known mainly from inscrip
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1903 | reconstruction | summary | Reconstructed from monuments, inscriptions and Christian writers. | [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0018` *content* · **single source**: The initiate advanced through seven grades, named Raven (corax), Occult (cryphius), Soldier (miles), Lion (leo), Persian (Perses), Runner of the Sun (heliodromus) and Father (pater), and on some occasions wore costume suited to the grade. (Roman Empire, 2nd–4th centuries CE)
+  - Supported by: [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog))
+  - Where: pp. 152–153
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Cumont bases the list on a letter of Jerome and on inscriptions; adding Jerome or the Felicissimus mithraeum mosaic at Ostia as sources would allow independent corroboration.
 
 <a id="trad-0018"></a>
 
@@ -560,6 +616,17 @@ A winter ceremony in which children are initiated into the Katsina society.
 |---|---|---|---|---|---|---|
 | 1901 | academic research | full | The ceremony at Oraibi, with photographs. | [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth)) | unassessed |  |
 | 1936 | academic research | partial | Ceremonies at First Mesa, 1891–1894. | [Hopi Journal of Alexander M. Stephen](#src-0035) ([openlibrary.org](https://openlibrary.org/works/OL7608010W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0019` *content* · **single source**: In the Katsina initiation, held in the Marau kiva after a sand mosaic is laid, each child is set on the mosaic and whipped with yucca switches by one of two Ho Katsinas, nominally with four strokes; a sponsor may take some of the strokes in the child's place. (by 1901 (Oraibi))
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: pp. 94–95, 103–104
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0020` *content* · **single source**: During the night dance that follows, the Powamu Katsinas dance unmasked, and the newly initiated children learn for the first time that the Katsinas are Hopi men. (by 1901 (Oraibi))
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: p. 120
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. SRC-0035 (Stephen's First Mesa journal) is a candidate for independent corroboration.
 
 <a id="trad-0019"></a>
 
@@ -621,7 +688,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Rights:** public domain
 - **Links:** [Wikidata `Q135099738`](https://www.wikidata.org/wiki/Q135099738) · [Open Library `OL8883292W`](https://openlibrary.org/works/OL8883292W) · [Internet Archive `bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730`](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001) · [Modes of recognition (signs / grips / passwords)](#item-0002)
-- **Cited in claims:** `CLM-0001`
+- **Cited in claims:** `CLM-0001` · `CLM-0008` · `CLM-0010` · `CLM-0011` · `CLM-0012`
 
 <a id="src-0003"></a>
 
@@ -671,10 +738,10 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Provenance:** published exposure
 - **Authenticity:** unassessed
 - **Rights:** public domain
-- **Linked copy:** 1946 edition
-- **Links:** [Open Library `OL20113476W`](https://openlibrary.org/works/OL20113476W) · [Internet Archive `duncansmasonicri00dunc`](https://archive.org/details/duncansmasonicri00dunc)
-- **Notes:** Linked copy is a Chicago printing.
+- **Links:** [Open Library `OL20113476W`](https://openlibrary.org/works/OL20113476W) · [Internet Archive `duncansmasonicri00dunc`](https://archive.org/details/duncansmasonicri00dunc) · [Internet Archive `Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan`](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan)
+- **Notes:** Linked copy is an open transcription of the Dick & Fitzgerald third edition with its page numbers marked; the 1946 Chicago printing (ia:duncansmasonicri00dunc) is lending-only.
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001)
+- **Cited in claims:** `CLM-0009` · `CLM-0013`
 
 <a id="src-0007"></a>
 
@@ -789,7 +856,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [CourtListener `1817490`](https://www.courtlistener.com/opinion/1817490/)
 - **Notes:** Court examined the puja chant and ruled the TM course religious in nature. Linked opinion is the district court ruling (440 F. Supp. 1284).
 - **Discloses:** [Initiation puja and personal mantra](#item-0009)
-- **Cited in claims:** `CLM-0004`
+- **Cited in claims:** `CLM-0004` · `CLM-0014` · `CLM-0015`
 
 <a id="src-0016"></a>
 
@@ -863,9 +930,10 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Provenance:** archival collection
 - **Authenticity:** unassessed
 - **Rights:** public domain
-- **Links:** [Internet Archive `b24878376`](https://archive.org/details/b24878376)
-- **Notes:** The Sanskrit text's date and authority are disputed; some scholars place it in the late 18th century.
+- **Links:** [Internet Archive `b24878376`](https://archive.org/details/b24878376) · [Internet Archive `dli.ernet.205077`](https://archive.org/details/dli.ernet.205077)
+- **Notes:** The Sanskrit text's date and authority are disputed; some scholars place it in the late 18th century. Linked copy is the 1913 edition with readable text; the Wellcome scan (ia:b24878376) was OCR'd as Sanskrit and its text layer is unusable.
 - **Discloses:** [Kaula ritual of the five elements (pañcatattva)](#item-0014)
+- **Cited in claims:** `CLM-0016`
 
 <a id="src-0022"></a>
 
@@ -992,6 +1060,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `clementofalexand00clem`](https://archive.org/details/clementofalexand00clem)
 - **Notes:** Hostile Christian polemic; the author's access to the rites is not established.
 - **Discloses:** [Rites of the Mysteries](#item-0019)
+- **Cited in claims:** `CLM-0017`
 
 <a id="src-0032"></a>
 
@@ -1018,6 +1087,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `mysteriesmithra00mccogoog`](https://archive.org/details/mysteriesmithra00mccogoog)
 - **Notes:** Many of Cumont's interpretations have since been disputed.
 - **Discloses:** [Seven-grade initiation system](#item-0020)
+- **Cited in claims:** `CLM-0018`
 
 <a id="src-0034"></a>
 
@@ -1031,6 +1101,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `oraibipowamucere03voth`](https://archive.org/details/oraibipowamucere03voth)
 - **Notes:** Voth was a Mennonite missionary at Oraibi. Hopi people have objected strongly to his publications.
 - **Discloses:** [Powamu ceremony and Katsina society initiation](#item-0021)
+- **Cited in claims:** `CLM-0019` · `CLM-0020`
 
 <a id="src-0035"></a>
 
