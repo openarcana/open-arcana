@@ -9,22 +9,31 @@ Open Arcana is a truth-seeking directory. It records what traditions keep secret
 - **Past and present.** Current practices are in scope as much as historical ones. Record whether an item is still practiced, modified or abandoned.
 - **Describe, don't judge.** The tradition's own account and stated reasons are recorded next to those of critics and outsiders. The dataset does not decide which is true. That is left to the evidence and to whoever uses it.
 
-## Accepted
+## Inclusion
 
-- Published books, periodicals, newspapers and exposures, of any age
-- Court records and other public legal filings
-- Academic research and fieldwork
-- Archival and manuscript collections
-- Material released by the tradition itself
-- Testimony from current or former participants
-- Leaked, hacked or otherwise unofficially obtained material, and material from infiltration
-- Material already circulating publicly (forum posts, archived websites, dumps)
+Open Arcana applies no categorical exclusion based on a source's origin, method of acquisition, institutional authorization, religious status or perceived legitimacy. Official publications, historical exposures, leaked documents, material obtained through unauthorized access or infiltration, anonymous disclosures, reconstructions and firsthand testimony are all eligible.
 
-How material was obtained is not grounds for rejecting it. It is recorded as provenance and used to judge how reliable the material is.
+Inclusion is not endorsement or verification. Each source is recorded with its provenance and an assessment of its authenticity, and each specific assertion is recorded with the sources that support or contradict it.
+
+Evidence of fabrication, contradiction or uncertainty is kept and labelled, not erased. The aim is to preserve the evidentiary record, errors and disputes included, so that people and AI systems can evaluate it for themselves.
+
+## Separate questions
+
+The dataset never lets one judgement stand in for another:
+
+| Question | Where it is recorded |
+|---|---|
+| Does the source exist, and does it contain this material? | `disclosures` (checked through `review_status`) |
+| Is the source authentic: is it what it claims to be? | `sources.source_authenticity` |
+| Is what it says about the item accurate? | `claims` of type `content`, with their `claim_support` |
+| Was the item actually practiced in a given period? | `claims` of type `historical_practice` |
+| Is it still practiced today? | `claims` of type `current_practice` |
+
+A genuine initiation manual can describe a ceremony that was never performed, was performed differently, or has since been dropped. Each of those is a separate claim, needing its own evidence.
 
 ## Provenance
 
-Every source records how it came to light in its `provenance` field:
+Every source records how it came to light in its `provenance` field. When material passed through several hands, list each step in order, earliest first, separated by semicolons: for example `court_filing;anonymous_posting` for court exhibits later posted online.
 
 | Value | Meaning |
 |---|---|
@@ -41,33 +50,72 @@ Every source records how it came to light in its `provenance` field:
 | `reconstruction` | Pieced together from fragments or secondary accounts |
 | `unknown` | Origin not established |
 
-Use the notes to say what is known about the chain of custody. Provenance feeds the evidence level.
+Provenance informs the authenticity assessment but does not settle it. Use `verification_notes` to say what is known about the chain of custody.
 
-## Evidence levels
+### Dates
 
-| Level | Meaning |
+`original_year` is when the work was first published or the record created. `edition_year` is the year of the copy that `url`, `identifiers` and `content_hash` point to, when it differs. A 1946 printing of an 1866 text has `original_year` 1866 and `edition_year` 1946.
+
+## Source authenticity
+
+`source_authenticity` says whether the source is what it claims to be: for example, whether a leaked manual really is the organisation's internal manual, or whether a published ritual matches what the order used.
+
+| Value | Meaning |
 |---|---|
-| `documented` | The source exists and says what the record claims |
-| `corroborated` | Two or more independent sources agree |
-| `single_testimony` | One firsthand account, not yet corroborated |
-| `contested` | Sources conflict, or authenticity is disputed |
-| `fabricated` | Shown to be fake; kept on record so it is not repeated |
+| `unassessed` | Not yet assessed. The default for new records |
+| `verified` | Authenticity established by checks recorded in `verification_notes` |
+| `probable` | Checks point to authentic, but are incomplete |
+| `uncertain` | Too little evidence either way |
+| `disputed` | Credible evidence both for and against |
+| `disproven` | Shown to be fabricated or misattributed. Kept on record so it is not repeated |
 
-For example, a dump whose origin can be traced and whose contents match independent copies can be `corroborated`. An anonymous document with no chain of custody stays `single_testimony` or `contested` until it is confirmed.
+### Checks for leaks, dumps and anonymous documents
 
-### Judging leaks and dumps
-
-Record in the source's notes what each check showed:
+Record in `verification_notes` what each check showed:
 
 - **Chain of custody:** who first released it, when, where, and whether that origin can be traced.
 - **Size and structure:** how many documents or entries it contains, which fields or formats it uses, and whether these match the organisation's known internal documents or systems.
 - **Internal consistency:** whether dates, names of offices, terminology and cross-references agree with each other throughout.
-- **Checks against known facts:** whether its contents agree with court records, official publications, defector accounts and other verified sources.
+- **Checks against known facts:** whether its contents agree with court records, official publications, defector accounts and other sources.
 - **Independent copies:** whether copies obtained separately match each other, by hash or record count. Note any differences, since they can point to tampering.
-- **Response from the tradition:** whether the tradition confirmed, denied, contested it in court, or ignored it. A copyright or trade-secret claim over a document is strong evidence that it is authentic.
-- **Known fabrications:** whether it matches a hoax or forgery that has already been recorded as `fabricated`.
+- **Response from the tradition:** whether the tradition confirmed, denied, contested it in court, or ignored it. A copyright or trade-secret claim over a document is contextual evidence that the tradition regards it as its own material. It is not conclusive on its own: claims can be made over altered or partial copies, or to suppress a document regardless of its accuracy.
+- **Known fabrications:** whether it matches a hoax or forgery already recorded as `disproven`.
 
-Separately, `review_status` records whether a maintainer has checked the record against its source (`unreviewed`, `reviewed`, `disputed`).
+## Claims
+
+A claim is one specific assertion about a restricted item, such as what a ceremony contains, that it was practiced in a given period, that it is still practiced, or that it changed. Write the statement in your own words and list the sources that support it and any that contradict it, with page, section or exhibit references in `locators`.
+
+| `claim_support` | Meaning |
+|---|---|
+| `independently_corroborated` | Two or more independent sources support it, and none credibly contradicts it |
+| `single_source` | One source, or several that are not independent of each other |
+| `insufficient` | Sources mention it but do not establish it |
+| `contradicted` | Credible sources contradict it |
+
+### Independence
+
+Sources count as independent only if neither derives from the other and they do not share an upstream origin. A book that reprints a leak, two newspapers quoting the same press release, or postings that copy court exhibits are not independent of their origin. Explain in `verification_notes` which sources were counted as independent and why.
+
+### Testimony and documents
+
+Testimony (a person's account of what they saw or did) and documents (a manual, ritual text or file) are judged differently. A named defector's account is testimony; an anonymous document is a document whose authenticity is unassessed. Record which one a source is through its `source_type` and `provenance`, and do not treat an anonymous document as if it were testimony, or the reverse.
+
+## Disclosures
+
+A disclosure records that a source made a restricted item public, and how much of it:
+
+| `extent` | Meaning |
+|---|---|
+| `full` | The whole item, as practiced in the version the source describes |
+| `partial` | Some identifiable parts of the item |
+| `summary` | A description in the source's own words, without the item's text |
+| `reference` | Mentions the item exists, with little or no content |
+
+Use `coverage` to say which parts, degrees, versions or editions the source covers, and which it leaves out.
+
+## Review status
+
+`review_status`, on disclosures and claims, records whether a maintainer has checked the record against its sources: `unreviewed`, `reviewed` or `disputed`. It says nothing about authenticity or truth.
 
 ## Who may be named
 
@@ -82,7 +130,8 @@ Contributors who give testimony to Open Arcana are not named unless they ask to 
 
 ## Not accepted
 
-- Fabricated or unsourced claims presented as fact. Contested material is accepted but labelled `contested`.
+- Claims with no source. Every disclosure and claim must point to at least one source.
+- Fabricated material presented as genuine. Known fabrications are kept, but only as sources marked `disproven`.
 
 ## Texts and rights
 
@@ -90,6 +139,7 @@ Contributors who give testimony to Open Arcana are not named unless they ask to 
 - Full texts are not stored in this repository. A source may carry a `url`, `identifiers` and a `content_hash` (IPFS CID or sha256) pointing to a copy hosted elsewhere.
 - Public-domain texts may be archived and mirrored freely.
 - Any reference, identifier or metadata that can lawfully be published is in scope and should be added.
+- Eligibility as evidence and permission to redistribute are separate questions. A source can be catalogued and assessed in full whether or not its text can be hosted.
 
 ## Corrections and removal requests
 

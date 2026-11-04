@@ -2,7 +2,7 @@
   "name": "open-arcana",
   "title": "Open Arcana",
   "description": "An open, versioned, machine-readable dataset documenting secrecy in religious, spiritual and esoteric traditions: what is restricted, from whom, why, and when and how it became public.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "licenses": [
     {
       "name": "CC0-1.0",
@@ -225,8 +225,17 @@
             "type": "string"
           },
           {
-            "name": "year",
-            "type": "string"
+            "name": "original_year",
+            "type": "string",
+            "description": "When the work was first published or the record created (e.g. '1730', '1909–1913'). Not the date of the linked copy."
+          },
+          {
+            "name": "edition_year",
+            "type": "string",
+            "description": "Year of the edition, printing or copy that url, identifiers and content_hash point to, when it differs from original_year.",
+            "constraints": {
+              "pattern": "^([0-9]{3,4})?$"
+            }
           },
           {
             "name": "source_type",
@@ -262,10 +271,10 @@
           {
             "name": "provenance",
             "type": "string",
-            "description": "How the material came to light. Feeds the evidence level of disclosures citing this source; see SOURCE_POLICY.md.",
+            "description": "How the material came to light, as an ordered semicolon-separated chain, earliest step first (e.g. 'court_filing;anonymous_posting'). Informs, but does not by itself establish, source_authenticity; see SOURCE_POLICY.md.",
             "constraints": {
               "required": true,
-              "enum": [
+              "enum_list": [
                 "official_release",
                 "published_exposure",
                 "defector_account",
@@ -280,6 +289,27 @@
                 "unknown"
               ]
             }
+          },
+          {
+            "name": "source_authenticity",
+            "type": "string",
+            "description": "Whether the source's contents are what they claim to be (e.g. a genuine internal manual), separate from whether the source exists and from whether its claims are true. See SOURCE_POLICY.md.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "unassessed",
+                "verified",
+                "probable",
+                "uncertain",
+                "disputed",
+                "disproven"
+              ]
+            }
+          },
+          {
+            "name": "verification_notes",
+            "type": "string",
+            "description": "What the authenticity judgement rests on: chain of custody, checks against known facts, independent copies, response from the tradition."
           },
           {
             "name": "rights",
@@ -401,25 +431,18 @@
                 "summary",
                 "reference"
               ]
-            }
+            },
+            "description": "How much of the item the source makes public: full (the whole item as practiced in the version described), partial (some identifiable parts), summary (a description in the source's own words), reference (mentions it exists). Say which parts in coverage."
           },
           {
-            "name": "evidence_level",
+            "name": "coverage",
             "type": "string",
-            "constraints": {
-              "required": true,
-              "enum": [
-                "documented",
-                "corroborated",
-                "single_testimony",
-                "contested",
-                "fabricated"
-              ]
-            }
+            "description": "Which parts, degrees, versions or editions of the item the source covers, and which it leaves out."
           },
           {
             "name": "review_status",
             "type": "string",
+            "description": "Whether a maintainer has checked the record against its sources. Independent of authenticity and claim support.",
             "constraints": {
               "required": true,
               "enum": [
@@ -432,6 +455,133 @@
           {
             "name": "notes",
             "type": "string"
+          }
+        ]
+      },
+      "description": "Each event in which a restricted item became public through a source. Records that the source contains the material; whether the source is authentic is in sources.source_authenticity, and whether specific assertions are true is in claims."
+    },
+    {
+      "name": "claims",
+      "path": "../data/claims.csv",
+      "format": "csv",
+      "description": "Specific assertions about a restricted item, each with the sources that support or contradict it. Separates what a source says from whether it is authentic and whether it is true.",
+      "schema": {
+        "primaryKey": "id",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^CLM-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "item_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "claim_type",
+            "type": "string",
+            "description": "What kind of assertion this is. content: what the item contains; historical_practice: that it was actually practiced in a period; current_practice: that it is practiced today; change: that it was modified or discontinued.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "content",
+                "historical_practice",
+                "current_practice",
+                "change",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "statement",
+            "type": "string",
+            "description": "The assertion, in original wording written for this dataset.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "When the assertion applies, free text (e.g. '1730', 'before 1990', 'as of 2024')."
+          },
+          {
+            "name": "claim_support",
+            "type": "string",
+            "description": "How well the assertion is supported. independently_corroborated needs two or more independent supporting sources; contradicted needs at least one contradicting source. See SOURCE_POLICY.md.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "independently_corroborated",
+                "single_source",
+                "insufficient",
+                "contradicted"
+              ]
+            }
+          },
+          {
+            "name": "supporting_source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source ids."
+          },
+          {
+            "name": "contradicting_source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source ids."
+          },
+          {
+            "name": "locators",
+            "type": "string",
+            "description": "Where in each source the evidence is (page, section, exhibit, timestamp), e.g. 'SRC-0002: pp. 20–28'."
+          },
+          {
+            "name": "review_status",
+            "type": "string",
+            "description": "Whether a maintainer has checked the record against its sources. Independent of authenticity and claim support.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "unreviewed",
+                "reviewed",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "verification_notes",
+            "type": "string",
+            "description": "Why the claim_support level was given, including why supporting sources are or are not independent of each other."
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "item_id",
+            "reference": {
+              "resource": "restricted_items",
+              "fields": "id"
+            }
+          },
+          {
+            "fields": "supporting_source_ids",
+            "list": true,
+            "reference": {
+              "resource": "sources",
+              "fields": "id"
+            }
+          },
+          {
+            "fields": "contradicting_source_ids",
+            "list": true,
+            "reference": {
+              "resource": "sources",
+              "fields": "id"
+            }
           }
         ]
       }

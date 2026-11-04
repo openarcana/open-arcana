@@ -1,19 +1,19 @@
-id,item_id,source_id,year,date_precision,disclosure_method,extent,evidence_level,review_status,notes
-DISC-0001,ITEM-0001,SRC-0001,1723,year,exposure_publication,partial,documented,unreviewed,One of the earliest printed exposures.
-DISC-0002,ITEM-0002,SRC-0001,1723,year,exposure_publication,partial,documented,unreviewed,
-DISC-0003,ITEM-0001,SRC-0002,1730,year,exposure_publication,full,documented,unreviewed,Earliest known description of the third degree.
-DISC-0004,ITEM-0002,SRC-0002,1730,year,exposure_publication,full,documented,unreviewed,
-DISC-0005,ITEM-0001,SRC-0003,1760,year,exposure_publication,full,documented,unreviewed,
-DISC-0006,ITEM-0001,SRC-0004,1762,year,exposure_publication,full,documented,unreviewed,
-DISC-0007,ITEM-0001,SRC-0005,1826,year,defector_testimony,full,documented,unreviewed,Author was a self-described former member.
-DISC-0008,ITEM-0001,SRC-0006,1866,year,exposure_publication,full,documented,unreviewed,
-DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,documented,unreviewed,S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal.
-DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,documented,unreviewed,
-DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,documented,unreviewed,
-DISC-0012,ITEM-0005,SRC-0009,1973,year,exposure_publication,full,documented,unreviewed,
-DISC-0013,ITEM-0006,SRC-0010,1985,year,court_record,summary,documented,unreviewed,Also widely reported in the press during the trial.
-DISC-0014,ITEM-0006,SRC-0011,1993,year,court_record,full,documented,unreviewed,
-DISC-0015,ITEM-0006,SRC-0012,1995,circa,leak,full,documented,unreviewed,
-DISC-0016,ITEM-0007,SRC-0013,1990,year,exposure_publication,full,documented,unreviewed,Compares versions of the ceremony across time.
-DISC-0017,ITEM-0008,SRC-0014,1838,year,academic_research,summary,documented,unreviewed,
-DISC-0018,ITEM-0009,SRC-0015,1977,year,court_record,partial,documented,unreviewed,Covers the puja; not the mantras.
+id,item_id,source_id,year,date_precision,disclosure_method,extent,coverage,review_status,notes
+DISC-0001,ITEM-0001,SRC-0001,1723,year,exposure_publication,partial,,unreviewed,One of the earliest printed exposures.
+DISC-0002,ITEM-0002,SRC-0001,1723,year,exposure_publication,partial,,unreviewed,
+DISC-0003,ITEM-0001,SRC-0002,1730,year,exposure_publication,full,,unreviewed,Earliest known description of the third degree.
+DISC-0004,ITEM-0002,SRC-0002,1730,year,exposure_publication,full,,unreviewed,
+DISC-0005,ITEM-0001,SRC-0003,1760,year,exposure_publication,full,,unreviewed,
+DISC-0006,ITEM-0001,SRC-0004,1762,year,exposure_publication,full,,unreviewed,
+DISC-0007,ITEM-0001,SRC-0005,1826,year,defector_testimony,full,,unreviewed,Author was a self-described former member.
+DISC-0008,ITEM-0001,SRC-0006,1866,year,exposure_publication,full,,unreviewed,
+DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,,unreviewed,S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal.
+DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
+DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
+DISC-0012,ITEM-0005,SRC-0009,1973,year,exposure_publication,full,,unreviewed,
+DISC-0013,ITEM-0006,SRC-0010,1985,year,court_record,summary,,unreviewed,Also widely reported in the press during the trial.
+DISC-0014,ITEM-0006,SRC-0011,1993,year,court_record,full,,unreviewed,
+DISC-0015,ITEM-0006,SRC-0012,1995,circa,leak,full,,unreviewed,
+DISC-0016,ITEM-0007,SRC-0013,1990,year,exposure_publication,full,,unreviewed,Compares versions of the ceremony across time.
+DISC-0017,ITEM-0008,SRC-0014,1838,year,academic_research,summary,,unreviewed,
+DISC-0018,ITEM-0009,SRC-0015,1977,year,court_record,partial,The puja ceremony; not the individual mantras.,unreviewed,
