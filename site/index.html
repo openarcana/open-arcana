@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244b40">
+  <meta name="description" content="Explore Open Arcana's source-linked records of restricted rites, initiations, texts and teachings. Filter the world map and disclosure timeline, then inspect the evidence.">
+  <title>Open Arcana — Explore the archive</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#filters">Skip to explorer</a>
+  <header class="masthead wrap">
+    <a class="brand" href="./" aria-label="Open Arcana home"><img src="./assets/mark.svg" width="42" height="42" alt=""><span>Open Arcana<small>ARCANA APERTA</small></span></a>
+    <nav aria-label="Main navigation"><a href="#explorer" class="nav-active">Explore</a><button data-about>About the data</button><a href="https://github.com/openarcana/open-arcana" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <div><div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> AN OPEN ARCHIVE OF RESTRICTED KNOWLEDGE</div><h1 id="page-title">Explore the archive.</h1><p>Rites, initiations, texts and teachings.<br> Follow the sources that brought them into public view.</p></div>
+      <div class="intro-index" aria-label="Complete collection"><p class="index-caption">IN THE COLLECTION <span id="version">v0.3</span></p><div class="totals"><div><strong id="total-disclosures">—</strong><span>Disclosures</span></div><div><strong id="total-items">—</strong><span>Restricted items</span></div><div><strong id="total-traditions">—</strong><span>Traditions</span></div></div><button class="seed-link" data-about>Seed collection · evidence and limits <span aria-hidden="true">↗</span></button></div>
+    </section>
+    <div id="loading" role="status">Opening the archive…</div>
+    <div id="explorer" hidden>
+      <form id="filters" class="filter-panel" role="search" aria-label="Filter disclosures">
+        <div class="search-wrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><label class="sr-only" for="search">Search the archive</label><input id="search" name="q" type="search" placeholder="Search traditions, rites, texts…" autocomplete="off"></div>
+        <label>Country<select id="country" name="country"><option value="">All countries & regions</option></select></label>
+        <label>Disclosure type<select id="method" name="method"><option value="">All disclosure types</option></select></label>
+        <label>Historical context<select id="history" name="history"><option value="">All periods & origins</option><optgroup label="Tradition's recorded origins"><option value="origins_before_1900">Founded before 1900</option><option value="origins_since_1900">Founded from 1900</option><option value="origins_undated">Origins undated</option></optgroup><optgroup label="Disclosure source's publication"><option value="sources_before_1900">Source before 1900</option><option value="sources_since_1900">Source from 1900</option></optgroup></select></label>
+        <button type="button" id="more-filters" class="text-button more-button" aria-expanded="false" aria-controls="advanced-filters">More filters <span aria-hidden="true">＋</span></button>
+        <div id="advanced-filters" class="advanced-filters" hidden>
+          <label>Restricted material<select id="type" name="type"><option value="">All material types</option></select></label>
+          <label>Recorded practice status<select id="status" name="status"><option value="">All recorded statuses</option><option value="practiced">Practiced</option><option value="modified">Modified</option><option value="discontinued">Discontinued</option><option value="unknown">Unknown</option></select></label>
+          <label>Record review<select id="review" name="review"><option value="">All review statuses</option><option value="reviewed">Reviewed against source</option><option value="unreviewed">Unreviewed</option><option value="disputed">Disputed</option></select></label>
+          <p class="filter-note">Origins date traditions, not individual rites. Practice statuses may be undated; review does not establish truth.</p>
+        </div>
+      </form>
+      <div class="selection-line"><p id="selection-summary" role="status" aria-live="polite"></p><div><button id="reset" class="text-button" type="button">Reset filters <span aria-hidden="true">↺</span></button><button id="share" class="text-button" type="button">Copy view link <span aria-hidden="true">↗</span></button></div></div>
+      <div id="active-filters" class="active-filters" aria-label="Active filters"></div>
+      <section class="geography-panel" aria-labelledby="map-heading">
+        <div class="map-main"><div class="section-heading"><div><span class="section-number">01 / GEOGRAPHY</span><h2 id="map-heading">Where the records lead</h2></div><span class="quiet-label">Select a country to explore</span></div>
+          <div id="world-map" class="map" aria-label="Country map"></div>
+          <div class="map-key"><span><i class="map-swatch empty"></i>No mapped records</span><span><i class="map-swatch filled"></i>Fewer <span class="gradient-key"></span> More disclosures</span><button id="unmapped" class="text-button" type="button"></button></div>
+        </div>
+        <aside class="country-index" aria-labelledby="country-index-heading"><div class="section-number">COUNTRY INDEX</div><h3 id="country-index-heading">In this view</h3><div id="country-list"></div><p class="map-footnote">Country associations follow a tradition’s recorded geography. They do not identify where a disclosure happened. Cross-border records can appear under several countries.</p></aside>
+      </section>
+      <section class="timeline-panel" aria-labelledby="timeline-heading">
+        <div class="section-heading"><div><span class="section-number">02 / CHRONOLOGY</span><h2 id="timeline-heading">When knowledge became public</h2></div><label class="timeline-window">Timeline window<select id="window" aria-label="Timeline window"><option value="full">All recorded dates</option><option value="1500">1500 onward</option><option value="1800">1800 onward</option><option value="1900">1900 onward</option><option value="1950">1950 onward</option></select></label></div>
+        <div class="date-controls"><div class="date-fields"><label>From year<input id="from" type="number" inputmode="numeric" placeholder="Earliest"></label><span aria-hidden="true">—</span><label>To year<input id="to" type="number" inputmode="numeric" placeholder="Latest"></label><button id="apply-years" type="button" class="small-button">Apply</button></div><label class="checkbox"><input id="undated" type="checkbox" checked> Include undated records <span id="undated-count"></span></label></div>
+        <p class="chart-hint" id="timeline-caption">Numbered marks group nearby disclosures; their lines show the date span. Select a mark to inspect or zoom. Drag across the plot to filter dates.</p>
+        <div class="timeline-scroll"><div id="timeline" class="timeline" aria-label="Interactive disclosure timeline"></div></div>
+        <div class="timeline-footer"><p id="date-summary"></p><span>Disclosure dates · dates of practice are separate</span></div>
+      </section>
+      <section class="records-section" aria-labelledby="records-heading">
+        <div class="section-heading"><div><span class="section-number">03 / THE RECORDS</span><h2 id="records-heading">Inside the selection <span id="record-count"></span></h2></div><div class="record-actions"><label class="sr-only" for="sort">Sort records</label><select id="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="tradition">By tradition</option></select><button id="download" class="small-button" type="button">Download CSV <span aria-hidden="true">↓</span></button></div></div>
+        <div id="record-list" class="record-list"></div><button id="show-more" type="button" class="show-more">Show more records <span aria-hidden="true">↓</span></button>
+      </section>
+    </div>
+  </main>
+  <footer class="wrap footer"><div class="footer-brand">Open Arcana <span>An open, source-linked research archive.</span></div><div><button data-about>Reading the evidence</button><a href="https://github.com/openarcana/open-arcana/blob/main/SOURCE_POLICY.md" target="_blank" rel="noopener noreferrer">Source policy ↗</a><a href="https://github.com/openarcana/open-arcana/tree/main/data" target="_blank" rel="noopener noreferrer">Open dataset ↗</a></div><p>Catalogue records CC0 · Cited works retain their own rights · <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Map: Natural Earth</a></p></footer>
+  <div id="tooltip" class="tooltip" hidden role="tooltip"></div>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <dialog id="record-dialog" class="dialog record-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span class="section-number" id="detail-id"></span><button class="icon-button" data-close aria-label="Close record">×</button></div><div id="record-detail"></div></dialog>
+  <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-toolbar"><span class="section-number">READING THE ARCHIVE</span><button class="icon-button" data-close aria-label="Close about the data">×</button></div><h2 id="about-title">Evidence, with its context.</h2><p>Open Arcana documents specific restricted rites, initiations, texts, teachings and transmission rules. The explorer counts <strong>disclosure records</strong>, including research, publications, court records, leaks and other routes into public view.</p><dl><dt>Countries</dt><dd>Modern outlines help navigate the geography recorded for each tradition. They do not locate leaks or measure national prevalence. Broad regions and historical territories stay separate when no country can be assigned. <a href="./geography.json" target="_blank" rel="noopener noreferrer">Inspect the mapping ↗</a></dd><dt>The timeline</dt><dd>Marks use each disclosure’s recorded year, including approximate dates. They do not date a practice’s origin or performance. Undated records remain in the list when included. A source’s publication year is not necessarily the earliest public disclosure.</dd><dt>Historical context</dt><dd>“Founded before 1900” uses the tradition’s recorded origins. “Source before 1900” uses the source’s original publication year. Neither establishes that an individual rite is old, unchanged or discontinued.</dd><dt>Evidence assessments</dt><dd>Reviewed means checked against a source. Authenticity, claim support, independence and present-day practice are separate assessments. Open each record to see coverage and limitations. The seed collection is incomplete and is not a representative sample of world traditions.</dd></dl><a class="primary-link" href="https://github.com/openarcana/open-arcana/blob/main/QUALITY.md" target="_blank" rel="noopener noreferrer">Inspect the evidence backlog ↗</a><p class="snapshot" id="snapshot"></p></dialog>
+  <noscript><p class="wrap">This explorer uses JavaScript for filtering. You can read the full <a href="https://github.com/openarcana/open-arcana/blob/main/CATALOG.md">Open Arcana catalogue</a> without it.</p></noscript>
+</body>
+</html>
