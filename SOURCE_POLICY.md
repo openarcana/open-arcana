@@ -42,6 +42,7 @@ Every source records how it came to light in its `provenance` field. When materi
 | `published_exposure` | Published exposure whose author's access is not established |
 | `defector_account` | Published or given by a former member with firsthand access |
 | `court_filing` | Entered in a court file or other legal record |
+| `official_seizure` | Seized by police, soldiers or other authorities |
 | `insider_leak` | Passed on by a current member or employee |
 | `intrusion` | Obtained by hacking or unauthorized access |
 | `infiltration` | Gathered by someone who joined under false pretenses |

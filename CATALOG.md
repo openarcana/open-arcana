@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 23 restricted items · 47 disclosures · 44 claims · 51 sources
+22 traditions · 27 restricted items · 54 disclosures · 55 claims · 56 sources
 
 ## Traditions
 
@@ -27,6 +27,9 @@
 - [Mithraic Mysteries](#trad-0017) (1 item)
 - [Hopi religion](#trad-0018) (1 item)
 - [Ngarrindjeri religion](#trad-0019) (1 item)
+- [Heaven and Earth Society (Tiandihui, Hung League)](#trad-0020) (2 items)
+- [Daoism](#trad-0021) (1 item)
+- [Alawites (Nusayris)](#trad-0022) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -523,7 +526,15 @@ The fifteen- or sixteen-syllable mantra of the goddess Lalitā Tripurasundarī a
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
+| 1922 | academic research | partial | The structure of the fifteen-letter mantra and its Kādi and Hādi forms, without the mantra itself | [Kāmakalāvilāsa by Puṇyānanda-Nātha, with the commentary of Naṭanānanda-Nātha](#src-0054) ([archive.org](https://archive.org/details/kamakalavilasa_1953)) | unassessed |  (reviewed) |
 | 1990 | academic research | summary | Doctrine and ritual, including the structure of the mantra. | [The Secret of the Three Cities: An Introduction to Hindu Śākta Tantrism](#src-0020) ([openlibrary.org](https://openlibrary.org/works/OL4107722W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0051` *content* · **single source** · reviewed: The Śrīvidyā is a mantra of fifteen letters, identified with the fifteen Nityā goddesses and the fifteen lunar days, in three sections called Vāgbhava, Kāmarāja and Śakti. The Kādi and Hādi forms differ in their first section, the Hādi form having five vowels and seven consonants there and the Kādi seven vowels and five consonants. The commentary says the method of worship of both forms must be learnt from the mouth of the guru.
+  - Supported by: [Kāmakalāvilāsa by Puṇyānanda-Nātha, with the commentary of Naṭanānanda-Nātha](#src-0054) ([archive.org](https://archive.org/details/kamakalavilasa_1953))
+  - Where: 2nd ed. (1953), pp. 28–36
+  - Assessment: Checked against the Internet Archive text on 2026-11-04; page numbers from the scan's page index. The text describes the structure of the mantra but does not spell it out.
 
 <a id="item-0014"></a>
 
@@ -601,8 +612,16 @@ The pledge by which a disciple enters the order, and the silent remembrance and 
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
+| 1868 | academic research | summary | Lineage and the method of the silent remembrance | [The Dervishes; or, Oriental Spiritualism](#src-0055) ([archive.org](https://archive.org/details/dervishesororien00brow)) | unassessed |  (reviewed) |
 | 1971 | academic research | summary |  | [The Sufi Orders in Islam](#src-0025) ([openlibrary.org](https://openlibrary.org/works/OL1363002W)) | unassessed |  |
 | 2007 | academic research | summary |  | [The Naqshbandiyya: Orthodoxy and Activism in a Worldwide Sufi Tradition](#src-0026) ([openlibrary.org](https://openlibrary.org/works/OL8100048W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0053` *content* · **single source** · reviewed: In the Naqshbandi silent remembrance the shaykh recites the profession of faith in his heart while the disciple sits with his heart facing the shaykh's, eyes closed, mouth shut, tongue pressed to the roof of the mouth, teeth together and breath held, and repeats it with the heart and not the tongue, three times in one breath, until he can keep it up even in a crowd. (by 1868 (Ottoman Empire))
+  - Supported by: [The Dervishes; or, Oriental Spiritualism](#src-0055) ([archive.org](https://archive.org/details/dervishesororien00brow))
+  - Where: pp. 127–128
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Brown gives these as instructions from a member of the order.
 
 <a id="trad-0014"></a>
 
@@ -626,7 +645,15 @@ The ceremony by which a candidate is admitted to the order, and the communal rit
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
+| 1868 | academic research | partial | The admission ceremony; not the oral vows | [The Dervishes; or, Oriental Spiritualism](#src-0055) ([archive.org](https://archive.org/details/dervishesororien00brow)) | unassessed |  (reviewed) |
 | 1937 | academic research | partial | Initiation and other rites as described in Bektashi texts and by informants. | [The Bektashi Order of Dervishes](#src-0027) ([openlibrary.org](https://openlibrary.org/works/OL3137776W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0052` *content* · **single source** · reviewed: The candidate, recommended by two members, brings a sheep, which is sacrificed at the door; a rope of its wool is put round his neck. He is stripped of metal and most of his clothing (entirely, if he takes the vow of celibacy) and led before twelve seated members, one of them the shaykh, to stand on a twelve-sided stone in the centre of the hall with arms crossed and head bowed. Kneeling knee to knee with the shaykh, their right hands joined with thumbs raised, he hears Qur'an 48:10 recited into his ear. Meetings are guarded at the door, and further vows and secrets are said to be imparted only orally, under penalty. (by 1868 (Ottoman Empire))
+  - Supported by: [The Dervishes; or, Oriental Spiritualism](#src-0055) ([archive.org](https://archive.org/details/dervishesororien00brow))
+  - Where: pp. 166–168
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Brown reports, and doubts, a rumour that the shaykh whispers a pantheist doctrine under penalty of death.
 
 <a id="trad-0015"></a>
 
@@ -799,6 +826,138 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
   - Contradicted by: [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106))
   - Where: SRC-0036: report of 19 December 1995; SRC-0037: paras 133, 199, 330
   - Assessment: The Royal Commission (1995) concluded the whole of the women's business was a fabrication. The judgment records that Dr Kartinyeri did not give evidence to the Commission and that the contents of the sealed envelopes were not before it (para 133). In 2001 von Doussa J heard evidence from several Ngarrindjeri women supporting its genuineness (para 330) and was not satisfied, on the balance of probabilities, that it was fabricated or was not part of Aboriginal tradition (para 199). The two bodies are independent and heard different evidence. Checked against the judgment text on 2026-11-04.
+
+<a id="trad-0020"></a>
+
+## Heaven and Earth Society (Tiandihui, Hung League)
+
+`TRAD-0020` · fraternal order · founded 18th century (its legend places the founding under the Kangxi emperor) · Southern China / Chinese diaspora · unknown · [Wikidata `Q213387`](https://www.wikidata.org/wiki/Q213387)
+
+Sworn brotherhood with initiation rites, oaths and recognition signs. Later Hung lodges and the triads claim descent from it.
+
+<a id="item-0024"></a>
+
+### Initiation ceremony and the thirty-six articles of the oath
+
+`ITEM-0024` · initiatory rite · currently unknown
+
+The ceremony by which new members are admitted to the lodge, including the reading of the oath and the blood rite.
+
+- **Restricted to:** Sworn members of the league
+- **How:** oath, social sanction
+- **Stated reason:** Not recorded beyond the oath itself, which requires secrecy even within the family (CLM-0045)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1866 | academic research | full | The lodge ritual, the thirty-six articles of the oath and the catechism, with the Chinese text | [Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India](#src-0052) ([archive.org](https://archive.org/details/thiantihwuihungl00schluoft)) | unassessed | Made from manuscripts seized by the Dutch colonial police. (reviewed) |
+
+**Claims**
+
+- `CLM-0045` *content* · **single source** · reviewed: The oath has thirty-six articles, read aloud to the new members as they kneel. The first binds them to filial piety and obedience to superiors on pain of being struck by five thunderbolts; the second binds them to keep everything about the league secret from their wives and families, even a father from his son and an elder brother from a younger, on pain of dying and becoming a headless ghost. (manuscripts of the 19th century (Dutch East Indies))
+  - Supported by: [Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India](#src-0052) ([archive.org](https://archive.org/details/thiantihwuihungl00schluoft))
+  - Where: pp. 135–136
+  - Assessment: Checked against the Internet Archive text on 2026-11-04; page numbers from the scan's page index.
+- `CLM-0046` *content* · **single source** · reviewed: After the oath the members rise to confirm it with blood: each new member first drinks a cup of tea to purify his mouth; the brethren prick their middle fingers with a silver needle and let the blood drip into wine, which is drunk (sometimes a cock's blood is used instead); then the new member beheads a white cock with a hatchet while verses are recited. (manuscripts of the 19th century (Dutch East Indies))
+  - Supported by: [Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India](#src-0052) ([archive.org](https://archive.org/details/thiantihwuihungl00schluoft))
+  - Where: pp. 144–146
+  - Assessment: Checked against the Internet Archive text on 2026-11-04; page numbers from the scan's page index.
+
+<a id="item-0025"></a>
+
+### Recognition signs, passwords and tea-cup signals
+
+`ITEM-0025` · words of power · currently unknown
+
+Verses, answers and arrangements of tea-cups by which members recognise each other at home, on the road and on board ship.
+
+- **Restricted to:** Sworn members of the league
+- **How:** oath
+- **Stated reason:** Mutual recognition among members
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1866 | academic research | full | Signs on the road, on board ship, at the lodge and with tea-cups | [Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India](#src-0052) ([archive.org](https://archive.org/details/thiantihwuihungl00schluoft)) | unassessed |  (reviewed) |
+
+**Claims**
+
+- `CLM-0047` *content* · **single source** · reviewed: A member asked on the road where he comes from answers that he comes from the East, and asked where he is going, that he goes to join the myriads of brethren. When served tea he pours it back into the pot and refills the cups before drinking. Two cups side by side are the Sun-and-Moon tea; three in a row are the tea of the brotherhood, of which the guest drinks the middle cup. (manuscripts of the 19th century (Dutch East Indies))
+  - Supported by: [Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India](#src-0052) ([archive.org](https://archive.org/details/thiantihwuihungl00schluoft))
+  - Where: pp. 167, 183, 189
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Schlegel gives dozens of further tea-cup arrangements, each with its verse.
+
+<a id="trad-0021"></a>
+
+## Daoism
+
+`TRAD-0021` · religion · founded 2nd century CE (Celestial Masters); earlier roots · China / worldwide · active · [Wikidata `Q9598`](https://www.wikidata.org/wiki/Q9598)
+
+Scriptures, talismans and methods were transmitted from master to disciple under covenant (CLM-0048, CLM-0049).
+
+<a id="item-0026"></a>
+
+### Alchemical and meditative methods and their oral instructions (koujue) transmitted under covenant
+
+`ITEM-0026` · transmitted technique · currently unknown
+
+Scriptures of elixir alchemy and of meditation on the One, and the oral instructions that went with them, handed on only by covenant with pledges.
+
+- **Restricted to:** Disciples judged worthy, who make a covenant with the master
+- **How:** vow, oral only, fee
+- **Stated reason:** Given to the unworthy, the methods do not work and master and disciple both suffer misfortune (CLM-0050)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| c. 317 | voluntary release | summary | Describes the covenants and names the scriptures; withholds the oral instructions | [Baopuzi neipian (The Master Who Embraces Simplicity, Inner Chapters)](#src-0053) ([zh.wikisource.org](https://zh.wikisource.org/wiki/抱朴子)) | unassessed | Written by a recipient of the methods. (reviewed) |
+
+**Claims**
+
+- `CLM-0048` *content* · **single source** · reviewed: Ge Hong says he received the alchemical scriptures from his master Zheng Yin at an altar on Mount Maji by covenant, together with oral instructions that were never written down. The scriptures require the recipient to cast golden figures of a man and a fish into east-flowing water as a pledge and to smear his lips with blood as a covenant; the Gold Liquid scripture has him cast eight ounces of gold in the form of a man into the water and drink blood as an oath before the oral instructions are told. (c. 317 (as written); earlier transmission)
+  - Supported by: [Baopuzi neipian (The Master Who Embraces Simplicity, Inner Chapters)](#src-0053) ([zh.wikisource.org](https://zh.wikisource.org/wiki/抱朴子))
+  - Where: Neipian 4 (Jindan)
+  - Assessment: Checked against the Chinese text on Wikisource on 2026-11-04.
+- `CLM-0049` *content* · **single source** · reviewed: The oral instructions for guarding the True One are received on an auspicious day after smearing the lips with the blood of a white animal, with white silk and silver as pledges and a gold tally cut and split between master and disciple; the names of the One are handed down from generation to generation only by mouth, under blood covenant. The Writ of the Three Sovereigns and the Charts of the True Forms of the Five Peaks are given only to those destined for immortality, once in forty years, with a blood covenant and pledges. (c. 317 (as written))
+  - Supported by: [Baopuzi neipian (The Master Who Embraces Simplicity, Inner Chapters)](#src-0053) ([zh.wikisource.org](https://zh.wikisource.org/wiki/抱朴子))
+  - Where: Neipian 18 (Dizhen), 19 (Xialan)
+  - Assessment: Checked against the Chinese text on Wikisource on 2026-11-04.
+- `CLM-0050` *stated reason* · **single source** · reviewed: The methods must be given only to the worthy: given to the wrong person, even for a mountain of jade, they will not work, and one who steals the formula without the proper transmission will never succeed; whoever passes on the books lightly brings misfortune on both giver and receiver, and if the instructions are told carelessly the spirit will not act. (c. 317 (as written))
+  - Supported by: [Baopuzi neipian (The Master Who Embraces Simplicity, Inner Chapters)](#src-0053) ([zh.wikisource.org](https://zh.wikisource.org/wiki/抱朴子))
+  - Where: Neipian 4 (Jindan), 18 (Dizhen)
+  - Assessment: Checked against the Chinese text on Wikisource on 2026-11-04. Ge Hong attributes the first warning to the Yellow Emperor.
+
+<a id="trad-0022"></a>
+
+## Alawites (Nusayris)
+
+`TRAD-0022` · religion · founded 9th–10th century · Levant (Syria, Lebanon, Turkey) · active · [Wikidata `Q209496`](https://www.wikidata.org/wiki/Q209496)
+
+The religion is taught to men through a staged initiation (CLM-0054).
+
+<a id="item-0027"></a>
+
+### Initiation and the doctrine of the Meaning, the Name and the Gate
+
+`ITEM-0027` · graded doctrine · currently practiced
+
+The staged initiation of young men into the religion and the teaching they then receive about 'Ali, Muhammad and Salman al-Farisi.
+
+- **Restricted to:** Initiated men
+- **How:** vow, oral only, social sanction
+- **Stated reason:** Not yet recorded from an Alawite source
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1866 | defector testimony | partial | The stages of initiation, prayers and festivals, as given by al-Adhani | [Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion](#src-0056) ([archive.org](https://archive.org/details/jstor-592241)) | unassessed | Al-Adhani's book appeared at Beirut about 1864; Salisbury's translation brought it to Western readers. (reviewed) |
+
+**Claims**
+
+- `CLM-0054` *content* · **single source** · reviewed: Initiation is given to young men between eighteen and twenty in stages. At the first, before an assembly, the candidate drinks a cup of wine and has a sandal laid on his head under a white cloth while he is prayed over, and is enjoined to secrecy. Forty days later he drinks again, swears by the mystery of ʿAyn-Mīm-Sīn, and is told to repeat the word ʿAMS five hundred times a day, again under secrecy. After a further seven months (nine for common people) a third assembly receives him. (1850s (Adana))
+  - Supported by: [Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion](#src-0056) ([archive.org](https://archive.org/details/jstor-592241))
+  - Where: pp. 229–231
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Al-Adhani's own account of his initiation, as summarised and translated by Salisbury.
+- `CLM-0055` *content* · **single source** · reviewed: The letters ʿAyn, Mīm and Sīn stand for ʿAli, the archetypal deity; Muhammad, the expressed deity or intermediary; and Salman al-Farisi, the communicator. (1850s (Adana))
+  - Supported by: [Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion](#src-0056) ([archive.org](https://archive.org/details/jstor-592241))
+  - Where: p. 229
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Al-Adhani's explanation, as given by Salisbury.
 
 ## Sources
 
@@ -1472,3 +1631,74 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [paperspast.natlib.govt.nz](https://paperspast.natlib.govt.nz/newspapers/OAM18970607.2.5)
 - **Notes:** Report of 7 June 1897, p. 1, from the Daily Telegraph's Paris correspondent, on Taxil's meeting at the Geographical Society's hall in Paris. Read on Papers Past.
 - **Cited in claims:** `CLM-0044`
+
+<a id="src-0052"></a>
+
+### Thian Ti Hwui: The Hung-League or Heaven-Earth-League, a Secret Society with the Chinese in China and India
+
+`SRC-0052` · Gustaaf Schlegel · 1866 · book
+
+- **Provenance:** official seizure → scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `thiantihwuihungl00schluoft`](https://archive.org/details/thiantihwuihungl00schluoft)
+- **Notes:** Batavia. Translates the league's manuscripts: books seized by the police at Padang (Sumatra) in 1863, a book found at Japara (Java) in 1851, and two manuscripts given to the Batavian Society, with Chinese text.
+- **Discloses:** [Initiation ceremony and the thirty-six articles of the oath](#item-0024) · [Recognition signs, passwords and tea-cup signals](#item-0025)
+- **Cited in claims:** `CLM-0045` · `CLM-0046` · `CLM-0047`
+
+<a id="src-0053"></a>
+
+### Baopuzi neipian (The Master Who Embraces Simplicity, Inner Chapters)
+
+`SRC-0053` · Ge Hong · c. 317 · book
+
+- **Provenance:** member publication
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [zh.wikisource.org](https://zh.wikisource.org/wiki/抱朴子)
+- **Notes:** Read in the Chinese text on Wikisource. Ge Hong was himself a recipient of the methods he describes. English translation: James R. Ware (1966).
+- **Discloses:** [Alchemical and meditative methods and their oral instructions (koujue) transmitted under covenant](#item-0026)
+- **Cited in claims:** `CLM-0048` · `CLM-0049` · `CLM-0050`
+
+<a id="src-0054"></a>
+
+### Kāmakalāvilāsa by Puṇyānanda-Nātha, with the commentary of Naṭanānanda-Nātha
+
+`SRC-0054` · Arthur Avalon (John Woodroffe), trans. · 1922 · book
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** unknown
+- **Linked copy:** 1953 edition
+- **Links:** [Internet Archive `kamakalavilasa_1953`](https://archive.org/details/kamakalavilasa_1953)
+- **Notes:** Tantrik Texts series. Linked copy is the second edition (Madras, 1953). A Śrīvidyā text of the Hādi school.
+- **Discloses:** [Śrīvidyā mantra and initiation (dīkṣā)](#item-0013)
+- **Cited in claims:** `CLM-0051`
+
+<a id="src-0055"></a>
+
+### The Dervishes; or, Oriental Spiritualism
+
+`SRC-0055` · John P. Brown · 1868 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `dervishesororien00brow`](https://archive.org/details/dervishesororien00brow)
+- **Notes:** Brown was secretary and dragoman of the United States legation at Constantinople and drew on dervish informants and the orders' own treatises.
+- **Discloses:** [Initiation (bayʿa) and silent remembrance (dhikr khafī)](#item-0016) · [Initiation (ikrar) and the ayin-i cem ceremony](#item-0017)
+- **Cited in claims:** `CLM-0052` · `CLM-0053`
+
+<a id="src-0056"></a>
+
+### Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion
+
+`SRC-0056` · Edward E. Salisbury · 1866 · periodical
+
+- **Provenance:** defector account → scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `jstor-592241`](https://archive.org/details/jstor-592241)
+- **Notes:** Journal of the American Oriental Society 8 (1866), pp. 227–308. Summarises and translates Sulayman al-Adhani's Kitab al-Bakura al-Sulaymaniyya (Beirut, c. 1864), written by a former Alawite who described his own initiation.
+- **Discloses:** [Initiation and the doctrine of the Meaning, the Name and the Gate](#item-0027)
+- **Cited in claims:** `CLM-0054` · `CLM-0055`
