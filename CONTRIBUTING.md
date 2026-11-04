@@ -20,7 +20,7 @@ Every record starts as `unreviewed`. The most valuable work right now is taking 
 
 ## Rules
 
-Read [SOURCE_POLICY.md](SOURCE_POLICY.md). In short: cite a source for everything, write descriptions in your own words, treat every tradition by the same rules (past and present, any size or region), record how the material was obtained, and don't identify private members.
+Read [SOURCE_POLICY.md](SOURCE_POLICY.md). In short: cite a source for everything, write descriptions in your own words, treat every tradition by the same rules (past and present, any size or region), and record how the material was obtained.
 
 ## Anonymity
 
