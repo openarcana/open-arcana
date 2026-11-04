@@ -8,6 +8,11 @@ Secret knowledge carries authority largely because it is hidden. Open Arcana mak
 
 > **Status: v0.1, seed data.** Every record is currently `unreviewed`. Treat it as a starting point, not as verified fact.
 
+## Browse
+
+- **[CATALOG.md](CATALOG.md)**: every tradition, restricted item, disclosure and source on one page, with links to Wikidata, Open Library, Internet Archive and CourtListener.
+- **[Open in Datasette Lite](https://lite.datasette.io/?url=https://raw.githubusercontent.com/openarcana/open-arcana/main/exports/open-arcana.sqlite)**: the SQLite export as searchable, filterable tables in your browser, with SQL.
+
 ## What it covers
 
 Any form of secrecy, in any tradition, with no exemptions by size, region or type of group:
@@ -44,13 +49,14 @@ The full schema, with every controlled vocabulary, is in [`schema/datapackage.js
 |---|---|
 | `data/*.csv` | Spreadsheets, the canonical source |
 | `exports/disclosures.jsonl` | AI pipelines: one self-contained record per disclosure |
-| `exports/open-arcana.sqlite` | SQL queries, or open it in [Datasette Lite](https://lite.datasette.io/) |
+| `exports/open-arcana.sqlite` | SQL queries, or [open it in Datasette Lite](https://lite.datasette.io/?url=https://raw.githubusercontent.com/openarcana/open-arcana/main/exports/open-arcana.sqlite) |
+| `CATALOG.md` | Reading: the whole dataset as one linked page |
 | `exports/SHA256SUMS` | Verify your copy |
 
 ## Build
 
 ```bash
-python3 scripts/build.py          # validate + export
+python3 scripts/build.py          # validate + export + CATALOG.md
 python3 scripts/build.py --check  # validate only
 ```
 
