@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 39 disclosures · 20 claims · 38 sources
+19 traditions · 22 restricted items · 42 disclosures · 20 claims · 41 sources
 
 ## Traditions
 
@@ -195,8 +195,10 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) | unassessed | Also widely reported in the press during the trial. |
+| 1987 | journalism | summary | Outline of the OT III story | [Scientology – The Road to Total Freedom? (Panorama)](#src-0040) (no online copy) | unassessed | Broadcast 27 April 1987. |
 | 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) | unassessed |  |
 | c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) (no online copy) | unassessed |  |
+| c. 2009 | leak | partial | Hubbard's spoken account of the incident behind OT III, as given to Class VIII students | [Class VIII Course, Lecture No. 10: Assists](#src-0039) (no online copy) | unassessed | Lecture recorded in 1968; date of first public release unknown. Year is when Anonymous publicised the recording. |
 
 **Claims**
 
@@ -228,6 +230,7 @@ Temple ceremony including covenants / signs and tokens.
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy) | unassessed | Compares versions of the ceremony across time. |
+| c. 2017 | leak | partial | Extent not yet established; which ordinances are recorded still needs checking | [Hidden-camera recordings of LDS temple ordinances](#src-0041) (no online copy) | unassessed | Covert video recordings made during the ceremony itself, not reconstructed from memory or text. |
 
 **Claims**
 
@@ -1157,3 +1160,39 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Open Library `OL2266943W`](https://openlibrary.org/works/OL2266943W)
 - **Notes:** Written with Ngarrindjeri women; does not publish the restricted content.
 - **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
+
+<a id="src-0039"></a>
+
+### Class VIII Course, Lecture No. 10: Assists
+
+`SRC-0039` · L. Ron Hubbard · 1968 · audio
+
+- **Provenance:** unknown → anonymous posting
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Taped lecture dated 3 October 1968, one of nineteen confidential Class VIII lectures. Hubbard is reported to name 'Xemu' several times. A copy is reported in the Hubbard audio collection on xenu.net and was publicised by Anonymous in March 2009. How the tape left the church is not established. Not yet listened to: the timestamps still need recording.
+- **Discloses:** [OT III materials](#item-0006)
+
+<a id="src-0040"></a>
+
+### Scientology – The Road to Total Freedom? (Panorama)
+
+`SRC-0040` · BBC · 1987 · broadcast
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Broadcast 27 April 1987. Reported to include an outline of the OT III story in cartoon form. Not yet viewed: the timestamps still need recording.
+- **Discloses:** [OT III materials](#item-0006)
+
+<a id="src-0041"></a>
+
+### Hidden-camera recordings of LDS temple ordinances
+
+`SRC-0041` · Mike Norton (NewNameNoah) · c. 2017 · video
+
+- **Provenance:** covert recording → defector account
+- **Authenticity:** unassessed
+- **Rights:** unknown
+- **Notes:** Recordings made inside temples by a former member and posted online. They were circulating and being discussed by 27 January 2017. The original uploads, their dates and the ordinances each one covers are not yet identified; archive copies and file hashes are needed.
+- **Discloses:** [Temple endowment ceremony](#item-0007)
