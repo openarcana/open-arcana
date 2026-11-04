@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 42 disclosures · 20 claims · 41 sources
+19 traditions · 22 restricted items · 43 disclosures · 30 claims · 42 sources
 
 ## Traditions
 
@@ -134,6 +134,21 @@ Ceremonial initiations for the Outer and Inner Order grades.
 | c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) (no online copy) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
 | 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
 
+**Claims**
+
+- `CLM-0021` *content* · **single source**: In the Neophyte obligation the candidate pledges to keep secret the Order, its name, its members' names and its proceedings, and to study the occult sciences, under a penalty of submitting to a deadly current of will set in motion by the chiefs that would strike him dead or paralysed as if by lightning; the Hiereus touches him with a sword as the penalty is spoken. (1909 (as published); Golden Dawn practice of the 1890s)
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, 'The Temple of Solomon the King', pp. 253–254
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently. A footnote says a later version, issued after the Horos scandal, softened the penalty wording.
+- `CLM-0022` *content* · **single source**: The hoodwinked candidate, bound with a rope, is led round the temple, barred by the Kerux, purified with water and consecrated with fire, and challenged by the Hiereus, before the hoodwink is removed and the three chief officers receive him with the words 'Khabs Am Pekht'; the Hiereus then entrusts the signs, grip, grand word and current password, which this account does not print. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, pp. 254–257
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
+- `CLM-0023` *content* · **single source**: After the admission the penalty is illustrated by a liquid that turns the colour of blood, and the ceremony closes with the words 'Khabs Am Pekht', 'Konx Om Pax' and 'Light in Extension'. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, pp. 259–260
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
+
 <a id="item-0004"></a>
 
 ### Knowledge lectures and inner-order teachings
@@ -198,6 +213,7 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 | 1987 | journalism | summary | Outline of the OT III story | [Scientology – The Road to Total Freedom? (Panorama)](#src-0040) (no online copy) | unassessed | Broadcast 27 April 1987. |
 | 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) | unassessed |  |
 | c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) (no online copy) | unassessed |  |
+| c. 1996 | journalism | partial | Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions | [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html)) | unassessed | Spaink withdrew the full text on legal advice and published this summary instead. |
 | c. 2009 | leak | partial | Hubbard's spoken account of the incident behind OT III, as given to Class VIII students | [Class VIII Course, Lecture No. 10: Assists](#src-0039) (no online copy) | unassessed | Lecture recorded in 1968; date of first public release unknown. Year is when Anonymous publicised the recording. |
 
 **Claims**
@@ -205,6 +221,22 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 - `CLM-0002` *content* · **independently corroborated**: The OT III materials contain a cosmological narrative centred on a figure named Xenu.
   - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) · [alt.religion.scientology postings](#src-0012) (no online copy)
   - Assessment: SRC-0010 and SRC-0011 are separate court files from unrelated cases and count as independent. SRC-0012 is not counted: the postings drew partly on court-filed material.
+- `CLM-0024` *content* · **single source**: OT III describes Xenu, head of a Galactic Federation of 76 planets founded 95 million years ago, solving overpopulation by having people brought to Earth (called Teegeeack), placed by volcanoes and destroyed with hydrogen bombs; this is called Incident II. Xenu was later captured by loyal officers after a six-year battle and imprisoned in an electronic mountain trap. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: Hubbard's handwritten summary, as quoted by Spaink from Wakefield, The Road to Xenu, pp. 76–77; OT III p. 79
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0025` *content* · **single source**: After the explosions the disembodied beings (thetans) were subjected to more than 36 days of implanted pictures, including God, the Devil, angels, space opera, trains, helicopters and scenes resembling modern England, collectively called R6, and were then taken to Hawaii or Las Palmas and packaged into clusters. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: OT III pp. 79–80, 99
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0026` *content* · **single source**: OT III also describes Incident I, set four quadrillion years ago at the start of the 'track', as a sequence of a loud snap, waves of light, a chariot, a cherub blowing a horn, further snaps and blackness. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: OT III pp. 99–100
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0027` *content* · **single source**: The OT III procedure holds that a person's body is covered with clusters of these thetans (body thetans), which the student must audit one at a time through Incidents II and I; Hubbard warns that running the implant incorrectly can kill, for example by pneumonia, and says he himself went through it in December 1967. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: Hubbard's handwritten summary, as quoted by Spaink
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
 
 <a id="trad-0005"></a>
 
@@ -261,6 +293,21 @@ The core scriptural corpus of the Druze faith.
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1838 | academic research | summary |  | [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0028` *content* · **single source**: The Druze books teach that God, who cannot be grasped by the senses or defined in words, has appeared to people at various times in human form, last as the Fatimid caliph al-Ḥākim bi-Amr Allāh at the start of the fifth century AH; that al-Ḥākim disappeared in 411 AH to test the faithful; and that he will return to triumph over his enemies. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. i–ii
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+- `CLM-0029` *content* · **single source**: They teach that the Universal Intelligence, God's first creation, appeared in the time of al-Ḥākim as Ḥamza ibn Aḥmad, through whom all other creatures were made and who is the sole channel of religious knowledge and the only mediator with God. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. ii–iii
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+- `CLM-0030` *content* · **single source**: They teach that the number of human beings is always the same and that souls pass successively into different bodies; that believers must keep Ḥamza's seven commandments, chiefly truthfulness, charity towards fellow believers, renunciation of their former religion, and submission to God's will; and that all earlier religions were imperfect figures of the true one, whose ritual laws are allegories now abrogated. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. iii–iv
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
 
 <a id="trad-0007"></a>
 
@@ -756,8 +803,9 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Wikidata `Q3520760`](https://www.wikidata.org/wiki/Q3520760)
-- **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'.
+- **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'. No. II (September 1909), which prints the Neophyte ritual, was read from the scan at https://invisiblehouse.org/pdf/equinox2.pdf.
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003)
+- **Cited in claims:** `CLM-0021` · `CLM-0022` · `CLM-0023`
 
 <a id="src-0008"></a>
 
@@ -846,6 +894,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `exposdelareligi00sacygoog`](https://archive.org/details/exposdelareligi00sacygoog)
 - **Notes:** Based on manuscripts held in European libraries. Two volumes; Internet Archive holds several Google Books scans.
 - **Discloses:** [Kitāb al-Ḥikma (Epistles of Wisdom)](#item-0008)
+- **Cited in claims:** `CLM-0028` · `CLM-0029` · `CLM-0030`
 
 <a id="src-0015"></a>
 
@@ -1196,3 +1245,17 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Rights:** unknown
 - **Notes:** Recordings made inside temples by a former member and posted online. They were circulating and being discussed by 27 January 2017. The original uploads, their dates and the ordinances each one covers are not yet identified; archive copies and file hashes are needed.
 - **Discloses:** [Temple endowment ceremony](#item-0007)
+
+<a id="src-0042"></a>
+
+### The Fishman Affidavit: OT III, summary and comments
+
+`SRC-0042` · Karin Spaink · 1996 · website
+
+- **Provenance:** court filing → published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [spaink.net](https://spaink.net/fishman/ot3.html)
+- **Notes:** Quotes and summarises the OT III pages filed as exhibits to SRC-0011, citing them by that filing's page numbers. Spaink was sued by the Church of Scientology over her publication of these materials. Year approximate.
+- **Discloses:** [OT III materials](#item-0006)
+- **Cited in claims:** `CLM-0024` · `CLM-0025` · `CLM-0026` · `CLM-0027`
