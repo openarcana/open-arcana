@@ -132,7 +132,7 @@ Use `coverage` to say which parts, degrees, versions or editions the source cove
 
 ## Who may be named
 
-Attribution is part of the evidence, so anyone whose public role makes them a source may be named:
+Attribution is part of the evidence, so anyone named in a source may be named in the dataset, including:
 
 - Leaders, officials and public figures of a tradition
 - Authors, editors and journalists of published works
@@ -140,6 +140,8 @@ Attribution is part of the evidence, so anyone whose public role makes them a so
 - Defectors and other participants who gave testimony under their own name
 
 Contributors who give testimony to Open Arcana are not named unless they ask to be.
+
+As with everything in the dataset, a name is added only where publishing it is lawful (see [Texts and rights](#texts-and-rights)).
 
 ## Not accepted
 
