@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-22 traditions · 27 restricted items · 54 disclosures · 55 claims · 56 sources
+24 traditions · 29 restricted items · 58 disclosures · 61 claims · 60 sources
 
 ## Traditions
 
@@ -30,6 +30,8 @@
 - [Heaven and Earth Society (Tiandihui, Hung League)](#trad-0020) (2 items)
 - [Daoism](#trad-0021) (1 item)
 - [Alawites (Nusayris)](#trad-0022) (1 item)
+- [Brahmanical (Vedic) tradition](#trad-0023) (1 item)
+- [Shugendō](#trad-0024) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -503,6 +505,14 @@ Consecration rites that admit a disciple to esoteric practice, and the mantras, 
 |---|---|---|---|---|---|---|
 | 1988 | voluntary release | partial |  | [Shingon: Japanese Esoteric Buddhism](#src-0018) ([openlibrary.org](https://openlibrary.org/works/OL4979757W)) | unassessed | Written by a Shingon priest. |
 | 1999 | academic research | summary |  | [The Weaving of Mantra: Kūkai and the Construction of Esoteric Buddhist Discourse](#src-0019) ([openlibrary.org](https://openlibrary.org/works/OL1950203W)) | unassessed |  |
+| 2022 | academic research | summary | The steps of the kanjō and its history in Shingon, in outline | [The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane](#src-0060) ([hdl.handle.net](https://hdl.handle.net/1887/3309964)) | unassessed |  (reviewed) |
+
+**Claims**
+
+- `CLM-0061` *content* · **single source** · reviewed: After a long period of preparatory austerities (kegyō), the initiand enters the altar (nyūdan), throws a flower onto the mandala, has water poured over his head, and is entered in a lineage of masters (ajari). The rite derives from an Indian royal consecration, and its secrecy makes it a mark of exceptional status within the institution.
+  - Supported by: [The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane](#src-0060) ([hdl.handle.net](https://hdl.handle.net/1887/3309964))
+  - Where: pp. 197–198
+  - Assessment: Checked against the Leiden repository copy on 2026-11-04.
 
 <a id="trad-0011"></a>
 
@@ -958,6 +968,81 @@ The staged initiation of young men into the religion and the teaching they then 
   - Supported by: [Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion](#src-0056) ([archive.org](https://archive.org/details/jstor-592241))
   - Where: p. 229
   - Assessment: Checked against the Internet Archive text on 2026-11-04. Al-Adhani's explanation, as given by Salisbury.
+
+<a id="trad-0023"></a>
+
+## Brahmanical (Vedic) tradition
+
+`TRAD-0023` · religion · founded 2nd–1st millennium BCE (Vedic period) · India · active · [Wikidata `Q889766`](https://www.wikidata.org/wiki/Q889766)
+
+The tradition of Vedic recitation and the rites of the twice-born as laid down in the Dharmaśāstras.
+
+<a id="item-0028"></a>
+
+### The Sāvitrī (Gāyatrī) verse and Vedic recitation, conferred at initiation (upanayana)
+
+`ITEM-0028` · words of power · currently unknown
+
+At initiation a boy of the three higher classes receives the Sāvitrī verse from his teacher, which opens Vedic study to him; those not initiated in time lose the right to it, and the uninitiated may not recite Vedic texts.
+
+- **Restricted to:** Twice-born (dvija) males initiated by a teacher; the uninitiated and Śūdras excluded
+- **How:** grade requirement, oral only, social sanction
+- **Stated reason:** Sacred learning is a treasure to be kept from scorners and given only to the pure and attentive; taking the Veda without permission is theft (CLM-0058)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1886 | academic research | summary | The rules of initiation and studentship in chapter II; names the Sāvitrī by its opening word without quoting it | [The Laws of Manu (Sacred Books of the East 25)](#src-0057) ([archive.org](https://archive.org/details/lawsofmanu00manuuoft)) | unassessed |  (reviewed) |
+| c. 1890 | academic research | full | The verse itself (Rig-veda 3.62.10), in English translation | [The Hymns of the Rigveda, vol. 2](#src-0058) ([archive.org](https://archive.org/details/hymnsrigveda00grifgoog)) | unassessed | Volume 2 of the first edition (1889–1892). The verse had been printed and translated by European scholars long before. (reviewed) |
+
+**Claims**
+
+- `CLM-0056` *content* · **single source** · reviewed: The Sāvitrī is the Rig-veda verse 3.62.10, addressed to the god Savitṛ: a prayer that the worshippers may attain the god's excellent glory and that he may stimulate their prayers. Griffith calls it the Gāyatrī par excellence.
+  - Supported by: [The Hymns of the Rigveda, vol. 2](#src-0058) ([archive.org](https://archive.org/details/hymnsrigveda00grifgoog)) · [The Laws of Manu (Sacred Books of the East 25)](#src-0057) ([archive.org](https://archive.org/details/lawsofmanu00manuuoft))
+  - Where: SRC-0058: vol. 2, p. 87 (RV 3.62.10 and note); SRC-0057: note to II.77
+  - Assessment: Checked against the Internet Archive texts on 2026-11-04. Griffith translates the verse; Bühler identifies the Sāvitrī with it. Both draw on the same Indian commentarial tradition, so they are not counted as independent.
+- `CLM-0057` *content* · **single source** · reviewed: Initiation should be given to a Brahmin boy in his eighth year from conception, a Kshatriya in his eleventh and a Vaiśya in his twelfth. Those not initiated by the sixteenth, twenty-second and twenty-fourth year respectively become Vrātyas, excluded from the Sāvitrī. Reciting the Sāvitrī at both twilights brings the merit of reciting the Vedas, and until initiated a boy may recite no Vedic text except at funeral rites, being on a level with a Śūdra. (as prescribed (Manusmṛti))
+  - Supported by: [The Laws of Manu (Sacred Books of the East 25)](#src-0057) ([archive.org](https://archive.org/details/lawsofmanu00manuuoft))
+  - Where: II.36–40, II.76–79, II.172
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. These are prescriptions of a law book, not evidence of how far they were followed.
+- `CLM-0058` *stated reason* · **single source** · reviewed: Sacred knowledge must not be sown in barren soil: a teacher should rather die with it. Sacred Learning asks the Brahmin to guard it as his treasure, keep it from scorners and give it only to the pure, self-controlled, chaste and attentive. Whoever takes the Veda from a reciter without permission commits theft of the Veda and goes to hell. (as prescribed (Manusmṛti))
+  - Supported by: [The Laws of Manu (Sacred Books of the East 25)](#src-0057) ([archive.org](https://archive.org/details/lawsofmanu00manuuoft))
+  - Where: II.112–116 (p. 51)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The tradition's own law book.
+
+<a id="trad-0024"></a>
+
+## Shugendō
+
+`TRAD-0024` · religion · founded 7th century (attributed to En no Gyōja) · Japan · active · [Wikidata `Q1483875`](https://www.wikidata.org/wiki/Q1483875)
+
+Mountain asceticism combining esoteric Buddhism with Japanese kami worship; major centres at Ōmine, Kumano and Haguro.
+
+<a id="item-0029"></a>
+
+### Secret transmissions (hihō) and the shōkanjō consecration of the mountain retreats
+
+`ITEM-0029` · initiatory rite · currently modified
+
+Secret lore and consecrations given at the end of a period of ascetic practice in the mountains, through which the practitioner is identified with Fudō Myōō.
+
+- **Restricted to:** Shugenja (yamabushi) who complete the mountain retreats (nyūbu)
+- **How:** oral only, grade requirement
+- **Stated reason:** Not yet recorded from a Shugendō source
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1989 | academic research | summary | The mountain retreats, the shōkanjō and the identification with Fudō Myōō, in outline | [Religious Rituals in Shugendō: A Summary](#src-0059) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/750/pdf/download)) | unassessed |  (reviewed) |
+
+**Claims**
+
+- `CLM-0059` *content* · **single source** · reviewed: The longer mountain retreats at Kinpusen, Kumano and Haguro culminate in the transmission of secret lore or in initiations. The chief consecration, the shōkanjō, is given at Jinzen near the end of the Ōmine retreat and symbolises that the practitioner has passed through the ten realms from hell to buddhahood and attained buddhahood in this body. Retreat and consecration together identify him with Fudō Myōō through a secret transmission.
+  - Supported by: [Religious Rituals in Shugendō: A Summary](#src-0059) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/750/pdf/download))
+  - Where: pp. 103–104, 108
+  - Assessment: Checked against the publisher's PDF on 2026-11-04. Miyake notes that much about these rituals is hidden behind oral and secret transmission (p. 102).
+- `CLM-0060` *current practice* · **single source** · reviewed: Few secret transmissions or initiations are now given during the mountain retreats, and more lay people take part; the retreats remain the central practice at the major Shugendō centres. (1980s)
+  - Supported by: [Religious Rituals in Shugendō: A Summary](#src-0059) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/750/pdf/download))
+  - Where: p. 103
+  - Assessment: Checked against the publisher's PDF on 2026-11-04.
 
 ## Sources
 
@@ -1702,3 +1787,60 @@ The staged initiation of young men into the religion and the teaching they then 
 - **Notes:** Journal of the American Oriental Society 8 (1866), pp. 227–308. Summarises and translates Sulayman al-Adhani's Kitab al-Bakura al-Sulaymaniyya (Beirut, c. 1864), written by a former Alawite who described his own initiation.
 - **Discloses:** [Initiation and the doctrine of the Meaning, the Name and the Gate](#item-0027)
 - **Cited in claims:** `CLM-0054` · `CLM-0055`
+
+<a id="src-0057"></a>
+
+### The Laws of Manu (Sacred Books of the East 25)
+
+`SRC-0057` · Georg Bühler, trans. · 1886 · book
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `lawsofmanu00manuuoft`](https://archive.org/details/lawsofmanu00manuuoft)
+- **Notes:** Translation of the Mānava-dharmaśāstra (Manusmṛti), with notes giving parallels in the other law books.
+- **Discloses:** [The Sāvitrī (Gāyatrī) verse and Vedic recitation, conferred at initiation (upanayana)](#item-0028)
+- **Cited in claims:** `CLM-0056` · `CLM-0057` · `CLM-0058`
+
+<a id="src-0058"></a>
+
+### The Hymns of the Rigveda, vol. 2
+
+`SRC-0058` · Ralph T. H. Griffith, trans. · 1889–1892 · book
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Linked copy:** 1920 edition
+- **Links:** [Internet Archive `hymnsrigveda00grifgoog`](https://archive.org/details/hymnsrigveda00grifgoog)
+- **Notes:** Linked copy is a 1920 printing (Benares, E. J. Lazarus).
+- **Discloses:** [The Sāvitrī (Gāyatrī) verse and Vedic recitation, conferred at initiation (upanayana)](#item-0028)
+- **Cited in claims:** `CLM-0056`
+
+<a id="src-0059"></a>
+
+### Religious Rituals in Shugendō: A Summary
+
+`SRC-0059` · Miyake Hitoshi · 1989 · academic
+
+- **Provenance:** academic fieldwork → scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/750/pdf/download) · [DOI `10.18874/jjrs.16.2-3.1989.101-116`](https://doi.org/10.18874/jjrs.16.2-3.1989.101-116)
+- **Notes:** Japanese Journal of Religious Studies 16/2–3, pp. 101–116. Based on written documents and the author's observation of Shugendō groups; free to read on the publisher's site.
+- **Discloses:** [Secret transmissions (hihō) and the shōkanjō consecration of the mountain retreats](#item-0029)
+- **Cited in claims:** `CLM-0059` · `CLM-0060`
+
+<a id="src-0060"></a>
+
+### The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane
+
+`SRC-0060` · Abe Yasurō; Or Porath, trans. · 2022 · academic
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [hdl.handle.net](https://hdl.handle.net/1887/3309964) · [DOI `10.1515/9783110720211-009`](https://doi.org/10.1515/9783110720211-009)
+- **Notes:** Chapter 9 of Fabio Rambelli and Or Porath (eds.), Rituals of Initiation and Consecration in Premodern Japan (De Gruyter, 2022), pp. 197–228. Free copy in the Leiden University repository.
+- **Discloses:** [Kanjō (abhiṣeka) and the mantra and mudrā transmissions](#item-0012)
+- **Cited in claims:** `CLM-0061`
