@@ -1,0 +1,9 @@
+id,name,tradition_type,founded,region,status,wikidata,notes
+TRAD-0001,Freemasonry,fraternal_order,c. 1717 (first grand lodge),Worldwide,active,Q41726,Many independent jurisdictions; rituals vary by jurisdiction and period.
+TRAD-0002,Hermetic Order of the Golden Dawn,magical_order,1888,United Kingdom,dormant,Q368173,Original order fragmented after 1900; several modern successor orders claim the name.
+TRAD-0003,Ordo Templi Orientis,magical_order,c. 1904–1912,Germany / worldwide,active,Q33237,Several competing organizations use the name.
+TRAD-0004,Church of Scientology,new_religious_movement,1954,United States / worldwide,active,Q1820380,
+TRAD-0005,The Church of Jesus Christ of Latter-day Saints,religion,1830,United States / worldwide,active,Q42504,Temple ceremonies are described by the church as sacred rather than secret.
+TRAD-0006,Druze,religion,11th century,Levant,active,Q163943,Divided into initiated (ʿuqqāl) and uninitiated (juhhāl) members.
+TRAD-0007,Transcendental Meditation,meditation_movement,1955,India / worldwide,active,Q7833866,
+TRAD-0008,Jehovah's Witnesses,religion,1870s,United States / worldwide,active,Q35269,
