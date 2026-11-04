@@ -1326,3 +1326,119 @@ dialog::backdrop {
     transition:none!important
   }
 }
+
+.archive-access {
+  margin-top:48px;
+  padding:36px 0 16px;
+  border-top:1px solid var(--line)
+}
+.archive-access h2,.document-page h2 {
+  font:normal 32px/1.2 var(--serif);
+  letter-spacing:-.8px;
+  color:var(--green)
+}
+.archive-access p {
+  max-width:760px;
+  line-height:1.8;
+  color:var(--muted)
+}
+.archive-access>div,.document-actions {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:18px 28px;
+  font-size:13px
+}
+.document-page {
+  max-width:920px;
+  padding-top:48px;
+  padding-bottom:32px;
+  line-height:1.75;
+  overflow-wrap:anywhere
+}
+.document-page h1 {
+  font-size:clamp(36px,5vw,56px);
+  letter-spacing:-1.8px
+}
+.document-page h3 {
+  font-size:16px;
+  line-height:1.5
+}
+.document-page h4 {
+  margin-bottom:8px
+}
+.document-page section {
+  margin-top:36px;
+  padding-top:20px;
+  border-top:1px solid var(--line)
+}
+.document-lead {
+  font-size:17px;
+  color:var(--muted)
+}
+.document-breadcrumb {
+  gap:12px;
+  margin-bottom:24px;
+  color:var(--muted)
+}
+.document-facts {
+  display:grid;
+  grid-template-columns:minmax(130px,190px) minmax(0,1fr);
+  gap:10px 20px;
+  font-size:13px
+}
+.document-facts dt {
+  color:var(--muted)
+}
+.document-facts dd {
+  margin:0
+}
+.document-claim {
+  padding:20px 24px;
+  margin:20px 0;
+  background:var(--surface);
+  border:1px solid var(--line)
+}
+.catalogue-list {
+  padding:0;
+  list-style:none
+}
+.catalogue-list li {
+  padding:16px 0;
+  border-bottom:1px solid var(--line)
+}
+.catalogue-list a {
+  font-size:16px
+}
+.catalogue-list span {
+  display:block;
+  margin-top:5px;
+  color:var(--muted);
+  font-size:12px
+}
+@media(max-width:760px) {
+  .masthead {
+    height:auto;
+    min-height:88px;
+    padding-block:18px;
+    flex-wrap:wrap;
+    gap:12px 20px
+  }
+  .masthead nav {
+    flex-wrap:wrap;
+    gap:20px
+  }
+  .masthead nav .nav-active {
+    display:inline-block
+  }
+  .document-page {
+    padding-top:28px
+  }
+  .document-facts {
+    grid-template-columns:minmax(100px,125px) minmax(0,1fr);
+    gap:10px 12px
+  }
+  .document-claim {
+    padding:14px 16px
+  }
+}

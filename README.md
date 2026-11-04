@@ -10,7 +10,8 @@ Knowledge kept secret can be difficult to examine, compare or preserve. Open Arc
 
 ## Browse
 
-- **[Interactive explorer](https://open-arcana.cor-ling.workers.dev/)**: select countries, filter disclosure types and historical context, explore the timeline and open individual source records. Share filtered views or download the current selection. The [GitHub Pages mirror](https://openarcana.github.io/open-arcana/) remains available.
+- **[Interactive explorer](https://open-arcana.pages.dev/)**: select countries, filter disclosure types and historical context, explore the timeline and open individual source records. Share filtered views or download the current selection. The [GitHub Pages mirror](https://openarcana.github.io/open-arcana/) remains available.
+- **[Web catalogue](https://open-arcana.pages.dev/records/)**: permanent HTML and JSON records, readable without JavaScript. **[Data and evidence guide](https://open-arcana.pages.dev/dataset/)**: direct CSV, JSONL and SQLite downloads, schema, checksums, license and interpretation notes.
 - **[CATALOG.md](CATALOG.md)**: every tradition, restricted item, disclosure and source on one page, with links to Wikidata, Open Library, Internet Archive and CourtListener.
 - **[QUALITY.md](QUALITY.md)**: review counts and record-level evidence gaps, regenerated from the CSVs.
 - **[OSINT audit](research/OSINT.md)**: dated link/redirect receipts, identifier and metadata checks, capture rehashing and unresolved access limits across the catalogue.
@@ -128,18 +129,23 @@ The explorer is a static site built from the same canonical CSVs. Run `python3 s
 
 [`site/geography.json`](site/geography.json) documents country associations derived from each tradition's recorded region. Worldwide, historical and ambiguous regional geography remains explicit; the map does not locate leaks or measure prevalence. Historical filters distinguish tradition origins from source publication dates and recorded practice status. Unknown disclosure dates remain separately selectable. Timeline clustering preserves every dated record and exposes the represented date span.
 
-The primary host is **Cloudflare Workers Static Assets**. [`wrangler.toml`](wrangler.toml) builds and deploys the same static `_site` directory, without application backend code. With an authorized Cloudflare login, deploy using `npx --yes wrangler@4.157.0 deploy`; Wrangler runs the Python build automatically. Credentials stay outside the repository and the public site. A dedicated domain can be attached later without changing the explorer's relative asset paths or query-based filters.
+The primary host is **Cloudflare Pages**, at **https://open-arcana.pages.dev/**. It builds the static `_site` directory from `main`, using `sh scripts/cloudflare.sh build` as the build command and `_site` as the output directory, also recorded in [`wrangler.toml`](wrangler.toml). Preview deployments and automatic pull-request comments are disabled. Credentials stay outside the repository and public site.
 
-Cloudflare Workers Builds is connected to this repository's `main` branch. Preview builds are disabled. Its build and deploy commands use [`scripts/cloudflare.sh`](scripts/cloudflare.sh):
+The former `open-arcana.cor-ling.workers.dev` address remains as a permanent redirect, including old `/open-arcana/` paths and filter parameters. Its existing Workers Builds connection uses the same build command, followed by `sh scripts/cloudflare.sh deploy` to publish the small redirect Worker configured in [`wrangler.legacy.toml`](wrangler.legacy.toml). This command updates the legacy redirect; Cloudflare Pages publishes the website itself.
 
 ```sh
-sh scripts/cloudflare.sh build
-sh scripts/cloudflare.sh deploy
+python3 scripts/build_site.py --output _site  # ordinary local website build
+sh scripts/cloudflare.sh build               # complete Cloudflare CI checks and build
+sh scripts/cloudflare.sh deploy              # deploy the legacy-address redirect only
 ```
 
-The helper installs pinned uv 0.13.7 and a complete Python 3.12.16 in the ignored `.cloudflare-tools` directory because Cloudflare's default Python lacks SQLite support. It runs the Python tests, offline OSINT checks, export checks, static build and JavaScript tests before deployment with pinned Wrangler 4.157.0. The same interpreter stays on `PATH` for Wrangler's custom build. Cloudflare's `PYTHON_VERSION` override is unnecessary; local builds can continue using `python3` directly.
+The CI helper installs pinned uv 0.13.7 and a complete Python 3.12.16 in the ignored `.cloudflare-tools` directory because Cloudflare's default Python lacks SQLite support. It runs the Python tests, offline OSINT checks, export checks, static build and JavaScript tests. Cloudflare's `PYTHON_VERSION` override is unnecessary; local builds can continue using `python3` directly.
 
-The [Pages workflow](.github/workflows/pages.yml) also validates the data, builds the site and publishes `main` to the GitHub Pages mirror, preserving existing shared links. On Cloudflare, [`site/_redirects`](site/_redirects) additionally accepts the old `/open-arcana/` path and preserves query parameters when redirecting it to the root. The source, data joins, filters and both hosting configurations remain in this repository.
+The [Pages workflow](.github/workflows/pages.yml) also validates the data, builds the site and publishes `main` to the GitHub Pages mirror, preserving existing shared links. On Cloudflare, [`site/_redirects`](site/_redirects) additionally accepts the old `/open-arcana/` path and preserves query parameters when redirecting it to the root. The source, data joins, filters and hosting configurations remain in this repository.
+
+[`site/config.json`](site/config.json) defines the canonical origin used by metadata, structured data, sitemap, robot guidance and the legacy redirect. For a future domain move, attach the new domain in Cloudflare, update that origin, rebuild and verify the redirects. Internal asset and navigation links remain relative so the GitHub Pages mirror works under its repository prefix.
+
+The site generates an HTML page and linked JSON representation for every disclosure at `/records/DISC-0001/` and `/records/DISC-0001/index.json`, a linked catalogue, and a dataset landing page with Schema.org `Dataset` metadata. It serves the original schema, CSVs and checked exports directly, retaining evidence qualifications and the separation between the CC0 catalogue metadata and third-party source rights. `robots.txt` permits crawlers and advertises `sitemap.xml`; `llms.txt` provides a convenience guide for agents. These files provide access and discovery information, without promising indexing, ranking or use by a particular model.
 
 ## Principles
 

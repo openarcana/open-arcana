@@ -27,7 +27,7 @@ jobs:
       - run: python3 -m unittest discover -s tests -q
       - run: python3 scripts/build.py --check-exports
       - run: python3 scripts/build_site.py --output _site
-      - run: node --test tests/site.test.mjs
+      - run: node --test tests/*.test.mjs
       - name: Upload static website
         uses: actions/upload-pages-artifact@v4
         with:

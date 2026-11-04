@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#244b40">
   <meta name="description" content="Explore Open Arcana's source-linked records of restricted rites, initiations, texts and teachings. Filter the world map and disclosure timeline, then inspect the evidence.">
-  <link rel="canonical" href="https://open-arcana.cor-ling.workers.dev/">
-  <title>Open Arcana — Explore the archive</title>
+  <link rel="canonical" href="__SITE_URL__/">
+  <link rel="describedby" href="./datapackage.json" type="application/json">
+  <!-- SITE_METADATA -->
+  <title>Open Arcana — Restricted rites, initiations and texts</title>
   <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css">
   <script type="module" src="./app.js"></script>
@@ -15,12 +17,12 @@
   <a class="skip-link" href="#filters">Skip to explorer</a>
   <header class="masthead wrap">
     <a class="brand" href="./" aria-label="Open Arcana home"><img src="./assets/mark.svg" width="42" height="42" alt=""><span>Open Arcana<small>ARCANA APERTA</small></span></a>
-    <nav aria-label="Main navigation"><a href="#explorer" class="nav-active">Explore</a><button data-about>About the data</button><a href="https://github.com/openarcana/open-arcana" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Main navigation"><a href="#explorer" class="nav-active">Explore</a><a href="./records/">Catalogue</a><a href="./dataset/">Data</a><button data-about>About</button><a href="https://github.com/openarcana/open-arcana" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main class="wrap">
     <section class="intro" aria-labelledby="page-title">
       <div><div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> AN OPEN ARCHIVE OF RESTRICTED KNOWLEDGE</div><h1 id="page-title">Explore the archive.</h1><p>Rites, initiations, texts and teachings.<br> Follow the sources that brought them into public view.</p></div>
-      <div class="intro-index" aria-label="Complete collection"><p class="index-caption">IN THE COLLECTION <span id="version">v0.3</span></p><div class="totals"><div><strong id="total-disclosures">—</strong><span>Disclosures</span></div><div><strong id="total-items">—</strong><span>Restricted items</span></div><div><strong id="total-traditions">—</strong><span>Traditions</span></div></div><button class="seed-link" data-about>Seed collection · evidence and limits <span aria-hidden="true">↗</span></button></div>
+      <div class="intro-index" aria-label="Complete collection"><p class="index-caption">IN THE COLLECTION <span id="version">v0.3</span></p><div class="totals"><div><strong id="total-disclosures">__TOTAL_DISCLOSURES__</strong><span>Disclosures</span></div><div><strong id="total-items">__TOTAL_ITEMS__</strong><span>Restricted items</span></div><div><strong id="total-traditions">__TOTAL_TRADITIONS__</strong><span>Traditions</span></div></div><button class="seed-link" data-about>Seed collection · evidence and limits <span aria-hidden="true">↗</span></button></div>
     </section>
     <div id="loading" role="status">Opening the archive…</div>
     <div id="explorer" hidden>
@@ -58,12 +60,13 @@
         <div id="record-list" class="record-list"></div><button id="show-more" type="button" class="show-more">Show more records <span aria-hidden="true">↓</span></button>
       </section>
     </div>
+    <section class="archive-access" aria-labelledby="access-heading"><span class="section-number">READ AND REUSE</span><h2 id="access-heading">Browse and download the archive</h2><p>Browse __TOTAL_DISCLOSURES__ source-linked disclosure records across __TOTAL_TRADITIONS__ traditions. Read the coverage, source assessments and evidence qualifications, or download the same catalogue for research and data pipelines.</p><div><a href="./records/">Browse all records ↗</a><a href="./dataset/">Data and evidence guide ↗</a><a href="./exports/disclosures.jsonl">Disclosure JSONL ↓</a><a href="./llms.txt">Machine access ↗</a></div></section>
   </main>
   <footer class="wrap footer"><div class="footer-brand">Open Arcana <span>An open, source-linked research archive.</span></div><div><button data-about>Reading the evidence</button><a href="https://github.com/openarcana/open-arcana/blob/main/SOURCE_POLICY.md" target="_blank" rel="noopener noreferrer">Source policy ↗</a><a href="https://github.com/openarcana/open-arcana/tree/main/data" target="_blank" rel="noopener noreferrer">Open dataset ↗</a></div><p>Catalogue records CC0 · Cited works retain their own rights · <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Map: Natural Earth</a></p></footer>
   <div id="tooltip" class="tooltip" hidden role="tooltip"></div>
   <div id="announcement" class="sr-only" aria-live="polite"></div>
   <dialog id="record-dialog" class="dialog record-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span class="section-number" id="detail-id"></span><button class="icon-button" data-close aria-label="Close record">×</button></div><div id="record-detail"></div></dialog>
   <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-toolbar"><span class="section-number">READING THE ARCHIVE</span><button class="icon-button" data-close aria-label="Close about the data">×</button></div><h2 id="about-title">Evidence, with its context.</h2><p>Open Arcana documents specific restricted rites, initiations, texts, teachings and transmission rules. The explorer counts <strong>disclosure records</strong>, including research, publications, court records, leaks and other routes into public view.</p><dl><dt>Countries</dt><dd>Modern outlines help navigate the geography recorded for each tradition. They do not locate leaks or measure national prevalence. Broad regions and historical territories stay separate when no country can be assigned. <a href="./geography.json" target="_blank" rel="noopener noreferrer">Inspect the mapping ↗</a></dd><dt>The timeline</dt><dd>Marks use each disclosure’s recorded year, including approximate dates. They do not date a practice’s origin or performance. Undated records remain in the list when included. A source’s publication year is not necessarily the earliest public disclosure.</dd><dt>Historical context</dt><dd>“Founded before 1900” uses the tradition’s recorded origins. “Source before 1900” uses the source’s original publication year. Neither establishes that an individual rite is old, unchanged or discontinued.</dd><dt>Evidence assessments</dt><dd>Reviewed means checked against a source. Authenticity, claim support, independence and present-day practice are separate assessments. Open each record to see coverage and limitations. The seed collection is incomplete and is not a representative sample of world traditions.</dd></dl><a class="primary-link" href="https://github.com/openarcana/open-arcana/blob/main/QUALITY.md" target="_blank" rel="noopener noreferrer">Inspect the evidence backlog ↗</a><p class="snapshot" id="snapshot"></p></dialog>
-  <noscript><p class="wrap">This explorer uses JavaScript for filtering. You can read the full <a href="https://github.com/openarcana/open-arcana/blob/main/CATALOG.md">Open Arcana catalogue</a> without it.</p></noscript>
+  <noscript><p class="wrap">This explorer uses JavaScript for filtering. Read every record in the <a href="./records/">catalogue</a> or <a href="./dataset/">download the data</a> without it.</p></noscript>
 </body>
 </html>

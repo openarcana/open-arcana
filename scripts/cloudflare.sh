@@ -27,9 +27,9 @@ case "$mode" in
     python3 scripts/osint.py --check
     python3 scripts/build.py --check-exports
     python3 scripts/build_site.py --output _site
-    node --test tests/site.test.mjs
+    node --test tests/*.test.mjs
     ;;
   deploy)
-    exec npx --yes wrangler@4.157.0 deploy
+    exec npx --yes wrangler@4.157.0 deploy --config wrangler.legacy.toml
     ;;
 esac
