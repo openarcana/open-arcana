@@ -10,6 +10,7 @@ Knowledge kept secret can be difficult to examine, compare or preserve. Open Arc
 
 ## Browse
 
+- **[Interactive explorer](https://openarcana.github.io/open-arcana/)**: select countries, filter disclosure types and historical context, explore the timeline and open individual source records. Share filtered views or download the current selection.
 - **[CATALOG.md](CATALOG.md)**: every tradition, restricted item, disclosure and source on one page, with links to Wikidata, Open Library, Internet Archive and CourtListener.
 - **[QUALITY.md](QUALITY.md)**: review counts and record-level evidence gaps, regenerated from the CSVs.
 - **[OSINT audit](research/OSINT.md)**: dated link/redirect receipts, identifier and metadata checks, capture rehashing and unresolved access limits across the catalogue.
@@ -115,9 +116,19 @@ python3 scripts/build.py --check          # validate only; no files written
 python3 scripts/build.py --check-exports  # also check export parity and checksums; no files written
 python3 -m unittest discover -s tests -v
 python3 scripts/osint.py --check          # offline identifier checks; no network or writes
+python3 scripts/build_site.py --output _site  # build the static interactive explorer
+node --test tests/site.test.mjs           # after building: explorer filtering/export checks
 ```
 
 Requires only Python 3.9 or later. Parquet exports are written if `pyarrow` is installed; otherwise old generated Parquet files are removed to prevent stale copies. Existing Parquet files require `pyarrow` for `--check-exports`. Structural and evidence-label inconsistencies fail validation. Missing assessments, locators, hashes and dated status evidence appear in the quality backlog and remain available for research.
+
+### Interactive website
+
+The explorer is a static site built from the same canonical CSVs. Run `python3 scripts/build_site.py --output _site`, then `python3 -m http.server 8734 --directory _site` and open the local URL. Its browser runtime has no third-party scripts, accounts, analytics or API keys. Node.js 20 or later runs the JavaScript tests; it is not needed to build or host the site.
+
+[`site/geography.json`](site/geography.json) documents country associations derived from each tradition's recorded region. Worldwide, historical and ambiguous regional geography remains explicit; the map does not locate leaks or measure prevalence. Historical filters distinguish tradition origins from source publication dates and recorded practice status. Unknown disclosure dates remain separately selectable. Timeline clustering preserves every dated record and exposes the represented date span.
+
+The [Pages workflow](.github/workflows/pages.yml) validates the data, builds the site and publishes `main` to GitHub Pages. Enable GitHub Pages with **GitHub Actions** as its source; a custom domain is optional. The same `_site` directory can be deployed as static files on Cloudflare Pages or another static host. The source, data joins, filters and build remain in this repository.
 
 ## Principles
 
@@ -135,7 +146,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [SOURCE_POLICY.md](SOURCE_POLICY.md).
 The repository uses permissive licenses:
 
 - Dataset records and documentation: [CC0 1.0](LICENSE)
-- Code in `scripts/`: [0BSD](scripts/LICENSE)
+- Code in `scripts/` and `site/`: [0BSD](scripts/LICENSE). Map outlines are public domain; see [asset provenance](site/ATTRIBUTION.md).
 
 Use it for anything, including AI training, without asking. Works cited by the dataset belong to their own rights holders.
 
