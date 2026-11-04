@@ -1,0 +1,440 @@
+{
+  "name": "open-arcana",
+  "title": "Open Arcana",
+  "description": "An open, versioned, machine-readable dataset documenting secrecy in religious, spiritual and esoteric traditions: what is restricted, from whom, why, and when and how it became public.",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": "CC0 1.0 (applies to the dataset's own metadata, not to the third-party works it cites)"
+    }
+  ],
+  "homepage": "https://github.com/openarcana",
+  "resources": [
+    {
+      "name": "traditions",
+      "path": "../data/traditions.csv",
+      "format": "csv",
+      "schema": {
+        "primaryKey": "id",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^TRAD-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "tradition_type",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "fraternal_order",
+                "magical_order",
+                "religion",
+                "religious_branch",
+                "new_religious_movement",
+                "meditation_movement",
+                "indigenous_tradition",
+                "mystery_cult",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "founded",
+            "type": "string",
+            "description": "Year or approximate period, free text (e.g. '1888', 'c. 1717', '11th century')."
+          },
+          {
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "active",
+                "dormant",
+                "extinct",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "wikidata",
+            "type": "string",
+            "constraints": {
+              "pattern": "^(Q[0-9]+)?$"
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "restricted_items",
+      "path": "../data/restricted_items.csv",
+      "format": "csv",
+      "schema": {
+        "primaryKey": "id",
+        "foreignKeys": [
+          {
+            "fields": "tradition_id",
+            "reference": {
+              "resource": "traditions",
+              "fields": "id"
+            }
+          }
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^ITEM-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "tradition_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "secrecy_type",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "initiatory_rite",
+                "graded_doctrine",
+                "restricted_scripture",
+                "transmitted_technique",
+                "words_of_power",
+                "closed_liturgy",
+                "restricted_oral_knowledge",
+                "hidden_cosmology",
+                "internal_governance",
+                "institutional"
+              ]
+            }
+          },
+          {
+            "name": "restricted_to",
+            "type": "string",
+            "description": "Who is allowed to know it (a grade, clergy, a gender, a clan, paying students...)."
+          },
+          {
+            "name": "restriction_mechanism",
+            "type": "string",
+            "description": "Semicolon-separated list.",
+            "constraints": {
+              "enum_list": [
+                "oath",
+                "vow",
+                "nda",
+                "fee",
+                "oral_only",
+                "grade_requirement",
+                "copyright_claim",
+                "social_sanction",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "stated_reason",
+            "type": "string",
+            "description": "The tradition's own stated reason for secrecy, recorded without endorsement or judgement."
+          },
+          {
+            "name": "current_status",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "practiced",
+                "modified",
+                "discontinued",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Original summary written for this dataset. Never paste third-party text here."
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sources",
+      "path": "../data/sources.csv",
+      "format": "csv",
+      "schema": {
+        "primaryKey": "id",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^SRC-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "book",
+                "periodical",
+                "newspaper",
+                "court_record",
+                "archive",
+                "manuscript",
+                "testimony",
+                "website",
+                "usenet",
+                "academic"
+              ]
+            }
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "identifiers",
+            "type": "string",
+            "description": "External identifiers as semicolon-separated prefix:value pairs. Prefixes: wikidata, ol (Open Library work), ia (Internet Archive item), oclc, isbn, doi, courtlistener.",
+            "constraints": {
+              "pattern": "^((wikidata|ol|ia|oclc|isbn|doi|courtlistener):[^;]+)(;(wikidata|ol|ia|oclc|isbn|doi|courtlistener):[^;]+)*$"
+            }
+          },
+          {
+            "name": "provenance",
+            "type": "string",
+            "description": "How the material came to light. Feeds the evidence level of disclosures citing this source; see SOURCE_POLICY.md.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "official_release",
+                "published_exposure",
+                "defector_account",
+                "court_filing",
+                "insider_leak",
+                "intrusion",
+                "infiltration",
+                "anonymous_posting",
+                "archival_collection",
+                "academic_fieldwork",
+                "reconstruction",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "rights",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "public_domain",
+                "copyrighted",
+                "open_license",
+                "court_record",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "content_hash",
+            "type": "string",
+            "description": "IPFS CID or sha256 of an archived copy, when one exists."
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "disclosures",
+      "path": "../data/disclosures.csv",
+      "format": "csv",
+      "schema": {
+        "primaryKey": "id",
+        "foreignKeys": [
+          {
+            "fields": "item_id",
+            "reference": {
+              "resource": "restricted_items",
+              "fields": "id"
+            }
+          },
+          {
+            "fields": "source_id",
+            "reference": {
+              "resource": "sources",
+              "fields": "id"
+            }
+          }
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^DISC-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "item_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "year",
+            "type": "string",
+            "constraints": {
+              "pattern": "^([0-9]{3,4})?$"
+            }
+          },
+          {
+            "name": "date_precision",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "day",
+                "month",
+                "year",
+                "decade",
+                "circa",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "disclosure_method",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "exposure_publication",
+                "defector_testimony",
+                "court_record",
+                "leak",
+                "journalism",
+                "academic_research",
+                "voluntary_release",
+                "reconstruction"
+              ]
+            }
+          },
+          {
+            "name": "extent",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "full",
+                "partial",
+                "summary",
+                "reference"
+              ]
+            }
+          },
+          {
+            "name": "evidence_level",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "documented",
+                "corroborated",
+                "single_testimony",
+                "contested",
+                "fabricated"
+              ]
+            }
+          },
+          {
+            "name": "review_status",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "unreviewed",
+                "reviewed",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
