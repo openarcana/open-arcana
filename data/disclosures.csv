@@ -8,7 +8,7 @@ DISC-0006,ITEM-0001,SRC-0004,1762,year,exposure_publication,full,,unreviewed,
 DISC-0007,ITEM-0001,SRC-0005,1826,year,defector_testimony,full,,unreviewed,Author was a self-described former member.
 DISC-0008,ITEM-0001,SRC-0006,1866,year,exposure_publication,full,,unreviewed,
 DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,,unreviewed,S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal.
-DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
+DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,"Rituals of the Outer Order grades (Neophyte to Philosophus) and the Portal, including steps, signs, grips, words and passwords",unreviewed,Rituals are in Volume Two (1938). Regardie had been a member of the Stella Matutina.
 DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
 DISC-0012,ITEM-0005,SRC-0009,1973,year,exposure_publication,full,,unreviewed,
 DISC-0013,ITEM-0006,SRC-0010,1985,year,court_record,summary,,unreviewed,Also widely reported in the press during the trial.
@@ -42,3 +42,4 @@ DISC-0040,ITEM-0006,SRC-0039,2009,circa,leak,partial,"Hubbard's spoken account o
 DISC-0041,ITEM-0006,SRC-0040,1987,year,journalism,summary,Outline of the OT III story,unreviewed,Broadcast 27 April 1987.
 DISC-0042,ITEM-0007,SRC-0041,2017,circa,leak,partial,Extent not yet established; which ordinances are recorded still needs checking,unreviewed,"Covert video recordings made during the ceremony itself, not reconstructed from memory or text."
 DISC-0043,ITEM-0006,SRC-0042,1996,circa,journalism,partial,Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions,unreviewed,Spaink withdrew the full text on legal advice and published this summary instead.
+DISC-0044,ITEM-0010,SRC-0043,2016,month,court_record,partial,"Provisions on child sexual abuse: scriptural offences, standards of proof, investigation and judicial committees",unreviewed,Quoted and summarised from the handbook in evidence before the Royal Commission (public hearing July–August 2015).

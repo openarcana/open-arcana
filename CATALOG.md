@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 43 disclosures · 30 claims · 42 sources
+19 traditions · 22 restricted items · 44 disclosures · 38 claims · 43 sources
 
 ## Traditions
 
@@ -132,7 +132,7 @@ Ceremonial initiations for the Outer and Inner Order grades.
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) (no online copy) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
-| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
+| 1937 | defector testimony | full | Rituals of the Outer Order grades (Neophyte to Philosophus) and the Portal, including steps, signs, grips, words and passwords | [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938)) | unassessed | Rituals are in Volume Two (1938). Regardie had been a member of the Stella Matutina. |
 
 **Claims**
 
@@ -148,6 +148,22 @@ Ceremonial initiations for the Outer and Inner Order grades.
   - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
   - Where: No. II, pp. 259–260
   - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
+- `CLM-0031` *content* · **single source**: In the Neophyte grade the step is a short advance of the left foot; the signs are the Saluting Sign (leaning forward with both arms outstretched, as if groping for light), answered by the Sign of Silence (left forefinger on the lips); the grip is made foot to foot, the hands failing once to meet and then touching only the fingers; and the grand word Har-Par-Krat is whispered mouth to ear in syllables. (1938 (as published); Stella Matutina practice)
+  - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: vol. 2, Neophyte Ritual, pp. 29–30
+  - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04. The ritual says the password changes every equinox, so that members who have left do not know it, and leaves it blank.
+- `CLM-0032` *content* · **single source**: The grand words and passwords of the Outer Order grades are: Zelator, Adonai ha-Aretz and Nun Heh (mystic number 55); Theoricus, Shaddai El Chai and Mem Heh (45); Practicus, Elohim Tzabaoth and Eloah (36). The password of the Portal grade is Paroketh, the veil of the Tabernacle, exchanged letter by letter. (1938 (as published); Stella Matutina practice)
+  - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: vol. 2, pp. 54, 85, 112, 189
+  - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04.
+- `CLM-0033` *change* · **single source**: The penalty in the Neophyte obligation was changed: the version printed in 1909 calls down a deadly current of will from the chiefs of the Order that would strike the oath-breaker dead or paralysed, while the Stella Matutina version printed in 1938 sets expulsion for perjury and submission, by the candidate's own consent, to a stream of power set in motion by the Order's Divine Guardians. (1890s–1930s)
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy) · [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: SRC-0007: No. II, pp. 253–254; SRC-0008: vol. 2, pp. 22–23
+  - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04. Also checked against The Equinox I(2). Each source attests one wording; the change itself is shown by comparing them, and the 1909 text's footnote also mentions a softened later wording.
+- `CLM-0034` *content* · **single source**: The Neophyte obligation also binds the candidate not to copy any manuscript without the Second Order's permission, to keep every ritual or lecture under the Order's label, not to let himself be put into a passive state in which an uninitiated person or power could take control of his words or actions, and not to use his knowledge for evil magic. (1938 (as published); Stella Matutina practice)
+  - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: vol. 2, Neophyte Ritual, pp. 22–23
+  - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04.
 
 <a id="item-0004"></a>
 
@@ -163,7 +179,7 @@ Instructional papers on Kabbalah / astrology / geomancy / ritual magic issued gr
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
+| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938)) | unassessed |  |
 
 <a id="trad-0003"></a>
 
@@ -364,9 +380,29 @@ Internal handbook covering congregational procedures including judicial committe
 - **Restricted to:** Congregation elders
 - **How:** social sanction
 - **Stated reason:** Guidance intended for appointed elders
-- **Notes:** No disclosure record yet: needs a sourced entry.
 
-*No disclosure recorded yet.*
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 2016 | court record | partial | Provisions on child sexual abuse: scriptural offences, standards of proof, investigation and judicial committees | [Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse](#src-0043) ([childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf)) | verified | Quoted and summarised from the handbook in evidence before the Royal Commission (public hearing July–August 2015). |
+
+**Claims**
+
+- `CLM-0035` *content* · **single source**: Every elder receives a copy of Shepherd the Flock of God on appointment, and the Governing Body gives final approval to its contents. (2015)
+  - Supported by: [Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse](#src-0043) ([childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf))
+  - Where: pp. 16, 20
+  - Assessment: Checked against the report on the Royal Commission's website on 2026-11-04. The Commission quotes the handbook; the handbook itself has not been read.
+- `CLM-0036` *content* · **single source**: The handbook places child sexual abuse under the scriptural offences of porneia, brazen or loose conduct, and gross uncleanness, and defines what each includes; its 1991 predecessor, Pay Attention to Yourselves and All the Flock, also had a lesser offence of uncleanness covering momentary touching. (2015)
+  - Supported by: [Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse](#src-0043) ([childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf))
+  - Where: pp. 23
+  - Assessment: Checked against the report on the Royal Commission's website on 2026-11-04. The Commission quotes the handbook; the handbook itself has not been read.
+- `CLM-0037` *content* · **single source**: Elders may take disciplinary action only on a confession, the testimony of two or three credible eyewitnesses to the same incident, or strong circumstantial evidence testified to by at least two witnesses (the two-witness rule). Without that, an accused person who denies the allegation continues to be viewed as innocent and the matter is left in Jehovah's hands. (2015)
+  - Supported by: [Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse](#src-0043) ([childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf))
+  - Where: pp. 25–26
+  - Assessment: Checked against the report on the Royal Commission's website on 2026-11-04. The Commission quotes the handbook; the handbook itself has not been read.
+- `CLM-0038` *content* · **single source**: The current handbook appears to require a complainant to make the allegation in the presence of the accused, and documents in evidence require witnesses to put their allegations to a judicial committee in the accused's presence unless that is impractical; the organisation's witnesses testified that survivors of child sexual abuse are no longer required to confront their abuser. (2015)
+  - Supported by: [Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse](#src-0043) ([childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf))
+  - Where: pp. 25–26
+  - Assessment: Checked against the report on the Royal Commission's website on 2026-11-04. The Commission quotes the handbook; the handbook itself has not been read.
 
 <a id="trad-0009"></a>
 
@@ -805,7 +841,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Wikidata `Q3520760`](https://www.wikidata.org/wiki/Q3520760)
 - **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'. No. II (September 1909), which prints the Neophyte ritual, was read from the scan at https://invisiblehouse.org/pdf/equinox2.pdf.
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003)
-- **Cited in claims:** `CLM-0021` · `CLM-0022` · `CLM-0023`
+- **Cited in claims:** `CLM-0021` · `CLM-0022` · `CLM-0023` · `CLM-0033`
 
 <a id="src-0008"></a>
 
@@ -816,8 +852,10 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Provenance:** defector account
 - **Authenticity:** unassessed
 - **Rights:** copyrighted
-- **Links:** [Open Library `OL1989588W`](https://openlibrary.org/works/OL1989588W)
+- **Links:** [Open Library `OL1989588W`](https://openlibrary.org/works/OL1989588W) · [Internet Archive `IsraelRegardie-thegoldenDawn-vol1-1937`](https://archive.org/details/IsraelRegardie-thegoldenDawn-vol1-1937) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol2-1938`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol3-1939`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol3-1939) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol4-1940`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol4-1940)
+- **Notes:** Aries Press, Chicago. Based on Stella Matutina papers. Linked copy is Volume Two (1938): Rituals of the First Order and the Portal.
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003) · [Knowledge lectures and inner-order teachings](#item-0004)
+- **Cited in claims:** `CLM-0031` · `CLM-0032` · `CLM-0033` · `CLM-0034`
 
 <a id="src-0009"></a>
 
@@ -1259,3 +1297,18 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Notes:** Quotes and summarises the OT III pages filed as exhibits to SRC-0011, citing them by that filing's page numbers. Spaink was sued by the Church of Scientology over her publication of these materials. Year approximate.
 - **Discloses:** [OT III materials](#item-0006)
 - **Cited in claims:** `CLM-0024` · `CLM-0025` · `CLM-0026` · `CLM-0027`
+
+<a id="src-0043"></a>
+
+### Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse
+
+`SRC-0043` · Royal Commission into Institutional Responses to Child Sexual Abuse · 2016 · court record
+
+- **Provenance:** court filing
+- **Authenticity:** verified
+- **Verification:** Read on the Royal Commission's own website on 2026-11-04: findings report dated October 2016, ISBN 978-1-925289-89-3.
+- **Rights:** open license
+- **Links:** [www.childabuseroyalcommission.gov.au](https://www.childabuseroyalcommission.gov.au/sites/default/files/file-list/Case%20Study%2029%20-%20Findings%20Report%20-%20Jehovahs%20Witnesses.pdf) · [ISBN `978-1-925289-89-3`](https://openlibrary.org/isbn/978-1-925289-89-3)
+- **Notes:** Published under a Creative Commons licence. The elders' handbook and related letters were in evidence; the report quotes and summarises them. Exhibits for the case are listed at https://www.childabuseroyalcommission.gov.au/exhibits-case-study-29.
+- **Discloses:** [Elders' manual (Shepherd the Flock of God)](#item-0010)
+- **Cited in claims:** `CLM-0035` · `CLM-0036` · `CLM-0037` · `CLM-0038`
