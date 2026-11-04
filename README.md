@@ -130,6 +130,12 @@ The explorer is a static site built from the same canonical CSVs. Run `python3 s
 
 The primary host is **Cloudflare Workers Static Assets**. [`wrangler.toml`](wrangler.toml) builds and deploys the same static `_site` directory, without application backend code. With an authorized Cloudflare login, deploy using `npx --yes wrangler@4.157.0 deploy`; Wrangler runs the Python build automatically. Credentials stay outside the repository and the public site. A dedicated domain can be attached later without changing the explorer's relative asset paths or query-based filters.
 
+Cloudflare Workers Builds is connected to this repository's `main` branch. Preview builds are disabled. The production build command runs the Python tests, export checks, static build and JavaScript tests before the deploy command `npx --yes wrangler@4.157.0 deploy`:
+
+```sh
+python3 -m unittest discover -s tests -q && python3 scripts/build.py --check-exports && python3 scripts/build_site.py --output _site && node --test tests/site.test.mjs
+```
+
 The [Pages workflow](.github/workflows/pages.yml) also validates the data, builds the site and publishes `main` to the GitHub Pages mirror, preserving existing shared links. On Cloudflare, [`site/_redirects`](site/_redirects) additionally accepts the old `/open-arcana/` path and preserves query parameters when redirecting it to the root. The source, data joins, filters and both hosting configurations remain in this repository.
 
 ## Principles
