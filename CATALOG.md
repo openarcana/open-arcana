@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-8 traditions · 10 restricted items · 18 disclosures · 4 claims · 15 sources
+19 traditions · 22 restricted items · 39 disclosures · 7 claims · 38 sources
 
 ## Traditions
 
@@ -16,6 +16,17 @@
 - [Druze](#trad-0006) (1 item)
 - [Transcendental Meditation](#trad-0007) (1 item)
 - [Jehovah's Witnesses](#trad-0008) (1 item)
+- [Tibetan Buddhism (Vajrayana)](#trad-0009) (1 item)
+- [Shingon Buddhism](#trad-0010) (1 item)
+- [Śākta Tantra (Kaula and Śrīvidyā)](#trad-0011) (2 items)
+- [Advaita Vedānta](#trad-0012) (1 item)
+- [Naqshbandi order](#trad-0013) (1 item)
+- [Bektashi Order](#trad-0014) (1 item)
+- [Jewish esotericism (Maʿaseh Merkavah and Kabbalah)](#trad-0015) (1 item)
+- [Eleusinian Mysteries](#trad-0016) (1 item)
+- [Mithraic Mysteries](#trad-0017) (1 item)
+- [Hopi religion](#trad-0018) (1 item)
+- [Ngarrindjeri religion](#trad-0019) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -41,17 +52,17 @@ The three ceremonies through which a candidate becomes a Master Mason including 
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) | unassessed | One of the earliest printed exposures. |
-| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) | unassessed | Earliest known description of the third degree. |
-| 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) | unassessed |  |
-| 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) | unassessed |  |
-| 1826 | defector testimony | full |  | [Illustrations of Masonry](#src-0005) | unassessed | Author was a self-described former member. |
-| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) | unassessed |  |
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no online copy) | unassessed | One of the earliest printed exposures. |
+| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed | Earliest known description of the third degree. |
+| 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) ([archive.org](https://archive.org/details/bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785)) | unassessed |  |
+| 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) ([archive.org](https://archive.org/details/bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776)) | unassessed |  |
+| 1826 | defector testimony | full |  | [Illustrations of Masonry](#src-0005) ([archive.org](https://archive.org/details/illustrationsofm00morg)) | unassessed | Author was a self-described former member. |
+| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/duncansmasonicri00dunc)) | unassessed |  |
 
 **Claims**
 
 - `CLM-0001` *historical practice* · **single source**: A three-degree system ending in the Master Mason degree was being worked in English lodges. (by 1730)
-  - Supported by: [Masonry Dissected](#src-0002)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
   - Assessment: Prichard's exposure describes the third degree; no second independent source is recorded yet.
 
 <a id="item-0002"></a>
@@ -68,8 +79,8 @@ Gestures and words used by members to identify each other by degree.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) | unassessed |  |
-| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) | unassessed |  |
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no online copy) | unassessed |  |
+| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed |  |
 
 <a id="trad-0002"></a>
 
@@ -93,8 +104,8 @@ Ceremonial initiations for the Outer and Inner Order grades.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
-| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) | unassessed |  |
+| c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) (no online copy) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
+| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
 
 <a id="item-0004"></a>
 
@@ -110,7 +121,7 @@ Instructional papers on Kabbalah / astrology / geomancy / ritual magic issued gr
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) | unassessed |  |
+| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
 
 <a id="trad-0003"></a>
 
@@ -134,7 +145,7 @@ Initiation rituals of the degree system and the instructions reserved for the hi
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1973 | exposure publication | full |  | [The Secret Rituals of the O.T.O.](#src-0009) | unassessed |  |
+| 1973 | exposure publication | full |  | [The Secret Rituals of the O.T.O.](#src-0009) ([openlibrary.org](https://openlibrary.org/works/OL36054911W)) | unassessed |  |
 
 <a id="trad-0004"></a>
 
@@ -156,14 +167,14 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) | unassessed | Also widely reported in the press during the trial. |
-| 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) | unassessed |  |
-| c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) | unassessed |  |
+| 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) | unassessed | Also widely reported in the press during the trial. |
+| 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) | unassessed |  |
+| c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) (no online copy) | unassessed |  |
 
 **Claims**
 
 - `CLM-0002` *content* · **independently corroborated**: The OT III materials contain a cosmological narrative centred on a figure named Xenu.
-  - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) · [alt.religion.scientology postings](#src-0012)
+  - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) · [alt.religion.scientology postings](#src-0012) (no online copy)
   - Assessment: SRC-0010 and SRC-0011 are separate court files from unrelated cases and count as independent. SRC-0012 is not counted: the postings drew partly on court-filed material.
 
 <a id="trad-0005"></a>
@@ -189,12 +200,12 @@ Temple ceremony including covenants / signs and tokens.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) | unassessed | Compares versions of the ceremony across time. |
+| 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy) | unassessed | Compares versions of the ceremony across time. |
 
 **Claims**
 
 - `CLM-0003` *change* · **single source**: Penalty gestures were removed from the endowment ceremony. (1990)
-  - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013)
+  - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy)
   - Assessment: Only one source recorded so far; contemporary press reports would make it independently corroborated.
 
 <a id="trad-0006"></a>
@@ -219,7 +230,7 @@ The core scriptural corpus of the Druze faith.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1838 | academic research | summary |  | [Exposé de la religion des Druzes](#src-0014) | unassessed |  |
+| 1838 | academic research | summary |  | [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog)) | unassessed |  |
 
 <a id="trad-0007"></a>
 
@@ -243,12 +254,12 @@ A Sanskrit ceremony performed at instruction and a mantra given privately to eac
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1977 | court record | partial | The puja ceremony; not the individual mantras. | [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) | unassessed |  |
+| 1977 | court record | partial | The puja ceremony; not the individual mantras. | [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/)) | unassessed |  |
 
 **Claims**
 
 - `CLM-0004` *content* · **single source**: Instruction begins with a puja chanted in Sanskrit by the teacher, at which the student makes offerings. (1970s)
-  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
   - Assessment: Based on the court's findings in Malnak v. Yogi.
 
 <a id="trad-0008"></a>
@@ -271,6 +282,318 @@ Internal handbook covering congregational procedures including judicial committe
 - **Notes:** No disclosure record yet: needs a sourced entry.
 
 *No disclosure recorded yet.*
+
+<a id="trad-0009"></a>
+
+## Tibetan Buddhism (Vajrayana)
+
+`TRAD-0009` · religious branch · founded 8th century (transmission to Tibet) · Tibet / Himalaya / worldwide · active · [Wikidata `Q483889`](https://www.wikidata.org/wiki/Q483889)
+
+Tantric practice is organised by lineages of the Nyingma, Kagyu, Sakya and Gelug schools.
+
+<a id="item-0011"></a>
+
+### Highest yoga tantra empowerments and samaya commitments
+
+`ITEM-0011` · initiatory rite · currently practiced
+
+Initiation ceremonies (abhiṣeka) that authorise a disciple to practise a particular tantric deity system, together with the vows that go with them and the tantras and commentaries those practices rely on.
+
+- **Restricted to:** Disciples who have received the empowerment from a qualified teacher
+- **How:** vow, grade requirement
+- **Stated reason:** Practice without empowerment and a qualified teacher is held to be ineffective or harmful; samaya binds the disciple to secrecy
+- **Notes:** Some empowerments, such as Kālacakra, are given by the Dalai Lama to very large public audiences.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1959 | academic research | full | Translation of the Sanskrit Hevajra Tantra; not the oral instructions that accompany it. | [The Hevajra Tantra: A Critical Study](#src-0016) ([openlibrary.org](https://openlibrary.org/works/OL9330961W)) | unassessed |  |
+| 1985 | voluntary release | full | The Kālacakra initiation for the stage of generation. | [The Kālachakra Tantra: Rite of Initiation for the Stage of Generation](#src-0017) ([openlibrary.org](https://openlibrary.org/works/OL83713W)) | unassessed |  |
+
+<a id="trad-0010"></a>
+
+## Shingon Buddhism
+
+`TRAD-0010` · religious branch · founded early 9th century (Kūkai) · Japan · active · [Wikidata `Q550182`](https://www.wikidata.org/wiki/Q550182)
+
+Main centres at Mount Kōya and Tō-ji.
+
+<a id="item-0012"></a>
+
+### Kanjō (abhiṣeka) and the mantra and mudrā transmissions
+
+`ITEM-0012` · transmitted technique · currently practiced
+
+Consecration rites that admit a disciple to esoteric practice, and the mantras, hand gestures and visualisations taught under them.
+
+- **Restricted to:** Disciples consecrated by a Shingon master; full transmission only to those receiving the master's consecration (denbō kanjō)
+- **How:** vow, grade requirement, oral only
+- **Stated reason:** Esoteric teaching can only be received through direct transmission from master to disciple
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1988 | voluntary release | partial |  | [Shingon: Japanese Esoteric Buddhism](#src-0018) ([openlibrary.org](https://openlibrary.org/works/OL4979757W)) | unassessed | Written by a Shingon priest. |
+| 1999 | academic research | summary |  | [The Weaving of Mantra: Kūkai and the Construction of Esoteric Buddhist Discourse](#src-0019) ([openlibrary.org](https://openlibrary.org/works/OL1950203W)) | unassessed |  |
+
+<a id="trad-0011"></a>
+
+## Śākta Tantra (Kaula and Śrīvidyā)
+
+`TRAD-0011` · religious branch · founded c. 9th–11th century · India / Nepal · active · [Wikidata `Q849345`](https://www.wikidata.org/wiki/Q849345)
+
+Goddess-centred tantric lineages; the Wikidata item is for Shaktism as a whole.
+
+<a id="item-0013"></a>
+
+### Śrīvidyā mantra and initiation (dīkṣā)
+
+`ITEM-0013` · words of power · currently practiced
+
+The fifteen- or sixteen-syllable mantra of the goddess Lalitā Tripurasundarī and the initiations through which it is given.
+
+- **Restricted to:** Initiates of a Śrīvidyā lineage
+- **How:** vow, oral only, grade requirement
+- **Stated reason:** The mantra is regarded as the goddess herself and is held to be effective only when received from a guru
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1990 | academic research | summary | Doctrine and ritual, including the structure of the mantra. | [The Secret of the Three Cities: An Introduction to Hindu Śākta Tantrism](#src-0020) ([openlibrary.org](https://openlibrary.org/works/OL4107722W)) | unassessed |  |
+
+<a id="item-0014"></a>
+
+### Kaula ritual of the five elements (pañcatattva)
+
+`ITEM-0014` · closed liturgy · currently unknown
+
+A rite using five substances or acts conventionally forbidden in orthodox practice, interpreted literally or symbolically depending on the lineage.
+
+- **Restricted to:** Initiates gathered in a ritual circle (cakra)
+- **How:** grade requirement, social sanction
+- **Stated reason:** The rite is held to be dangerous for, or misunderstood by, the uninitiated
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/b24878376)) | unassessed |  |
+
+<a id="trad-0012"></a>
+
+## Advaita Vedānta
+
+`TRAD-0012` · religious branch · founded c. 8th century (Śaṅkara); earlier roots · India · active · [Wikidata `Q2348383`](https://www.wikidata.org/wiki/Q2348383)
+
+<a id="item-0015"></a>
+
+### Upanishads and Vedāntic instruction restricted by eligibility (adhikāra)
+
+`ITEM-0015` · restricted scripture · currently modified
+
+The Upanishads, regarded as part of the Veda, and the teaching of their meaning, which classical Advaita reserved to qualified students.
+
+- **Restricted to:** Twice-born (dvija) males studying with a teacher
+- **How:** grade requirement, oral only, social sanction
+- **Stated reason:** Only those qualified by birth and initiation are entitled to study the Veda
+- **Notes:** Restrictions by caste and gender have been widely relaxed since the 19th century.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1657 | academic research | full | Fifty Upanishads, in Persian. | [Sirr-i Akbar (The Great Secret)](#src-0022) (no online copy) | unassessed | Made for a Mughal prince, outside the Brahmanical rules of transmission. |
+| 1801 | academic research | full | The same fifty Upanishads, in Latin from the Persian. | [Oupnek'hat (id est, Secretum tegendum)](#src-0023) ([archive.org](https://archive.org/details/india.history.resource.37602)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0005` *other* · **single source**: Śaṅkara's commentary on the Brahmasūtra holds that śūdras are not entitled to study the Veda. (c. 8th century)
+  - Supported by: [The Vedānta-Sūtras with the Commentary by Śaṅkarācārya, Part I (Sacred Books of the East 34)](#src-0024) ([archive.org](https://archive.org/details/vedntasutrastr01bdar))
+  - Where: Brahmasūtra-bhāṣya 1.3.34–38
+  - Assessment: Based on the commentary's own text.
+
+<a id="trad-0013"></a>
+
+## Naqshbandi order
+
+`TRAD-0013` · religious branch · founded 14th century (Bahāʾ al-Dīn Naqshband) · Central Asia / worldwide · active · [Wikidata `Q32078`](https://www.wikidata.org/wiki/Q32078)
+
+Sunni Sufi order with many branches, including the Mujaddidi and Khalidi lines.
+
+<a id="item-0016"></a>
+
+### Initiation (bayʿa) and silent remembrance (dhikr khafī)
+
+`ITEM-0016` · transmitted technique · currently practiced
+
+The pledge by which a disciple enters the order, and the silent remembrance and related exercises the shaykh then teaches.
+
+- **Restricted to:** Disciples initiated by a shaykh of the order
+- **How:** vow, oral only
+- **Stated reason:** Litanies and methods are held to be effective only when passed down the chain of masters (silsila)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1971 | academic research | summary |  | [The Sufi Orders in Islam](#src-0025) ([openlibrary.org](https://openlibrary.org/works/OL1363002W)) | unassessed |  |
+| 2007 | academic research | summary |  | [The Naqshbandiyya: Orthodoxy and Activism in a Worldwide Sufi Tradition](#src-0026) ([openlibrary.org](https://openlibrary.org/works/OL8100048W)) | unassessed |  |
+
+<a id="trad-0014"></a>
+
+## Bektashi Order
+
+`TRAD-0014` · religious branch · founded 13th–16th century · Anatolia / Balkans · active · [Wikidata `Q467692`](https://www.wikidata.org/wiki/Q467692)
+
+Banned in Turkey with all Sufi orders in 1925; the world headquarters moved to Tirana.
+
+<a id="item-0017"></a>
+
+### Initiation (ikrar) and the ayin-i cem ceremony
+
+`ITEM-0017` · initiatory rite · currently practiced
+
+The ceremony by which a candidate is admitted to the order, and the communal rite held among initiates.
+
+- **Restricted to:** Initiated members (muhib) and dervishes
+- **How:** oath, grade requirement, social sanction
+- **Stated reason:** Keeping the order's secret (sır) is a duty of the initiate
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1937 | academic research | partial | Initiation and other rites as described in Bektashi texts and by informants. | [The Bektashi Order of Dervishes](#src-0027) ([openlibrary.org](https://openlibrary.org/works/OL3137776W)) | unassessed |  |
+
+<a id="trad-0015"></a>
+
+## Jewish esotericism (Maʿaseh Merkavah and Kabbalah)
+
+`TRAD-0015` · religious branch · founded late antiquity (Merkavah); 12th–13th century (Kabbalah) · Near East / Europe / worldwide · active · [Wikidata `Q123006`](https://www.wikidata.org/wiki/Q123006)
+
+<a id="item-0018"></a>
+
+### Maʿaseh Merkavah and Maʿaseh Bereshit
+
+`ITEM-0018` · restricted oral knowledge · currently modified
+
+Esoteric teaching on Ezekiel's vision of the divine chariot and on the account of creation, which early rabbinic law allowed to be taught only under strict conditions.
+
+- **Restricted to:** A single qualified student at a time
+- **How:** grade requirement, oral only
+- **Stated reason:** Speculation on these subjects is dangerous for the unprepared
+- **Notes:** Kabbalistic texts have been printed since the 16th century.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1941 | academic research | summary |  | [Major Trends in Jewish Mysticism](#src-0028) ([openlibrary.org](https://openlibrary.org/works/OL1264883W)) | unassessed |  |
+| 1981 | academic research | full | The Hebrew Hekhalot texts from the main manuscripts. | [Synopse zur Hekhalot-Literatur](#src-0029) ([openlibrary.org](https://openlibrary.org/works/OL33610718W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0006` *content* · **single source**: The Mishnah forbids expounding the account of the chariot even to one student, unless the student is a sage who understands on his own. (c. 200 CE)
+  - Supported by: [The Mishnah](#src-0030) ([openlibrary.org](https://openlibrary.org/works/OL42351469W))
+  - Where: Ḥagigah 2:1
+  - Assessment: Based on the Mishnah's own text.
+
+<a id="trad-0016"></a>
+
+## Eleusinian Mysteries
+
+`TRAD-0016` · mystery cult · founded by the 6th century BCE · Attica, Greece · extinct · [Wikidata `Q26314`](https://www.wikidata.org/wiki/Q26314)
+
+Ended at the close of the 4th century CE.
+
+<a id="item-0019"></a>
+
+### Rites of the Mysteries
+
+`ITEM-0019` · initiatory rite · currently discontinued
+
+What was done, said and shown to initiates in the sanctuary at Eleusis.
+
+- **Restricted to:** Initiates (mystai and epoptai)
+- **How:** social sanction
+- **Stated reason:** The rites of Demeter and Kore were not to be spoken of
+- **Notes:** Profaning the Mysteries was a criminal offence at Athens.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| c. 195 | exposure publication | partial | What Clement presents as the initiates' formula, with polemical claims about the rites. | [Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)](#src-0031) ([archive.org](https://archive.org/details/clementofalexand00clem)) | unassessed |  |
+| 1961 | academic research | summary |  | [Eleusis and the Eleusinian Mysteries](#src-0032) ([openlibrary.org](https://openlibrary.org/works/OL4397162W)) | unassessed |  |
+
+<a id="trad-0017"></a>
+
+## Mithraic Mysteries
+
+`TRAD-0017` · mystery cult · founded 1st century CE · Roman Empire · extinct · [Wikidata `Q219903`](https://www.wikidata.org/wiki/Q219903)
+
+No internal text explaining the cult survives.
+
+<a id="item-0020"></a>
+
+### Seven-grade initiation system
+
+`ITEM-0020` · initiatory rite · currently discontinued
+
+A sequence of grades through which initiates advanced, known mainly from inscriptions and images in Mithraic temples.
+
+- **Restricted to:** Initiates of each grade
+- **How:** grade requirement
+- **Stated reason:** Not recorded: no Mithraic text explaining the cult survives
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1903 | reconstruction | summary | Reconstructed from monuments, inscriptions and Christian writers. | [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog)) | unassessed |  |
+
+<a id="trad-0018"></a>
+
+## Hopi religion
+
+`TRAD-0018` · indigenous tradition · founded ancient · Arizona, United States · active
+
+Ceremonies are held by clans and religious societies in the Hopi villages. Wikidata has an item for the Hopi people (Q117255) but not for the religion.
+
+<a id="item-0021"></a>
+
+### Powamu ceremony and Katsina society initiation
+
+`ITEM-0021` · initiatory rite · currently practiced
+
+A winter ceremony in which children are initiated into the Katsina society.
+
+- **Restricted to:** Initiated members of the Katsina and Powamu societies
+- **How:** grade requirement, social sanction
+- **Stated reason:** Ceremonial knowledge belongs to the societies and clans responsible for it and may not be shared outside them
+- **Notes:** Hopi villages have restricted outsiders' access to many ceremonies and banned photography and recording.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1901 | academic research | full | The ceremony at Oraibi, with photographs. | [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth)) | unassessed |  |
+| 1936 | academic research | partial | Ceremonies at First Mesa, 1891–1894. | [Hopi Journal of Alexander M. Stephen](#src-0035) ([openlibrary.org](https://openlibrary.org/works/OL7608010W)) | unassessed |  |
+
+<a id="trad-0019"></a>
+
+## Ngarrindjeri religion
+
+`TRAD-0019` · indigenous tradition · founded ancient · Lower Murray and Coorong, South Australia · active
+
+Wikidata has an item for the Ngarrindjeri people (Q370543) but not for the religion.
+
+<a id="item-0022"></a>
+
+### Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)
+
+`ITEM-0022` · restricted oral knowledge · currently unknown
+
+Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to Hindmarsh Island, given to the federal minister's reporter in sealed envelopes marked for women only.
+
+- **Restricted to:** Ngarrindjeri women with the relevant authority
+- **How:** oral only, social sanction
+- **Stated reason:** Restricted women's knowledge that may not be disclosed to men or outsiders
+- **Notes:** Its authenticity was the subject of a Royal Commission and later litigation. The content has not been published.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1995 | court record | reference | Inquires into whether the knowledge was fabricated; does not publish it. | [Report of the Hindmarsh Island Bridge Royal Commission](#src-0036) (no online copy) | unassessed |  |
+| 1998 | academic research | reference |  | [Ngarrindjeri Wurruwarrin: A World That Is, Was, and Will Be](#src-0038) ([openlibrary.org](https://openlibrary.org/works/OL2266943W)) | unassessed |  |
+| 2001 | court record | reference | Judgment on whether the knowledge was fabricated; does not publish it. | [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0007` *other* · **contradicted**: The restricted women's knowledge about Hindmarsh Island was fabricated. (1994–1995)
+  - Supported by: [Report of the Hindmarsh Island Bridge Royal Commission](#src-0036) (no online copy)
+  - Contradicted by: [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106))
+  - Assessment: The Royal Commission (1995) concluded it was fabricated, without evidence from the women proposing it. In 2001 von Doussa J, who heard evidence from some of them, said he was not satisfied it was fabricated or that it was not part of genuine Aboriginal tradition. The two are independent bodies that heard different evidence.
 
 ## Sources
 
@@ -466,3 +789,298 @@ Internal handbook covering congregational procedures including judicial committe
 - **Notes:** Court examined the puja chant and ruled the TM course religious in nature. Linked opinion is the district court ruling (440 F. Supp. 1284).
 - **Discloses:** [Initiation puja and personal mantra](#item-0009)
 - **Cited in claims:** `CLM-0004`
+
+<a id="src-0016"></a>
+
+### The Hevajra Tantra: A Critical Study
+
+`SRC-0016` · David L. Snellgrove · 1959 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL9330961W`](https://openlibrary.org/works/OL9330961W)
+- **Notes:** Two volumes: introduction and translation; Sanskrit and Tibetan texts.
+- **Discloses:** [Highest yoga tantra empowerments and samaya commitments](#item-0011)
+
+<a id="src-0017"></a>
+
+### The Kālachakra Tantra: Rite of Initiation for the Stage of Generation
+
+`SRC-0017` · Tenzin Gyatso, the 14th Dalai Lama; Jeffrey Hopkins (ed. and trans.) · 1985 · book
+
+- **Provenance:** official release
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL83713W`](https://openlibrary.org/works/OL83713W)
+- **Notes:** Commentary on the initiation by the Dalai Lama, with translations.
+- **Discloses:** [Highest yoga tantra empowerments and samaya commitments](#item-0011)
+
+<a id="src-0018"></a>
+
+### Shingon: Japanese Esoteric Buddhism
+
+`SRC-0018` · Taikō Yamasaki · 1988 · book
+
+- **Provenance:** official release
+- **Authenticity:** unassessed
+- **Verification:** Written by a Shingon priest and scholar; not an official publication of a Shingon sect.
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL4979757W`](https://openlibrary.org/works/OL4979757W)
+- **Discloses:** [Kanjō (abhiṣeka) and the mantra and mudrā transmissions](#item-0012)
+
+<a id="src-0019"></a>
+
+### The Weaving of Mantra: Kūkai and the Construction of Esoteric Buddhist Discourse
+
+`SRC-0019` · Ryūichi Abé · 1999 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL1950203W`](https://openlibrary.org/works/OL1950203W)
+- **Discloses:** [Kanjō (abhiṣeka) and the mantra and mudrā transmissions](#item-0012)
+
+<a id="src-0020"></a>
+
+### The Secret of the Three Cities: An Introduction to Hindu Śākta Tantrism
+
+`SRC-0020` · Douglas Renfrew Brooks · 1990 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL4107722W`](https://openlibrary.org/works/OL4107722W)
+- **Discloses:** [Śrīvidyā mantra and initiation (dīkṣā)](#item-0013)
+
+<a id="src-0021"></a>
+
+### Tantra of the Great Liberation (Mahānirvāṇa Tantra)
+
+`SRC-0021` · Arthur Avalon (John Woodroffe), trans. · 1913 · book
+
+- **Provenance:** archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `b24878376`](https://archive.org/details/b24878376)
+- **Notes:** The Sanskrit text's date and authority are disputed; some scholars place it in the late 18th century.
+- **Discloses:** [Kaula ritual of the five elements (pañcatattva)](#item-0014)
+
+<a id="src-0022"></a>
+
+### Sirr-i Akbar (The Great Secret)
+
+`SRC-0022` · Dārā Shikōh · 1657 · manuscript
+
+- **Provenance:** archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Notes:** Persian translation of fifty Upanishads made with Banaras pandits.
+- **Discloses:** [Upanishads and Vedāntic instruction restricted by eligibility (adhikāra)](#item-0015)
+
+<a id="src-0023"></a>
+
+### Oupnek'hat (id est, Secretum tegendum)
+
+`SRC-0023` · Abraham Hyacinthe Anquetil-Duperron, trans. · 1801–1802 · book
+
+- **Provenance:** archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Linked copy:** 1801 edition
+- **Links:** [Internet Archive `india.history.resource.37602`](https://archive.org/details/india.history.resource.37602)
+- **Notes:** Latin translation of the Sirr-i Akbar, printed at Strasbourg; the first Upanishads published in Europe.
+- **Discloses:** [Upanishads and Vedāntic instruction restricted by eligibility (adhikāra)](#item-0015)
+
+<a id="src-0024"></a>
+
+### The Vedānta-Sūtras with the Commentary by Śaṅkarācārya, Part I (Sacred Books of the East 34)
+
+`SRC-0024` · George Thibaut, trans. · 1890 · book
+
+- **Provenance:** archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `vedntasutrastr01bdar`](https://archive.org/details/vedntasutrastr01bdar)
+- **Cited in claims:** `CLM-0005`
+
+<a id="src-0025"></a>
+
+### The Sufi Orders in Islam
+
+`SRC-0025` · J. Spencer Trimingham · 1971 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL1363002W`](https://openlibrary.org/works/OL1363002W)
+- **Discloses:** [Initiation (bayʿa) and silent remembrance (dhikr khafī)](#item-0016)
+
+<a id="src-0026"></a>
+
+### The Naqshbandiyya: Orthodoxy and Activism in a Worldwide Sufi Tradition
+
+`SRC-0026` · Itzchak Weismann · 2007 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL8100048W`](https://openlibrary.org/works/OL8100048W)
+- **Discloses:** [Initiation (bayʿa) and silent remembrance (dhikr khafī)](#item-0016)
+
+<a id="src-0027"></a>
+
+### The Bektashi Order of Dervishes
+
+`SRC-0027` · John Kingsley Birge · 1937 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL3137776W`](https://openlibrary.org/works/OL3137776W)
+- **Notes:** Draws on Bektashi manuscripts and on informants in Turkey and Albania.
+- **Discloses:** [Initiation (ikrar) and the ayin-i cem ceremony](#item-0017)
+
+<a id="src-0028"></a>
+
+### Major Trends in Jewish Mysticism
+
+`SRC-0028` · Gershom Scholem · 1941 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL1264883W`](https://openlibrary.org/works/OL1264883W)
+- **Discloses:** [Maʿaseh Merkavah and Maʿaseh Bereshit](#item-0018)
+
+<a id="src-0029"></a>
+
+### Synopse zur Hekhalot-Literatur
+
+`SRC-0029` · Peter Schäfer (ed.) · 1981 · academic
+
+- **Provenance:** archival collection
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL33610718W`](https://openlibrary.org/works/OL33610718W)
+- **Notes:** Synoptic edition of the main Hekhalot manuscripts.
+- **Discloses:** [Maʿaseh Merkavah and Maʿaseh Bereshit](#item-0018)
+
+<a id="src-0030"></a>
+
+### The Mishnah
+
+`SRC-0030` · Herbert Danby, trans. · 1933 · book
+
+- **Provenance:** official release
+- **Authenticity:** unassessed
+- **Rights:** unknown
+- **Links:** [Open Library `OL42351469W`](https://openlibrary.org/works/OL42351469W)
+- **Cited in claims:** `CLM-0006`
+
+<a id="src-0031"></a>
+
+### Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)
+
+`SRC-0031` · Clement of Alexandria; G. W. Butterworth, trans. · c. 195 · book
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Linked copy:** 1919 edition
+- **Links:** [Internet Archive `clementofalexand00clem`](https://archive.org/details/clementofalexand00clem)
+- **Notes:** Hostile Christian polemic; the author's access to the rites is not established.
+- **Discloses:** [Rites of the Mysteries](#item-0019)
+
+<a id="src-0032"></a>
+
+### Eleusis and the Eleusinian Mysteries
+
+`SRC-0032` · George E. Mylonas · 1961 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL4397162W`](https://openlibrary.org/works/OL4397162W)
+- **Notes:** Archaeology of the sanctuary and review of the ancient testimony.
+- **Discloses:** [Rites of the Mysteries](#item-0019)
+
+<a id="src-0033"></a>
+
+### The Mysteries of Mithra
+
+`SRC-0033` · Franz Cumont; Thomas J. McCormack, trans. · 1903 · book
+
+- **Provenance:** reconstruction
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `mysteriesmithra00mccogoog`](https://archive.org/details/mysteriesmithra00mccogoog)
+- **Notes:** Many of Cumont's interpretations have since been disputed.
+- **Discloses:** [Seven-grade initiation system](#item-0020)
+
+<a id="src-0034"></a>
+
+### The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)
+
+`SRC-0034` · H. R. Voth · 1901 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `oraibipowamucere03voth`](https://archive.org/details/oraibipowamucere03voth)
+- **Notes:** Voth was a Mennonite missionary at Oraibi. Hopi people have objected strongly to his publications.
+- **Discloses:** [Powamu ceremony and Katsina society initiation](#item-0021)
+
+<a id="src-0035"></a>
+
+### Hopi Journal of Alexander M. Stephen
+
+`SRC-0035` · Alexander M. Stephen; Elsie Clews Parsons (ed.) · 1936 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL7608010W`](https://openlibrary.org/works/OL7608010W)
+- **Notes:** Journals kept at First Mesa in 1891–1894.
+- **Discloses:** [Powamu ceremony and Katsina society initiation](#item-0021)
+
+<a id="src-0036"></a>
+
+### Report of the Hindmarsh Island Bridge Royal Commission
+
+`SRC-0036` · Iris Stevens (Commissioner) · 1995 · court record
+
+- **Provenance:** court filing
+- **Authenticity:** unassessed
+- **Rights:** unknown
+- **Links:** [Wikidata `Q5766130`](https://www.wikidata.org/wiki/Q5766130)
+- **Notes:** Wikidata item is for the Royal Commission. The women proposing the restricted knowledge declined to give evidence.
+- **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
+- **Cited in claims:** `CLM-0007`
+
+<a id="src-0037"></a>
+
+### Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106
+
+`SRC-0037` · Federal Court of Australia (von Doussa J) · 2001 · court record
+
+- **Provenance:** court filing
+- **Authenticity:** unassessed
+- **Rights:** court record
+- **Links:** [www.judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106)
+- **Notes:** Reported as (2001) 123 FCR 62.
+- **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
+- **Cited in claims:** `CLM-0007`
+
+<a id="src-0038"></a>
+
+### Ngarrindjeri Wurruwarrin: A World That Is, Was, and Will Be
+
+`SRC-0038` · Diane Bell · 1998 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [Open Library `OL2266943W`](https://openlibrary.org/works/OL2266943W)
+- **Notes:** Written with Ngarrindjeri women; does not publish the restricted content.
+- **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
