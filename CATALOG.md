@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-24 traditions · 29 restricted items · 58 disclosures · 61 claims · 60 sources
+26 traditions · 34 restricted items · 64 disclosures · 77 claims · 74 sources
 
 ## Traditions
 
@@ -12,12 +12,12 @@
 - [Hermetic Order of the Golden Dawn](#trad-0002) (2 items)
 - [Ordo Templi Orientis](#trad-0003) (1 item)
 - [Church of Scientology](#trad-0004) (1 item)
-- [The Church of Jesus Christ of Latter-day Saints](#trad-0005) (1 item)
+- [The Church of Jesus Christ of Latter-day Saints](#trad-0005) (2 items)
 - [Druze](#trad-0006) (1 item)
 - [Transcendental Meditation](#trad-0007) (1 item)
 - [Jehovah's Witnesses](#trad-0008) (1 item)
-- [Tibetan Buddhism (Vajrayana)](#trad-0009) (1 item)
-- [Shingon Buddhism](#trad-0010) (1 item)
+- [Tibetan Buddhism (Vajrayana)](#trad-0009) (2 items)
+- [Shingon Buddhism](#trad-0010) (2 items)
 - [Śākta Tantra (Kaula and Śrīvidyā)](#trad-0011) (2 items)
 - [Advaita Vedānta](#trad-0012) (1 item)
 - [Naqshbandi order](#trad-0013) (1 item)
@@ -32,6 +32,8 @@
 - [Alawites (Nusayris)](#trad-0022) (1 item)
 - [Brahmanical (Vedic) tradition](#trad-0023) (1 item)
 - [Shugendō](#trad-0024) (1 item)
+- [Arrernte religion](#trad-0025) (1 item)
+- [Pitjantjatjara religion](#trad-0026) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -337,6 +339,34 @@ Temple ceremony including covenants / signs and tokens.
   - Where: statement of 2 January 2019
   - Assessment: Checked against the statement on the Church News site on 2026-11-04. The church describes the ceremony as sacred rather than secret.
 
+<a id="item-0030"></a>
+
+### Church Handbook of Instructions, Book 1 (Stake Presidencies and Bishoprics)
+
+`ITEM-0030` · internal governance · currently modified
+
+The leaders' manual of church administration, including procedures for church discipline, issued to local leaders and not sold or published.
+
+- **Restricted to:** Stake presidencies and bishoprics
+- **How:** copyright claim
+- **Stated reason:** Prepared only for use within the church by its local leaders
+- **Notes:** Replaced in 2020 by an openly published General Handbook (CLM-0077).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1999 | court record | reference | Records that substantial portions were posted online by the defendants and mirrored on three other sites; does not reproduce the text | [Intellectual Reserve, Inc. v. Utah Lighthouse Ministry, Inc., 75 F. Supp. 2d 1290 (D. Utah 1999): order granting preliminary injunction](#src-0061) ([cyber.harvard.edu](https://cyber.harvard.edu/property00/metatags/ULM.html)) | probable |  (reviewed) |
+
+**Claims**
+
+- `CLM-0062` *suppression* (court injunction) · **single source** · reviewed: On 6 December 1999, at the suit of the church's intellectual-property corporation, a federal court in Utah ordered Utah Lighthouse Ministry to remove the Handbook from its website, not to reproduce or distribute it verbatim, and not to post the addresses of other sites it knew to hold the text. (1999–2000)
+  - Supported by: [Intellectual Reserve, Inc. v. Utah Lighthouse Ministry, Inc., 75 F. Supp. 2d 1290 (D. Utah 1999): order granting preliminary injunction](#src-0061) ([cyber.harvard.edu](https://cyber.harvard.edu/property00/metatags/ULM.html))
+  - Where: SRC-0061: Order, paras 1–3; section III on contributory infringement
+  - Assessment: Single court record. The defendants did not oppose an injunction, only its scope. A settlement-based permanent injunction replaced it on 30 November 2000.
+- `CLM-0077` *change* · **single source** · reviewed: On 19 February 2020 the church replaced Handbook 1 and Handbook 2 with a single General Handbook, published openly online and in the Gospel Library app, and declared the old handbooks obsolete. (2020)
+  - Supported by: [New handbook for Church leaders and members released](#src-0073) ([thechurchnews.com](https://www.thechurchnews.com/2020/2/19/23215916/new-handbook-church-leaders-members-released/))
+  - Where: SRC-0073: opening paragraphs
+  - Assessment: Church-owned source reporting the church's own release. Whether the 2020 text keeps everything that Book 1 restricted has not been compared.
+
 <a id="trad-0006"></a>
 
 ## Druze
@@ -481,6 +511,33 @@ Initiation ceremonies (abhiṣeka) that authorise a disciple to practise a parti
 | 1959 | academic research | full | Translation of the Sanskrit Hevajra Tantra; not the oral instructions that accompany it. | [The Hevajra Tantra: A Critical Study](#src-0016) ([openlibrary.org](https://openlibrary.org/works/OL9330961W)) | unassessed |  |
 | 1985 | voluntary release | full | The Kālacakra initiation for the stage of generation. | [The Kālachakra Tantra: Rite of Initiation for the Stage of Generation](#src-0017) ([openlibrary.org](https://openlibrary.org/works/OL83713W)) | unassessed |  |
 
+<a id="item-0033"></a>
+
+### Karmamudrā: sexual practice with a consort
+
+`ITEM-0033` · transmitted technique · currently practiced
+
+Use of an actual sexual partner (as distinct from a visualised one) in the completion stage of highest yoga tantra, including by lamas who were publicly monks.
+
+- **Restricted to:** Advanced tantric practitioners and their consorts
+- **How:** vow, oral only
+- **Stated reason:** Highest yoga tantra practices are bound by samaya and disclosed only to qualified initiates
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1996 | defector testimony | summary | The existence and secrecy of one lama's consort relationship; no ritual instructions | [The Emperor's Tantric Robes: An Interview with June Campbell](#src-0069) ([tricycle.org](https://tricycle.org/magazine/the-emperors-tantric-robes/)) | unassessed |  (reviewed) |
+
+**Claims**
+
+- `CLM-0071` *content* · **single source** · reviewed: June Campbell, Kalu Rinpoche's translator, says she was his secret sexual partner from her late twenties, when he was nearly seventy and regarded as a celibate monk. She says that although texts may present the consort as visualised, having an actual sexual consort was treated in practice as the most important part of the tantric path, and that both monks and married lamas kept such partners hidden. (1970s–1980s)
+  - Supported by: [The Emperor's Tantric Robes: An Interview with June Campbell](#src-0069) ([tricycle.org](https://tricycle.org/magazine/the-emperors-tantric-robes/))
+  - Where: SRC-0069: answers on her relationship, its secrecy and consort practice
+  - Assessment: Testimony. Her book (SRC-0070) is by the same witness and is not independent. The interviewer notes that Tibetan lamas called her account a fantasy; no named rebuttal is recorded yet.
+- `CLM-0072` *suppression* (community pressure) · **single source** · reviewed: Campbell says she was sworn to secrecy by Kalu Rinpoche and by a member of his entourage, and was told of a woman in a past life whom he had cursed and who then died. She compares this to the warnings abusers give their victims.
+  - Supported by: [The Emperor's Tantric Robes: An Interview with June Campbell](#src-0069) ([tricycle.org](https://tricycle.org/magazine/the-emperors-tantric-robes/))
+  - Where: SRC-0069: answers on secrecy
+  - Assessment: Testimony by one witness.
+
 <a id="trad-0010"></a>
 
 ## Shingon Buddhism
@@ -513,6 +570,38 @@ Consecration rites that admit a disciple to esoteric practice, and the mantras, 
   - Supported by: [The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane](#src-0060) ([hdl.handle.net](https://hdl.handle.net/1887/3309964))
   - Where: pp. 197–198
   - Assessment: Checked against the Leiden repository copy on 2026-11-04.
+
+<a id="item-0034"></a>
+
+### Skull ritual (dokuro honzon) attributed to the Tachikawa lineage
+
+`ITEM-0034` · transmitted technique · currently discontinued
+
+A medieval Japanese esoteric rite in which a human skull is consecrated, built up with layers of sexual fluids and lacquer, and kept for years until it is believed to speak.
+
+- **Restricted to:** Initiates receiving the secret transmission
+- **How:** oral only
+- **Stated reason:** 
+- **Notes:** Known mainly from the polemic Juhō yōjin shū by the monk Shinjō (c. 1270). Whether it belonged to the Tachikawa lineage is disputed.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 2020 | academic research | summary | Outline of the ritual steps and its promised result | [Review of Gaétan Rappo, Rhétoriques de l'hérésie dans le Japon médiéval et moderne](#src-0071) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/1524/pdf/download)) | verified |  (reviewed) |
+
+**Claims**
+
+- `CLM-0073` *content* · **single source** · reviewed: As described in medieval sources, a human skull was first empowered with aphrodisiac incense, then coated with 120 layers of mixed semen and menstrual blood, then made up to look like a woman's Noh mask with silvered teeth and painted eyes. It was kept warm and fed for seven years, after which it was expected in the eighth year to speak, teaching the practitioner the secrets of the world and granting his wishes. (13th–14th centuries)
+  - Supported by: [Review of Gaétan Rappo, Rhétoriques de l'hérésie dans le Japon médiéval et moderne](#src-0071) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/1524/pdf/download))
+  - Where: SRC-0071: pp. 177–178
+  - Assessment: Trenson summarises the ritual from the secondary literature (Moriyama 1965); the primary account is Shinjō's Juhō yōjin shū, not yet catalogued.
+- `CLM-0074` *suppression* (official condemnation) · **single source** · reviewed: Shingon polemicists, beginning with Yūkai's Hōkyōshō (1375) and continuing in later works, branded the Tachikawa lineage a sexual heresy and attached the skull ritual to it. For centuries the lineage was known mainly through these hostile accounts. (14th century onwards)
+  - Supported by: [Review of Gaétan Rappo, Rhétoriques de l'hérésie dans le Japon médiéval et moderne](#src-0071) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/1524/pdf/download))
+  - Where: SRC-0071: pp. 178–179
+  - Assessment: Claims that the lineage was outlawed and its texts burned appear in popular accounts but are not recorded here, as no source for them has been read.
+- `CLM-0075` *other* · **single source** · reviewed: Recent scholarship led by Iyanaga Nobumi separates the skull ritual from the Tachikawa lineage proper, treating their combination as a product of the polemics. (2004 onwards)
+  - Supported by: [Review of Gaétan Rappo, Rhétoriques de l'hérésie dans le Japon médiéval et moderne](#src-0071) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/1524/pdf/download))
+  - Where: SRC-0071: p. 179
+  - Assessment: Trenson reports Iyanaga's findings; Iyanaga's own articles are not yet catalogued.
 
 <a id="trad-0011"></a>
 
@@ -561,6 +650,7 @@ A rite using five substances or acts conventionally forbidden in orthodox practi
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077)) | unassessed |  |
+| 2003 | academic research | partial | Reconstruction of the early Kaula fluid-exchange rite from Sanskrit sources, with translations | [Kiss of the Yoginī: "Tantric Sex" in Its South Asian Contexts](#src-0068) ([openlibrary.org](https://openlibrary.org/isbn/0226894835)) | unassessed | Coverage as described in SRC-0067. |
 
 **Claims**
 
@@ -568,6 +658,18 @@ A rite using five substances or acts conventionally forbidden in orthodox practi
   - Supported by: [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077))
   - Where: ch. VI, vv. 1–14 (1913 ed., pp. 103–104)
   - Assessment: Checked against the Internet Archive text on 2026-11-04. Read from the readable copy of the same 1913 edition (ia:dli.ernet.205077). The text treats the elements as literal substances, with restrictions.
+- `CLM-0068` *content* · **single source** · reviewed: In White's reconstruction, the earliest Kaula rites propitiated the Yoginīs by exchanging sexual and menstrual fluids with them and swallowing those fluids as power substances, in return for an expansion of consciousness and supernatural powers such as flight. (c. 9th–11th centuries)
+  - Supported by: [Tantric bodies (review of David Gordon White, Kiss of the Yogini)](#src-0067) ([gaudiyadiscussions.gaudiya.com](https://gaudiyadiscussions.gaudiya.com/topic_2049.html))
+  - Where: SRC-0067: paras 3–4
+  - Assessment: SRC-0067 reports SRC-0068's argument; the two are not independent. Doniger notes that White shows the texts prescribe these acts but cannot prove they were performed.
+- `CLM-0069` *content* · **single source** · reviewed: White reads mudrā in the five Ms as the consort's vulva and the fluids from it, and maithuna as the fluid product of intercourse rather than intercourse itself. He traces the five Ms to an earlier Kaula pentad of semen, urine, faeces, menstrual blood and phlegm (or marrow), which he takes as a reversal of the orthodox five products of the cow.
+  - Supported by: [Tantric bodies (review of David Gordon White, Kiss of the Yogini)](#src-0067) ([gaudiyadiscussions.gaudiya.com](https://gaudiyadiscussions.gaudiya.com/topic_2049.html))
+  - Where: SRC-0067: paras 10–11
+  - Assessment: Reported through SRC-0067. Doniger notes that not every scholar accepts these readings.
+- `CLM-0070` *suppression* (apologetic reinterpretation) · **single source** · reviewed: From the eleventh century, Brahmin theologians led by Abhinavagupta set aside the consumption of fluids and recast the rite as meditation and a blissful expansion of consciousness. That metaphorical reading became dominant, and Hindu nationalist groups now press it as the only acceptable view, while the literal practice survives among groups such as the Bauls. (11th century to present)
+  - Supported by: [Tantric bodies (review of David Gordon White, Kiss of the Yogini)](#src-0067) ([gaudiyadiscussions.gaudiya.com](https://gaudiyadiscussions.gaudiya.com/topic_2049.html))
+  - Where: SRC-0067: paras 5–7, 9 and 16–18
+  - Assessment: Doniger's review, reporting and endorsing White's argument. A defender of the metaphorical reading would contradict it; none is recorded yet.
 
 <a id="trad-0012"></a>
 
@@ -801,6 +903,10 @@ A winter ceremony in which children are initiated into the Katsina society.
   - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
   - Where: p. 120
   - Assessment: Checked against the Internet Archive text on 2026-11-04. SRC-0035 (Stephen's First Mesa journal) is a candidate for independent corroboration.
+- `CLM-0067` *suppression* (community pressure) · **single source** · reviewed: In 1994 the chairman of the Hopi Tribe wrote to dozens of museums and archives asking them to close Hopi collections to researchers without the tribe's written permission. Tribal leaders singled out H. R. Voth's photographs and field notes as harmful because they made esoteric ritual knowledge public. The Mennonite Library and Archives at Bethel College, a major holder of Voth material, still granted permission to publish a Voth photograph in 1998. (1994–1998)
+  - Supported by: [Cultural Records in Question: Information and Its Moral Dilemmas](#src-0066) ([web.archive.org](https://web.archive.org/web/20090109071033/http://crm.cr.nps.gov/archive/21-6/21-6-5.pdf))
+  - Where: SRC-0066: p. 18 (the 1994 letter); p. 19 (Voth and Bethel College)
+  - Assessment: Brown's account draws on his interviews at the Hopi Cultural Preservation Office in 1997. The letter itself has not been located.
 
 <a id="trad-0019"></a>
 
@@ -968,6 +1074,10 @@ The staged initiation of young men into the religion and the teaching they then 
   - Supported by: [Notice of the Book of Sulaimân's First Ripe Fruit, Disclosing the Mysteries of the Nusairian Religion](#src-0056) ([archive.org](https://archive.org/details/jstor-592241))
   - Where: p. 229
   - Assessment: Checked against the Internet Archive text on 2026-11-04. Al-Adhani's explanation, as given by Salisbury.
+- `CLM-0076` *suppression* (community pressure) · **insufficient** · reviewed: Sulaymān al-Adhanī, who printed the Alawite secret texts in Kitāb al-Bākūra (Beirut, 1863), is said to have been assassinated by Alawites in Tarsus. (after 1863)
+  - Supported by: [The Kitab al-Majmu' and some early Western sources](#src-0072) ([aymennjawad.org](https://aymennjawad.org/24166/the-kitab-al-majmu-and-some-early-western))
+  - Where: SRC-0072: section on the author's identity, quoting Dussaud, Histoire et religion des Nosairîs (1900), pp. XIII–XIV
+  - Assessment: The only report found is an unnamed Nusayri informant quoted by Dussaud, who said al-Adhanī 'must have been' killed. Some modern Alawite writers instead call al-Adhanī an invention of missionaries and the Kitāb al-Majmūʿ a forgery.
 
 <a id="trad-0023"></a>
 
@@ -1043,6 +1153,77 @@ Secret lore and consecrations given at the end of a period of ascetic practice i
   - Supported by: [Religious Rituals in Shugendō: A Summary](#src-0059) ([nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/750/pdf/download))
   - Where: p. 103
   - Assessment: Checked against the publisher's PDF on 2026-11-04.
+
+<a id="trad-0025"></a>
+
+## Arrernte religion
+
+`TRAD-0025` · indigenous tradition · founded ancient · Central Australia (Northern Territory) · active
+
+Also spelled Aranda. Ceremonies, songs and sacred objects (tjurunga) are held by men and women of the relevant estates and degree of initiation.
+
+<a id="item-0032"></a>
+
+### Men's secret-sacred ceremonies, songs and tjurunga in the Strehlow Collection
+
+`ITEM-0032` · restricted oral knowledge · currently practiced
+
+Ceremonies, song verses, films, sound recordings and sacred objects recorded or collected by T. G. H. Strehlow from about 1932 to the 1970s.
+
+- **Restricted to:** Initiated men of the relevant estates and their authorised custodians
+- **How:** grade requirement, social sanction
+- **Stated reason:** Ceremonial knowledge belongs to its custodians and is restricted by gender and initiation
+- **Notes:** Much of the song material was published by Strehlow in Songs of Central Australia (1971).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1971 | academic research | partial | Ceremonial song verses with translations; not the films, objects or full ceremonies | [Songs of Central Australia](#src-0065) (no online copy) | unassessed |  |
+
+**Claims**
+
+- `CLM-0066` *suppression* (archive restricted) · **single source** · reviewed: The Northern Territory Government, which owns the Strehlow Collection, says a significant part of it relates to men's-only sacred and secret ceremonies. Access is decided by the Strehlow Centre Board, and many items may be seen only by the appropriate traditional custodians or by people acting with their consent. (as of 2026)
+  - Supported by: [Strehlow Research Centre](#src-0064) ([nt.gov.au](https://nt.gov.au/leisure/arts-culture-heritage/organisations-and-venues/museums-galleries-art-centres/alice-springs/strehlow-research-centre))
+  - Where: SRC-0064: sections on the collection and on access
+  - Assessment: Official statement by the owner of the collection.
+
+<a id="trad-0026"></a>
+
+## Pitjantjatjara religion
+
+`TRAD-0026` · indigenous tradition · founded ancient · Western Desert (north-west South Australia, south-west Northern Territory, eastern Western Australia) · active
+
+Also spelled Pitjantjara. Shares much restricted knowledge with neighbouring Western Desert peoples.
+
+<a id="item-0031"></a>
+
+### Men's restricted ceremonies, sites and designs recorded by C. P. Mountford
+
+`ITEM-0031` · restricted oral knowledge · currently practiced
+
+Knowledge of sacred sites and objects, paintings and rock engravings explained to Mountford in confidence during fieldwork in 1940, which he recorded and photographed and printed in Nomads of the Australian Desert (1976).
+
+- **Restricted to:** Initiated Pitjantjatjara men
+- **How:** social sanction
+- **Stated reason:** Knowledge given in confidence and not to be seen by women, children or uninitiated men
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1976 | academic research | partial | Descriptions and photographs of sacred sites and objects, paintings and rock engravings | [Nomads of the Australian Desert](#src-0062) (no online copy) | unassessed | The book has not been read for this dataset; coverage is as described in SRC-0074 and SRC-0063. |
+
+**Claims**
+
+- `CLM-0063` *suppression* (court injunction, publication withdrawn) · **single source** · reviewed: In 1976 Justice James Muirhead of the Northern Territory Supreme Court, on an ex parte application by members of the Pitjantjatjara Council heard in chambers, applied the equitable law of confidential information to restrain the book's sale, display and distribution in the Northern Territory. He called the book a magnificent publication but found that the plaintiffs would suffer damage and dislocation if its confidential material reached the uninitiated. The publisher Rigby then withdrew it; about 2,000 copies had been sold, several hundred were destroyed in a warehouse fire, and the rest were bought by the Aboriginal Arts Board. (1976)
+  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html))
+  - Where: SRC-0063: paras 2–3 and 11–16; SRC-0074: section 'Case law', text at notes 131–133 (citing 29 FLR 233 at 236)
+  - Assessment: SRC-0074 (a Federal Court judge's paper) and SRC-0063 (journalism) agree on the court, judge, ex parte procedure, legal basis and territorial scope. They are not counted as independent because both rest on the same judgment, which has not been read for this dataset. The withdrawal and the figures for copies sold, burned and bought come from SRC-0063 alone, given as 'understood' without a source. SRC-0074 notes the case has limited weight as precedent because it was heard ex parte.
+- `CLM-0064` *stated reason* · **single source** · reviewed: The plaintiffs said the knowledge had been explained to Mountford in confidence by Pitjantjatjara people during his 1940 fieldwork, more than 35 years earlier, and was restricted by gender and initiation, so that publishing it breached a duty of confidence. They claimed to represent all Aboriginal people living on Pitjantjatjara traditional lands. (1976)
+  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html))
+  - Where: SRC-0063: paras 14–15; SRC-0074: section 'Case law', text at note 132
+  - Assessment: Both sources report the plaintiffs' case as recorded in the judgment, so they are not independent. Few, if any, of the original informants were alive in 1976 (SRC-0063).
+- `CLM-0065` *other* · **single source** · reviewed: The injunction has effect only in the Northern Territory. As of 2019 the book was held by at least 70 Australian libraries and offered by booksellers in Australia and abroad. (as of 2019)
+  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/))
+  - Where: SRC-0063: paras 3 and 17–19
+  - Assessment: Library count from the author's search of the National Library of Australia catalogue.
 
 ## Sources
 
@@ -1844,3 +2025,190 @@ Secret lore and consecrations given at the end of a period of ascetic practice i
 - **Notes:** Chapter 9 of Fabio Rambelli and Or Porath (eds.), Rituals of Initiation and Consecration in Premodern Japan (De Gruyter, 2022), pp. 197–228. Free copy in the Leiden University repository.
 - **Discloses:** [Kanjō (abhiṣeka) and the mantra and mudrā transmissions](#item-0012)
 - **Cited in claims:** `CLM-0061`
+
+<a id="src-0061"></a>
+
+### Intellectual Reserve, Inc. v. Utah Lighthouse Ministry, Inc., 75 F. Supp. 2d 1290 (D. Utah 1999): order granting preliminary injunction
+
+`SRC-0061` · US District Court for the District of Utah (Tena Campbell, J.) · 1999 · court record
+
+- **Provenance:** court filing
+- **Authenticity:** probable
+- **Verification:** Text read on the Berkman Klein Center course page on 2026-11-04; it matches the reported citation, docket 2:99-CV-808C and date of 6 December 1999 given in secondary accounts.
+- **Rights:** court record
+- **Links:** [cyber.harvard.edu](https://cyber.harvard.edu/property00/metatags/ULM.html)
+- **Notes:** Defendants were Utah Lighthouse Ministry and its operators Jerald and Sandra Tanner. Replaced on 30 November 2000 by a permanent injunction based on a settlement.
+- **Discloses:** [Church Handbook of Instructions, Book 1 (Stake Presidencies and Bishoprics)](#item-0030)
+- **Cited in claims:** `CLM-0062`
+
+<a id="src-0062"></a>
+
+### Nomads of the Australian Desert
+
+`SRC-0062` · Charles P. Mountford · 1976 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Published by Rigby, Adelaide. Withdrawn from sale after Foster v Mountford (1976) 29 FLR 233, also reported as 14 ALR 71; copies remain in libraries and the second-hand trade.
+- **Discloses:** [Men's restricted ceremonies, sites and designs recorded by C. P. Mountford](#item-0031)
+
+<a id="src-0063"></a>
+
+### Why a banned book of sacred Indigenous knowledge is still available for sale
+
+`SRC-0063` · Bob Gosford · 2019 · website
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [www.crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)
+- **Notes:** Crikey, 26 July 2019; an edited excerpt from the author's Northern Myth blog. Read on 2026-11-04.
+- **Cited in claims:** `CLM-0063` · `CLM-0064` · `CLM-0065`
+
+<a id="src-0064"></a>
+
+### Strehlow Research Centre
+
+`SRC-0064` · Northern Territory Government · website
+
+- **Provenance:** archival collection
+- **Authenticity:** verified
+- **Verification:** Official page of the government that owns the collection; read on 2026-11-04.
+- **Rights:** unknown
+- **Links:** [nt.gov.au](https://nt.gov.au/leisure/arts-culture-heritage/organisations-and-venues/museums-galleries-art-centres/alice-springs/strehlow-research-centre)
+- **Notes:** States the collection's access rules.
+- **Cited in claims:** `CLM-0066`
+
+<a id="src-0065"></a>
+
+### Songs of Central Australia
+
+`SRC-0065` · T. G. H. Strehlow · 1971 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Published by Angus and Robertson, Sydney. A study of Arrernte and neighbouring peoples' ceremonial song verses, with texts and translations.
+- **Discloses:** [Men's secret-sacred ceremonies, songs and tjurunga in the Strehlow Collection](#item-0032)
+
+<a id="src-0066"></a>
+
+### Cultural Records in Question: Information and Its Moral Dilemmas
+
+`SRC-0066` · Michael F. Brown · 1998 · periodical
+
+- **Provenance:** academic fieldwork → scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [web.archive.org](https://web.archive.org/web/20090109071033/http://crm.cr.nps.gov/archive/21-6/21-6-5.pdf)
+- **Notes:** CRM (US National Park Service) 21, no. 6 (1998), pp. 18–20. Draws on the author's November 1997 interviews at the Hopi Cultural Preservation Office. Read via the Wayback Machine on 2026-11-04.
+- **Cited in claims:** `CLM-0067`
+
+<a id="src-0067"></a>
+
+### Tantric bodies (review of David Gordon White, Kiss of the Yogini)
+
+`SRC-0067` · Wendy Doniger · 2004 · periodical
+
+- **Provenance:** scholarship
+- **Authenticity:** probable
+- **Verification:** Read in a full repost of 5 August 2004 that gives the TLS heading, date and book details; not yet checked against the TLS archive.
+- **Rights:** copyrighted
+- **Links:** [gaudiyadiscussions.gaudiya.com](https://gaudiyadiscussions.gaudiya.com/topic_2049.html)
+- **Notes:** Times Literary Supplement, 20 May 2004.
+- **Cited in claims:** `CLM-0068` · `CLM-0069` · `CLM-0070`
+
+<a id="src-0068"></a>
+
+### Kiss of the Yoginī: "Tantric Sex" in Its South Asian Contexts
+
+`SRC-0068` · David Gordon White · 2003 · book
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [ISBN `0226894835`](https://openlibrary.org/isbn/0226894835)
+- **Notes:** University of Chicago Press. Not yet read directly for this dataset; its arguments are recorded here through SRC-0067.
+- **Discloses:** [Kaula ritual of the five elements (pañcatattva)](#item-0014)
+
+<a id="src-0069"></a>
+
+### The Emperor's Tantric Robes: An Interview with June Campbell
+
+`SRC-0069` · Helen Tworkov (interviewer); June Campbell · 1996 · testimony
+
+- **Provenance:** defector account
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [tricycle.org](https://tricycle.org/magazine/the-emperors-tantric-robes/)
+- **Notes:** Tricycle: The Buddhist Review, Winter 1996; interview held in New York in June 1996. Read on 2026-11-04.
+- **Discloses:** [Karmamudrā: sexual practice with a consort](#item-0033)
+- **Cited in claims:** `CLM-0071` · `CLM-0072`
+
+<a id="src-0070"></a>
+
+### Traveller in Space: In Search of Female Identity in Tibetan Buddhism
+
+`SRC-0070` · June Campbell · 1996 · book
+
+- **Provenance:** defector account → scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Published by Athlone (London) and George Braziller (New York). The author was Kalu Rinpoche's translator and, by her account, his secret consort.
+
+<a id="src-0071"></a>
+
+### Review of Gaétan Rappo, Rhétoriques de l'hérésie dans le Japon médiéval et moderne
+
+`SRC-0071` · Steven Trenson · 2020 · academic
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** Read in the publisher's PDF on 2026-11-04.
+- **Rights:** copyrighted
+- **Links:** [nirc.nanzan-u.ac.jp](https://nirc.nanzan-u.ac.jp/journal/6/article/1524/pdf/download)
+- **Notes:** Japanese Journal of Religious Studies 47/1 (2020), pp. 177–182.
+- **Discloses:** [Skull ritual (dokuro honzon) attributed to the Tachikawa lineage](#item-0034)
+- **Cited in claims:** `CLM-0073` · `CLM-0074` · `CLM-0075`
+
+<a id="src-0072"></a>
+
+### The Kitab al-Majmu' and some early Western sources
+
+`SRC-0072` · Aymenn Jawad al-Tamimi · 2020 · website
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [aymennjawad.org](https://aymennjawad.org/24166/the-kitab-al-majmu-and-some-early-western)
+- **Notes:** Reviews the printing of al-Adhani's Kitab al-Bakura (Beirut, 1863), early Western accounts of its author, and Alawite responses. Read on 2026-11-04.
+- **Cited in claims:** `CLM-0076`
+
+<a id="src-0073"></a>
+
+### New handbook for Church leaders and members released
+
+`SRC-0073` · Sarah Jane Weaver · 2020 · newspaper
+
+- **Provenance:** official release
+- **Authenticity:** verified
+- **Verification:** Church News, the church-owned news service; read on 2026-11-04.
+- **Rights:** copyrighted
+- **Links:** [www.thechurchnews.com](https://www.thechurchnews.com/2020/2/19/23215916/new-handbook-church-leaders-members-released/)
+- **Notes:** 19 February 2020.
+- **Cited in claims:** `CLM-0077`
+
+<a id="src-0074"></a>
+
+### Legal protection of indigenous culture in Australia
+
+`SRC-0074` · Ronald Sackville (Justice, Federal Court of Australia) · 2002 · academic
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** Read on 2026-11-04 from a copy of the AustLII page that the maintainer opened and pasted in; AustLII blocks automated access. Citation [2002] FedJSchol 1.
+- **Rights:** copyrighted
+- **Links:** [www.austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html)
+- **Notes:** Paper given at the 'Traditional Knowledge, Intellectual Property and Indigenous Culture' conference, Benjamin N. Cardozo School of Law, New York, 21–22 February 2002. Discusses Foster v Mountford in the section 'Case law', citing (1976) 29 FLR 233.
+- **Cited in claims:** `CLM-0063` · `CLM-0064`

@@ -496,7 +496,7 @@
           {
             "name": "claim_type",
             "type": "string",
-            "description": "What kind of assertion this is. content: what the item contains; historical_practice: that it was actually practiced in a period; current_practice: that it is practiced today; change: that it was modified or discontinued; stated_reason: the reason the tradition itself gives for restricting it.",
+            "description": "What kind of assertion this is. content: what the item contains; historical_practice: that it was actually practiced in a period; current_practice: that it is practiced today; change: that it was modified or discontinued; stated_reason: the reason the tradition itself gives for restricting it; suppression: that the item, or published knowledge of it, was withdrawn, restricted, suppressed or played down after it came out, with the method in suppression_method.",
             "constraints": {
               "required": true,
               "enum": [
@@ -505,7 +505,25 @@
                 "current_practice",
                 "change",
                 "stated_reason",
+                "suppression",
                 "other"
+              ]
+            }
+          },
+          {
+            "name": "suppression_method",
+            "type": "string",
+            "description": "Only for claims of type suppression, where it is required. How it was done, semicolon-separated: court_injunction (a court order stopped publication or distribution), publication_withdrawn (a publisher or author pulled the work), archive_restricted (an archive, museum or library closed access), scholarly_self_censorship (scholars withheld or blurred material they had), official_denial_later_admitted (the tradition denied something it later acknowledged), official_condemnation (a religious or state authority condemned the teaching as heresy or banned it, so that it survives mainly through its opponents), apologetic_reinterpretation (a literal practice recast as symbolic or allegorical), community_pressure (protests, threats or sanctions against publication).",
+            "constraints": {
+              "enum_list": [
+                "court_injunction",
+                "publication_withdrawn",
+                "archive_restricted",
+                "scholarly_self_censorship",
+                "official_denial_later_admitted",
+                "official_condemnation",
+                "apologetic_reinterpretation",
+                "community_pressure"
               ]
             }
           },
