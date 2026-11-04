@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 39 disclosures · 7 claims · 38 sources
+19 traditions · 22 restricted items · 43 disclosures · 30 claims · 42 sources
 
 ## Traditions
 
@@ -57,13 +57,25 @@ The three ceremonies through which a candidate becomes a Master Mason including 
 | 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) ([archive.org](https://archive.org/details/bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785)) | unassessed |  |
 | 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) ([archive.org](https://archive.org/details/bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776)) | unassessed |  |
 | 1826 | defector testimony | full |  | [Illustrations of Masonry](#src-0005) ([archive.org](https://archive.org/details/illustrationsofm00morg)) | unassessed | Author was a self-described former member. |
-| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/duncansmasonicri00dunc)) | unassessed |  |
+| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan)) | unassessed |  |
 
 **Claims**
 
 - `CLM-0001` *historical practice* · **single source**: A three-degree system ending in the Master Mason degree was being worked in English lodges. (by 1730)
   - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
   - Assessment: Prichard's exposure describes the third degree; no second independent source is recorded yet.
+- `CLM-0008` *content* · **single source**: In the Entered Apprentice obligation the candidate promises not to write, print, carve or engrave the secrets, under a penalty of having his throat cut, his tongue taken from the roof of his mouth and his heart plucked out, these to be buried in the sea sands a cable's length from shore, and his body burnt and the ashes scattered. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Enter'd 'Prentice's Part, pp. 11–12
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0009` *content* · **single source**: In the Entered Apprentice obligation the candidate swears under a penalty of having his throat cut across, his tongue torn out by its roots and his body buried in the rough sands of the sea at low-water mark. (1860s (United States))
+  - Supported by: [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan))
+  - Where: p. 35
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Pagination is that of the Dick & Fitzgerald third edition as marked in the open transcription. Not counted as corroborating the 1730 wording: Duncan may draw on earlier exposures.
+- `CLM-0010` *content* · **single source**: The Master's Part tells how Hiram was killed by three Fellow-Crafts with a setting maul, setting tool and setting beadle, hidden under rubbish and then buried on the brow of a hill, and found fifteen days later by fifteen brethren when a shrub came away easily from the disturbed ground; a sprig of cassia was placed at the head of the grave. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Master's Part, pp. 25–27
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
 
 <a id="item-0002"></a>
 
@@ -81,6 +93,21 @@ Gestures and words used by members to identify each other by degree.
 |---|---|---|---|---|---|---|
 | 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no online copy) | unassessed |  |
 | 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0011` *content* · **single source**: The Entered Apprentice sign is made by drawing the four fingers of the right hand across the throat; the token is the ball of the thumb pressed on the first knuckle of the other's forefinger; the words Boaz and Jachin, the two pillars of Solomon's porch, are given by lettering them alternately. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Enter'd 'Prentice's Part
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The OCR does not preserve page numbers for this part.
+- `CLM-0012` *content* · **single source**: The Master's word, Machbenah, said to mean 'the builder is smitten', is whispered in the ear while the two men stand on the Five Points of Fellowship: hand to hand, foot to foot, cheek to cheek, knee to knee and hand in back. (1730)
+  - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
+  - Where: Master's Part, pp. 27–28
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0013` *content* · **single source**: The pass-word of the Fellow Craft degree is Shibboleth and that of the Master Mason degree is Tubal Cain; the grand word of the Master Mason degree, Mah-Hah-Bone, is given in low breath on the Five Points of Fellowship. (1860s (United States))
+  - Supported by: [Duncan's Masonic Ritual and Monitor](#src-0006) ([archive.org](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan))
+  - Where: pp. 60, 89, 120
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Pagination is that of the Dick & Fitzgerald third edition as marked in the open transcription.
 
 <a id="trad-0002"></a>
 
@@ -106,6 +133,21 @@ Ceremonial initiations for the Outer and Inner Order grades.
 |---|---|---|---|---|---|---|
 | c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) (no online copy) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
 | 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([openlibrary.org](https://openlibrary.org/works/OL1989588W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0021` *content* · **single source**: In the Neophyte obligation the candidate pledges to keep secret the Order, its name, its members' names and its proceedings, and to study the occult sciences, under a penalty of submitting to a deadly current of will set in motion by the chiefs that would strike him dead or paralysed as if by lightning; the Hiereus touches him with a sword as the penalty is spoken. (1909 (as published); Golden Dawn practice of the 1890s)
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, 'The Temple of Solomon the King', pp. 253–254
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently. A footnote says a later version, issued after the Horos scandal, softened the penalty wording.
+- `CLM-0022` *content* · **single source**: The hoodwinked candidate, bound with a rope, is led round the temple, barred by the Kerux, purified with water and consecrated with fire, and challenged by the Hiereus, before the hoodwink is removed and the three chief officers receive him with the words 'Khabs Am Pekht'; the Hiereus then entrusts the signs, grip, grand word and current password, which this account does not print. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, pp. 254–257
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
+- `CLM-0023` *content* · **single source**: After the admission the penalty is illustrated by a liquid that turns the colour of blood, and the ceremony closes with the words 'Khabs Am Pekht', 'Konx Om Pax' and 'Light in Extension'. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
+  - Where: No. II, pp. 259–260
+  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
 
 <a id="item-0004"></a>
 
@@ -168,14 +210,33 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) | unassessed | Also widely reported in the press during the trial. |
+| 1987 | journalism | summary | Outline of the OT III story | [Scientology – The Road to Total Freedom? (Panorama)](#src-0040) (no online copy) | unassessed | Broadcast 27 April 1987. |
 | 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) | unassessed |  |
 | c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) (no online copy) | unassessed |  |
+| c. 1996 | journalism | partial | Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions | [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html)) | unassessed | Spaink withdrew the full text on legal advice and published this summary instead. |
+| c. 2009 | leak | partial | Hubbard's spoken account of the incident behind OT III, as given to Class VIII students | [Class VIII Course, Lecture No. 10: Assists](#src-0039) (no online copy) | unassessed | Lecture recorded in 1968; date of first public release unknown. Year is when Anonymous publicised the recording. |
 
 **Claims**
 
 - `CLM-0002` *content* · **independently corroborated**: The OT III materials contain a cosmological narrative centred on a figure named Xenu.
   - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) (no online copy) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no online copy) · [alt.religion.scientology postings](#src-0012) (no online copy)
   - Assessment: SRC-0010 and SRC-0011 are separate court files from unrelated cases and count as independent. SRC-0012 is not counted: the postings drew partly on court-filed material.
+- `CLM-0024` *content* · **single source**: OT III describes Xenu, head of a Galactic Federation of 76 planets founded 95 million years ago, solving overpopulation by having people brought to Earth (called Teegeeack), placed by volcanoes and destroyed with hydrogen bombs; this is called Incident II. Xenu was later captured by loyal officers after a six-year battle and imprisoned in an electronic mountain trap. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: Hubbard's handwritten summary, as quoted by Spaink from Wakefield, The Road to Xenu, pp. 76–77; OT III p. 79
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0025` *content* · **single source**: After the explosions the disembodied beings (thetans) were subjected to more than 36 days of implanted pictures, including God, the Devil, angels, space opera, trains, helicopters and scenes resembling modern England, collectively called R6, and were then taken to Hawaii or Las Palmas and packaged into clusters. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: OT III pp. 79–80, 99
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0026` *content* · **single source**: OT III also describes Incident I, set four quadrillion years ago at the start of the 'track', as a sequence of a loud snap, waves of light, a chariot, a cherub blowing a horn, further snaps and blackness. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: OT III pp. 99–100
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
+- `CLM-0027` *content* · **single source**: The OT III procedure holds that a person's body is covered with clusters of these thetans (body thetans), which the student must audit one at a time through Incidents II and I; Hubbard warns that running the implant incorrectly can kill, for example by pneumonia, and says he himself went through it in December 1967. (written c. 1967)
+  - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
+  - Where: Hubbard's handwritten summary, as quoted by Spaink
+  - Assessment: Checked on 2026-11-04 against Karin Spaink's quotations of the OT III pages filed in the Fishman case (SRC-0042), not the exhibit itself; locators are the filing's page numbers as she gives them.
 
 <a id="trad-0005"></a>
 
@@ -201,6 +262,7 @@ Temple ceremony including covenants / signs and tokens.
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy) | unassessed | Compares versions of the ceremony across time. |
+| c. 2017 | leak | partial | Extent not yet established; which ordinances are recorded still needs checking | [Hidden-camera recordings of LDS temple ordinances](#src-0041) (no online copy) | unassessed | Covert video recordings made during the ceremony itself, not reconstructed from memory or text. |
 
 **Claims**
 
@@ -232,6 +294,21 @@ The core scriptural corpus of the Druze faith.
 |---|---|---|---|---|---|---|
 | 1838 | academic research | summary |  | [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog)) | unassessed |  |
 
+**Claims**
+
+- `CLM-0028` *content* · **single source**: The Druze books teach that God, who cannot be grasped by the senses or defined in words, has appeared to people at various times in human form, last as the Fatimid caliph al-Ḥākim bi-Amr Allāh at the start of the fifth century AH; that al-Ḥākim disappeared in 411 AH to test the faithful; and that he will return to triumph over his enemies. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. i–ii
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+- `CLM-0029` *content* · **single source**: They teach that the Universal Intelligence, God's first creation, appeared in the time of al-Ḥākim as Ḥamza ibn Aḥmad, through whom all other creatures were made and who is the sole channel of religious knowledge and the only mediator with God. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. ii–iii
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+- `CLM-0030` *content* · **single source**: They teach that the number of human beings is always the same and that souls pass successively into different bodies; that believers must keep Ḥamza's seven commandments, chiefly truthfulness, charity towards fellow believers, renunciation of their former religion, and submission to God's will; and that all earlier religions were imperfect figures of the true one, whose ritual laws are allegories now abrogated. (11th century (texts); summary published 1838)
+  - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
+  - Where: vol. 1, Introduction, pp. iii–iv
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+
 <a id="trad-0007"></a>
 
 ## Transcendental Meditation
@@ -261,6 +338,14 @@ A Sanskrit ceremony performed at instruction and a mantra given privately to eac
 - `CLM-0004` *content* · **single source**: Instruction begins with a puja chanted in Sanskrit by the teacher, at which the student makes offerings. (1970s)
   - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
   - Assessment: Based on the court's findings in Malnak v. Yogi.
+- `CLM-0014` *content* · **single source**: Each student received a mantra individually at a puja held in a closed room with only the teacher present, having brought a white handkerchief, flowers and fruit, before a table holding a picture of Guru Dev; a week or two earlier the student signed a promise never to reveal the mantra. (1970s)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
+  - Where: 440 F. Supp. at 1305
+  - Assessment: Checked against the opinion text on CourtListener on 2026-11-04. These are the court's findings of undisputed fact.
+- `CLM-0015` *content* · **single source**: In the English translation of the puja chant supplied by the defendants, the teacher offers a series of items (a seat, ablution, cloth, sandalpaste, rice, a flower, incense, light, water, fruit, a betel leaf, a coconut and camphor light) to the lotus feet of Shri Guru Dev, bowing down after each. (1970s)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) ([courtlistener.com](https://www.courtlistener.com/opinion/1817490/malnak-v-yogi/))
+  - Where: 440 F. Supp. at 1306–1307
+  - Assessment: Checked against the opinion text on CourtListener on 2026-11-04. Complements CLM-0004.
 
 <a id="trad-0008"></a>
 
@@ -372,7 +457,14 @@ A rite using five substances or acts conventionally forbidden in orthodox practi
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/b24878376)) | unassessed |  |
+| 1913 | academic research | full | The form of the rite prescribed by the Mahānirvāṇa Tantra. | [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0016` *content* · **single source**: The text names the five elements of worship as wine, meat, fish, parched grain and woman, ranks the kinds of each, says wine taken without the accompanying purificatory food is like poison, and holds that in the Kali age the fifth element should be only the practitioner's own wife.
+  - Supported by: [Tantra of the Great Liberation (Mahānirvāṇa Tantra)](#src-0021) ([archive.org](https://archive.org/details/dli.ernet.205077))
+  - Where: ch. VI, vv. 1–14 (1913 ed., pp. 103–104)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Read from the readable copy of the same 1913 edition (ia:dli.ernet.205077). The text treats the elements as literal substances, with restrictions.
 
 <a id="trad-0012"></a>
 
@@ -511,6 +603,13 @@ What was done, said and shown to initiates in the sanctuary at Eleusis.
 | c. 195 | exposure publication | partial | What Clement presents as the initiates' formula, with polemical claims about the rites. | [Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)](#src-0031) ([archive.org](https://archive.org/details/clementofalexand00clem)) | unassessed |  |
 | 1961 | academic research | summary |  | [Eleusis and the Eleusinian Mysteries](#src-0032) ([openlibrary.org](https://openlibrary.org/works/OL4397162W)) | unassessed |  |
 
+**Claims**
+
+- `CLM-0017` *content* · **single source**: The password (synthema) of the Eleusinian initiates was a formula stating that the initiate had fasted, drunk the kykeon, taken something from the chest, handled it, and returned it by way of the basket to the chest. (c. 195 CE)
+  - Supported by: [Exhortation to the Greeks (Protrepticus), in Clement of Alexandria (Loeb Classical Library)](#src-0031) ([archive.org](https://archive.org/details/clementofalexand00clem))
+  - Where: Protrepticus 2.21 (Loeb ed. pp. 42–43)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Butterworth renders kykeon as 'the draught' and notes an emendation that would change 'having done my task' to 'having tasted'. The source is hostile and its access to the rites is not established.
+
 <a id="trad-0017"></a>
 
 ## Mithraic Mysteries
@@ -534,6 +633,13 @@ A sequence of grades through which initiates advanced, known mainly from inscrip
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1903 | reconstruction | summary | Reconstructed from monuments, inscriptions and Christian writers. | [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0018` *content* · **single source**: The initiate advanced through seven grades, named Raven (corax), Occult (cryphius), Soldier (miles), Lion (leo), Persian (Perses), Runner of the Sun (heliodromus) and Father (pater), and on some occasions wore costume suited to the grade. (Roman Empire, 2nd–4th centuries CE)
+  - Supported by: [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog))
+  - Where: pp. 152–153
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Cumont bases the list on a letter of Jerome and on inscriptions; adding Jerome or the Felicissimus mithraeum mosaic at Ostia as sources would allow independent corroboration.
 
 <a id="trad-0018"></a>
 
@@ -560,6 +666,17 @@ A winter ceremony in which children are initiated into the Katsina society.
 |---|---|---|---|---|---|---|
 | 1901 | academic research | full | The ceremony at Oraibi, with photographs. | [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth)) | unassessed |  |
 | 1936 | academic research | partial | Ceremonies at First Mesa, 1891–1894. | [Hopi Journal of Alexander M. Stephen](#src-0035) ([openlibrary.org](https://openlibrary.org/works/OL7608010W)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0019` *content* · **single source**: In the Katsina initiation, held in the Marau kiva after a sand mosaic is laid, each child is set on the mosaic and whipped with yucca switches by one of two Ho Katsinas, nominally with four strokes; a sponsor may take some of the strokes in the child's place. (by 1901 (Oraibi))
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: pp. 94–95, 103–104
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0020` *content* · **single source**: During the night dance that follows, the Powamu Katsinas dance unmasked, and the newly initiated children learn for the first time that the Katsinas are Hopi men. (by 1901 (Oraibi))
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: p. 120
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. SRC-0035 (Stephen's First Mesa journal) is a candidate for independent corroboration.
 
 <a id="trad-0019"></a>
 
@@ -621,7 +738,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Rights:** public domain
 - **Links:** [Wikidata `Q135099738`](https://www.wikidata.org/wiki/Q135099738) · [Open Library `OL8883292W`](https://openlibrary.org/works/OL8883292W) · [Internet Archive `bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730`](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001) · [Modes of recognition (signs / grips / passwords)](#item-0002)
-- **Cited in claims:** `CLM-0001`
+- **Cited in claims:** `CLM-0001` · `CLM-0008` · `CLM-0010` · `CLM-0011` · `CLM-0012`
 
 <a id="src-0003"></a>
 
@@ -671,10 +788,10 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Provenance:** published exposure
 - **Authenticity:** unassessed
 - **Rights:** public domain
-- **Linked copy:** 1946 edition
-- **Links:** [Open Library `OL20113476W`](https://openlibrary.org/works/OL20113476W) · [Internet Archive `duncansmasonicri00dunc`](https://archive.org/details/duncansmasonicri00dunc)
-- **Notes:** Linked copy is a Chicago printing.
+- **Links:** [Open Library `OL20113476W`](https://openlibrary.org/works/OL20113476W) · [Internet Archive `duncansmasonicri00dunc`](https://archive.org/details/duncansmasonicri00dunc) · [Internet Archive `Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan`](https://archive.org/details/Duncans_Masonic_Ritual_And_Monitor_-_M_C_Duncan)
+- **Notes:** Linked copy is an open transcription of the Dick & Fitzgerald third edition with its page numbers marked; the 1946 Chicago printing (ia:duncansmasonicri00dunc) is lending-only.
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001)
+- **Cited in claims:** `CLM-0009` · `CLM-0013`
 
 <a id="src-0007"></a>
 
@@ -686,8 +803,9 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Wikidata `Q3520760`](https://www.wikidata.org/wiki/Q3520760)
-- **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'.
+- **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'. No. II (September 1909), which prints the Neophyte ritual, was read from the scan at https://invisiblehouse.org/pdf/equinox2.pdf.
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003)
+- **Cited in claims:** `CLM-0021` · `CLM-0022` · `CLM-0023`
 
 <a id="src-0008"></a>
 
@@ -776,6 +894,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `exposdelareligi00sacygoog`](https://archive.org/details/exposdelareligi00sacygoog)
 - **Notes:** Based on manuscripts held in European libraries. Two volumes; Internet Archive holds several Google Books scans.
 - **Discloses:** [Kitāb al-Ḥikma (Epistles of Wisdom)](#item-0008)
+- **Cited in claims:** `CLM-0028` · `CLM-0029` · `CLM-0030`
 
 <a id="src-0015"></a>
 
@@ -789,7 +908,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [CourtListener `1817490`](https://www.courtlistener.com/opinion/1817490/)
 - **Notes:** Court examined the puja chant and ruled the TM course religious in nature. Linked opinion is the district court ruling (440 F. Supp. 1284).
 - **Discloses:** [Initiation puja and personal mantra](#item-0009)
-- **Cited in claims:** `CLM-0004`
+- **Cited in claims:** `CLM-0004` · `CLM-0014` · `CLM-0015`
 
 <a id="src-0016"></a>
 
@@ -863,9 +982,10 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Provenance:** archival collection
 - **Authenticity:** unassessed
 - **Rights:** public domain
-- **Links:** [Internet Archive `b24878376`](https://archive.org/details/b24878376)
-- **Notes:** The Sanskrit text's date and authority are disputed; some scholars place it in the late 18th century.
+- **Links:** [Internet Archive `b24878376`](https://archive.org/details/b24878376) · [Internet Archive `dli.ernet.205077`](https://archive.org/details/dli.ernet.205077)
+- **Notes:** The Sanskrit text's date and authority are disputed; some scholars place it in the late 18th century. Linked copy is the 1913 edition with readable text; the Wellcome scan (ia:b24878376) was OCR'd as Sanskrit and its text layer is unusable.
 - **Discloses:** [Kaula ritual of the five elements (pañcatattva)](#item-0014)
+- **Cited in claims:** `CLM-0016`
 
 <a id="src-0022"></a>
 
@@ -992,6 +1112,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `clementofalexand00clem`](https://archive.org/details/clementofalexand00clem)
 - **Notes:** Hostile Christian polemic; the author's access to the rites is not established.
 - **Discloses:** [Rites of the Mysteries](#item-0019)
+- **Cited in claims:** `CLM-0017`
 
 <a id="src-0032"></a>
 
@@ -1018,6 +1139,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `mysteriesmithra00mccogoog`](https://archive.org/details/mysteriesmithra00mccogoog)
 - **Notes:** Many of Cumont's interpretations have since been disputed.
 - **Discloses:** [Seven-grade initiation system](#item-0020)
+- **Cited in claims:** `CLM-0018`
 
 <a id="src-0034"></a>
 
@@ -1031,6 +1153,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `oraibipowamucere03voth`](https://archive.org/details/oraibipowamucere03voth)
 - **Notes:** Voth was a Mennonite missionary at Oraibi. Hopi people have objected strongly to his publications.
 - **Discloses:** [Powamu ceremony and Katsina society initiation](#item-0021)
+- **Cited in claims:** `CLM-0019` · `CLM-0020`
 
 <a id="src-0035"></a>
 
@@ -1086,3 +1209,53 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Open Library `OL2266943W`](https://openlibrary.org/works/OL2266943W)
 - **Notes:** Written with Ngarrindjeri women; does not publish the restricted content.
 - **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
+
+<a id="src-0039"></a>
+
+### Class VIII Course, Lecture No. 10: Assists
+
+`SRC-0039` · L. Ron Hubbard · 1968 · audio
+
+- **Provenance:** unknown → anonymous posting
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Taped lecture dated 3 October 1968, one of nineteen confidential Class VIII lectures. Hubbard is reported to name 'Xemu' several times. A copy is reported in the Hubbard audio collection on xenu.net and was publicised by Anonymous in March 2009. How the tape left the church is not established. Not yet listened to: the timestamps still need recording.
+- **Discloses:** [OT III materials](#item-0006)
+
+<a id="src-0040"></a>
+
+### Scientology – The Road to Total Freedom? (Panorama)
+
+`SRC-0040` · BBC · 1987 · broadcast
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Notes:** Broadcast 27 April 1987. Reported to include an outline of the OT III story in cartoon form. Not yet viewed: the timestamps still need recording.
+- **Discloses:** [OT III materials](#item-0006)
+
+<a id="src-0041"></a>
+
+### Hidden-camera recordings of LDS temple ordinances
+
+`SRC-0041` · Mike Norton (NewNameNoah) · c. 2017 · video
+
+- **Provenance:** covert recording → defector account
+- **Authenticity:** unassessed
+- **Rights:** unknown
+- **Notes:** Recordings made inside temples by a former member and posted online. They were circulating and being discussed by 27 January 2017. The original uploads, their dates and the ordinances each one covers are not yet identified; archive copies and file hashes are needed.
+- **Discloses:** [Temple endowment ceremony](#item-0007)
+
+<a id="src-0042"></a>
+
+### The Fishman Affidavit: OT III, summary and comments
+
+`SRC-0042` · Karin Spaink · 1996 · website
+
+- **Provenance:** court filing → published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [spaink.net](https://spaink.net/fishman/ot3.html)
+- **Notes:** Quotes and summarises the OT III pages filed as exhibits to SRC-0011, citing them by that filing's page numbers. Spaink was sued by the Church of Scientology over her publication of these materials. Year approximate.
+- **Discloses:** [OT III materials](#item-0006)
+- **Cited in claims:** `CLM-0024` · `CLM-0025` · `CLM-0026` · `CLM-0027`
