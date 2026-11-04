@@ -5,6 +5,7 @@ Usage: python3 scripts/build.py [--check]
 --check only validates. Otherwise writes to exports/:
   open-arcana.sqlite   all tables, relational
   disclosures.jsonl    one denormalized record per disclosure (AI-friendly)
+  claims.jsonl         one record per claim, with its sources inlined
   *.parquet            one per table, only if pyarrow is installed
   SHA256SUMS           checksums of every export
 and CATALOG.md at the repository root, a human-readable view of the data.
@@ -70,9 +71,27 @@ def validate(package, tables):
             ref = fk["reference"]
             targets = {r[ref["fields"]] for r in tables[ref["resource"]]}
             for i, row in enumerate(rows, start=2):
-                if row[fk["fields"]] not in targets:
-                    errors.append(f"{name}.csv line {i}: {fk['fields']}={row[fk['fields']]!r} not found in {ref['resource']}")
+                values = split(row[fk["fields"]]) if fk.get("list") else [row[fk["fields"]]]
+                for value in values:
+                    if value not in targets:
+                        errors.append(f"{name}.csv line {i}: {fk['fields']}={value!r} not found in {ref['resource']}")
+
+    for i, c in enumerate(tables.get("claims", []), start=2):
+        where = f"claims.csv line {i}"
+        supporting, contradicting = split(c["supporting_source_ids"]), split(c["contradicting_source_ids"])
+        if set(supporting) & set(contradicting):
+            errors.append(f"{where}: a source cannot both support and contradict a claim")
+        if c["claim_support"] == "independently_corroborated" and len(supporting) < 2:
+            errors.append(f"{where}: independently_corroborated needs two or more supporting sources")
+        if c["claim_support"] == "single_source" and not supporting:
+            errors.append(f"{where}: single_source needs a supporting source")
+        if c["claim_support"] == "contradicted" and not contradicting:
+            errors.append(f"{where}: contradicted needs a contradicting source")
     return errors
+
+
+def split(value):
+    return [v for v in value.split(";") if v]
 
 
 def denormalize(tables):
@@ -86,6 +105,18 @@ def denormalize(tables):
             "item": item,
             "tradition": traditions[item["tradition_id"]],
             "source": sources[d["source_id"]],
+        }
+
+
+def denormalize_claims(tables):
+    items = {r["id"]: r for r in tables["restricted_items"]}
+    sources = {r["id"]: r for r in tables["sources"]}
+    for c in tables["claims"]:
+        yield {
+            **c,
+            "item": items[c["item_id"]],
+            "supporting_sources": [sources[s] for s in split(c["supporting_source_ids"])],
+            "contradicting_sources": [sources[s] for s in split(c["contradicting_source_ids"])],
         }
 
 
@@ -135,12 +166,16 @@ def anchor(record_id):
 def write_catalog(tables, path):
     """Write a human-readable Markdown catalogue, with every identifier as a link."""
     sources = {r["id"]: r for r in tables["sources"]}
-    items_by_trad, disc_by_item, disc_by_src = {}, {}, {}
+    items_by_trad, disc_by_item, disc_by_src, claims_by_item, claims_by_src = {}, {}, {}, {}, {}
     for item in tables["restricted_items"]:
         items_by_trad.setdefault(item["tradition_id"], []).append(item)
     for d in tables["disclosures"]:
         disc_by_item.setdefault(d["item_id"], []).append(d)
         disc_by_src.setdefault(d["source_id"], []).append(d)
+    for c in tables["claims"]:
+        claims_by_item.setdefault(c["item_id"], []).append(c)
+        for sid in split(c["supporting_source_ids"]) + split(c["contradicting_source_ids"]):
+            claims_by_src.setdefault(sid, []).append(c)
     items = {r["id"]: r for r in tables["restricted_items"]}
 
     out = [
@@ -152,7 +187,7 @@ def write_catalog(tables, path):
         "Records marked *unreviewed* have not been checked yet.",
         "",
         f"{len(tables['traditions'])} traditions · {len(tables['restricted_items'])} restricted items · "
-        f"{len(tables['disclosures'])} disclosures · {len(tables['sources'])} sources",
+        f"{len(tables['disclosures'])} disclosures · {len(tables['claims'])} claims · {len(tables['sources'])} sources",
         "",
         "## Traditions",
         "",
@@ -190,30 +225,56 @@ def write_catalog(tables, path):
             discs = sorted(disc_by_item.get(item["id"], []), key=lambda d: (d["year"], d["id"]))
             if not discs:
                 out += ["*No disclosure recorded yet.*", ""]
-                continue
-            out += [
-                "| Year | Method | Extent | Evidence | Source | Notes |",
-                "|---|---|---|---|---|---|",
-            ]
+            else:
+                out += [
+                    "| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |",
+                    "|---|---|---|---|---|---|---|",
+                ]
             for d in discs:
                 s = sources[d["source_id"]]
                 year = ("c. " if d["date_precision"] == "circa" else "") + d["year"]
                 review = "" if d["review_status"] == "unreviewed" else f" ({d['review_status']})"
                 out.append(
-                    f"| {year} | {words(d['disclosure_method'])} | {d['extent']} | {words(d['evidence_level'])}{review} "
-                    f"| [{md(s['title'])}](#{anchor(s['id'])}) | {md(d['notes'])} |"
+                    f"| {year} | {words(d['disclosure_method'])} | {d['extent']} | {md(d['coverage'])} "
+                    f"| [{md(s['title'])}](#{anchor(s['id'])}) | {s['source_authenticity']} | {md(d['notes'])}{review} |"
                 )
-            out.append("")
+            if discs:
+                out.append("")
+
+            claims = claims_by_item.get(item["id"], [])
+            if claims:
+                out += ["**Claims**", ""]
+            for c in claims:
+                period = f" ({md(c['period'])})" if c["period"] else ""
+                review = "" if c["review_status"] == "unreviewed" else f" · {c['review_status']}"
+                out.append(f"- `{c['id']}` *{words(c['claim_type'])}* · **{words(c['claim_support'])}**{review}: "
+                           f"{md(c['statement'])}{period}")
+                for label, field in (("Supported by", "supporting_source_ids"), ("Contradicted by", "contradicting_source_ids")):
+                    ids = split(c[field])
+                    if ids:
+                        out.append(f"  - {label}: " + " · ".join(
+                            f"[{md(sources[i]['title'])}](#{anchor(i)})" for i in ids))
+                if c["locators"]:
+                    out.append(f"  - Where: {md(c['locators'])}")
+                if c["verification_notes"]:
+                    out.append(f"  - Assessment: {md(c['verification_notes'])}")
+            if claims:
+                out.append("")
 
     out += ["## Sources", ""]
     for s in tables["sources"]:
         out += [f'<a id="{anchor(s["id"])}"></a>', "", f"### {md(s['title'])}", ""]
         out += [
-            " · ".join(filter(None, [f"`{s['id']}`", md(s["author"]), md(s["year"]), words(s["source_type"])])),
+            " · ".join(filter(None, [f"`{s['id']}`", md(s["author"]), md(s["original_year"]), words(s["source_type"])])),
             "",
-            f"- **Provenance:** {words(s['provenance'])}",
-            f"- **Rights:** {words(s['rights'])}",
+            f"- **Provenance:** {' → '.join(words(p) for p in split(s['provenance']))}",
+            f"- **Authenticity:** {s['source_authenticity']}",
         ]
+        if s["verification_notes"]:
+            out.append(f"- **Verification:** {md(s['verification_notes'])}")
+        out.append(f"- **Rights:** {words(s['rights'])}")
+        if s["edition_year"]:
+            out.append(f"- **Linked copy:** {s['edition_year']} edition")
         links = source_links(s)
         if links:
             out.append("- **Links:** " + " · ".join(links))
@@ -225,6 +286,9 @@ def write_catalog(tables, path):
         if cited:
             out.append("- **Discloses:** " + " · ".join(
                 f"[{md(items[i]['name'])}](#{anchor(i)})" for i in cited))
+        claimed = sorted({c["id"] for c in claims_by_src.get(s["id"], [])})
+        if claimed:
+            out.append("- **Cited in claims:** " + " · ".join(f"`{c}`" for c in claimed))
         out.append("")
 
     path.write_text("\n".join(out), encoding="utf-8")
@@ -239,6 +303,7 @@ def write_sqlite(package, tables, path):
         fks = "".join(
             f", FOREIGN KEY ({fk['fields']}) REFERENCES {fk['reference']['resource']}({fk['reference']['fields']})"
             for fk in res["schema"].get("foreignKeys", [])
+            if not fk.get("list")
         )
         db.execute(
             f"CREATE TABLE {res['name']} ("
@@ -280,6 +345,9 @@ def main():
     write_sqlite(package, tables, EXPORTS / "open-arcana.sqlite")
     with (EXPORTS / "disclosures.jsonl").open("w", encoding="utf-8") as f:
         for record in denormalize(tables):
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    with (EXPORTS / "claims.jsonl").open("w", encoding="utf-8") as f:
+        for record in denormalize_claims(tables):
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
     write_parquet(tables)
     write_catalog(tables, ROOT / "CATALOG.md")

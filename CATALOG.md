@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-8 traditions · 10 restricted items · 18 disclosures · 15 sources
+8 traditions · 10 restricted items · 18 disclosures · 4 claims · 15 sources
 
 ## Traditions
 
@@ -39,14 +39,20 @@ The three ceremonies through which a candidate becomes a Master Mason including 
 - **Stated reason:** Preserving the experience of initiation; traditional obligation
 - **Notes:** Wording differs widely by jurisdiction and era.
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1723 | exposure publication | partial | documented | [A Mason's Examination](#src-0001) | One of the earliest printed exposures. |
-| 1730 | exposure publication | full | documented | [Masonry Dissected](#src-0002) | Earliest known description of the third degree. |
-| 1760 | exposure publication | full | documented | [Three Distinct Knocks](#src-0003) |  |
-| 1762 | exposure publication | full | documented | [Jachin and Boaz](#src-0004) |  |
-| 1826 | defector testimony | full | documented | [Illustrations of Masonry](#src-0005) | Author was a self-described former member. |
-| 1866 | exposure publication | full | documented | [Duncan's Masonic Ritual and Monitor](#src-0006) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) | unassessed | One of the earliest printed exposures. |
+| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) | unassessed | Earliest known description of the third degree. |
+| 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) | unassessed |  |
+| 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) | unassessed |  |
+| 1826 | defector testimony | full |  | [Illustrations of Masonry](#src-0005) | unassessed | Author was a self-described former member. |
+| 1866 | exposure publication | full |  | [Duncan's Masonic Ritual and Monitor](#src-0006) | unassessed |  |
+
+**Claims**
+
+- `CLM-0001` *historical practice* · **single source**: A three-degree system ending in the Master Mason degree was being worked in English lodges. (by 1730)
+  - Supported by: [Masonry Dissected](#src-0002)
+  - Assessment: Prichard's exposure describes the third degree; no second independent source is recorded yet.
 
 <a id="item-0002"></a>
 
@@ -60,10 +66,10 @@ Gestures and words used by members to identify each other by degree.
 - **How:** oath
 - **Stated reason:** Mutual recognition among members
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1723 | exposure publication | partial | documented | [A Mason's Examination](#src-0001) |  |
-| 1730 | exposure publication | full | documented | [Masonry Dissected](#src-0002) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) | unassessed |  |
+| 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) | unassessed |  |
 
 <a id="trad-0002"></a>
 
@@ -85,10 +91,10 @@ Ceremonial initiations for the Outer and Inner Order grades.
 - **How:** oath, grade requirement
 - **Stated reason:** Protecting candidates and the efficacy of the ritual
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| c. 1909 | defector testimony | partial | documented | [The Equinox (Vol. I)](#src-0007) | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
-| 1937 | defector testimony | full | documented | [The Golden Dawn (4 vols.)](#src-0008) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| c. 1909 | defector testimony | partial |  | [The Equinox (Vol. I)](#src-0007) | unassessed | S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal. |
+| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) | unassessed |  |
 
 <a id="item-0004"></a>
 
@@ -102,9 +108,9 @@ Instructional papers on Kabbalah / astrology / geomancy / ritual magic issued gr
 - **How:** oath, grade requirement
 - **Stated reason:** Teaching must follow the candidate's progress
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1937 | defector testimony | full | documented | [The Golden Dawn (4 vols.)](#src-0008) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) | unassessed |  |
 
 <a id="trad-0003"></a>
 
@@ -126,9 +132,9 @@ Initiation rituals of the degree system and the instructions reserved for the hi
 - **How:** oath, grade requirement
 - **Stated reason:** Danger of misuse by the unprepared
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1973 | exposure publication | full | documented | [The Secret Rituals of the O.T.O.](#src-0009) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1973 | exposure publication | full |  | [The Secret Rituals of the O.T.O.](#src-0009) | unassessed |  |
 
 <a id="trad-0004"></a>
 
@@ -148,11 +154,17 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 - **How:** nda, fee, grade requirement, copyright claim
 - **Stated reason:** Claimed harm to those who learn it unprepared
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1985 | court record | summary | documented | [Court records in Wollersheim v. Church of Scientology](#src-0010) | Also widely reported in the press during the trial. |
-| 1993 | court record | full | documented | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) |  |
-| c. 1995 | leak | full | documented | [alt.religion.scientology postings](#src-0012) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) | unassessed | Also widely reported in the press during the trial. |
+| 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) | unassessed |  |
+| c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) | unassessed |  |
+
+**Claims**
+
+- `CLM-0002` *content* · **independently corroborated**: The OT III materials contain a cosmological narrative centred on a figure named Xenu.
+  - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) · [alt.religion.scientology postings](#src-0012)
+  - Assessment: SRC-0010 and SRC-0011 are separate court files from unrelated cases and count as independent. SRC-0012 is not counted: the postings drew partly on court-filed material.
 
 <a id="trad-0005"></a>
 
@@ -175,9 +187,15 @@ Temple ceremony including covenants / signs and tokens.
 - **Stated reason:** Sacredness of the ceremony
 - **Notes:** Penalty gestures were removed from the ceremony in 1990.
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1990 | exposure publication | full | documented | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) | Compares versions of the ceremony across time. |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) | unassessed | Compares versions of the ceremony across time. |
+
+**Claims**
+
+- `CLM-0003` *change* · **single source**: Penalty gestures were removed from the endowment ceremony. (1990)
+  - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013)
+  - Assessment: Only one source recorded so far; contemporary press reports would make it independently corroborated.
 
 <a id="trad-0006"></a>
 
@@ -199,9 +217,9 @@ The core scriptural corpus of the Druze faith.
 - **How:** vow, social sanction
 - **Stated reason:** Sacred knowledge reserved for the initiated
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1838 | academic research | summary | documented | [Exposé de la religion des Druzes](#src-0014) |  |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1838 | academic research | summary |  | [Exposé de la religion des Druzes](#src-0014) | unassessed |  |
 
 <a id="trad-0007"></a>
 
@@ -223,9 +241,15 @@ A Sanskrit ceremony performed at instruction and a mantra given privately to eac
 - **How:** fee, oral only
 - **Stated reason:** Effectiveness depends on correct personal instruction
 
-| Year | Method | Extent | Evidence | Source | Notes |
-|---|---|---|---|---|---|
-| 1977 | court record | partial | documented | [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) | Covers the puja; not the mantras. |
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1977 | court record | partial | The puja ceremony; not the individual mantras. | [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015) | unassessed |  |
+
+**Claims**
+
+- `CLM-0004` *content* · **single source**: Instruction begins with a puja chanted in Sanskrit by the teacher, at which the student makes offerings. (1970s)
+  - Supported by: [Malnak v. Yogi (440 F. Supp. 1284 / 592 F.2d 197)](#src-0015)
+  - Assessment: Based on the court's findings in Malnak v. Yogi.
 
 <a id="trad-0008"></a>
 
@@ -257,6 +281,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0001` · Anonymous · 1723 · newspaper
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** public domain
 - **Notes:** Printed in The Flying Post (London).
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001) · [Modes of recognition (signs / grips / passwords)](#item-0002)
@@ -268,9 +293,11 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0002` · Samuel Prichard · 1730 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Wikidata `Q135099738`](https://www.wikidata.org/wiki/Q135099738) · [Open Library `OL8883292W`](https://openlibrary.org/works/OL8883292W) · [Internet Archive `bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730`](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001) · [Modes of recognition (signs / grips / passwords)](#item-0002)
+- **Cited in claims:** `CLM-0001`
 
 <a id="src-0003"></a>
 
@@ -279,9 +306,10 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0003` · Anonymous · 1760 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** public domain
+- **Linked copy:** 1785 edition
 - **Links:** [Internet Archive `bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785`](https://archive.org/details/bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785)
-- **Notes:** Linked scan is of the 1785 edition.
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001)
 
 <a id="src-0004"></a>
@@ -291,9 +319,10 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0004` · Anonymous · 1762 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** public domain
+- **Linked copy:** 1776 edition
 - **Links:** [Open Library `OL12240958W`](https://openlibrary.org/works/OL12240958W) · [Internet Archive `bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776`](https://archive.org/details/bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776)
-- **Notes:** Linked scan is of the 1776 edition.
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001)
 
 <a id="src-0005"></a>
@@ -303,6 +332,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0005` · William Morgan · 1826 · book
 
 - **Provenance:** defector account
+- **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Open Library `OL16834925W`](https://openlibrary.org/works/OL16834925W) · [Internet Archive `illustrationsofm00morg`](https://archive.org/details/illustrationsofm00morg)
 - **Notes:** Published after the author's disappearance; sparked the US Anti-Masonic movement.
@@ -315,9 +345,11 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0006` · Malcolm C. Duncan · 1866 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** public domain
+- **Linked copy:** 1946 edition
 - **Links:** [Open Library `OL20113476W`](https://openlibrary.org/works/OL20113476W) · [Internet Archive `duncansmasonicri00dunc`](https://archive.org/details/duncansmasonicri00dunc)
-- **Notes:** Linked scan is a 1946 Chicago printing.
+- **Notes:** Linked copy is a Chicago printing.
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001)
 
 <a id="src-0007"></a>
@@ -327,6 +359,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0007` · Aleister Crowley (ed.) · 1909–1913 · periodical
 
 - **Provenance:** defector account
+- **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Wikidata `Q3520760`](https://www.wikidata.org/wiki/Q3520760)
 - **Notes:** Golden Dawn material appeared in the serial 'The Temple of Solomon the King'.
@@ -339,6 +372,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0008` · Israel Regardie · 1937–1940 · book
 
 - **Provenance:** defector account
+- **Authenticity:** unassessed
 - **Rights:** copyrighted
 - **Links:** [Open Library `OL1989588W`](https://openlibrary.org/works/OL1989588W)
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003) · [Knowledge lectures and inner-order teachings](#item-0004)
@@ -350,6 +384,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0009` · Francis King (ed.) · 1973 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** copyrighted
 - **Links:** [Open Library `OL36054911W`](https://openlibrary.org/works/OL36054911W)
 - **Discloses:** [Degree rituals and higher-degree sexual magic teachings](#item-0005)
@@ -361,9 +396,11 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0010` · Los Angeles Superior Court · 1985 · court record
 
 - **Provenance:** court filing
+- **Authenticity:** unassessed
 - **Rights:** court record
 - **Notes:** Confidential materials entered the public court file during the trial.
 - **Discloses:** [OT III materials](#item-0006)
+- **Cited in claims:** `CLM-0002`
 
 <a id="src-0011"></a>
 
@@ -372,9 +409,11 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0011` · Steven Fishman · 1993 · court record
 
 - **Provenance:** court filing
+- **Authenticity:** unassessed
 - **Rights:** court record
 - **Notes:** Exhibits included upper-level course materials.
 - **Discloses:** [OT III materials](#item-0006)
+- **Cited in claims:** `CLM-0002`
 
 <a id="src-0012"></a>
 
@@ -383,9 +422,11 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0012` · Various · 1994–1995 · usenet
 
 - **Provenance:** anonymous posting
+- **Authenticity:** unassessed
 - **Rights:** unknown
 - **Notes:** Led to RTC v. Netcom and other copyright suits.
 - **Discloses:** [OT III materials](#item-0006)
+- **Cited in claims:** `CLM-0002`
 
 <a id="src-0013"></a>
 
@@ -394,8 +435,10 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0013` · Jerald and Sandra Tanner · 1990 · book
 
 - **Provenance:** published exposure
+- **Authenticity:** unassessed
 - **Rights:** copyrighted
 - **Discloses:** [Temple endowment ceremony](#item-0007)
+- **Cited in claims:** `CLM-0003`
 
 <a id="src-0014"></a>
 
@@ -404,6 +447,7 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0014` · Antoine-Isaac Silvestre de Sacy · 1838 · book
 
 - **Provenance:** archival collection
+- **Authenticity:** unassessed
 - **Rights:** public domain
 - **Links:** [Internet Archive `exposdelareligi00sacygoog`](https://archive.org/details/exposdelareligi00sacygoog)
 - **Notes:** Based on manuscripts held in European libraries. Two volumes; Internet Archive holds several Google Books scans.
@@ -416,7 +460,9 @@ Internal handbook covering congregational procedures including judicial committe
 `SRC-0015` · US District Court D.N.J. / US Court of Appeals 3rd Cir. · 1977–1979 · court record
 
 - **Provenance:** court filing
+- **Authenticity:** unassessed
 - **Rights:** court record
 - **Links:** [CourtListener `1817490`](https://www.courtlistener.com/opinion/1817490/)
 - **Notes:** Court examined the puja chant and ruled the TM course religious in nature. Linked opinion is the district court ruling (440 F. Supp. 1284).
 - **Discloses:** [Initiation puja and personal mantra](#item-0009)
+- **Cited in claims:** `CLM-0004`

@@ -8,15 +8,15 @@ Suggest a source, report an error, or describe a disclosure you know about. Incl
 
 ## Adding records directly
 
-1. Edit the CSVs in `data/`. Use the next free id in each file (`TRAD-`, `ITEM-`, `SRC-`, `DISC-` + 4 digits).
+1. Edit the CSVs in `data/`. Use the next free id in each file (`TRAD-`, `ITEM-`, `SRC-`, `DISC-`, `CLM-` + 4 digits).
 2. Use only the values listed in [`schema/datapackage.json`](schema/datapackage.json) for controlled fields.
-3. Set `review_status` to `unreviewed`. A maintainer will review it.
+3. Set `review_status` to `unreviewed` and `source_authenticity` to `unassessed`, unless you record the checks behind a different value in `verification_notes`. A maintainer will review it.
 4. Run `python3 scripts/build.py --check` and fix any errors.
 5. Open a pull request.
 
 ## Checking existing records
 
-Every record starts as `unreviewed`. The most valuable work right now is taking an unreviewed disclosure, checking it against its source, and either confirming it or opening an issue with a correction.
+Every record starts as `unreviewed`. The most valuable work right now is taking an unreviewed disclosure, checking it against its source, and either confirming it or opening an issue with a correction. Next most valuable: assessing a source's authenticity, or adding claims, especially ones a second independent source can corroborate or contradict.
 
 ## Rules
 
