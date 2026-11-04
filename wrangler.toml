@@ -1,4 +1,4 @@
 # Primary Cloudflare Pages website; builds are connected to GitHub main.
 name = "open-arcana"
 pages_build_output_dir = "./_site"
-compatibility_date = "2026-11-05"
+compatibility_date = "2026-11-04"
