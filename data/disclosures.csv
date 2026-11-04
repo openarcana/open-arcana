@@ -9,7 +9,7 @@ DISC-0007,ITEM-0001,SRC-0005,1826,year,defector_testimony,full,,unreviewed,Autho
 DISC-0008,ITEM-0001,SRC-0006,1866,year,exposure_publication,full,,unreviewed,
 DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,"The Neophyte ritual (No. II, September 1909); the signs, grip, grand word and password are not printed",unreviewed,"Crowley had been a member of the Golden Dawn and its Second Order. The 1910 injunction concerned No. III (DISC-0045), not this number."
 DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,"Rituals of the Outer Order grades (Neophyte to Philosophus) and the Portal, including steps, signs, grips, words and passwords",unreviewed,Rituals are in Volume Two (1938). Regardie had been a member of the Stella Matutina.
-DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
+DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,"The five knowledge lectures of the Outer Order, with the Lesser Ritual of the Pentagram and other papers (vol. 1, pp. 99–162)",unreviewed,
 DISC-0012,ITEM-0005,SRC-0009,1973,year,exposure_publication,full,,unreviewed,
 DISC-0013,ITEM-0006,SRC-0010,1985,year,court_record,summary,,unreviewed,Also widely reported in the press during the trial.
 DISC-0014,ITEM-0006,SRC-0011,1993,year,court_record,full,,unreviewed,
@@ -44,3 +44,5 @@ DISC-0042,ITEM-0007,SRC-0041,2017,circa,leak,partial,Extent not yet established;
 DISC-0043,ITEM-0006,SRC-0042,1996,circa,journalism,partial,Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions,unreviewed,Spaink withdrew the full text on legal advice and published this summary instead.
 DISC-0044,ITEM-0010,SRC-0043,2016,month,court_record,partial,"Provisions on child sexual abuse: scriptural offences, standards of proof, investigation and judicial committees",unreviewed,Quoted and summarised from the handbook in evidence before the Royal Commission (public hearing July–August 2015).
 DISC-0045,ITEM-0003,SRC-0007,1910,month,defector_testimony,partial,"The ritual of the 5°=6° grade of Adeptus Minor (No. III, March 1910); not yet compared with Regardie for completeness",unreviewed,"S. L. MacGregor Mathers sought an injunction against this number. Its editorial note says an order restraining publication was made two days after advance copies were delivered, continued by Bucknill J, and dissolved by the Court of Appeal."
+DISC-0046,ITEM-0023,SRC-0049,1892,year,exposure_publication,partial,"Purported organisation, history and ceremonies of Palladism",reviewed,Fabricated: see SRC-0049 and CLM-0044.
+DISC-0047,ITEM-0007,SRC-0047,1990,day,journalism,reference,Names three elements dropped from the ceremony in 1990; does not describe the ceremony,reviewed,

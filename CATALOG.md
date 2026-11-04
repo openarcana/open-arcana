@@ -4,11 +4,11 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-19 traditions · 22 restricted items · 45 disclosures · 38 claims · 44 sources
+19 traditions · 23 restricted items · 47 disclosures · 44 claims · 51 sources
 
 ## Traditions
 
-- [Freemasonry](#trad-0001) (2 items)
+- [Freemasonry](#trad-0001) (3 items)
 - [Hermetic Order of the Golden Dawn](#trad-0002) (2 items)
 - [Ordo Templi Orientis](#trad-0003) (1 item)
 - [Church of Scientology](#trad-0004) (1 item)
@@ -76,6 +76,10 @@ The three ceremonies through which a candidate becomes a Master Mason including 
   - Supported by: [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730))
   - Where: Master's Part, pp. 25–27
   - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0040` *change* · **single source** · reviewed: In the United Grand Lodge of England a permissive variation of the obligations was allowed in 1964. On 11 June 1986 Grand Lodge resolved that all references to physical penalties be omitted from the obligations of the three degrees and of a Master Elect at installation, while keeping them elsewhere in the ceremonies; the resolution became an edict of Grand Lodge. (1964–1986 (England))
+  - Supported by: [The transfer of the physical penalties from the obligations](#src-0046) ([freemasonry.bcy.ca](https://freemasonry.bcy.ca/aqc/penalties.html))
+  - Where: opening paragraph and account of the 1964 debate
+  - Assessment: Checked against the online copy of the paper on 2026-11-04. Mendoza quotes the 1986 resolution. The Grand Lodge proceedings for 11 June 1986 would corroborate it.
 
 <a id="item-0002"></a>
 
@@ -109,6 +113,31 @@ Gestures and words used by members to identify each other by degree.
   - Where: pp. 60, 89, 120
   - Assessment: Checked against the Internet Archive text on 2026-11-04. Pagination is that of the Dick & Fitzgerald third edition as marked in the open transcription.
 
+<a id="item-0023"></a>
+
+### Palladian rite (alleged Luciferian high degrees)
+
+`ITEM-0023` · initiatory rite · currently unknown
+
+A Luciferian rite said by the literature of the Taxil hoax (1892–1897) to stand above all Masonic rites and to be directed from Charleston.
+
+- **Restricted to:** Alleged: selected high-degree Masons and women initiates
+- **How:** unknown
+- **Stated reason:** None recorded: the rite is attested only in hoax literature
+- **Notes:** Kept as a record of a fabrication. Léo Taxil publicly admitted in April 1897 that the material was invented (CLM-0044).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1892 | exposure publication | partial | Purported organisation, history and ceremonies of Palladism | [Le Diable au XIXe siècle (vol. 1)](#src-0049) ([archive.org](https://archive.org/details/hacks-1892-dia-xixe-vol.-1)) | disproven | Fabricated: see SRC-0049 and CLM-0044. (reviewed) |
+
+**Claims**
+
+- `CLM-0044` *historical practice* · **contradicted** · reviewed: A Luciferian rite, Palladism, worshipped Satan in the back-lodges of a special rite superimposed on all the Masonic rites, and was founded at Charleston, where Albert Pike laid its foundations and a Masonic Luciferian pontiff was created. (from 1870 (as alleged))
+  - Supported by: [Le Diable au XIXe siècle (vol. 1)](#src-0049) ([archive.org](https://archive.org/details/hacks-1892-dia-xixe-vol.-1))
+  - Contradicted by: [Devil-Worship in France, or The Question of Lucifer](#src-0050) ([gutenberg.org](https://www.gutenberg.org/ebooks/21258)) · [The Hoax of the Century](#src-0051) ([paperspast.natlib.govt.nz](https://paperspast.natlib.govt.nz/newspapers/OAM18970607.2.5))
+  - Where: SRC-0049: vol. 1, pp. 346–347; SRC-0050: ch. XII; SRC-0051: whole report
+  - Assessment: Checked against the Internet Archive text of Bataille, the Project Gutenberg text of Waite and the Papers Past report on 2026-11-04. Taxil, the hoax's organiser, publicly declared it invented in April 1897; Waite had already shown that Bataille's Singapore and Calcutta accounts described lodges and people that did not exist. The two contradicting sources are independent.
+
 <a id="trad-0002"></a>
 
 ## Hermetic Order of the Golden Dawn
@@ -141,25 +170,25 @@ Ceremonial initiations for the Outer and Inner Order grades.
   - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
   - Where: No. II, 'The Temple of Solomon the King', pp. 253–254
   - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently. A footnote says a later version, issued after the Horos scandal, softened the penalty wording.
-- `CLM-0022` *content* · **single source** · reviewed: The hoodwinked candidate, bound with a rope, is led round the temple, barred by the Kerux, purified with water and consecrated with fire, and challenged by the Hiereus, before the hoodwink is removed and the three chief officers receive him with the words 'Khabs Am Pekht'; the Hiereus then entrusts the signs, grip, grand word and current password, which this account does not print. (1909 (as published))
-  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
-  - Where: No. II, pp. 254–257
-  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
-- `CLM-0023` *content* · **single source** · reviewed: After the admission the penalty is illustrated by a liquid that turns the colour of blood, and the ceremony closes with the words 'Khabs Am Pekht', 'Konx Om Pax' and 'Light in Extension'. (1909 (as published))
-  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy)
-  - Where: No. II, pp. 259–260
-  - Assessment: Checked against a scan of The Equinox I(2) on 2026-11-04. Regardie's publication (SRC-0008), drawn from Stella Matutina papers rather than from Crowley, could corroborate it independently.
+- `CLM-0022` *content* · **independently corroborated** · reviewed: The hoodwinked candidate, bound with a rope, is led round the temple, barred by the Kerux, purified with water and consecrated with fire, and challenged by the Hiereus, before the hoodwink is removed and the three chief officers receive him with the words 'Khabs Am Pekht'; the Hiereus then entrusts the signs, grip, grand word and current password, which this account does not print. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy) · [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: SRC-0007: No. II, pp. 254–257; SRC-0008: vol. 2, pp. 19–29
+  - Assessment: Checked against a scan of The Equinox I(2) and the Internet Archive text of Regardie's Volume Two (1938) on 2026-11-04. Counted as independent: Crowley printed papers of the original order, Regardie those of the Stella Matutina, and neither copies the other. Regardie's version says 'We receive thee into the Order of the Stella Matutina' at the reception.
+- `CLM-0023` *content* · **independently corroborated** · reviewed: After the admission the penalty is illustrated by a liquid that turns the colour of blood, and the ceremony closes with the words 'Khabs Am Pekht', 'Konx Om Pax' and 'Light in Extension'. (1909 (as published))
+  - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy) · [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: SRC-0007: No. II, pp. 259–260; SRC-0008: vol. 2, pp. 38, 43
+  - Assessment: Checked against a scan of The Equinox I(2) and the Internet Archive text of Regardie's Volume Two (1938) on 2026-11-04. Counted as independent: Crowley printed papers of the original order, Regardie those of the Stella Matutina, and neither copies the other. Regardie's version says 'We receive thee into the Order of the Stella Matutina' at the reception.
 - `CLM-0031` *content* · **single source** · reviewed: In the Neophyte grade the step is a short advance of the left foot; the signs are the Saluting Sign (leaning forward with both arms outstretched, as if groping for light), answered by the Sign of Silence (left forefinger on the lips); the grip is made foot to foot, the hands failing once to meet and then touching only the fingers; and the grand word Har-Par-Krat is whispered mouth to ear in syllables. (1938 (as published); Stella Matutina practice)
   - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
   - Where: vol. 2, Neophyte Ritual, pp. 29–30
   - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04. The ritual says the password changes every equinox, so that members who have left do not know it, and leaves it blank.
 - `CLM-0032` *content* · **single source** · reviewed: The grand words and passwords of the Outer Order grades are: Zelator, Adonai ha-Aretz and Nun Heh (mystic number 55); Theoricus, Shaddai El Chai and Mem Heh (45); Practicus, Elohim Tzabaoth and Eloah (36). The password of the Portal grade is Paroketh, the veil of the Tabernacle, exchanged letter by letter. (1938 (as published); Stella Matutina practice)
   - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
-  - Where: vol. 2, pp. 54, 85, 112, 189
-  - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04.
+  - Where: vol. 2, pp. 55, 86, 115, 188
+  - Assessment: Checked against the page images of Volume Two (1938) on 2026-11-04. Regardie spells the Practicus word ELOHIM TSABAOTH where it is explained and TZABAOTH in the ritual.
 - `CLM-0033` *change* · **single source** · reviewed: The penalty in the Neophyte obligation was changed: the version printed in 1909 calls down a deadly current of will from the chiefs of the Order that would strike the oath-breaker dead or paralysed, while the Stella Matutina version printed in 1938 sets expulsion for perjury and submission, by the candidate's own consent, to a stream of power set in motion by the Order's Divine Guardians. (1890s–1930s)
   - Supported by: [The Equinox (Vol. I)](#src-0007) (no online copy) · [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
-  - Where: SRC-0007: No. II, pp. 253–254; SRC-0008: vol. 2, pp. 22–23
+  - Where: SRC-0007: No. II, pp. 253–254; SRC-0008: vol. 2, pp. 22–24
   - Assessment: Checked against the Internet Archive text of Volume Two (1938) on 2026-11-04. Also checked against The Equinox I(2). Each source attests one wording; the change itself is shown by comparing them, and the 1909 text's footnote also mentions a softened later wording.
 - `CLM-0034` *content* · **single source** · reviewed: The Neophyte obligation also binds the candidate not to copy any manuscript without the Second Order's permission, to keep every ritual or lecture under the Order's label, not to let himself be put into a passive state in which an uninitiated person or power could take control of his words or actions, and not to use his knowledge for evil magic. (1938 (as published); Stella Matutina practice)
   - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
@@ -180,7 +209,14 @@ Instructional papers on Kabbalah / astrology / geomancy / ritual magic issued gr
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
-| 1937 | defector testimony | full |  | [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938)) | unassessed |  |
+| 1937 | defector testimony | full | The five knowledge lectures of the Outer Order, with the Lesser Ritual of the Pentagram and other papers (vol. 1, pp. 99–162) | [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0039` *content* · **single source** · reviewed: The First Knowledge Lecture covers the four elements and their qualities, the twelve signs of the zodiac by triplicity, the seven planets of the ancients and the lunar nodes, the Hebrew alphabet and the ten Sephiroth. It is followed by the Lesser Ritual of the Pentagram: with a steel dagger the student makes the Qabalistic Cross (Ateh, Malkuth, ve-Geburah, ve-Gedulah, le-Olam, Amen), draws a pentagram in each quarter while vibrating YHVH, Adonai, Eheieh and Agla, and calls on Raphael, Gabriel, Michael and Auriel. (1937 (as published); Stella Matutina practice)
+  - Supported by: [The Golden Dawn (4 vols.)](#src-0008) ([archive.org](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938))
+  - Where: vol. 1, pp. 99–107
+  - Assessment: Checked against the Internet Archive text of Volume One (1937) on 2026-11-04. Regardie places the pentagram ritual immediately after the First Knowledge Lecture; the banishing form reverses the direction of the pentagrams.
 
 <a id="trad-0003"></a>
 
@@ -273,19 +309,28 @@ Temple ceremony including covenants / signs and tokens.
 
 - **Restricted to:** Members holding a temple recommend
 - **How:** vow
-- **Stated reason:** Sacredness of the ceremony
+- **Stated reason:** The ordinances are sacred and are not discussed outside a temple (CLM-0042)
 - **Notes:** Penalty gestures were removed from the ceremony in 1990.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
 |---|---|---|---|---|---|---|
 | 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy) | unassessed | Compares versions of the ceremony across time. |
+| 1990 | journalism | reference | Names three elements dropped from the ceremony in 1990; does not describe the ceremony | [Mormons alter rituals seen as offensive](#src-0047) ([web.archive.org](http://web.archive.org/web/20191116050807/https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9005/900503/05030428.htm)) | unassessed |  (reviewed) |
 | c. 2017 | leak | partial | Extent not yet established; which ordinances are recorded still needs checking | [Hidden-camera recordings of LDS temple ordinances](#src-0041) (no online copy) | unassessed | Covert video recordings made during the ceremony itself, not reconstructed from memory or text. |
 
 **Claims**
 
 - `CLM-0003` *change* · **single source**: Penalty gestures were removed from the endowment ceremony. (1990)
   - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no online copy)
-  - Assessment: Only one source recorded so far; contemporary press reports would make it independently corroborated.
+  - Assessment: Only one source recorded so far; contemporary press reports would make it independently corroborated. The 1990 press report SRC-0047 lists other changes (CLM-0041) but does not mention the penalties.
+- `CLM-0041` *change* · **single source** · reviewed: In April 1990 the church dropped from the temple ceremony the vow in which women pledged obedience to their husbands, the wearing of face veils by women, and a portrayal of non-Mormon clergy as hirelings of Satan. (1990)
+  - Supported by: [Mormons alter rituals seen as offensive](#src-0047) ([web.archive.org](http://web.archive.org/web/20191116050807/https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9005/900503/05030428.htm))
+  - Where: whole report
+  - Assessment: Checked against the archived report on 2026-11-04. A church spokeswoman declined to discuss the ceremony beyond general terms. The Tanners' 1990 book (SRC-0013) also covers these changes but has not been read.
+- `CLM-0042` *stated reason* · **single source** · reviewed: The church's First Presidency says a dedicated temple is the most holy place of worship and that its ordinances are sacred and are not discussed outside a holy temple; it adds that details of temple work, including its language, have been adjusted periodically and will continue to be. (2019)
+  - Supported by: [Church releases statement on temples (First Presidency statement)](#src-0048) ([thechurchnews.com](https://www.thechurchnews.com/2019/1/2/23264558/church-releases-statement-on-temples/))
+  - Where: statement of 2 January 2019
+  - Assessment: Checked against the statement on the Church News site on 2026-11-04. The church describes the ceremony as sacred rather than secret.
 
 <a id="trad-0006"></a>
 
@@ -673,10 +718,15 @@ A sequence of grades through which initiates advanced, known mainly from inscrip
 
 **Claims**
 
-- `CLM-0018` *content* · **single source** · reviewed: The initiate advanced through seven grades, named Raven (corax), Occult (cryphius), Soldier (miles), Lion (leo), Persian (Perses), Runner of the Sun (heliodromus) and Father (pater), and on some occasions wore costume suited to the grade. (Roman Empire, 2nd–4th centuries CE)
+- `CLM-0018` *content* · **contradicted** · reviewed: The initiate advanced through seven grades, named Raven (corax), Occult (cryphius), Soldier (miles), Lion (leo), Persian (Perses), Runner of the Sun (heliodromus) and Father (pater), and on some occasions wore costume suited to the grade. (Roman Empire, 2nd–4th centuries CE)
   - Supported by: [The Mysteries of Mithra](#src-0033) ([archive.org](https://archive.org/details/mysteriesmithra00mccogoog)) · [Epistulae, Part II (Letters 71–120) (Corpus Scriptorum Ecclesiasticorum Latinorum 55)](#src-0044) ([archive.org](https://archive.org/details/corpusscriptorum0055unse))
+  - Contradicted by: [Regio V – Insula IX – Mitreo di Felicissimus (V,IX,1)](#src-0045) ([ostia-antica.org](https://www.ostia-antica.org/regio5/9/9-1.htm))
   - Where: SRC-0033: pp. 152–153; SRC-0044: Ep. 107.2, p. 292
-  - Assessment: Checked against the Internet Archive texts on 2026-11-04. Cumont bases the list on Jerome, Ep. 107.2 (SRC-0044), whose 1912 CSEL edition also reads 'cryphius', and on inscriptions; the two are not independent. Modern scholarship generally names the second grade Nymphus (Bridegroom), from the Santa Prisca inscriptions and the Felicissimus mithraeum mosaic at Ostia. Adding a source for that reading would allow this claim to be marked contradicted.
+  - Assessment: Checked against the Internet Archive texts on 2026-11-04. Cumont bases the list on Jerome, Ep. 107.2 (SRC-0044), whose 1912 CSEL edition also reads 'cryphius', and on inscriptions; the two are not independent. Contradicted only on the name of the second grade: the Felicissimus mosaic (SRC-0045, CLM-0043) assigns that place to the Nymphus (Bridegroom), the name used in modern scholarship. The other six names agree.
+- `CLM-0043` *content* · **single source** · reviewed: The floor of the Felicissimus mithraeum at Ostia shows seven panels, each pairing a planet with the emblems of a grade, in ascending order: Mercury with the raven of the Corax, Venus with the lamp of the Nymphus (Bridegroom), Mars with the lance and bag of the Miles, Jupiter with the shovel or ladle for carrying fire of the Leo, the Moon with the sickle-sword of the Perses, the Sun with the whip of the Heliodromus, and Saturn with the Phrygian cap, patera and rod of the Pater. (2nd half of the 3rd century CE (Ostia))
+  - Supported by: [Regio V – Insula IX – Mitreo di Felicissimus (V,IX,1)](#src-0045) ([ostia-antica.org](https://www.ostia-antica.org/regio5/9/9-1.htm))
+  - Where: description of the seven panels
+  - Assessment: Checked against the website on 2026-11-04. The emblems are interpreted, not labelled; the site calls the Leo emblem a spade or perhaps a ladle and the Perses weapon a hamatus or falcatus ensis.
 
 <a id="trad-0018"></a>
 
@@ -856,7 +906,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Open Library `OL1989588W`](https://openlibrary.org/works/OL1989588W) · [Internet Archive `IsraelRegardie-thegoldenDawn-vol1-1937`](https://archive.org/details/IsraelRegardie-thegoldenDawn-vol1-1937) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol2-1938`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol2-1938) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol3-1939`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol3-1939) · [Internet Archive `IsraelRegardie-TheGoldenDawn-Vol4-1940`](https://archive.org/details/IsraelRegardie-TheGoldenDawn-Vol4-1940)
 - **Notes:** Aries Press, Chicago. Based on Stella Matutina papers. Linked copy is Volume Two (1938): Rituals of the First Order and the Portal.
 - **Discloses:** [Grade initiation rituals (Neophyte 0=0 to Adeptus Minor 5=6)](#item-0003) · [Knowledge lectures and inner-order teachings](#item-0004)
-- **Cited in claims:** `CLM-0031` · `CLM-0032` · `CLM-0033` · `CLM-0034`
+- **Cited in claims:** `CLM-0022` · `CLM-0023` · `CLM-0031` · `CLM-0032` · `CLM-0033` · `CLM-0034` · `CLM-0039`
 
 <a id="src-0009"></a>
 
@@ -1327,3 +1377,98 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Links:** [Internet Archive `corpusscriptorum0055unse`](https://archive.org/details/corpusscriptorum0055unse) · [Internet Archive `corpusscriptorum55stuoft`](https://archive.org/details/corpusscriptorum55stuoft)
 - **Notes:** Letter 107, to Laeta, lists the seven Mithraic grades in passing. Hostile Christian source; the author's access to the rites is not established.
 - **Cited in claims:** `CLM-0018`
+
+<a id="src-0045"></a>
+
+### Regio V – Insula IX – Mitreo di Felicissimus (V,IX,1)
+
+`SRC-0045` · Ostia Antica website (ostia-antica.org) · website
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [www.ostia-antica.org](https://www.ostia-antica.org/regio5/9/9-1.htm)
+- **Notes:** Description of the floor mosaic of the Felicissimus mithraeum, second half of the 3rd century CE; the plan is cited from Scavi di Ostia II. Read on 2026-11-04.
+- **Cited in claims:** `CLM-0018` · `CLM-0043`
+
+<a id="src-0046"></a>
+
+### The transfer of the physical penalties from the obligations
+
+`SRC-0046` · Harry Mendoza · 1987 · periodical
+
+- **Provenance:** member publication
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [freemasonry.bcy.ca](https://freemasonry.bcy.ca/aqc/penalties.html) · [ISBN `0907655130`](https://openlibrary.org/isbn/0907655130)
+- **Notes:** Paper in Ars Quatuor Coronatorum 100 (1987, published 1988), pp. 109–112, the transactions of Quatuor Coronati Lodge, the United Grand Lodge of England's research lodge. Read in the copy on the Grand Lodge of British Columbia and Yukon's website.
+- **Cited in claims:** `CLM-0040`
+
+<a id="src-0047"></a>
+
+### Mormons alter rituals seen as offensive
+
+`SRC-0047` · The Roanoke Times (from The New York Times) · 1990 · newspaper
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [web.archive.org](http://web.archive.org/web/20191116050807/https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9005/900503/05030428.htm)
+- **Notes:** Short wire report, 3 May 1990, p. A9, credited to The New York Times. Read in the Virginia Tech newspaper archive via the Wayback Machine.
+- **Discloses:** [Temple endowment ceremony](#item-0007)
+- **Cited in claims:** `CLM-0041`
+
+<a id="src-0048"></a>
+
+### Church releases statement on temples (First Presidency statement)
+
+`SRC-0048` · First Presidency of The Church of Jesus Christ of Latter-day Saints; Church News staff · 2019 · website
+
+- **Provenance:** official release
+- **Authenticity:** verified
+- **Verification:** Read on the church's own Church News site on 2026-11-04: statement dated 2 January 2019.
+- **Rights:** copyrighted
+- **Links:** [www.thechurchnews.com](https://www.thechurchnews.com/2019/1/2/23264558/church-releases-statement-on-temples/)
+- **Notes:** Issued while members were reporting changes to the endowment wording; it names no specific change.
+- **Cited in claims:** `CLM-0042`
+
+<a id="src-0049"></a>
+
+### Le Diable au XIXe siècle (vol. 1)
+
+`SRC-0049` · Dr Bataille (pseudonym of Charles Hacks, with Léo Taxil) · 1892 · book
+
+- **Provenance:** published exposure
+- **Authenticity:** disproven
+- **Verification:** Its organiser, Léo Taxil, publicly declared the Palladism and Diana Vaughan revelations a hoax on 19 April 1897 (SRC-0051). Before that, Waite (SRC-0050, ch. XII) showed that the Masonic bodies and people Bataille claimed to have met at Singapore did not exist at the time.
+- **Rights:** public domain
+- **Links:** [Internet Archive `hacks-1892-dia-xixe-vol.-1`](https://archive.org/details/hacks-1892-dia-xixe-vol.-1)
+- **Notes:** Issued in parts 1892–1894; two volumes. The best-known source of the claim that Freemasonry hides a Luciferian rite.
+- **Discloses:** [Palladian rite (alleged Luciferian high degrees)](#item-0023)
+- **Cited in claims:** `CLM-0044`
+
+<a id="src-0050"></a>
+
+### Devil-Worship in France, or The Question of Lucifer
+
+`SRC-0050` · Arthur Edward Waite · 1896 · book
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [www.gutenberg.org](https://www.gutenberg.org/ebooks/21258)
+- **Notes:** Contemporary examination of the Bataille and Diana Vaughan publications, written before Taxil confessed.
+- **Cited in claims:** `CLM-0044`
+
+<a id="src-0051"></a>
+
+### The Hoax of the Century
+
+`SRC-0051` · Oamaru Mail (from the Daily Telegraph) · 1897 · newspaper
+
+- **Provenance:** published exposure
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [paperspast.natlib.govt.nz](https://paperspast.natlib.govt.nz/newspapers/OAM18970607.2.5)
+- **Notes:** Report of 7 June 1897, p. 1, from the Daily Telegraph's Paris correspondent, on Taxil's meeting at the Geographical Society's hall in Paris. Read on Papers Past.
+- **Cited in claims:** `CLM-0044`

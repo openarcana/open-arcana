@@ -98,7 +98,7 @@ Recordings are often taken down. Archive a copy (for example on the Internet Arc
 
 ## Claims
 
-A claim is one specific assertion about a restricted item, such as what a ceremony contains, that it was practiced in a given period, that it is still practiced, or that it changed. Write the statement in your own words and list the sources that support it and any that contradict it, with page, section, exhibit or timestamp references in `locators`. For audio and video, give start and end times (`00:14:30–00:21:10`) and say which upload or copy the times refer to.
+A claim is one specific assertion about a restricted item, such as what a ceremony contains, that it was practiced in a given period, that it is still practiced, that it changed, or the reason the tradition itself gives for restricting it (`stated_reason`, best sourced from the tradition's own statements). Write the statement in your own words and list the sources that support it and any that contradict it, with page, section, exhibit or timestamp references in `locators`. For audio and video, give start and end times (`00:14:30–00:21:10`) and say which upload or copy the times refer to.
 
 | `claim_support` | Meaning |
 |---|---|
