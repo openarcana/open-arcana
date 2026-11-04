@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-30 traditions · 39 restricted items · 72 disclosures · 112 claims · 86 sources
+30 traditions · 39 restricted items · 72 disclosures · 113 claims · 86 sources
 
 ## Traditions
 
@@ -1502,6 +1502,10 @@ Leaves of a sage grown only in cultivation, chewed or rubbed into water and take
   - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
   - Where: SRC-0085: p. 81
   - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0113` *stated reason* · **single source** · reviewed: The curandera María Sebastiana Carrera gave Wasson details of the leaf rite and chanted its words, but refused to let outsiders attend a real ceremony, because her neighbours, and probably she herself, would have considered performing it before outsiders scandalous desecration. As the session ended she burst into tears, fell to her knees and begged forgiveness for what she had done. (1961)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: p. 83
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The same page describes another curandera, Consuelo García, performing a leaf-only rite for Wasson's party in October 1962, with the leaves passed through copal smoke and ground on a metate.
 
 ## Sources
 
@@ -2644,7 +2648,7 @@ Leaves of a sage grown only in cultivation, chewed or rubbed into water and take
 - **Links:** [Internet Archive `mobot31753003541080`](https://archive.org/details/mobot31753003541080)
 - **Notes:** Botanical Museum Leaflets, Harvard University 20, no. 3 (1962), pp. 77–84. Linked copy is the bound volume 20 (1962–1964) digitised by the Biodiversity Heritage Library. Includes a paraphrased translation of R. J. Weitlaner's 1952 informant account. Read in the Internet Archive text on 2026-11-04.
 - **Discloses:** [Divination with the leaves of the Shepherdess (Salvia divinorum) and the hidden plantings](#item-0039)
-- **Cited in claims:** `CLM-0109` · `CLM-0110` · `CLM-0111` · `CLM-0112`
+- **Cited in claims:** `CLM-0109` · `CLM-0110` · `CLM-0111` · `CLM-0112` · `CLM-0113`
 
 <a id="src-0086"></a>
 
