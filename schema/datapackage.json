@@ -252,7 +252,13 @@
                 "testimony",
                 "website",
                 "usenet",
-                "academic"
+                "academic",
+                "video",
+                "audio",
+                "photograph",
+                "film",
+                "broadcast",
+                "social_media"
               ]
             }
           },
@@ -282,6 +288,7 @@
                 "insider_leak",
                 "intrusion",
                 "infiltration",
+                "covert_recording",
                 "anonymous_posting",
                 "archival_collection",
                 "academic_fieldwork",
@@ -328,7 +335,7 @@
           {
             "name": "content_hash",
             "type": "string",
-            "description": "IPFS CID or sha256 of an archived copy, when one exists."
+            "description": "IPFS CID or sha256 of an archived copy, when one exists. For audio, video and images, hash the file as first captured, before any re-encoding."
           },
           {
             "name": "notes",
