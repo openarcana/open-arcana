@@ -1,0 +1,4 @@
+# Preserve the repository-prefixed path when links are moved to this host.
+/open-arcana / 301
+/open-arcana/ / 301
+/open-arcana/* /:splat 301

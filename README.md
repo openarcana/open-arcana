@@ -10,7 +10,7 @@ Knowledge kept secret can be difficult to examine, compare or preserve. Open Arc
 
 ## Browse
 
-- **[Interactive explorer](https://openarcana.github.io/open-arcana/)**: select countries, filter disclosure types and historical context, explore the timeline and open individual source records. Share filtered views or download the current selection.
+- **[Interactive explorer](https://open-arcana.cor-ling.workers.dev/)**: select countries, filter disclosure types and historical context, explore the timeline and open individual source records. Share filtered views or download the current selection. The [GitHub Pages mirror](https://openarcana.github.io/open-arcana/) remains available.
 - **[CATALOG.md](CATALOG.md)**: every tradition, restricted item, disclosure and source on one page, with links to Wikidata, Open Library, Internet Archive and CourtListener.
 - **[QUALITY.md](QUALITY.md)**: review counts and record-level evidence gaps, regenerated from the CSVs.
 - **[OSINT audit](research/OSINT.md)**: dated link/redirect receipts, identifier and metadata checks, capture rehashing and unresolved access limits across the catalogue.
@@ -128,7 +128,9 @@ The explorer is a static site built from the same canonical CSVs. Run `python3 s
 
 [`site/geography.json`](site/geography.json) documents country associations derived from each tradition's recorded region. Worldwide, historical and ambiguous regional geography remains explicit; the map does not locate leaks or measure prevalence. Historical filters distinguish tradition origins from source publication dates and recorded practice status. Unknown disclosure dates remain separately selectable. Timeline clustering preserves every dated record and exposes the represented date span.
 
-The [Pages workflow](.github/workflows/pages.yml) validates the data, builds the site and publishes `main` to GitHub Pages. Enable GitHub Pages with **GitHub Actions** as its source; a custom domain is optional. The same `_site` directory can be deployed as static files on Cloudflare Pages or another static host. The source, data joins, filters and build remain in this repository.
+The primary host is **Cloudflare Workers Static Assets**. [`wrangler.toml`](wrangler.toml) builds and deploys the same static `_site` directory, without application backend code. With an authorized Cloudflare login, deploy using `npx --yes wrangler@4.157.0 deploy`; Wrangler runs the Python build automatically. Credentials stay outside the repository and the public site. A dedicated domain can be attached later without changing the explorer's relative asset paths or query-based filters.
+
+The [Pages workflow](.github/workflows/pages.yml) also validates the data, builds the site and publishes `main` to the GitHub Pages mirror, preserving existing shared links. On Cloudflare, [`site/_redirects`](site/_redirects) additionally accepts the old `/open-arcana/` path and preserves query parameters when redirecting it to the root. The source, data joins, filters and both hosting configurations remain in this repository.
 
 ## Principles
 
