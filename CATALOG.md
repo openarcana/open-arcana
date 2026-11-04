@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-26 traditions · 34 restricted items · 64 disclosures · 77 claims · 74 sources
+30 traditions · 39 restricted items · 72 disclosures · 113 claims · 86 sources
 
 ## Traditions
 
@@ -34,6 +34,10 @@
 - [Shugendō](#trad-0024) (1 item)
 - [Arrernte religion](#trad-0025) (1 item)
 - [Pitjantjatjara religion](#trad-0026) (1 item)
+- [Midewiwin (Grand Medicine Society)](#trad-0027) (1 item)
+- [Kwakwaka'wakw religion](#trad-0028) (1 item)
+- [Sámi religion (noaidi practice)](#trad-0029) (1 item)
+- [Mazatec mushroom religion](#trad-0030) (2 items)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -1225,6 +1229,284 @@ Knowledge of sacred sites and objects, paintings and rock engravings explained t
   - Where: SRC-0063: paras 3 and 17–19
   - Assessment: Library count from the author's search of the National Library of Australia catalogue.
 
+<a id="trad-0027"></a>
+
+## Midewiwin (Grand Medicine Society)
+
+`TRAD-0027` · indigenous tradition · founded unknown · Great Lakes and upper Mississippi (Ojibwe and neighbouring Anishinaabe peoples) · active · [Wikidata `Q538136`](https://www.wikidata.org/wiki/Q538136)
+
+A graded medicine society of Mide' priests, entered by initiation and payment; its songs and teachings are recorded on birch-bark scrolls.
+
+<a id="item-0035"></a>
+
+### Degree initiations and the 'shooting' of the migis shell
+
+`ITEM-0035` · initiatory rite · currently practiced
+
+The ceremonies of the four degrees, in which officiating priests 'shoot' the sacred migis shell into the candidate with their medicine bags, and the songs, remedies and instruction given at each degree.
+
+- **Restricted to:** Initiated Mide' of the corresponding degree
+- **How:** fee, grade requirement, oral only
+- **Stated reason:** Secrets and remedies that have been paid for lose their virtue if passed on for nothing (CLM-0080)
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1891 | academic research | full | Hoffman describes the ceremonies of all four degrees, with songs, mnemonic birch-bark charts and the preparatory instruction; not yet checked degree by degree | [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670)) | unassessed | Hoffman says the chief priests agreed to impart the rites to him (CLM-0081). |
+
+**Claims**
+
+- `CLM-0078` *content* · **single source** · reviewed: In the initiation, four officiating Mide' priests in turn thrust their medicine bags at the candidate, 'shooting' the sacred migis shell into his body; at the last thrust, aimed at his head, he falls forward as if lifeless, and a migis shell then drops from his mouth, where he had been told beforehand to hold it. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 215
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The same device recurs at a later degree, where the candidate spits out a shell he had hidden in his mouth (p. 265).
+- `CLM-0079` *content* · **single source** · reviewed: After a new member is admitted, the Mide' on each side of the lodge take turns pretending to shoot the migis into members of the other side, who fall over, gag and pretend to cough up a migis shell, show it round, and then pretend to swallow it again. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 265–266
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0080` *stated reason* · **single source** · reviewed: Mide' priests charge for every remedy or secret they pass on, because it is believed that a secret that was paid for cannot be given away for nothing without its power being weakened or destroyed by the manido that guards it. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 221
+  - Assessment: Hoffman reports the belief and adds that the practice is not only mercenary. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0081` *other* · **single source** · reviewed: The chief Mide' priests agreed to impart the ceremonies to Hoffman so that a complete description could be preserved for their descendants, because they expected that the 'pagan rites' could not be kept up much longer. (1880s)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 300
+  - Assessment: Hoffman's own account of how he obtained the material. He also expected the ceremonies to go on being held in secret. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0097` *content* · **single source** · reviewed: During preparation for initiation the candidate is taught the Mide' plants one or two at a time. He may be taken into the woods to a particular plant or tree; a smoke offering is made before it is pulled up, and a pinch of tobacco is put into the hole as an offering to Nokomis, the earth, grandmother of mankind. The cures are not credited to any action on the body but to driving out the bad manidos that possess the sick part; the spines of conifer leaves, for example, are held to act through the vapour upon the demons in the patient's body. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 197–198
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Hoffman lists the plants with botanical, English and Ojibwe names and their uses on pp. 198–201.
+- `CLM-0098` *change* · **single source** · reviewed: Mide' members said that formerly much of the plant lore was withheld from first-degree candidates and kept for the higher degrees. Because much knowledge was believed lost through the reticence of former chief priests, these 'higher secrets' were by the 1880s given in the instruction for the first and second degrees, while the third and fourth degrees were very rarely conferred. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 201–202
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0099` *suppression* (official condemnation) · **single source** · reviewed: Missionaries and, in many cases, Indian agents did their utmost to suppress the Mide' ceremonies as an obstacle to Christianisation, which Hoffman gives as one reason the third and fourth degrees were seldom conferred. (1880s)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 202
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. See also CLM-0081, where the chief priests' expectation that the rites could not continue is the reason they gave the material to Hoffman.
+- `CLM-0100` *content* · **single source** · reviewed: As part of the preparation for the fourth degree the candidate is taught to make charms and love powder. The love powder's composition is a profound secret, passed on only for a large fee: vermilion, powdered Seneca snakeroot (Polygala senega), a very small amount of blood from a girl's first menstruation, and powdered ginseng cut from the fork of the root, mixed and kept in a small buckskin bag. It is prepared only after a tobacco offering to Kitshi Manido and a Mide' song with a rattle. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: p. 258
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Hoffman gives the menstrual-blood ingredient in Latin. He distinguishes it from the face paint of roots and red ochre used to attract a lover, which he quotes from Peter Jones.
+- `CLM-0101` *content* · **single source** · reviewed: Before the first-degree initiation the candidate learns for the first time how the priests prepare effigies and other objects to give unbelievers visible proof of the Midewiwin's divine origin. In the tests, a string of four wooden beads rolls as if alive while its owner chants almost inaudibly; a small jointed wooden figure, set in a hole with a magic herb powder sprinkled around and into it, moves up and down; and the most powerful priests make a Mide' bag crawl on the ground. Hoffman suggests that a small animal in the bag would explain the last, and notes that the light is kept dim to stop the deception being seen, and that public displays are given only before the most credulous of the uninitiated or fellow priests. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 204–206
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0102` *content* · **single source** · reviewed: At the climax of the first-degree initiation the leading priest says Mi'-dzhi-de'-a-mi-shik' ('put your helping heart with me') and calls 'ya, ho', ho', ho', ho', ho', ho'' as he aims his bag at the candidate's head. When the shell has dropped from the candidate's mouth, the chief priest holds it toward the candidate's mouth, then to the east, south, west, north and sky, calling 'wa! wa! hé hé hé hé' each time, with the last syllable rising high and dropping. The new member then thanks each person present with the words Migwetsh ga-o-shi-to-in bimadisiwin, 'thanks for giving me life'. (by 1891)
+  - Supported by: [The Midē'wiwin or "Grand Medicine Society" of the Ojibwa](#src-0075) ([archive.org](https://archive.org/details/b24883670))
+  - Where: SRC-0075: pp. 215, 265
+  - Assessment: Checked against the page image of p. 215 and the Internet Archive text of p. 265 on 2026-11-04; Hoffman's accents on the thanks formula are omitted here.
+
+<a id="trad-0028"></a>
+
+## Kwakwaka'wakw religion
+
+`TRAD-0028` · indigenous tradition · founded ancient · Northern Vancouver Island and the adjacent mainland coast (British Columbia) · active
+
+Older literature calls the people Kwakiutl. The winter ceremonial is organised in dancing societies led by the hamatsa (Wikidata Q5644160 for the hamatsa). Wikidata has no item for the religion.
+
+<a id="item-0036"></a>
+
+### Hamatsa initiation and the eating of flesh
+
+`ITEM-0036` · initiatory rite · currently modified
+
+The initiation of a new hamatsa, who is held to be taken away to the woods by the cannibal spirit BaxbakualanuXsiwae and returns possessed, biting people and eating human flesh before he is tamed.
+
+- **Restricted to:** Initiated members of the hamatsa society and the other winter-ceremonial societies
+- **How:** grade requirement, social sanction
+- **Stated reason:** Not yet recorded from a Kwakwaka'wakw source
+- **Notes:** Boas (SRC-0076, pp. 440–441) already reports that by the 1890s the biting was done by a sleight of hand (CLM-0082).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1897 | academic research | partial | The hamatsa's seclusion, return, biting and corpse-eating, the preparation of the corpse and the hamatsa songs; Boas's text for pp. 436–443 checked | [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0082` *content* · **single source** · reviewed: The hamatsa returning from the woods bites pieces of flesh out of the arms and chests of the people. By the 1890s the flesh was no longer really bitten out: the hamatsa pulled up the skin with his teeth, sucked out blood, and secretly cut off a small piece of skin with a small sharp knife; the piece was not swallowed but hidden behind his ear and returned to its owner after the dance, as an assurance that it would not be used against him in witchcraft. (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: pp. 438 (biting), 440–441 (the knife)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Boas also writes that a person bitten was formerly believed to suffer inflammation if the hamatsa drank hot water after swallowing the flesh (p. 440).
+- `CLM-0083` *content* · **single source** · reviewed: A new hamatsa may return from the woods with a corpse, which must be that of one of his own dead relatives. The healers take a mummified body down from a tree burial, soak it in salt water, remove the decayed flesh with stripped hemlock twigs until only skin remains, and smoke it over the novice's hut; the hands and feet are cut away because eating them is believed to bring immediate death. After the dance the master of ceremonies cuts the body and hands out the flesh; the hamatsas must bolt it without chewing, and the onlookers count how many bites each swallows. (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: pp. 441–443
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0084` *historical practice* · **single source** · reviewed: At Newettee a female slave asked to dance for the hamatsa was killed with an axe by her master as she danced, and was eaten by the hamatsa. (before the 1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: p. 440
+  - Assessment: Boas reports this as the account of Q'omEna'kula, who took part and had died a few years before Boas wrote; Q'omEna'kula told him fresh human flesh was much harder to eat than dried corpses. Testimony relayed second-hand; no independent source recorded yet. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0085` *suppression* (official condemnation) · **single source** · reviewed: Section 3 of the 1884 amendment to the Indian Act made it a misdemeanour, punishable by two to six months' imprisonment, to take part in or encourage the 'Potlach' festival or the 'Tamanawas' dance, and the potlatch stayed illegal from 1885 to 1951. People who attended Chief Dan Cranmer's potlatch at Village Island in 1921 were charged and tried; the chiefs were made to sign a promise to give up the potlatch, twenty who refused were jailed, and the community's masks and regalia (the Potlatch Collection) were taken under this agreement. The law was dropped from the Indian Act in 1951 but never formally repealed. (1885–1951)
+  - Supported by: [An Act further to amend "The Indian Act, 1880" (Statutes of Canada 1884, chapter 27)](#src-0084) ([collections.ubcic.bc.ca](https://collections.ubcic.bc.ca/s/fndds/item/12383)) · [The Meaning of U'mista](#src-0077) ([umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php))
+  - Where: SRC-0084: section 3; SRC-0077: whole page
+  - Assessment: The statute and the community's account are independent, but each supports a different part of the statement (the law; the 1921 prosecutions and confiscation), so the 1921 events rest on SRC-0077 alone. Neither says whether hamatsa regalia was among the confiscated items, or whether the 'Tamanawas' dance of the statute covered the hamatsa rites. Read on 2026-11-04.
+- `CLM-0103` *content* · **single source** · reviewed: The cedar-bark ornaments, masks, whistles and carvings of the winter ceremonial must not be seen by the uninitiated, and anyone who saw them was formerly killed. Boas was told of a carver who killed his own daughter with a hammer after she saw him making a carving, and buried her under the fireplace. The initiated still warned the uninitiated away with the words 'Go away, else we shall bury you'. (before the 1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: p. 435
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The killing is a single story told to Boas.
+- `CLM-0104` *content* · **single source** · reviewed: When the novice hamatsa reappears near the village his sharp whistle and his cry 'hap, hap, hap' ('eating, eating, eating') are heard. The whistles sounded during the hamatsa's dances, mostly small and made of red cedar, a few of bone, represent the voices of the spirits. (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: pp. 438, 444
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0105` *content* · **single source** · reviewed: The secret song of the hamatsa who carries a corpse, in the Awikenox dialect, runs: 'Now I am going to eat. My face is ghastly pale. I shall eat what is given to me by BaxbakualanuXsiwae.' (1890s)
+  - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
+  - Where: SRC-0076: p. 459 (translation); pp. 691–692 (Awikenox text)
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Boas also prints secret songs of a Laolaxa dancer (p. 631; text p. 731).
+
+<a id="trad-0029"></a>
+
+## Sámi religion (noaidi practice)
+
+`TRAD-0029` · indigenous tradition · founded ancient · Sápmi (northern Norway, Sweden, Finland and the Kola Peninsula) · dormant · [Wikidata `Q735329`](https://www.wikidata.org/wiki/Q735329)
+
+Ritual specialists (noaidi) used the drum (goavddis, runebomme) for divination and healing. The practice was prosecuted as witchcraft by Danish-Norwegian and Swedish authorities in the 17th and 18th centuries (CLM-0087).
+
+<a id="item-0037"></a>
+
+### The noaidi drum (goavddis) and the meaning of its figures
+
+`ITEM-0037` · transmitted technique · currently unknown
+
+The drum painted with figures of gods, spirits, people and animals, struck to move a pointer across the figures for divination, healing and finding lost things, and the knowledge of what each figure means.
+
+- **Restricted to:** Noaidi and drum owners
+- **How:** social sanction, oral only
+- **Stated reason:** Not yet recorded from a Sámi source
+- **Notes:** Nearly all early knowledge of the figures comes from missionaries and court records (CLM-0086).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+|  | academic research | summary | How Paulsen grouped the figures (nature and Christian); no figure-by-figure meanings | [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen)) | verified |  (reviewed) |
+| 1692 | court record | partial | Paulsen's own explanation of the 25 figures on his drum and of its uses, given in court | [Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692](#src-0080) (no online copy) | unassessed | Recorded on 9–10 February 1692; coverage as described in SRC-0079. |
+| 2022 | academic research | partial | Paulsen's explanation of all five rows of figures and of how he played the drum, quoted from the court record in translation | [The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives](#src-0086) ([stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f)) | verified |  (reviewed) |
+
+**Claims**
+
+- `CLM-0086` *content* · **single source** · reviewed: Questioned in court in 1692, the noaidi Anders Paulsen identified 25 figures on his drum. He explained five through nature (storm, thunder, wild reindeer, the sun and the moon) and the rest through Christian ideas (the Trinity, the church, biblical figures and the devil). He said the drum could ease women's pain in childbirth, find stolen property and drive out dark forces. (1692)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen))
+  - Where: SRC-0078: section on the 1692 trial; SRC-0079: section on the drum
+  - Assessment: SRC-0079 gives the figures, SRC-0078 the uses. Both draw on the same court record (SRC-0080), so they count as one origin. SRC-0079 warns that the court record is an important source but should not be taken at face value, and that Paulsen gave conflicting accounts of where his drum came from. Read on 2026-11-04.
+- `CLM-0087` *suppression* (official condemnation) · **independently corroborated** · reviewed: In 1609 King Christian IV of Denmark-Norway ordered that Sámi found guilty of sorcery be sentenced to death without mercy, and using a drum was treated as sorcery. Anders Paulsen's drum was confiscated on 7 December 1691; he was tried at Vadsø on 9–10 February 1692, held without sentence while Copenhagen was consulted, and killed with an axe on 11 February by a mentally unstable man, Villem Gundersen, who was himself tried later that month. In 1693 the district judge took the drum to Copenhagen. (1609–1693)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen)) · [The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives](#src-0086) ([stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f))
+  - Where: SRC-0078: background and trial sections; SRC-0079: whole article; SRC-0086: pp. 143–144
+  - Assessment: The three sources are independent secondary works. SRC-0078 calls the killer a jailor; SRC-0079 and SRC-0086 (which names him and his trial on 22 and 24 February) describe him as a person not of sound mind, so the jailor detail is set aside. SRC-0086 describes the 1609 measure as a letter to the district governors of Vardøhus and Nordland. The 1693 transfer rests on SRC-0079. Read on 2026-11-04.
+- `CLM-0088` *change* · **independently corroborated** · reviewed: Paulsen's drum went to the Danish national museum. It was lent to the Sámi collections at Karasjok in 1979, and in 2022 Denmark transferred ownership to the Karasjok museum (RiddoDuottarMuseat). (1693–2022)
+  - Supported by: [Return of a Sámi Drum](#src-0078) ([blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)) · [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen))
+  - Where: SRC-0078: return section; SRC-0079: final section
+  - Assessment: Both sources agree on the 1979 deposit and the 2022 transfer; SRC-0078 dates the Danish Ministry of Culture announcement to 24 January 2022. Read on 2026-11-04.
+- `CLM-0106` *content* · **single source** · reviewed: Paulsen got answers from the drum by striking it with a hammer so that a ring danced on the skin; if it danced anticlockwise the person he played for would have bad luck. Lifting the drum high, he said, brought an answer 'as when two persons speak to each other'. In court he showed this by lifting the drum and saying the Lord's Prayer in Finnish. He said his mother had taught him (at one point he named another man), and that the god worshipped were the figures he had painted, about whom his mother had taught him. (1692)
+  - Supported by: [The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives](#src-0086) ([stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f))
+  - Where: SRC-0086: pp. 143, 146, 149
+  - Assessment: Quoted by Willumsen from the court record (SRC-0080). Read in the publisher's PDF on 2026-11-04.
+- `CLM-0107` *content* · **single source** · reviewed: Paulsen explained his drum row by row. First row: Ilmaris (storm and bad weather), Diermis (thunder) and the wild reindeer Gvodde (luck in hunting); each can do good when God is prayed to, or harm, and asking for harm is sinful. Second row: Peive (the sun, for good weather at calving and growing time), the child Jumal (Christ), Juma-Etziem (God the father), Dom Kirch (the cathedral) and Engil (the Holy Spirit), with staffs called Juncher sabbe or Herr Sabbe like those of earthly lords. Third row: St Anne, Mary (also Jumal Enne or Jumal Ache, 'God's wife', who helps women in childbirth) and three Christmas masters, Oucht, Gought and Gvolme Jule Peive. Fourth row: Manna (the moon) and men going to and from church. Fifth row: the wife of the bound devil, a devil of disease, the devil loose in the world, Hilvet Tol (the flames of hell), Hilved Tarve Giedme (hell's tar cauldron), Hilvet Haufd (hell's grave) and Hvenaales Gvolisis, the devil bound in chains at the creation. (1692)
+  - Supported by: [The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives](#src-0086) ([stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f))
+  - Where: SRC-0086: pp. 146–151
+  - Assessment: Quoted and summarised by Willumsen from the court record (SRC-0080); the record also has drawings of the flames, cauldron and grave of hell. Willumsen notes the officials doubted his Christian readings. Read in the publisher's PDF on 2026-11-04.
+
+<a id="trad-0030"></a>
+
+## Mazatec mushroom religion
+
+`TRAD-0030` · indigenous tradition · founded pre-Columbian (mushroom rites); blended with Catholicism after the conquest · Sierra Mazateca (Huautla de Jiménez and neighbouring towns), Oaxaca, Mexico · active
+
+Healers (curanderos, sabios) hold night vigils with psilocybin mushrooms, which they call the saint children. Wikidata has items for the Mazatec people (Q1262708) and for María Sabina (Q442467) but not for the religion.
+
+<a id="item-0038"></a>
+
+### The mushroom vigil (velada) and the 'saint children'
+
+`ITEM-0038` · closed liturgy · currently modified
+
+An all-night rite in which a healer and the participants eat psilocybin mushrooms in the dark, and the healer chants and consults the mushrooms about sickness, lost things and absent people.
+
+- **Restricted to:** Mazatec families and patients gathered by a healer; kept from outsiders until 1955
+- **How:** social sanction, oral only
+- **Stated reason:** Outsiders who take the mushrooms without need spoil them: they lose their purity and force (CLM-0094)
+- **Notes:** Made public by R. Gordon Wasson's account in Life (1957) of a vigil led by María Sabina, whom he called Eva Mendez.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1957 | journalism | summary | One vigil (Huautla, 29–30 June 1955) described step by step, with photographs and the purposes for which the mushrooms are consulted; no chant texts | [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) | verified | Published 13 May 1957. (reviewed) |
+| 1977 | voluntary release | partial | The healer's own account of her vigils and their rules, with transcribed chants; read only through search-inside passages so far | [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0089` *content* · **single source** · reviewed: About twenty people gathered at night in the lower room of a house and were first served chocolate. At about 10:30 the curandera cleaned the mushrooms and, with prayers, passed them through the smoke of resin incense before an altar with Christian images. She shared them out among the adults, always counting them in pairs: thirteen pairs each for herself and her daughter, six pairs for each visitor; children were not given any. Before midnight she snuffed out the last candle with a flower from the altar, and the rite went on in total darkness until dawn, with the curandera and her daughter chanting in turn. (1955)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100))
+  - Where: SRC-0081: pp. 102, 109
+  - Assessment: Wasson calls the curandera Eva Mendez (CLM-0093). SRC-0083 gives the same outline (copal smoke, pairs, darkness), but largely from Wasson, so it is not counted as independent. Read on Google Books on 2026-11-04.
+- `CLM-0090` *content* · **single source** · reviewed: The mushrooms are not treated as a cure in themselves: people 'consult' them in grave trouble. They are asked what caused an illness, whether the patient will live or die and what will help; who stole a donkey and where it will be found; and whether a son who has gone away is alive, in jail, married or prospering. (1950s)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100))
+  - Where: SRC-0081: p. 118
+  - Assessment: Wasson adds that when the verdict is death the patient and family resign themselves and begin preparing the wake. Read on Google Books on 2026-11-04.
+- `CLM-0091` *historical practice* · **single source** · reviewed: Before Wasson came, no Mazatec revealed what they knew about the mushrooms to outsiders. Mazatecs spoke of the vigils in a low voice and avoided saying the mushrooms' Mazatec name, 'nti xi tjo (also written 'nti-xi-tjo, or 'nti sheeto by Wasson: 'that which springs forth', with 'nti a particle of reverence and endearment), calling them instead the little things or the little saints, as their ancestors had. (before 1955)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) · [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) · [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0082: p. 79; SRC-0081: p. 102 (the name); SRC-0083: section on childhood (the name and its meaning)
+  - Assessment: The secrecy and the avoidance of the name are María Sabina's own testimony (SRC-0082). SRC-0082 also prints the name, but with tone marks the search-inside text does not render legibly; the spellings given here are Wasson's, who says he used the name when first asking about the mushroom, and Allen's, who glosses it. Wasson also says (SRC-0081, p. 101) that the mushrooms had been a secret of certain Indian peoples for centuries and that no anthropologist had described the rite, which is consistent with her account but is his own judgement rather than evidence of the practice. Read on 2026-11-04.
+- `CLM-0092` *other* · **independently corroborated** · reviewed: Wasson was admitted through the town's síndico: he asked the official, Filemón, in confidence and using the Mazatec name of the mushroom, to help him learn its secrets, and Filemón led him to the curandera. María Sabina later said she had only obeyed the síndico. (1955)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) · [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0081: p. 102; SRC-0082: p. 79
+  - Assessment: Wasson's and María Sabina's accounts are independent of each other and agree on the síndico's role. SRC-0083 instead names her friend Cayetano as the go-between; María Sabina also mentions Cayetano bringing the foreigners (SRC-0082, p. 20). Read on 2026-11-04.
+- `CLM-0093` *other* · **single source** · reviewed: In Life Wasson called the curandera Eva Mendez and the language Mixeteco. The curandera was María Sabina of Huautla de Jiménez, and the language Mazatec; the names were changed to protect her from thrill-seekers. (1957)
+  - Supported by: [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0083: introduction and section on childhood
+  - Assessment: The names as printed are in SRC-0081 (pp. 101–102). The identification and the stated motive rest on SRC-0083, which also says Valentina Wasson gave the language as Mixtec in This Week (1958) for the same reason. Read on 2026-11-04.
+- `CLM-0094` *stated reason* · **single source** · reviewed: María Sabina said that before Wasson the saint children lifted her up, but that from the moment the foreigners arrived they lost their purity and force: the foreigners spoiled them, and there was no remedy. (1970s)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0082: p. 20 (quoted in Wasson's introduction), p. 91
+  - Assessment: Her own words, as recorded by Estrada. Elsewhere she says that showing her wisdom to foreigners was not in itself wrong, because the children are the blood of Christ (p. 79). SRC-0083 adds, citing Estrada, that the mushrooms had always been used to cure the sick and that the foreigners came only out of curiosity or to find God. Read in the Internet Archive search-inside text on 2026-11-04.
+- `CLM-0095` *suppression* (community pressure) · **single source** · reviewed: María Sabina's house was burned down. She did not know why, but some people thought it was because she had revealed the ancestral secret of Mazatec medicine to foreigners. (after 1955)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) · [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0082: p. 79; SRC-0083: section The Coming of the Foreigners
+  - Assessment: SRC-0083 draws on SRC-0082 and is not independent. It adds that she was arrested and jailed several times by local officials over her vigils with foreigners; no page in Estrada has been found for this yet. The motive is reported as other people's belief, not established. Read on 2026-11-04.
+- `CLM-0096` *change* · **single source** · reviewed: Wasson himself concluded that a practice carried on in secret for centuries had been aired, and that the airing spelled its end. (1970s)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0082: p. 20 (Wasson's introduction)
+  - Assessment: Wasson's judgement, not a description of current practice. SRC-0083 describes the arrival of thousands of foreign seekers in the 1960s, the sale of mushrooms to tourists, a local ban on mushroom use and the expulsion of foreigners by federal authorities. Read on 2026-11-04.
+- `CLM-0108` *content* · **single source** · reviewed: The mushrooms for a vigil are usually gathered in the evening at full moon, sometimes by a young virgin, and taken to a church to be blessed on the altar before use. If the girl who picked them passes a dead animal on the way, she must throw them away, go back to where they grew, gather fresh ones and return by another path. (20th century)
+  - Supported by: [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0083: section on childhood
+  - Assessment: Allen gives no primary source for these rules. Read on 2026-11-04.
+
+<a id="item-0039"></a>
+
+### Divination with the leaves of the Shepherdess (Salvia divinorum) and the hidden plantings
+
+`ITEM-0039` · restricted oral knowledge · currently practiced
+
+Leaves of a sage grown only in cultivation, chewed or rubbed into water and taken at night to divine the cause of a sickness or the whereabouts of stolen and lost things; the plantings are kept in hidden places.
+
+- **Restricted to:** Mazatec families who keep the plant and the curanderos who use it
+- **How:** social sanction, oral only
+- **Stated reason:** Not yet recorded from a Mazatec source
+- **Notes:** Described to science by Wasson in 1962 (SRC-0085).
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1962 | academic research | summary | Names, plant 'family', hidden plantings, dosage and an informant's account of the curing rite; Wasson's own session with a curandera | [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080)) | unassessed |  (reviewed) |
+
+**Claims**
+
+- `CLM-0109` *content* · **single source** · reviewed: Many, perhaps most, Mazatec families keep a private supply of Salvia divinorum, planted from cuttings in remote ravines away from houses and trails where passers-by might see them, and they are loath to reveal the spots: no one in San José Tenango would take Wasson to the plants. Since the late 1950s, with a market for mushrooms, landowners have begun enforcing their rights to the plants. (1962)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: pp. 78–79
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0110` *content* · **single source** · reviewed: Spanish-speaking Mazatecs call the plant hojas de la Pastora or hojas de María Pastora, 'leaves of (Mary) the Shepherdess', which translates the Mazatec ska Pastora. It is the female (la hembra) of a family of mints: the male (el macho) is Coleus pumila, and the child (el nene) and the godson (el ahijado) are forms of Coleus blumei. Ololiuqui (morning-glory seed) is called semilla de la Flor de la Virgen, but the Mazatecs prefer the leaves for divination. Leaves, like mushrooms, are counted in pairs, and the rites are always oriented to the east, never to the west, which is considered sinister. (1962)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: pp. 79, 81–82
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. Wasson suggests 'Pastora' may cover a pre-Christian Lord of the animals; that is his conjecture.
+- `CLM-0111` *content* · **single source** · reviewed: A curandero who goes to cut the plant must first kneel and pray to it, and cuts leaves only when they are needed. To divine a sickness the leaves are rubbed in unboiled water, fifty for a patient who does not drink alcohol and a hundred for one who does. At midnight the patient drinks it in a quiet, isolated house; in the trance that follows he speaks as in a trance and names his illness and shakes his clothes as if to free himself of the small creatures causing it, and at dawn he is bathed in the same water. For a theft or a lost thing the curandero listens to what the drinker says. A curer at Jalapa de Díaz who tended the plant would not reveal what kind of plant it was. (1950s)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: pp. 80–81
+  - Assessment: An informant's account recorded by R. J. Weitlaner (1952) and given by Wasson in paraphrased translation; not independent of Weitlaner. Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0112` *change* · **single source** · reviewed: By 1962 the Mazatecs discussed the leaves freely, being much less inhibited about this plant than they had been about the sacred mushrooms; the highway reached Huautla in 1958–1959 and the town had become the centre of a trade in the mushrooms. (1958–1962)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: p. 81
+  - Assessment: Checked against the Internet Archive text on 2026-11-04.
+- `CLM-0113` *stated reason* · **single source** · reviewed: The curandera María Sebastiana Carrera gave Wasson details of the leaf rite and chanted its words, but refused to let outsiders attend a real ceremony, because her neighbours, and probably she herself, would have considered performing it before outsiders scandalous desecration. As the session ended she burst into tears, fell to her knees and begged forgiveness for what she had done. (1961)
+  - Supported by: [A New Mexican Psychotropic Drug from the Mint Family](#src-0085) ([archive.org](https://archive.org/details/mobot31753003541080))
+  - Where: SRC-0085: p. 83
+  - Assessment: Checked against the Internet Archive text on 2026-11-04. The same page describes another curandera, Consuelo García, performing a leaf-only rite for Wasson's party in October 1962, with the leaves passed through copal smoke and ground on a metate.
+
 ## Sources
 
 <a id="src-0001"></a>
@@ -2212,3 +2494,173 @@ Knowledge of sacred sites and objects, paintings and rock engravings explained t
 - **Links:** [www.austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html)
 - **Notes:** Paper given at the 'Traditional Knowledge, Intellectual Property and Indigenous Culture' conference, Benjamin N. Cardozo School of Law, New York, 21–22 February 2002. Discusses Foster v Mountford in the section 'Case law', citing (1976) 29 FLR 233.
 - **Cited in claims:** `CLM-0063` · `CLM-0064`
+
+<a id="src-0075"></a>
+
+### The Midē'wiwin or "Grand Medicine Society" of the Ojibwa
+
+`SRC-0075` · Walter James Hoffman · 1891 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `b24883670`](https://archive.org/details/b24883670)
+- **Notes:** Seventh Annual Report of the Bureau of Ethnology, 1885–'86 (Washington, 1891), pp. 143–300. Hoffman's fieldwork in Minnesota followed a Bureau survey with Garrick Mallery. Read in the Internet Archive text on 2026-11-04.
+- **Discloses:** [Degree initiations and the 'shooting' of the migis shell](#item-0035)
+- **Cited in claims:** `CLM-0078` · `CLM-0079` · `CLM-0080` · `CLM-0081` · `CLM-0097` · `CLM-0098` · `CLM-0099` · `CLM-0100` · `CLM-0101` · `CLM-0102`
+
+<a id="src-0076"></a>
+
+### The Social Organization and the Secret Societies of the Kwakiutl Indians
+
+`SRC-0076` · Franz Boas · 1897 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `socialorganizati00boas`](https://archive.org/details/socialorganizati00boas)
+- **Notes:** Report of the U.S. National Museum for 1895 (Washington, 1897), pp. 311–738. Read in the Internet Archive text on 2026-11-04.
+- **Discloses:** [Hamatsa initiation and the eating of flesh](#item-0036)
+- **Cited in claims:** `CLM-0082` · `CLM-0083` · `CLM-0084` · `CLM-0103` · `CLM-0104` · `CLM-0105`
+
+<a id="src-0077"></a>
+
+### The Meaning of U'mista
+
+`SRC-0077` · U'mista Cultural Society · website
+
+- **Provenance:** official release
+- **Authenticity:** verified
+- **Verification:** Site of the U'mista Cultural Centre, Alert Bay, which holds the repatriated Potlatch Collection; read on 2026-11-04.
+- **Rights:** copyrighted
+- **Links:** [umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php)
+- **Notes:** Part of the centre's online exhibition on the 1921 Cranmer potlatch and the return of the regalia.
+- **Cited in claims:** `CLM-0085`
+
+<a id="src-0078"></a>
+
+### Return of a Sámi Drum
+
+`SRC-0078` · Elin Hofverberg · 2022 · website
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** In Custodia Legis, the Law Library of Congress blog, by a foreign law specialist of the Law Library; read on 2026-11-04.
+- **Rights:** public domain
+- **Links:** [blogs.loc.gov](https://blogs.loc.gov/law/2022/02/return-of-a-smi-drum/)
+- **Notes:** 2 February 2022. A work of a US federal employee.
+- **Cited in claims:** `CLM-0086` · `CLM-0087` · `CLM-0088`
+
+<a id="src-0079"></a>
+
+### Anders Paulsen
+
+`SRC-0079` · Einar Niemi; Liv Helene Willumsen; Rune Blix Hagen · website
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** Store norske leksikon; signed article by three historians at UiT The Arctic University of Norway, last updated 5 October 2026; read on 2026-11-04.
+- **Rights:** copyrighted
+- **Linked copy:** 2026 edition
+- **Links:** [snl.no](https://snl.no/Anders_Paulsen)
+- **Notes:** In Norwegian. The name is spelled Paulsen here and Poulsen in SRC-0078.
+- **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
+- **Cited in claims:** `CLM-0086` · `CLM-0087` · `CLM-0088`
+
+<a id="src-0080"></a>
+
+### Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692
+
+`SRC-0080` · Finnmark local court (Niels Knagenhielm, sorenskriver) · 1692 · court record
+
+- **Provenance:** court filing → archival collection
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Notes:** Not yet read for this dataset; known here through SRC-0078 and SRC-0079. SRC-0079 calls it the most extensive source material of all the Finnmark witchcraft cases.
+- **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
+
+<a id="src-0081"></a>
+
+### Seeking the Magic Mushroom
+
+`SRC-0081` · R. Gordon Wasson · 1957 · periodical
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** verified
+- **Verification:** Read in the full-view scan of the issue on Google Books on 2026-11-04 (OCR of the page images); the issue, date, title and pages match the standard citation.
+- **Rights:** copyrighted
+- **Links:** [books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)
+- **Notes:** Life 42, no. 19 (13 May 1957), pp. 100–102, 109–120, in the series Great Adventures. Wasson's account of the vigil he attended at Huautla de Jiménez on 29–30 June 1955. Calls the curandera 'Eva Mendez' and the language 'Mixeteco' (CLM-0093).
+- **Discloses:** [The mushroom vigil (velada) and the 'saint children'](#item-0038)
+- **Cited in claims:** `CLM-0089` · `CLM-0090` · `CLM-0091` · `CLM-0092`
+
+<a id="src-0082"></a>
+
+### María Sabina: Her Life and Chants
+
+`SRC-0082` · Alvaro Estrada; introduction by R. Gordon Wasson · 1977 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Linked copy:** 1981 edition
+- **Links:** [Internet Archive `marasabinaherl00estr`](https://archive.org/details/marasabinaherl00estr) · [ISBN `091552032X`](https://openlibrary.org/isbn/091552032X)
+- **Notes:** María Sabina's account of her life, told in Mazatec to Estrada, himself from Huautla, and first published in Spanish as Vida de María Sabina; linked copy is the English edition (Santa Barbara: Ross-Erikson, 1981). The Internet Archive copy is restricted to print-disabled patrons; the passages used here were read through its search-inside results in Chrome on 2026-11-04.
+- **Discloses:** [The mushroom vigil (velada) and the 'saint children'](#item-0038)
+- **Cited in claims:** `CLM-0091` · `CLM-0092` · `CLM-0094` · `CLM-0095` · `CLM-0096`
+
+<a id="src-0083"></a>
+
+### María Sabina: Saint Mother of the Sacred Mushrooms
+
+`SRC-0083` · John W. Allen · website
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml)
+- **Notes:** From the author's Mushroom Pioneers; archived by Erowid with his permission (page last modified 21 February 2015). Draws mainly on Wasson and Estrada. Read in Chrome on 2026-11-04.
+- **Cited in claims:** `CLM-0091` · `CLM-0093` · `CLM-0095` · `CLM-0108`
+
+<a id="src-0084"></a>
+
+### An Act further to amend "The Indian Act, 1880" (Statutes of Canada 1884, chapter 27)
+
+`SRC-0084` · Parliament of Canada · 1884 · legislation
+
+- **Provenance:** official release
+- **Authenticity:** probable
+- **Verification:** Read on 2026-11-04 in a typed transcription (PDF) held in the UBCIC Library & Archives First Nations Digital Document Source, opened in Chrome. Chapter number, title and assent date of 19 April 1884 agree with the scanned copies described by the Gladue Rights Research Database; not yet compared with the printed statute book.
+- **Rights:** public domain
+- **Links:** [collections.ubcic.bc.ca](https://collections.ubcic.bc.ca/s/fndds/item/12383)
+- **Notes:** Assented to 19 April 1884. Section 3 is the potlatch ban.
+- **Cited in claims:** `CLM-0085`
+
+<a id="src-0085"></a>
+
+### A New Mexican Psychotropic Drug from the Mint Family
+
+`SRC-0085` · R. Gordon Wasson · 1962 · academic
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** public domain
+- **Links:** [Internet Archive `mobot31753003541080`](https://archive.org/details/mobot31753003541080)
+- **Notes:** Botanical Museum Leaflets, Harvard University 20, no. 3 (1962), pp. 77–84. Linked copy is the bound volume 20 (1962–1964) digitised by the Biodiversity Heritage Library. Includes a paraphrased translation of R. J. Weitlaner's 1952 informant account. Read in the Internet Archive text on 2026-11-04.
+- **Discloses:** [Divination with the leaves of the Shepherdess (Salvia divinorum) and the hidden plantings](#item-0039)
+- **Cited in claims:** `CLM-0109` · `CLM-0110` · `CLM-0111` · `CLM-0112` · `CLM-0113`
+
+<a id="src-0086"></a>
+
+### The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives
+
+`SRC-0086` · Liv Helene Willumsen · 2022 · academic
+
+- **Provenance:** scholarship
+- **Authenticity:** verified
+- **Verification:** Open-access chapter read in the publisher's PDF on 2026-11-04.
+- **Rights:** open license
+- **Links:** [stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f) · [DOI `10.16993/bbu.f`](https://doi.org/10.16993/bbu.f)
+- **Notes:** In Håkan Rydving and Konsta Kaikkonen (eds.), Religions around the Arctic: Source Criticism and Comparisons (Stockholm University Press, 2022), pp. 139–160. Quotes Paulsen's explanation of every row of figures from the court record (SRC-0080).
+- **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
+- **Cited in claims:** `CLM-0087` · `CLM-0106` · `CLM-0107`
