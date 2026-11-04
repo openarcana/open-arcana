@@ -171,7 +171,7 @@
           {
             "name": "stated_reason",
             "type": "string",
-            "description": "The tradition's own stated reason for secrecy, recorded without endorsement or judgement."
+            "description": "The tradition's own stated reason for secrecy, recorded without endorsement or judgement. A short summary; the sourced statement belongs in a claim of type stated_reason."
           },
           {
             "name": "current_status",
@@ -495,7 +495,7 @@
           {
             "name": "claim_type",
             "type": "string",
-            "description": "What kind of assertion this is. content: what the item contains; historical_practice: that it was actually practiced in a period; current_practice: that it is practiced today; change: that it was modified or discontinued.",
+            "description": "What kind of assertion this is. content: what the item contains; historical_practice: that it was actually practiced in a period; current_practice: that it is practiced today; change: that it was modified or discontinued; stated_reason: the reason the tradition itself gives for restricting it.",
             "constraints": {
               "required": true,
               "enum": [
@@ -503,6 +503,7 @@
                 "historical_practice",
                 "current_practice",
                 "change",
+                "stated_reason",
                 "other"
               ]
             }
