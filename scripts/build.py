@@ -159,6 +159,24 @@ def source_links(source):
     return links
 
 
+def read_url(source):
+    """The best link to a readable copy: the source's url, else the first identifier that is not Wikidata."""
+    if source["url"]:
+        return source["url"]
+    for pair in filter(None, source["identifiers"].split(";")):
+        prefix, value = pair.split(":", 1)
+        if prefix != "wikidata":
+            return ID_URLS[prefix].format(value)
+    return ""
+
+
+def cite(source):
+    """A source's title linked to its catalogue entry, followed by a direct link to a copy if there is one."""
+    url = read_url(source)
+    link = f" ([{url.split('/')[2].removeprefix('www.')}]({url}))" if url else " (no online copy)"
+    return f"[{md(source['title'])}](#{anchor(source['id'])}){link}"
+
+
 def anchor(record_id):
     return record_id.lower()
 
@@ -236,7 +254,7 @@ def write_catalog(tables, path):
                 review = "" if d["review_status"] == "unreviewed" else f" ({d['review_status']})"
                 out.append(
                     f"| {year} | {words(d['disclosure_method'])} | {d['extent']} | {md(d['coverage'])} "
-                    f"| [{md(s['title'])}](#{anchor(s['id'])}) | {s['source_authenticity']} | {md(d['notes'])}{review} |"
+                    f"| {cite(s)} | {s['source_authenticity']} | {md(d['notes'])}{review} |"
                 )
             if discs:
                 out.append("")
@@ -253,7 +271,7 @@ def write_catalog(tables, path):
                     ids = split(c[field])
                     if ids:
                         out.append(f"  - {label}: " + " · ".join(
-                            f"[{md(sources[i]['title'])}](#{anchor(i)})" for i in ids))
+                            cite(sources[i]) for i in ids))
                 if c["locators"]:
                     out.append(f"  - Where: {md(c['locators'])}")
                 if c["verification_notes"]:
