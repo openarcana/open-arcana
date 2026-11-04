@@ -87,6 +87,10 @@ def validate(package, tables):
             errors.append(f"{where}: single_source needs a supporting source")
         if c["claim_support"] == "contradicted" and not contradicting:
             errors.append(f"{where}: contradicted needs a contradicting source")
+        if c["claim_type"] == "suppression" and not c["suppression_method"]:
+            errors.append(f"{where}: suppression claims need a suppression_method")
+        if c["claim_type"] != "suppression" and c["suppression_method"]:
+            errors.append(f"{where}: suppression_method is only for suppression claims")
     return errors
 
 
@@ -264,8 +268,9 @@ def write_catalog(tables, path):
                 out += ["**Claims**", ""]
             for c in claims:
                 period = f" ({md(c['period'])})" if c["period"] else ""
+                method = f" ({words(c['suppression_method'])})" if c["suppression_method"] else ""
                 review = "" if c["review_status"] == "unreviewed" else f" · {c['review_status']}"
-                out.append(f"- `{c['id']}` *{words(c['claim_type'])}* · **{words(c['claim_support'])}**{review}: "
+                out.append(f"- `{c['id']}` *{words(c['claim_type'])}*{method} · **{words(c['claim_support'])}**{review}: "
                            f"{md(c['statement'])}{period}")
                 for label, field in (("Supported by", "supporting_source_ids"), ("Contradicted by", "contradicting_source_ids")):
                     ids = split(c[field])

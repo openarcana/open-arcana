@@ -28,6 +28,7 @@ The dataset never lets one judgement stand in for another:
 | Is what it says about the item accurate? | `claims` of type `content`, with their `claim_support` |
 | Was the item actually practiced in a given period? | `claims` of type `historical_practice` |
 | Is it still practiced today? | `claims` of type `current_practice` |
+| Was knowledge of it suppressed after it came out? | `claims` of type `suppression` |
 
 A genuine initiation manual can describe a ceremony that was never performed, was performed differently, or has since been dropped. Each of those is a separate claim, needing its own evidence.
 
@@ -115,6 +116,23 @@ Sources count as independent only if neither derives from the other and they do 
 ### Testimony and documents
 
 Testimony (a person's account of what they saw or did) and documents (a manual, ritual text or file) are judged differently. A named defector's account is testimony; an anonymous document is a document whose authenticity is unassessed. Record which one a source is through its `source_type` and `provenance`, and do not treat an anonymous document as if it were testimony, or the reverse.
+
+### Suppression
+
+Knowledge can be buried after it comes out: a court stops a book, an archive closes a collection, scholars hold back what they recorded, a tradition denies something it later admits, or a literal practice is recast as symbolic. A `suppression` claim records that this happened, with its method in `suppression_method`, and needs evidence of its own, such as the injunction, the withdrawal notice, the archive's access rules or the scholar's own statement.
+
+| `suppression_method` | Meaning |
+|---|---|
+| `court_injunction` | A court order stopped publication or distribution |
+| `publication_withdrawn` | A publisher or author pulled the work |
+| `archive_restricted` | An archive, museum or library closed access |
+| `scholarly_self_censorship` | Scholars withheld or blurred material they had |
+| `official_denial_later_admitted` | The tradition denied something it later acknowledged |
+| `official_condemnation` | A religious or state authority condemned the teaching as heresy or banned it, so that it survives mainly through its opponents |
+| `apologetic_reinterpretation` | A literal practice was recast as symbolic or allegorical |
+| `community_pressure` | Protests, threats or sanctions against publication |
+
+Suppression is not evidence of truth, and openness is not evidence of falsehood. Whether the buried material is accurate is a separate `content` claim, judged on its own sources like any other. Claims about a whole people, tribe or community are recorded and graded by the same rules: sourced, given a `claim_support` level, and marked `contradicted` when the evidence goes against them.
 
 ## Disclosures
 
