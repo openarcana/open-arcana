@@ -1,0 +1,12 @@
+# Cloudflare Workers Static Assets; the same output also serves GitHub Pages.
+name = "open-arcana"
+compatibility_date = "2026-11-04"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "./_site"
+not_found_handling = "404-page"
+
+[build]
+command = "python3 scripts/build_site.py --output _site"
