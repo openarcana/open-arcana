@@ -1,0 +1,2322 @@
+{
+  "dataset": {
+    "name": "open-arcana",
+    "version": "0.3.0",
+    "metadata_license": "CC0-1.0",
+    "snapshot_sha256": "661d9463d157f8847368bb1258e08fffd48dd136661880b3edbf8c6328dd1ea1"
+  },
+  "counts": {
+    "traditions": 40,
+    "restricted_items": 53,
+    "sources": 106,
+    "disclosures": 95,
+    "claims": 200,
+    "source_artifacts": 17
+  },
+  "distributions": {
+    "claims": {
+      "claim_support": {
+        "contradicted": 4,
+        "independently_corroborated": 3,
+        "insufficient": 3,
+        "single_source": 190
+      },
+      "review_status": {
+        "reviewed": 194,
+        "unreviewed": 6
+      },
+      "claim_type": {
+        "change": 10,
+        "content": 135,
+        "historical_practice": 20,
+        "other": 12,
+        "stated_reason": 10,
+        "suppression": 13
+      }
+    },
+    "disclosures": {
+      "review_status": {
+        "reviewed": 42,
+        "unreviewed": 53
+      },
+      "extent": {
+        "full": 23,
+        "partial": 39,
+        "reference": 6,
+        "summary": 27
+      }
+    },
+    "sources": {
+      "source_authenticity": {
+        "disproven": 1,
+        "probable": 13,
+        "unassessed": 75,
+        "uncertain": 1,
+        "verified": 16
+      },
+      "rights": {
+        "copyrighted": 47,
+        "court_record": 6,
+        "open_license": 3,
+        "public_domain": 38,
+        "unknown": 12
+      },
+      "source_type": {
+        "academic": 21,
+        "audio": 2,
+        "book": 35,
+        "broadcast": 1,
+        "collection": 1,
+        "court_record": 9,
+        "legislation": 1,
+        "manuscript": 3,
+        "newspaper": 4,
+        "periodical": 6,
+        "report": 5,
+        "testimony": 2,
+        "usenet": 1,
+        "video": 4,
+        "website": 11
+      },
+      "provenance": {
+        "academic_fieldwork": 23,
+        "anonymous_posting": 4,
+        "archival_collection": 17,
+        "court_filing": 10,
+        "covert_recording": 2,
+        "defector_account": 8,
+        "investigative_reporting": 2,
+        "member_publication": 3,
+        "official_release": 6,
+        "official_seizure": 1,
+        "published_exposure": 17,
+        "reconstruction": 1,
+        "scholarship": 32,
+        "unknown": 1
+      }
+    },
+    "source_artifacts": {
+      "artifact_kind": {
+        "audio": 1,
+        "collection": 1,
+        "document": 11,
+        "torrent_metadata": 1,
+        "transcript": 1,
+        "video": 2
+      },
+      "inspection_status": {
+        "complete": 3,
+        "metadata_only": 2,
+        "partial": 12
+      }
+    },
+    "restricted_items": {
+      "current_status": {
+        "discontinued": 3,
+        "modified": 10,
+        "practiced": 18,
+        "unknown": 22
+      }
+    },
+    "traditions": {
+      "region": {
+        "Anatolia / Balkans": 1,
+        "Arizona, United States": 1,
+        "Attica, Greece": 1,
+        "Central Asia / worldwide": 1,
+        "Central Australia (Northern Territory)": 1,
+        "Cherokee reservation, North Carolina, United States": 1,
+        "China / worldwide": 1,
+        "Germany / worldwide": 1,
+        "Great Lakes and upper Mississippi (Ojibwe and neighbouring Anishinaabe peoples)": 1,
+        "Igloolik and Aivilik areas, eastern Canadian Arctic": 1,
+        "India": 2,
+        "India / Nepal": 1,
+        "India / worldwide": 1,
+        "Isla Grande de Tierra del Fuego, Argentina and Chile": 1,
+        "Japan": 2,
+        "Levant": 1,
+        "Levant (Syria, Lebanon, Turkey)": 1,
+        "Lower Murray and Coorong, South Australia": 1,
+        "Near East / Europe / worldwide": 1,
+        "Northern India; interview at Bhurtpore (Bharatpur)": 1,
+        "Northern Vancouver Island and the adjacent mainland coast (British Columbia)": 1,
+        "Northern, western and central Liberia": 2,
+        "Osage communities, Oklahoma, United States": 1,
+        "Pawnee communities in Oklahoma, United States": 1,
+        "Pirá Paraná region, Vaupés, Colombia": 1,
+        "Roman Empire": 1,
+        "Sierra Mazateca (Huautla de Jiménez and neighbouring towns), Oaxaca, Mexico": 1,
+        "Southern China / Chinese diaspora": 1,
+        "Sápmi (northern Norway, Sweden, Finland and the Kola Peninsula)": 1,
+        "Tibet / Himalaya / worldwide": 1,
+        "United Kingdom": 1,
+        "United States / worldwide": 3,
+        "United States; cases examined in New York": 1,
+        "Western Desert (north-west South Australia, south-west Northern Territory, eastern Western Australia)": 1,
+        "Worldwide": 1
+      },
+      "tradition_type": {
+        "fraternal_order": 2,
+        "indigenous_tradition": 16,
+        "magical_order": 2,
+        "meditation_movement": 1,
+        "mystery_cult": 2,
+        "new_religious_movement": 1,
+        "other": 1,
+        "religion": 7,
+        "religious_branch": 8
+      }
+    }
+  },
+  "issue_counts": {
+    "artifact_metadata_only": 2,
+    "artifact_partial": 12,
+    "claim_contradicted": 4,
+    "claim_insufficient": 3,
+    "claim_without_locator": 4,
+    "disclosure_without_coverage": 21,
+    "record_unreviewed": 59,
+    "source_authenticity_disproven": 1,
+    "source_authenticity_probable": 13,
+    "source_authenticity_unassessed": 75,
+    "source_authenticity_uncertain": 1,
+    "source_rights_unknown": 12,
+    "source_without_content_hash": 102,
+    "source_without_link": 12,
+    "status_without_dated_evidence": 30
+  },
+  "issues": [
+    {
+      "table": "sources",
+      "record_id": "SRC-0001",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0001",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0001",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0002",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0002",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0003",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0003",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0004",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0004",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0005",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0005",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0006",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0006",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0007",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0007",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0008",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0008",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0009",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0009",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0010",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0010",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0010",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0011",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0011",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0011",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0012",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0012",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0012",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0012",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0013",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0013",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0013",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0014",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0014",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0015",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0015",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0016",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0016",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0017",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0017",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0018",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0018",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0019",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0019",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0020",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0020",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0021",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0021",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0022",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0022",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0022",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0023",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0023",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0024",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0024",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0025",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0025",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0026",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0026",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0027",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0027",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0028",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0028",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0029",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0029",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0030",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0030",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0030",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0031",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0031",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0032",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0032",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0033",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0033",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0034",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0034",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0035",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0035",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0036",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0036",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0036",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0037",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0038",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0038",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0039",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0039",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0040",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0040",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0040",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0041",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0041",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0041",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0041",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0042",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0042",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0043",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0044",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0044",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0045",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0045",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0046",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0046",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0047",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0047",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0048",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0049",
+      "code": "source_authenticity_disproven",
+      "message": "Source authenticity is disproven; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0049",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0050",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0050",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0051",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0051",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0052",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0052",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0053",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0053",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0054",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0054",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0054",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0055",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0055",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0056",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0056",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0057",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0057",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0058",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0058",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0059",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0059",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0060",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0060",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0061",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0061",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0062",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0062",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0062",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0063",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0063",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0064",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0064",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0065",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0065",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0065",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0066",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0066",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0067",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0067",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0068",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0068",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0069",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0069",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0070",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0070",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0070",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0071",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0072",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0072",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0073",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0074",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0075",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0075",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0076",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0076",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0077",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0078",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0079",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0080",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0080",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0080",
+      "code": "source_without_link",
+      "message": "No URL or external identifier has been recorded."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0081",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0082",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0082",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0083",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0083",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0084",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0084",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0085",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0085",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0086",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0087",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0088",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0088",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0089",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0089",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0093",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0093",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0093",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0094",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0094",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0094",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0096",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0097",
+      "code": "source_authenticity_uncertain",
+      "message": "Source authenticity is uncertain; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0098",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0098",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0098",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0099",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0099",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0099",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0100",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0101",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0101",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0102",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0102",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0103",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0103",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0104",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0104",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0105",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0105",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0106",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0106",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0107",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0107",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0108",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0108",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0109",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0109",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0001",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0002",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0003",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0004",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0005",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0006",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0001",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0002",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0003",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0004",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0005",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0006",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0007",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0008",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0009",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0010",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0011",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0012",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0013",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0014",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0015",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0016",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0017",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0018",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0019",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0020",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0021",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0022",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0023",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0024",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0025",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0026",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0027",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0028",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0029",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0030",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0031",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0032",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0033",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0034",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0035",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0036",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0037",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0038",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0039",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0040",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0041",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0042",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0043",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0044",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0045",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0060",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0061",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0064",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0065",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0066",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0067",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0070",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0089",
+      "code": "record_unreviewed",
+      "message": "Record review status is unreviewed; review is not proof of truth."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0001",
+      "code": "claim_without_locator",
+      "message": "No page, section, exhibit or timestamp is recorded."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0002",
+      "code": "claim_without_locator",
+      "message": "No page, section, exhibit or timestamp is recorded."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0002",
+      "code": "claim_insufficient",
+      "message": "Claim support is insufficient; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0003",
+      "code": "claim_without_locator",
+      "message": "No page, section, exhibit or timestamp is recorded."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0004",
+      "code": "claim_without_locator",
+      "message": "No page, section, exhibit or timestamp is recorded."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0007",
+      "code": "claim_contradicted",
+      "message": "Claim support is contradicted; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0018",
+      "code": "claim_contradicted",
+      "message": "Claim support is contradicted; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0044",
+      "code": "claim_contradicted",
+      "message": "Claim support is contradicted; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0076",
+      "code": "claim_insufficient",
+      "message": "Claim support is insufficient; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0144",
+      "code": "claim_insufficient",
+      "message": "Claim support is insufficient; retain that qualification when quoting or training."
+    },
+    {
+      "table": "claims",
+      "record_id": "CLM-0172",
+      "code": "claim_contradicted",
+      "message": "Claim support is contradicted; retain that qualification when quoting or training."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0001",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0002",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0003",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0004",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0005",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0006",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0007",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0008",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0012",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0013",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0014",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0015",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0016",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0017",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0021",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0022",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0027",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0028",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0030",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0033",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "disclosures",
+      "record_id": "DISC-0038",
+      "code": "disclosure_without_coverage",
+      "message": "The parts, version or edition covered by this disclosure have not been specified."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0001",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0003",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0005",
+      "code": "artifact_metadata_only",
+      "message": "Artifact inspection is metadata_only; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0007",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0008",
+      "code": "artifact_metadata_only",
+      "message": "Artifact inspection is metadata_only; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0009",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0010",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0011",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0012",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0013",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0014",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0015",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0016",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0017",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0001",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0002",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0003",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0004",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0005",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0006",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0007",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0008",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0009",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0010",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0011",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0012",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0013",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0015",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0016",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0017",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0018",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0019",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0020",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0021",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0027",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0029",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0031",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0032",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0033",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0034",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0035",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0036",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0038",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    },
+    {
+      "table": "restricted_items",
+      "record_id": "ITEM-0039",
+      "code": "status_without_dated_evidence",
+      "message": "The recorded practice status is provisional: no dated status claims are linked."
+    }
+  ],
+  "artifact_source_ids": {
+    "ARTF-0001": "SRC-0097",
+    "ARTF-0002": "SRC-0097",
+    "ARTF-0003": "SRC-0098",
+    "ARTF-0004": "SRC-0098",
+    "ARTF-0005": "SRC-0039",
+    "ARTF-0006": "SRC-0099",
+    "ARTF-0007": "SRC-0009",
+    "ARTF-0008": "SRC-0009",
+    "ARTF-0009": "SRC-0101",
+    "ARTF-0010": "SRC-0102",
+    "ARTF-0011": "SRC-0103",
+    "ARTF-0012": "SRC-0104",
+    "ARTF-0013": "SRC-0105",
+    "ARTF-0014": "SRC-0106",
+    "ARTF-0015": "SRC-0107",
+    "ARTF-0016": "SRC-0108",
+    "ARTF-0017": "SRC-0109"
+  },
+  "limitations": [
+    "Checks identify recorded evidence gaps, not whether an assertion is true or false.",
+    "Source independence and the fit between a status date and its evidence require human review.",
+    "Dated practice evidence applies to its stated period, not automatically to the present day.",
+    "The seed is a convenience collection, not a representative sample of traditions or secrecy."
+  ]
+}
