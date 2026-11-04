@@ -44,6 +44,7 @@ Every source records how it came to light in its `provenance` field. When materi
 | `insider_leak` | Passed on by a current member or employee |
 | `intrusion` | Obtained by hacking or unauthorized access |
 | `infiltration` | Gathered by someone who joined under false pretenses |
+| `covert_recording` | Recorded on audio, video or camera by an attendee without the tradition's permission |
 | `anonymous_posting` | Posted anonymously, with no traceable chain of custody |
 | `archival_collection` | Held in a library, archive or manuscript collection |
 | `academic_fieldwork` | Gathered by researchers through fieldwork or interviews |
@@ -81,9 +82,21 @@ Record in `verification_notes` what each check showed:
 - **Response from the tradition:** whether the tradition confirmed, denied, contested it in court, or ignored it. A copyright or trade-secret claim over a document is contextual evidence that the tradition regards it as its own material. It is not conclusive on its own: claims can be made over altered or partial copies, or to suppress a document regardless of its accuracy.
 - **Known fabrications:** whether it matches a hoax or forgery already recorded as `disproven`.
 
+### Checks for audio, video and images
+
+Recordings are documents, not testimony, and are assessed with the checks above plus these:
+
+- **Original file:** whether the earliest available upload or file can be found, and its date, duration, resolution and metadata. Record its `content_hash` before any re-encoding.
+- **Editing:** cuts, splices, dubbed audio or missing segments, judged from continuity of sound, lighting, camera position and on-screen clocks.
+- **Setting:** whether the room, furniture, vestments and participants match known photographs, floor plans or descriptions of the place.
+- **Text match:** whether what is said or done matches published texts of the same rite. Wording that matches a text exactly can mean either authenticity or a staged reading of that text, so note which explanation the other checks support.
+- **Independent recordings:** whether recordings made separately, by different people or at different times, agree with each other.
+
+Recordings are often taken down. Archive a copy (for example on the Internet Archive or the Wayback Machine) when a source is added, and record the archived URL in `url` or `identifiers`.
+
 ## Claims
 
-A claim is one specific assertion about a restricted item, such as what a ceremony contains, that it was practiced in a given period, that it is still practiced, or that it changed. Write the statement in your own words and list the sources that support it and any that contradict it, with page, section or exhibit references in `locators`.
+A claim is one specific assertion about a restricted item, such as what a ceremony contains, that it was practiced in a given period, that it is still practiced, or that it changed. Write the statement in your own words and list the sources that support it and any that contradict it, with page, section, exhibit or timestamp references in `locators`. For audio and video, give start and end times (`00:14:30–00:21:10`) and say which upload or copy the times refer to.
 
 | `claim_support` | Meaning |
 |---|---|
