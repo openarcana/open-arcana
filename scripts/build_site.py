@@ -11,6 +11,7 @@ import re
 import shutil
 
 import build
+import site_documents
 
 
 def origin_era(value):
@@ -59,15 +60,17 @@ def make_payload():
             'disclosure_methods': dict(Counter(r['disclosure_method'] for r in tables['disclosures']))}
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=build.ROOT / '_site')
-    args = parser.parse_args()
-    destination = args.output.resolve()
+def write_site(output):
+    destination = output.resolve()
     source = build.ROOT / 'site'
     if destination == source or source.is_relative_to(destination) or destination.is_relative_to(source):
-        parser.error('Output must be separate from the site source directory and its ancestors')
+        raise ValueError('Output must be separate from the site source directory and its ancestors')
     payload = make_payload()
+    package, tables = build.load()
+    errors = build.check_exports(package, tables, payload['dataset'], payload['canonical_inputs'], build.ROOT)
+    if errors:
+        raise ValueError('Publish current exports before building the site:\n' + '\n'.join(errors))
+    origin = site_documents.site_url()
     destination.mkdir(parents=True, exist_ok=True)
     shutil.copytree(source, destination, dirs_exist_ok=True)
     # Version the small browser assets so a new release cannot mix old filter
@@ -77,11 +80,29 @@ def main():
     (destination / 'app.js').write_text(app)
     page = (source / 'index.html').read_text().replace('src="./app.js"', f'src="./app.js?v={digest(destination / "app.js")}"')
     page = page.replace('href="./style.css"', f'href="./style.css?v={digest(source / "style.css")}"')
+    page = page.replace('__SITE_URL__', origin)
+    for table, token in [('disclosures', 'DISCLOSURES'), ('restricted_items', 'ITEMS'), ('traditions', 'TRADITIONS')]:
+        page = page.replace('__TOTAL_' + token + '__', str(payload['counts'][table]))
+    page = page.replace('<!-- SITE_METADATA -->', site_documents.metadata(
+        'Open Arcana — Restricted rites, initiations and texts', package['description'], origin + '/',
+        {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Open Arcana',
+         'url': origin + '/', 'description': package['description'], 'inLanguage': 'en'}))
     (destination / 'index.html').write_text(page)
     (destination / 'data.json').write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + '\n')
     (destination / '.nojekyll').touch()
+    site_documents.publish(destination, package, payload, origin)
     print(f"Built {destination}: {payload['counts']['disclosures']} disclosures, "
           f"{payload['counts']['restricted_items']} restricted items; snapshot {payload['dataset']['snapshot_sha256'][:12]}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output', type=Path, default=build.ROOT / '_site')
+    args = parser.parse_args()
+    try:
+        write_site(args.output)
+    except ValueError as error:
+        parser.error(str(error))
 
 
 if __name__ == '__main__':
