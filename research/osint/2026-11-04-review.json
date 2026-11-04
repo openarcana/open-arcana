@@ -1,0 +1,178 @@
+{
+  "reviewed_on": "2026-11-04",
+  "scope": "Human interpretation of bibliographic and transport observations, not a complete content re-review or an independent truth assessment of every claim.",
+  "recovery_routes_added": [
+    "SRC-0001",
+    "SRC-0013",
+    "SRC-0062",
+    "SRC-0065",
+    "SRC-0070"
+  ],
+  "reviews": [
+    {
+      "records": [
+        "SRC-0060"
+      ],
+      "question": "Automated citation helper returned mismatch",
+      "resolution": "Crossref returns the same chapter title with a Chapter Nine prefix and publication date 19 January 2022. Preserve the recorded title and year; do not adopt the helper verdict as an established defect.",
+      "evidence": [
+        "https://api.crossref.org/works/10.1515%2F9783110720211-009"
+      ],
+      "remaining_limit": "Bibliographic agreement does not independently verify the chapter's ritual description. The Handle resolves to a repository record, not directly to PDF bytes."
+    },
+    {
+      "records": [
+        "SRC-0068",
+        "SRC-0082"
+      ],
+      "question": "ISBN helper resolves journal reviews of the cited books",
+      "resolution": "Treat the helper rows as ambiguous book/review mappings. Do not attach the review DOI to the book or call the book a fabrication.",
+      "evidence": [
+        "2026-11-04-citation-helper.json"
+      ],
+      "remaining_limit": "Original-edition metadata and text still require the existing source-specific checks."
+    },
+    {
+      "records": [
+        "SRC-0004",
+        "SRC-0006"
+      ],
+      "question": "Catalogue metadata dates differ from linked/original editions",
+      "resolution": "Retain the specific edition distinctions. SRC-0004 links a 1776 copy while its Open Library work record supplies 1801. SRC-0006 already distinguishes the lending-only 1946 printing from the linked transcription. A work-level date does not date every attached copy.",
+      "remaining_limit": "No new full-copy collation was performed for these older sources."
+    },
+    {
+      "records": [
+        "SRC-0044",
+        "SRC-0085"
+      ],
+      "question": "Bound series/container metadata differs from the cited contribution",
+      "resolution": "Keep these as review qualifications. The provider's broad title/date must not overwrite the cited contribution's title, editor or date without checking the appropriate title page or issue.",
+      "remaining_limit": "A fresh title-page/issue collation was not completed for these two sources in this audit."
+    },
+    {
+      "records": [
+        "SRC-0095"
+      ],
+      "question": "Online publication and paginated issue dates differ",
+      "resolution": "The captured first page states online publication on 27 August 2024 and Aries 26 (2026), pp. 58–92. Existing original_year=2024 and edition_year=2026 are appropriate and are retained.",
+      "evidence": [
+        "https://mau.diva-portal.org/smash/get/diva2:1893180/FULLTEXT02.pdf"
+      ],
+      "remaining_limit": "Publication identity does not independently corroborate every historical assertion."
+    },
+    {
+      "records": [
+        "SRC-0107"
+      ],
+      "question": "Archive metadata says 1930 while the inspected title page says 1929",
+      "resolution": "Retain 1929 and the already recorded discrepancy. The archive catalogue date does not overrule the inspected title page.",
+      "evidence": [
+        "https://archive.org/details/intellectualcult00rasm"
+      ],
+      "remaining_limit": "Historical translated testimony is not a present-practice assessment."
+    },
+    {
+      "records": [
+        "TRAD-0023"
+      ],
+      "question": "Automated subject-label review: Brahmanical (Vedic) tradition versus Brahmanism",
+      "resolution": "Retain the mapping with its existing scope. A terminology difference alone does not establish a wrong identifier; no automatic relinking or claim upgrade follows.",
+      "evidence": [
+        "https://www.wikidata.org/wiki/Special:EntityData/Q889766.json"
+      ]
+    },
+    {
+      "records": [
+        "ARTF-0004"
+      ],
+      "question": "Recorded caption derivative not found in the supplied capture directories",
+      "resolution": "Retain the recorded digest and original inspection statement, but do not claim its bytes were revalidated during this audit.",
+      "remaining_limit": "No public transcript-file URL is recorded. A new caption export could differ and would need its own copy identity."
+    },
+    {
+      "records": [
+        "SRC-0011",
+        "DISC-0014",
+        "SRC-0012",
+        "DISC-0015"
+      ],
+      "question": "A working collection page was previously treated as supporting a full disclosure",
+      "resolution": "Recover the exact public index/archive routes but narrow unsupported seed extents to reference. Keep original exhibit and message recovery open. Link labels and domain destinations remain observations, not proof of a delivered ritual text.",
+      "evidence": [
+        "../searches/2026-11-04-recovery.jsonl"
+      ],
+      "remaining_limit": "No full OT III exhibit or exact historical Usenet message recovered; authenticity and review labels remain qualified."
+    },
+    {
+      "records": [
+        "SRC-0041",
+        "DISC-0042",
+        "ARTF-0046"
+      ],
+      "question": "Circa-2017 collection reference conflated discussion, upload and recording dates",
+      "resolution": "Replace it with an identifiable NewNameNoah endowment video. Local browser shows a 15 May 2013 upload; uploader describes footage from 2011 and 2012 and a separate veil segment. Record metadata-only inspection, not full footage or audio review.",
+      "evidence": [
+        "https://www.youtube.com/watch?v=b8sbYtFOnxk"
+      ],
+      "remaining_limit": "Uploader identity, recording provenance, editing and ritual coverage remain unassessed."
+    },
+    {
+      "records": [
+        "SRC-0080",
+        "ARTF-0044"
+      ],
+      "question": "Recovered text is an edited transcription with several dated layers",
+      "resolution": "Keep the 1692 trial year; identify the credited 1903 edition base and distinguish the 1691/1693 relation context. Selected text inspected without claiming original-manuscript collation.",
+      "evidence": [
+        "https://www.heimskringla.no/wiki/Forh%C3%B8rsprotokol_over_Anders_Poulsen"
+      ],
+      "remaining_limit": "No independent origin or authenticity upgrade follows from finding another derivative of the same court record."
+    },
+    {
+      "records": [
+        "SRC-0010",
+        "SRC-0022"
+      ],
+      "question": "Finding aids and holdings improve recoverability but do not deliver source content",
+      "resolution": "Retain the court record direct-route gap. Add the identified Sirr-i Akbar holding with explicit bibliographic-only notes; leave the Gallica reader uninspected.",
+      "remaining_limit": "Neither court exhibits nor manuscript pages were recovered."
+    },
+    {
+      "records": [
+        "SRC-0074"
+      ],
+      "question": "Browser-readable source coexists with HTTP client refusal",
+      "resolution": "Update to the observed AustLII viewdoc URL and preserve the browser read separately from the HTTP 403 receipt.",
+      "evidence": [
+        "https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedJSchol/2002/1.html"
+      ],
+      "remaining_limit": "DOM inspection establishes readability in that session, without an invented successful HTTP response code."
+    }
+  ],
+  "implementation_notes": [
+    "The initial metadata parser collected nested SVG title elements along with the document title. The parser was corrected and regression-tested; old observations are preserved as title_elements_text with their original auditor hash and parser label.",
+    "HTTP 200 human-verification pages and HTTP 202 nonfinal responses remain access qualifications.",
+    "Original and edition dates are compared without treating first-online publication, upload dates or bracketed catalogue years as automatic errors.",
+    "Provider access failures remain unresolved observations. They do not establish that the sources are dead, censored or false.",
+    "No source-authenticity, claim-support, review-status or modern-practice label was promoted by this audit.",
+    "Discovery logs now validate recovery roles, source IDs and outcomes and are included with their own input hashes. Unsearched routes are distinct from unsuccessful queries.",
+    "The original 52 Open Library failures group to one host and 26 source records. A browser and HTTP refusal do not establish an outage cause or 52 missing works.",
+    "An explicit single-host retry of PDFCoffee again failed DNS resolution; its original receipt remains in previous_observations."
+  ],
+  "additional_recovery_routes_added": [
+    "SRC-0011",
+    "SRC-0012",
+    "SRC-0022",
+    "SRC-0040",
+    "SRC-0041",
+    "SRC-0080"
+  ],
+  "browser_readable_route_updated": [
+    "SRC-0074"
+  ],
+  "disclosure_extent_narrowed": [
+    "DISC-0014",
+    "DISC-0015"
+  ]
+}

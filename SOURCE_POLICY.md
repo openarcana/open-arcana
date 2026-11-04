@@ -82,6 +82,24 @@ Provenance informs the authenticity assessment but does not settle it. Use `veri
 
 `original_year` is when the work was first published or the record created. `edition_year` is the year of the copy that `url`, `identifiers` and `content_hash` point to, when it differs. A 1946 printing of an 1866 text has `original_year` 1866 and `edition_year` 1946.
 
+### OSINT observations
+
+The [OSINT workflow](research/OSINT.md) applies to the whole catalogue. Preserve the input URL and each observed HTTP redirect, final destination, timestamp, selected headers, provider identifiers and metadata. A declared canonical link, meta refresh or alternate download is a lead until checked. Never replace a stable archive or DOI link with a transient storage host merely because it is the last redirect hop.
+
+A successful HTTP response can be a login, verification page, repository record or an empty metadata object. HTTP availability, matching bibliographic metadata, copy authenticity and claim accuracy are separate assessments. Do not automatically promote review, authenticity, independence or practice-status labels from network checks.
+
+Keep the work's publication and edition dates separate from upload dates, file-creation metadata, HTTP Date/Last-Modified and the first archival capture. A parent series or bound volume can legitimately have a different title or date from the cited contribution. Record the conflict and inspect the appropriate level before correcting it.
+
+Audit receipts live outside the canonical evidence tables and retain their own observation times and dataset snapshot. Their response-sample hashes never replace full artifact hashes. Original scans, transcriptions, captions and rendered page images remain distinct. Unavailable bytes or an unresolved request are recorded as limits rather than evidence of suppression, fabrication or disappearance.
+
+### Discovery and evidence verification
+
+Apply the [source discovery and evidence verification workflow](research/OSINT.md#discovery-and-provenance-tracing) to the search itself: define the restricted subject, search across relevant channels, trace release and copy history, and assess claims against evidence and counterevidence. Leaks, shadow catalogues, public forums, covert recordings and distributed files remain eligible. Investigate deception, coercion and enforcement where they bear on a particular rite or its transmission. Source selection follows relevance and evidence quality.
+
+Keep a source-linked search receipt with the actual query, route, tool, observation time, recovery role, inspected portions and limits. An index, holding or finding aid can improve recoverability while leaving content unreviewed. Record failed access and unsearched channels explicitly. A browser-readable document and a failed HTTP client can coexist without either observation being erased.
+
+Retain relevant difficult material in attributed summaries. Avoid collecting or publishing incidental credentials, private contact details or identifying details of private participants that do not help establish the restricted practice. Sexual rites involving minors are described non-graphically, without acquiring or redistributing abuse imagery. These handling distinctions do not establish the truth or falsity of the underlying practice and do not grant a tradition an exemption from scrutiny.
+
 ## Source authenticity
 
 `source_authenticity` says whether the source is what it claims to be: for example, whether a leaked manual really is the organisation's internal manual, or whether a published ritual matches what the order used.

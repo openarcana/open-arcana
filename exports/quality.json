@@ -3,15 +3,15 @@
     "name": "open-arcana",
     "version": "0.3.0",
     "metadata_license": "CC0-1.0",
-    "snapshot_sha256": "661d9463d157f8847368bb1258e08fffd48dd136661880b3edbf8c6328dd1ea1"
+    "snapshot_sha256": "fd755a0cc0c78cf43dac965d39908085b13b246532d888525645150e391f8e45"
   },
   "counts": {
-    "traditions": 40,
-    "restricted_items": 53,
-    "sources": 106,
-    "disclosures": 95,
-    "claims": 200,
-    "source_artifacts": 17
+    "traditions": 47,
+    "restricted_items": 63,
+    "sources": 118,
+    "disclosures": 108,
+    "claims": 265,
+    "source_artifacts": 46
   },
   "distributions": {
     "claims": {
@@ -19,52 +19,52 @@
         "contradicted": 4,
         "independently_corroborated": 3,
         "insufficient": 3,
-        "single_source": 190
+        "single_source": 255
       },
       "review_status": {
-        "reviewed": 194,
+        "reviewed": 259,
         "unreviewed": 6
       },
       "claim_type": {
         "change": 10,
-        "content": 135,
+        "content": 194,
         "historical_practice": 20,
-        "other": 12,
-        "stated_reason": 10,
+        "other": 17,
+        "stated_reason": 11,
         "suppression": 13
       }
     },
     "disclosures": {
       "review_status": {
-        "reviewed": 42,
-        "unreviewed": 53
+        "reviewed": 56,
+        "unreviewed": 52
       },
       "extent": {
-        "full": 23,
-        "partial": 39,
-        "reference": 6,
+        "full": 20,
+        "partial": 51,
+        "reference": 10,
         "summary": 27
       }
     },
     "sources": {
       "source_authenticity": {
         "disproven": 1,
-        "probable": 13,
-        "unassessed": 75,
-        "uncertain": 1,
-        "verified": 16
+        "probable": 20,
+        "unassessed": 76,
+        "uncertain": 3,
+        "verified": 18
       },
       "rights": {
-        "copyrighted": 47,
+        "copyrighted": 53,
         "court_record": 6,
         "open_license": 3,
-        "public_domain": 38,
-        "unknown": 12
+        "public_domain": 40,
+        "unknown": 16
       },
       "source_type": {
-        "academic": 21,
+        "academic": 25,
         "audio": 2,
-        "book": 35,
+        "book": 39,
         "broadcast": 1,
         "collection": 1,
         "court_record": 9,
@@ -72,50 +72,51 @@
         "manuscript": 3,
         "newspaper": 4,
         "periodical": 6,
-        "report": 5,
-        "testimony": 2,
+        "report": 6,
+        "testimony": 3,
         "usenet": 1,
         "video": 4,
-        "website": 11
+        "website": 13
       },
       "provenance": {
-        "academic_fieldwork": 23,
-        "anonymous_posting": 4,
-        "archival_collection": 17,
+        "academic_fieldwork": 29,
+        "anonymous_posting": 5,
+        "archival_collection": 26,
         "court_filing": 10,
         "covert_recording": 2,
-        "defector_account": 8,
+        "defector_account": 9,
         "investigative_reporting": 2,
-        "member_publication": 3,
-        "official_release": 6,
+        "member_publication": 4,
+        "official_release": 7,
         "official_seizure": 1,
-        "published_exposure": 17,
+        "published_exposure": 19,
         "reconstruction": 1,
-        "scholarship": 32,
+        "scholarship": 34,
         "unknown": 1
       }
     },
     "source_artifacts": {
       "artifact_kind": {
         "audio": 1,
-        "collection": 1,
-        "document": 11,
+        "collection": 2,
+        "document": 34,
+        "image": 2,
         "torrent_metadata": 1,
-        "transcript": 1,
-        "video": 2
+        "transcript": 3,
+        "video": 3
       },
       "inspection_status": {
         "complete": 3,
-        "metadata_only": 2,
-        "partial": 12
+        "metadata_only": 4,
+        "partial": 39
       }
     },
     "restricted_items": {
       "current_status": {
         "discontinued": 3,
         "modified": 10,
-        "practiced": 18,
-        "unknown": 22
+        "practiced": 17,
+        "unknown": 33
       }
     },
     "traditions": {
@@ -123,10 +124,13 @@
         "Anatolia / Balkans": 1,
         "Arizona, United States": 1,
         "Attica, Greece": 1,
+        "British-origin ritual texts; later exposed web compilation": 1,
         "Central Asia / worldwide": 1,
         "Central Australia (Northern Territory)": 1,
         "Cherokee reservation, North Carolina, United States": 1,
         "China / worldwide": 1,
+        "Cuba; accounts include Matanzas, Havana-area communities and Cárdenas": 1,
+        "Eastern Highlands, Papua New Guinea": 1,
         "Germany / worldwide": 1,
         "Great Lakes and upper Mississippi (Ojibwe and neighbouring Anishinaabe peoples)": 1,
         "Igloolik and Aivilik areas, eastern Canadian Arctic": 1,
@@ -137,6 +141,7 @@
         "Japan": 2,
         "Levant": 1,
         "Levant (Syria, Lebanon, Turkey)": 1,
+        "Long Valley, northern California, United States": 1,
         "Lower Murray and Coorong, South Australia": 1,
         "Near East / Europe / worldwide": 1,
         "Northern India; interview at Bhurtpore (Bharatpur)": 1,
@@ -145,7 +150,9 @@
         "Osage communities, Oklahoma, United States": 1,
         "Pawnee communities in Oklahoma, United States": 1,
         "Pirá Paraná region, Vaupés, Colombia": 1,
+        "Regla and Guanabacoa collection context, Havana, Cuba; diaspora web circulation": 1,
         "Roman Empire": 1,
+        "Savannah villages of the upper Tapajós region, Pará, Brazil": 1,
         "Sierra Mazateca (Huautla de Jiménez and neighbouring towns), Oaxaca, Mexico": 1,
         "Southern China / Chinese diaspora": 1,
         "Sápmi (northern Norway, Sweden, Finland and the Kola Peninsula)": 1,
@@ -154,37 +161,38 @@
         "United States / worldwide": 3,
         "United States; cases examined in New York": 1,
         "Western Desert (north-west South Australia, south-west Northern Territory, eastern Western Australia)": 1,
-        "Worldwide": 1
+        "Worldwide": 1,
+        "Zuni Pueblo, New Mexico, United States": 1
       },
       "tradition_type": {
-        "fraternal_order": 2,
-        "indigenous_tradition": 16,
+        "fraternal_order": 3,
+        "indigenous_tradition": 20,
         "magical_order": 2,
         "meditation_movement": 1,
         "mystery_cult": 2,
         "new_religious_movement": 1,
         "other": 1,
-        "religion": 7,
-        "religious_branch": 8
+        "religion": 8,
+        "religious_branch": 9
       }
     }
   },
   "issue_counts": {
-    "artifact_metadata_only": 2,
-    "artifact_partial": 12,
+    "artifact_metadata_only": 4,
+    "artifact_partial": 39,
     "claim_contradicted": 4,
     "claim_insufficient": 3,
     "claim_without_locator": 4,
-    "disclosure_without_coverage": 21,
-    "record_unreviewed": 59,
+    "disclosure_without_coverage": 19,
+    "record_unreviewed": 58,
     "source_authenticity_disproven": 1,
-    "source_authenticity_probable": 13,
-    "source_authenticity_unassessed": 75,
-    "source_authenticity_uncertain": 1,
-    "source_rights_unknown": 12,
-    "source_without_content_hash": 102,
-    "source_without_link": 12,
-    "status_without_dated_evidence": 30
+    "source_authenticity_probable": 20,
+    "source_authenticity_unassessed": 76,
+    "source_authenticity_uncertain": 3,
+    "source_rights_unknown": 16,
+    "source_without_content_hash": 114,
+    "source_without_link": 1,
+    "status_without_dated_evidence": 29
   },
   "issues": [
     {
@@ -201,12 +209,6 @@
     },
     {
       "table": "sources",
-      "record_id": "SRC-0001",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
-    },
-    {
-      "table": "sources",
       "record_id": "SRC-0002",
       "code": "source_authenticity_unassessed",
       "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
@@ -333,12 +335,6 @@
     },
     {
       "table": "sources",
-      "record_id": "SRC-0011",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
-    },
-    {
-      "table": "sources",
       "record_id": "SRC-0012",
       "code": "source_authenticity_unassessed",
       "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
@@ -348,12 +344,6 @@
       "record_id": "SRC-0012",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0012",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -375,12 +365,6 @@
     },
     {
       "table": "sources",
-      "record_id": "SRC-0013",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
-    },
-    {
-      "table": "sources",
       "record_id": "SRC-0014",
       "code": "source_authenticity_unassessed",
       "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
@@ -486,12 +470,6 @@
       "record_id": "SRC-0022",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0022",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -634,8 +612,8 @@
     {
       "table": "sources",
       "record_id": "SRC-0034",
-      "code": "source_authenticity_unassessed",
-      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
     },
     {
       "table": "sources",
@@ -717,12 +695,6 @@
     },
     {
       "table": "sources",
-      "record_id": "SRC-0040",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
-    },
-    {
-      "table": "sources",
       "record_id": "SRC-0041",
       "code": "source_authenticity_unassessed",
       "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
@@ -732,12 +704,6 @@
       "record_id": "SRC-0041",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0041",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -993,12 +959,6 @@
     },
     {
       "table": "sources",
-      "record_id": "SRC-0062",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
-    },
-    {
-      "table": "sources",
       "record_id": "SRC-0063",
       "code": "source_authenticity_unassessed",
       "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
@@ -1032,12 +992,6 @@
       "record_id": "SRC-0065",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0065",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -1098,12 +1052,6 @@
       "record_id": "SRC-0070",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0070",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -1188,12 +1136,6 @@
       "record_id": "SRC-0080",
       "code": "source_without_content_hash",
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
-    },
-    {
-      "table": "sources",
-      "record_id": "SRC-0080",
-      "code": "source_without_link",
-      "message": "No URL or external identifier has been recorded."
     },
     {
       "table": "sources",
@@ -1484,6 +1426,162 @@
       "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
     },
     {
+      "table": "sources",
+      "record_id": "SRC-0110",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0110",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0110",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0111",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0111",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0112",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0112",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0113",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0114",
+      "code": "source_authenticity_uncertain",
+      "message": "Source authenticity is uncertain; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0114",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0114",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0115",
+      "code": "source_authenticity_unassessed",
+      "message": "Source authenticity is unassessed; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0115",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0115",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0116",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0117",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0117",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0118",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0118",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0119",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0119",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0119",
+      "code": "source_rights_unknown",
+      "message": "The source text's rights have not been established."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0120",
+      "code": "source_authenticity_probable",
+      "message": "Source authenticity is probable; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0120",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0121",
+      "code": "source_authenticity_uncertain",
+      "message": "Source authenticity is uncertain; this is separate from the truth of its assertions."
+    },
+    {
+      "table": "sources",
+      "record_id": "SRC-0121",
+      "code": "source_without_content_hash",
+      "message": "No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead."
+    },
+    {
       "table": "claims",
       "record_id": "CLM-0001",
       "code": "record_unreviewed",
@@ -1725,12 +1823,6 @@
     },
     {
       "table": "disclosures",
-      "record_id": "DISC-0035",
-      "code": "record_unreviewed",
-      "message": "Record review status is unreviewed; review is not proof of truth."
-    },
-    {
-      "table": "disclosures",
       "record_id": "DISC-0036",
       "code": "record_unreviewed",
       "message": "Record review status is unreviewed; review is not proof of truth."
@@ -1965,18 +2057,6 @@
     },
     {
       "table": "disclosures",
-      "record_id": "DISC-0014",
-      "code": "disclosure_without_coverage",
-      "message": "The parts, version or edition covered by this disclosure have not been specified."
-    },
-    {
-      "table": "disclosures",
-      "record_id": "DISC-0015",
-      "code": "disclosure_without_coverage",
-      "message": "The parts, version or edition covered by this disclosure have not been specified."
-    },
-    {
-      "table": "disclosures",
       "record_id": "DISC-0016",
       "code": "disclosure_without_coverage",
       "message": "The parts, version or edition covered by this disclosure have not been specified."
@@ -2114,6 +2194,180 @@
       "message": "Artifact inspection is partial; use only its recorded inspected portions."
     },
     {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0018",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0019",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0020",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0021",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0022",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0023",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0024",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0025",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0026",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0027",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0028",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0029",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0030",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0031",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0032",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0033",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0034",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0035",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0036",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0037",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0038",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0039",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0040",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0041",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0042",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0043",
+      "code": "artifact_metadata_only",
+      "message": "Artifact inspection is metadata_only; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0044",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0045",
+      "code": "artifact_partial",
+      "message": "Artifact inspection is partial; use only its recorded inspected portions."
+    },
+    {
+      "table": "source_artifacts",
+      "record_id": "ARTF-0046",
+      "code": "artifact_metadata_only",
+      "message": "Artifact inspection is metadata_only; use only its recorded inspected portions."
+    },
+    {
       "table": "restricted_items",
       "record_id": "ITEM-0001",
       "code": "status_without_dated_evidence",
@@ -2229,12 +2483,6 @@
     },
     {
       "table": "restricted_items",
-      "record_id": "ITEM-0021",
-      "code": "status_without_dated_evidence",
-      "message": "The recorded practice status is provisional: no dated status claims are linked."
-    },
-    {
-      "table": "restricted_items",
       "record_id": "ITEM-0027",
       "code": "status_without_dated_evidence",
       "message": "The recorded practice status is provisional: no dated status claims are linked."
@@ -2311,7 +2559,36 @@
     "ARTF-0014": "SRC-0106",
     "ARTF-0015": "SRC-0107",
     "ARTF-0016": "SRC-0108",
-    "ARTF-0017": "SRC-0109"
+    "ARTF-0017": "SRC-0109",
+    "ARTF-0018": "SRC-0110",
+    "ARTF-0019": "SRC-0111",
+    "ARTF-0020": "SRC-0111",
+    "ARTF-0021": "SRC-0112",
+    "ARTF-0022": "SRC-0113",
+    "ARTF-0023": "SRC-0114",
+    "ARTF-0024": "SRC-0115",
+    "ARTF-0025": "SRC-0116",
+    "ARTF-0026": "SRC-0117",
+    "ARTF-0027": "SRC-0034",
+    "ARTF-0028": "SRC-0118",
+    "ARTF-0029": "SRC-0118",
+    "ARTF-0030": "SRC-0117",
+    "ARTF-0031": "SRC-0034",
+    "ARTF-0032": "SRC-0119",
+    "ARTF-0033": "SRC-0120",
+    "ARTF-0034": "SRC-0120",
+    "ARTF-0035": "SRC-0120",
+    "ARTF-0036": "SRC-0120",
+    "ARTF-0037": "SRC-0120",
+    "ARTF-0038": "SRC-0120",
+    "ARTF-0039": "SRC-0120",
+    "ARTF-0040": "SRC-0120",
+    "ARTF-0041": "SRC-0120",
+    "ARTF-0042": "SRC-0121",
+    "ARTF-0043": "SRC-0011",
+    "ARTF-0044": "SRC-0080",
+    "ARTF-0045": "SRC-0040",
+    "ARTF-0046": "SRC-0041"
   },
   "limitations": [
     "Checks identify recorded evidence gaps, not whether an assertion is true or false.",

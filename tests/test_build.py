@@ -1,5 +1,6 @@
 """Regression checks for evidence integrity and the files consumed by readers/agents."""
 import copy
+from contextlib import closing
 import csv
 import importlib.util
 import json
@@ -220,7 +221,7 @@ class ExportTests(unittest.TestCase):
             self.assertIn("| Review |", catalog)
             self.assertEqual(catalog.count(" · unreviewed:"), sum(c["review_status"] == "unreviewed" for c in self.tables["claims"]))
             self.assertEqual(catalog.count("| unreviewed |"), sum(d["review_status"] == "unreviewed" for d in self.tables["disclosures"]))
-            with sqlite3.connect(root / "exports/open-arcana.sqlite") as db:
+            with closing(sqlite3.connect(root / "exports/open-arcana.sqlite")) as db:
                 self.assertEqual(db.execute("SELECT COUNT(*) FROM source_artifacts").fetchone()[0],
                                  len(self.tables["source_artifacts"]))
                 actual = db.execute("SELECT claim_id, source_id, role, counted_independent FROM claim_sources").fetchall()
@@ -243,7 +244,7 @@ class ExportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             build.write_outputs(self.package, self.tables, root, self.dataset, self.inputs, parquet=False)
-            with sqlite3.connect(root / "exports/open-arcana.sqlite") as db:
+            with closing(sqlite3.connect(root / "exports/open-arcana.sqlite")) as db, db:
                 db.execute("UPDATE claims SET statement = 'tampered' WHERE id = 'CLM-0001'")
             errors = build.check_exports(self.package, self.tables, self.dataset, self.inputs, root)
             self.assertTrue(any("stale generated file: exports/open-arcana.sqlite" in e for e in errors))

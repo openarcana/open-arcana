@@ -4,7 +4,7 @@
 
 These checks expose evidence gaps so that people and machines can account for them. They do not determine truth or make a source ineligible.
 
-Dataset version: `0.3.0`. Canonical snapshot: `661d9463d157f8847368bb1258e08fffd48dd136661880b3edbf8c6328dd1ea1`.
+Dataset version: `0.3.0`. Canonical snapshot: `fd755a0cc0c78cf43dac965d39908085b13b246532d888525645150e391f8e45`.
 
 Reproduce with `python3 scripts/build.py`. Machine-readable details: [`exports/quality.json`](exports/quality.json). Research priorities: [RESEARCH_BACKLOG.md](RESEARCH_BACKLOG.md).
 
@@ -12,13 +12,13 @@ Reproduce with `python3 scripts/build.py`. Machine-readable details: [`exports/q
 
 | Measure | Records |
 |---|---|
-| Reviewed claims | 194/200 (97.0%) |
-| Reviewed disclosures | 42/95 (44.2%) |
-| Claims labelled independently corroborated | 3/200 (1.5%) |
-| Claims labelled single-source | 190/200 (95.0%) |
-| Sources with unassessed authenticity | 75/106 (70.8%) |
-| Sources without a source-level hash | 102/106 (96.2%) |
-| Items with provisional undated status | 30/53 (56.6%) |
+| Reviewed claims | 259/265 (97.7%) |
+| Reviewed disclosures | 56/108 (51.9%) |
+| Claims labelled independently corroborated | 3/265 (1.1%) |
+| Claims labelled single-source | 255/265 (96.2%) |
+| Sources with unassessed authenticity | 76/118 (64.4%) |
+| Sources without a source-level hash | 114/118 (96.6%) |
+| Items with provisional undated status | 29/63 (46.0%) |
 
 Review status, source authenticity and claim support answer different questions. A single-source claim can be accurate; corroboration still needs a documented independence assessment.
 
@@ -28,9 +28,9 @@ These are collection counts, not trust rankings or eligibility rules. Formats an
 
 | Source format | Records |
 |---|---:|
-| `academic` | 21 |
+| `academic` | 25 |
 | `audio` | 2 |
-| `book` | 35 |
+| `book` | 39 |
 | `broadcast` | 1 |
 | `collection` | 1 |
 | `court_record` | 9 |
@@ -38,50 +38,50 @@ These are collection counts, not trust rankings or eligibility rules. Formats an
 | `manuscript` | 3 |
 | `newspaper` | 4 |
 | `periodical` | 6 |
-| `report` | 5 |
-| `testimony` | 2 |
+| `report` | 6 |
+| `testimony` | 3 |
 | `usenet` | 1 |
 | `video` | 4 |
-| `website` | 11 |
+| `website` | 13 |
 
 | Provenance | Records |
 |---|---:|
-| `academic_fieldwork` | 23 |
-| `anonymous_posting` | 4 |
-| `archival_collection` | 17 |
+| `academic_fieldwork` | 29 |
+| `anonymous_posting` | 5 |
+| `archival_collection` | 26 |
 | `court_filing` | 10 |
 | `covert_recording` | 2 |
-| `defector_account` | 8 |
+| `defector_account` | 9 |
 | `investigative_reporting` | 2 |
-| `member_publication` | 3 |
-| `official_release` | 6 |
+| `member_publication` | 4 |
+| `official_release` | 7 |
 | `official_seizure` | 1 |
-| `published_exposure` | 17 |
+| `published_exposure` | 19 |
 | `reconstruction` | 1 |
-| `scholarship` | 32 |
+| `scholarship` | 34 |
 | `unknown` | 1 |
 
 | Artifact inspection | Records |
 |---|---:|
 | `complete` | 3 |
-| `metadata_only` | 2 |
-| `partial` | 12 |
+| `metadata_only` | 4 |
+| `partial` | 39 |
 
 ## Work queue
 
 An ID can appear in several checks. Counts overlap and must not be added into an overall quality score.
 
-### `artifact_metadata_only` (2)
+### `artifact_metadata_only` (4)
 
 Artifact inspection is metadata_only; use only its recorded inspected portions.
 
-[source_artifacts](data/source_artifacts.csv): `ARTF-0005`, `ARTF-0008`
+[source_artifacts](data/source_artifacts.csv): `ARTF-0005`, `ARTF-0008`, `ARTF-0043`, `ARTF-0046`
 
-### `artifact_partial` (12)
+### `artifact_partial` (39)
 
 Artifact inspection is partial; use only its recorded inspected portions.
 
-[source_artifacts](data/source_artifacts.csv): `ARTF-0001`, `ARTF-0003`, `ARTF-0007`, `ARTF-0009`, `ARTF-0010`, `ARTF-0011`, `ARTF-0012`, `ARTF-0013`, `ARTF-0014`, `ARTF-0015`, `ARTF-0016`, `ARTF-0017`
+[source_artifacts](data/source_artifacts.csv): `ARTF-0001`, `ARTF-0003`, `ARTF-0007`, `ARTF-0009`, `ARTF-0010`, `ARTF-0011`, `ARTF-0012`, `ARTF-0013`, `ARTF-0014`, `ARTF-0015`, `ARTF-0016`, `ARTF-0017`, `ARTF-0018`, `ARTF-0019`, `ARTF-0020`, `ARTF-0021`, `ARTF-0022`, `ARTF-0023`, `ARTF-0024`, `ARTF-0025`, `ARTF-0026`, `ARTF-0027`, `ARTF-0028`, `ARTF-0029`, `ARTF-0030`, `ARTF-0031`, `ARTF-0032`, `ARTF-0033`, `ARTF-0034`, `ARTF-0035`, `ARTF-0036`, `ARTF-0037`, `ARTF-0038`, `ARTF-0039`, `ARTF-0040`, `ARTF-0041`, `ARTF-0042`, `ARTF-0044`, `ARTF-0045`
 
 ### `claim_contradicted` (4)
 
@@ -101,19 +101,19 @@ No page, section, exhibit or timestamp is recorded.
 
 [claims](data/claims.csv): `CLM-0001`, `CLM-0002`, `CLM-0003`, `CLM-0004`
 
-### `disclosure_without_coverage` (21)
+### `disclosure_without_coverage` (19)
 
 The parts, version or edition covered by this disclosure have not been specified.
 
-[disclosures](data/disclosures.csv): `DISC-0001`, `DISC-0002`, `DISC-0003`, `DISC-0004`, `DISC-0005`, `DISC-0006`, `DISC-0007`, `DISC-0008`, `DISC-0012`, `DISC-0013`, `DISC-0014`, `DISC-0015`, `DISC-0016`, `DISC-0017`, `DISC-0021`, `DISC-0022`, `DISC-0027`, `DISC-0028`, `DISC-0030`, `DISC-0033`, `DISC-0038`
+[disclosures](data/disclosures.csv): `DISC-0001`, `DISC-0002`, `DISC-0003`, `DISC-0004`, `DISC-0005`, `DISC-0006`, `DISC-0007`, `DISC-0008`, `DISC-0012`, `DISC-0013`, `DISC-0016`, `DISC-0017`, `DISC-0021`, `DISC-0022`, `DISC-0027`, `DISC-0028`, `DISC-0030`, `DISC-0033`, `DISC-0038`
 
-### `record_unreviewed` (59)
+### `record_unreviewed` (58)
 
 Record review status is unreviewed; review is not proof of truth.
 
 [claims](data/claims.csv): `CLM-0001`, `CLM-0002`, `CLM-0003`, `CLM-0004`, `CLM-0005`, `CLM-0006`
 
-[disclosures](data/disclosures.csv): `DISC-0001`, `DISC-0002`, `DISC-0003`, `DISC-0004`, `DISC-0005`, `DISC-0006`, `DISC-0007`, `DISC-0008`, `DISC-0009`, `DISC-0010`, `DISC-0011`, `DISC-0012`, `DISC-0013`, `DISC-0014`, `DISC-0015`, `DISC-0016`, `DISC-0017`, `DISC-0018`, `DISC-0019`, `DISC-0020`, `DISC-0021`, `DISC-0022`, `DISC-0023`, `DISC-0024`, `DISC-0025`, `DISC-0026`, `DISC-0027`, `DISC-0028`, `DISC-0029`, `DISC-0030`, `DISC-0031`, `DISC-0032`, `DISC-0033`, `DISC-0034`, `DISC-0035`, `DISC-0036`, `DISC-0037`, `DISC-0038`, `DISC-0039`, `DISC-0040`, `DISC-0041`, `DISC-0042`, `DISC-0043`, `DISC-0044`, `DISC-0045`, `DISC-0060`, `DISC-0061`, `DISC-0064`, `DISC-0065`, `DISC-0066`, `DISC-0067`, `DISC-0070`, `DISC-0089`
+[disclosures](data/disclosures.csv): `DISC-0001`, `DISC-0002`, `DISC-0003`, `DISC-0004`, `DISC-0005`, `DISC-0006`, `DISC-0007`, `DISC-0008`, `DISC-0009`, `DISC-0010`, `DISC-0011`, `DISC-0012`, `DISC-0013`, `DISC-0014`, `DISC-0015`, `DISC-0016`, `DISC-0017`, `DISC-0018`, `DISC-0019`, `DISC-0020`, `DISC-0021`, `DISC-0022`, `DISC-0023`, `DISC-0024`, `DISC-0025`, `DISC-0026`, `DISC-0027`, `DISC-0028`, `DISC-0029`, `DISC-0030`, `DISC-0031`, `DISC-0032`, `DISC-0033`, `DISC-0034`, `DISC-0036`, `DISC-0037`, `DISC-0038`, `DISC-0039`, `DISC-0040`, `DISC-0041`, `DISC-0042`, `DISC-0043`, `DISC-0044`, `DISC-0045`, `DISC-0060`, `DISC-0061`, `DISC-0064`, `DISC-0065`, `DISC-0066`, `DISC-0067`, `DISC-0070`, `DISC-0089`
 
 ### `source_authenticity_disproven` (1)
 
@@ -121,47 +121,47 @@ Source authenticity is disproven; this is separate from the truth of its asserti
 
 [sources](data/sources.csv): `SRC-0049`
 
-### `source_authenticity_probable` (13)
+### `source_authenticity_probable` (20)
 
 Source authenticity is probable; this is separate from the truth of its assertions.
 
-[sources](data/sources.csv): `SRC-0061`, `SRC-0067`, `SRC-0084`, `SRC-0089`, `SRC-0096`, `SRC-0101`, `SRC-0102`, `SRC-0103`, `SRC-0104`, `SRC-0106`, `SRC-0107`, `SRC-0108`, `SRC-0109`
+[sources](data/sources.csv): `SRC-0034`, `SRC-0061`, `SRC-0067`, `SRC-0084`, `SRC-0089`, `SRC-0096`, `SRC-0101`, `SRC-0102`, `SRC-0103`, `SRC-0104`, `SRC-0106`, `SRC-0107`, `SRC-0108`, `SRC-0109`, `SRC-0110`, `SRC-0111`, `SRC-0117`, `SRC-0118`, `SRC-0119`, `SRC-0120`
 
-### `source_authenticity_unassessed` (75)
+### `source_authenticity_unassessed` (76)
 
 Source authenticity is unassessed; this is separate from the truth of its assertions.
 
-[sources](data/sources.csv): `SRC-0001`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0006`, `SRC-0007`, `SRC-0008`, `SRC-0009`, `SRC-0010`, `SRC-0011`, `SRC-0012`, `SRC-0013`, `SRC-0014`, `SRC-0015`, `SRC-0016`, `SRC-0017`, `SRC-0018`, `SRC-0019`, `SRC-0020`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0031`, `SRC-0032`, `SRC-0033`, `SRC-0034`, `SRC-0035`, `SRC-0036`, `SRC-0038`, `SRC-0039`, `SRC-0040`, `SRC-0041`, `SRC-0042`, `SRC-0044`, `SRC-0045`, `SRC-0046`, `SRC-0047`, `SRC-0050`, `SRC-0051`, `SRC-0052`, `SRC-0053`, `SRC-0054`, `SRC-0055`, `SRC-0056`, `SRC-0057`, `SRC-0058`, `SRC-0059`, `SRC-0060`, `SRC-0062`, `SRC-0063`, `SRC-0065`, `SRC-0066`, `SRC-0068`, `SRC-0069`, `SRC-0070`, `SRC-0072`, `SRC-0075`, `SRC-0076`, `SRC-0080`, `SRC-0082`, `SRC-0083`, `SRC-0085`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`, `SRC-0105`
+[sources](data/sources.csv): `SRC-0001`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0006`, `SRC-0007`, `SRC-0008`, `SRC-0009`, `SRC-0010`, `SRC-0011`, `SRC-0012`, `SRC-0013`, `SRC-0014`, `SRC-0015`, `SRC-0016`, `SRC-0017`, `SRC-0018`, `SRC-0019`, `SRC-0020`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0031`, `SRC-0032`, `SRC-0033`, `SRC-0035`, `SRC-0036`, `SRC-0038`, `SRC-0039`, `SRC-0040`, `SRC-0041`, `SRC-0042`, `SRC-0044`, `SRC-0045`, `SRC-0046`, `SRC-0047`, `SRC-0050`, `SRC-0051`, `SRC-0052`, `SRC-0053`, `SRC-0054`, `SRC-0055`, `SRC-0056`, `SRC-0057`, `SRC-0058`, `SRC-0059`, `SRC-0060`, `SRC-0062`, `SRC-0063`, `SRC-0065`, `SRC-0066`, `SRC-0068`, `SRC-0069`, `SRC-0070`, `SRC-0072`, `SRC-0075`, `SRC-0076`, `SRC-0080`, `SRC-0082`, `SRC-0083`, `SRC-0085`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`, `SRC-0105`, `SRC-0112`, `SRC-0115`
 
-### `source_authenticity_uncertain` (1)
+### `source_authenticity_uncertain` (3)
 
 Source authenticity is uncertain; this is separate from the truth of its assertions.
 
-[sources](data/sources.csv): `SRC-0097`
+[sources](data/sources.csv): `SRC-0097`, `SRC-0114`, `SRC-0121`
 
-### `source_rights_unknown` (12)
+### `source_rights_unknown` (16)
 
 The source text's rights have not been established.
 
-[sources](data/sources.csv): `SRC-0012`, `SRC-0030`, `SRC-0036`, `SRC-0041`, `SRC-0054`, `SRC-0064`, `SRC-0087`, `SRC-0088`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`
+[sources](data/sources.csv): `SRC-0012`, `SRC-0030`, `SRC-0036`, `SRC-0041`, `SRC-0054`, `SRC-0064`, `SRC-0087`, `SRC-0088`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`, `SRC-0110`, `SRC-0114`, `SRC-0115`, `SRC-0119`
 
-### `source_without_content_hash` (102)
+### `source_without_content_hash` (114)
 
 No source-level content_hash is recorded; linked artifact hashes may identify excerpts, derivatives or metadata instead.
 
-[sources](data/sources.csv): `SRC-0001`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0006`, `SRC-0007`, `SRC-0008`, `SRC-0009`, `SRC-0010`, `SRC-0011`, `SRC-0012`, `SRC-0013`, `SRC-0014`, `SRC-0015`, `SRC-0016`, `SRC-0017`, `SRC-0018`, `SRC-0019`, `SRC-0020`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0031`, `SRC-0032`, `SRC-0033`, `SRC-0034`, `SRC-0035`, `SRC-0036`, `SRC-0037`, `SRC-0038`, `SRC-0039`, `SRC-0040`, `SRC-0041`, `SRC-0042`, `SRC-0043`, `SRC-0044`, `SRC-0045`, `SRC-0046`, `SRC-0047`, `SRC-0048`, `SRC-0049`, `SRC-0050`, `SRC-0051`, `SRC-0052`, `SRC-0053`, `SRC-0054`, `SRC-0055`, `SRC-0056`, `SRC-0057`, `SRC-0058`, `SRC-0059`, `SRC-0060`, `SRC-0061`, `SRC-0062`, `SRC-0063`, `SRC-0064`, `SRC-0065`, `SRC-0066`, `SRC-0067`, `SRC-0068`, `SRC-0069`, `SRC-0070`, `SRC-0071`, `SRC-0072`, `SRC-0073`, `SRC-0074`, `SRC-0075`, `SRC-0076`, `SRC-0077`, `SRC-0078`, `SRC-0079`, `SRC-0080`, `SRC-0081`, `SRC-0082`, `SRC-0083`, `SRC-0084`, `SRC-0085`, `SRC-0086`, `SRC-0088`, `SRC-0089`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`, `SRC-0100`, `SRC-0101`, `SRC-0102`, `SRC-0103`, `SRC-0104`, `SRC-0105`, `SRC-0106`, `SRC-0107`, `SRC-0108`, `SRC-0109`
+[sources](data/sources.csv): `SRC-0001`, `SRC-0002`, `SRC-0003`, `SRC-0004`, `SRC-0005`, `SRC-0006`, `SRC-0007`, `SRC-0008`, `SRC-0009`, `SRC-0010`, `SRC-0011`, `SRC-0012`, `SRC-0013`, `SRC-0014`, `SRC-0015`, `SRC-0016`, `SRC-0017`, `SRC-0018`, `SRC-0019`, `SRC-0020`, `SRC-0021`, `SRC-0022`, `SRC-0023`, `SRC-0024`, `SRC-0025`, `SRC-0026`, `SRC-0027`, `SRC-0028`, `SRC-0029`, `SRC-0030`, `SRC-0031`, `SRC-0032`, `SRC-0033`, `SRC-0034`, `SRC-0035`, `SRC-0036`, `SRC-0037`, `SRC-0038`, `SRC-0039`, `SRC-0040`, `SRC-0041`, `SRC-0042`, `SRC-0043`, `SRC-0044`, `SRC-0045`, `SRC-0046`, `SRC-0047`, `SRC-0048`, `SRC-0049`, `SRC-0050`, `SRC-0051`, `SRC-0052`, `SRC-0053`, `SRC-0054`, `SRC-0055`, `SRC-0056`, `SRC-0057`, `SRC-0058`, `SRC-0059`, `SRC-0060`, `SRC-0061`, `SRC-0062`, `SRC-0063`, `SRC-0064`, `SRC-0065`, `SRC-0066`, `SRC-0067`, `SRC-0068`, `SRC-0069`, `SRC-0070`, `SRC-0071`, `SRC-0072`, `SRC-0073`, `SRC-0074`, `SRC-0075`, `SRC-0076`, `SRC-0077`, `SRC-0078`, `SRC-0079`, `SRC-0080`, `SRC-0081`, `SRC-0082`, `SRC-0083`, `SRC-0084`, `SRC-0085`, `SRC-0086`, `SRC-0088`, `SRC-0089`, `SRC-0093`, `SRC-0094`, `SRC-0098`, `SRC-0099`, `SRC-0100`, `SRC-0101`, `SRC-0102`, `SRC-0103`, `SRC-0104`, `SRC-0105`, `SRC-0106`, `SRC-0107`, `SRC-0108`, `SRC-0109`, `SRC-0110`, `SRC-0111`, `SRC-0112`, `SRC-0113`, `SRC-0114`, `SRC-0115`, `SRC-0116`, `SRC-0117`, `SRC-0118`, `SRC-0119`, `SRC-0120`, `SRC-0121`
 
-### `source_without_link` (12)
+### `source_without_link` (1)
 
 No URL or external identifier has been recorded.
 
-[sources](data/sources.csv): `SRC-0001`, `SRC-0010`, `SRC-0011`, `SRC-0012`, `SRC-0013`, `SRC-0022`, `SRC-0040`, `SRC-0041`, `SRC-0062`, `SRC-0065`, `SRC-0070`, `SRC-0080`
+[sources](data/sources.csv): `SRC-0010`
 
-### `status_without_dated_evidence` (30)
+### `status_without_dated_evidence` (29)
 
 The recorded practice status is provisional: no dated status claims are linked.
 
-[restricted_items](data/restricted_items.csv): `ITEM-0001`, `ITEM-0002`, `ITEM-0003`, `ITEM-0004`, `ITEM-0005`, `ITEM-0006`, `ITEM-0007`, `ITEM-0008`, `ITEM-0009`, `ITEM-0010`, `ITEM-0011`, `ITEM-0012`, `ITEM-0013`, `ITEM-0015`, `ITEM-0016`, `ITEM-0017`, `ITEM-0018`, `ITEM-0019`, `ITEM-0020`, `ITEM-0021`, `ITEM-0027`, `ITEM-0029`, `ITEM-0031`, `ITEM-0032`, `ITEM-0033`, `ITEM-0034`, `ITEM-0035`, `ITEM-0036`, `ITEM-0038`, `ITEM-0039`
+[restricted_items](data/restricted_items.csv): `ITEM-0001`, `ITEM-0002`, `ITEM-0003`, `ITEM-0004`, `ITEM-0005`, `ITEM-0006`, `ITEM-0007`, `ITEM-0008`, `ITEM-0009`, `ITEM-0010`, `ITEM-0011`, `ITEM-0012`, `ITEM-0013`, `ITEM-0015`, `ITEM-0016`, `ITEM-0017`, `ITEM-0018`, `ITEM-0019`, `ITEM-0020`, `ITEM-0027`, `ITEM-0029`, `ITEM-0031`, `ITEM-0032`, `ITEM-0033`, `ITEM-0034`, `ITEM-0035`, `ITEM-0036`, `ITEM-0038`, `ITEM-0039`
 
 ## Limits
 

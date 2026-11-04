@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-40 traditions · 53 restricted items · 95 disclosures · 200 claims · 106 sources
+47 traditions · 63 restricted items · 108 disclosures · 265 claims · 118 sources
 
 Review means a record was checked, not that it is true. Source authenticity and claim support are separate assessments. See the [evidence and review backlog](QUALITY.md).
 
@@ -14,8 +14,8 @@ Review means a record was checked, not that it is true. Source authenticity and 
 - [Hermetic Order of the Golden Dawn](#trad-0002) (2 items)
 - [Ordo Templi Orientis](#trad-0003) (2 items)
 - [Church of Scientology](#trad-0004) (3 items)
-- [The Church of Jesus Christ of Latter-day Saints](#trad-0005) (2 items)
-- [Druze](#trad-0006) (1 item)
+- [The Church of Jesus Christ of Latter-day Saints](#trad-0005) (3 items)
+- [Druze](#trad-0006) (2 items)
 - [Transcendental Meditation](#trad-0007) (1 item)
 - [Jehovah's Witnesses](#trad-0008) (1 item)
 - [Tibetan Buddhism (Vajrayana)](#trad-0009) (2 items)
@@ -50,6 +50,13 @@ Review means a record was checked, not that it is true. Source authenticity and 
 - [Selk’nam Hain in the accounts collected by Anne Chapman](#trad-0040) (1 item)
 - [Barasana He House initiation](#trad-0041) (1 item)
 - [Iglulingmiut and Aivilingmiut angakkuq training in Rasmussen’s account](#trad-0042) (1 item)
+- [Long Valley Patwin initiation in Loeb’s historical account](#trad-0044) (1 item)
+- [Sambia male initiation in Gilbert Herdt’s field accounts](#trad-0045) (1 item)
+- [Gardnerian Wicca in the exposed Book of Shadows recension](#trad-0046) (1 item)
+- [Zuni initiatory fraternities in Stevenson’s account](#trad-0047) (2 items)
+- [Munduruku karoko custodianship in Murphy’s field account](#trad-0048) (1 item)
+- [Abakuá initiation in Lydia Cabrera’s collected accounts](#trad-0049) (1 item)
+- [Cuban Osha-Ifá in the Proyecto Orunmila Atefá compilation](#trad-0050) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -76,7 +83,7 @@ The three ceremonies through which a candidate becomes a Master Mason including 
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no link recorded) | unassessed | unreviewed | One of the earliest printed exposures. |
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) ([skirret.com](https://skirret.com/papers/knoop/catechisms-old.html)) | unassessed | unreviewed | One of the earliest printed exposures. |
 | 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed | unreviewed | Earliest known printed description of the third degree. |
 | 1760 | exposure publication | full |  | [Three Distinct Knocks](#src-0003) ([archive.org](https://archive.org/details/bim_eighteenth-century_the-three-distinct-knock_v-n-w-o-_1785)) | unassessed | unreviewed |  |
 | 1762 | exposure publication | full |  | [Jachin and Boaz](#src-0004) ([archive.org](https://archive.org/details/bim_eighteenth-century_jachin-and-boaz-or-an-_r-s_1776)) | unassessed | unreviewed |  |
@@ -120,7 +127,7 @@ Gestures and words used by members to identify each other by degree.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) (no link recorded) | unassessed | unreviewed |  |
+| 1723 | exposure publication | partial |  | [A Mason's Examination](#src-0001) ([skirret.com](https://skirret.com/papers/knoop/catechisms-old.html)) | unassessed | unreviewed |  |
 | 1730 | exposure publication | full |  | [Masonry Dissected](#src-0002) ([archive.org](https://archive.org/details/bim_eighteenth-century_masonry-dissected-being_prichard-samuel_1730)) | unassessed | unreviewed |  |
 
 **Claims**
@@ -386,10 +393,10 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) (no link recorded) | unassessed | unreviewed | Also widely reported in the press during the trial. |
-| 1987 | journalism | summary | Outline of the OT III story | [Scientology – The Road to Total Freedom? (Panorama)](#src-0040) (no link recorded) | unassessed | unreviewed | Broadcast 27 April 1987. |
-| 1993 | court record | full |  | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no link recorded) | unassessed | unreviewed |  |
-| c. 1995 | leak | full |  | [alt.religion.scientology postings](#src-0012) (no link recorded) | unassessed | unreviewed |  |
+| 1985 | court record | summary |  | [Court records in Wollersheim v. Church of Scientology](#src-0010) (no link recorded) | unassessed | unreviewed | Contemporary press reports document access disputes in November 1985; the original exhibits remain uninspected. |
+| 1987 | journalism | summary | OT III cosmology outline in the inspected third-party transcript; video frames, sound and timestamps not checked. | [Scientology – The Road to Total Freedom? (Panorama)](#src-0040) ([scicrit.wordpress.com](https://scicrit.wordpress.com/2014/02/05/scientology-the-road-to-total-freedom/)) | unassessed | unreviewed | Broadcast 27 April 1987. |
+| 1993 | court record | reference | Recovered CMU index identifies OT III exhibits but does not serve their full text; separately linked summaries do not establish the completeness of the original exhibit. | [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) ([scs.cmu.edu](https://www.scs.cmu.edu/~dst/Secrets/Fishman/Declaration/index.html)) | unassessed | unreviewed | The seed extent=full was not substantiated by the retrieved copy. Historical exhibit completeness remains unreviewed. |
+| c. 1995 | leak | reference | Public group archive recovered; exact 1994–1995 ritual-text posting remains unidentified. | [alt.religion.scientology postings](#src-0012) ([groups.google.com](https://groups.google.com/g/alt.religion.scientology)) | unassessed | unreviewed | The collection index does not substantiate the seed extent=full; original posting headers and text are still needed. |
 | c. 1996 | journalism | partial | Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions | [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html)) | unassessed | unreviewed | Spaink withdrew the full text on legal advice and published this summary instead. |
 | 2008 | leak | partial | OT III sheets and course-pack contents within the compilation; selected portions inspected. | [Church of Scientology collected Operating Thetan documents (WikiLeaks compilation)](#src-0097) ([wikileaks.org](https://www.wikileaks.org/wiki/Church_of_Scientology_collected_Operating_Thetan_documents)) | uncertain | reviewed | Release dated 24 March 2008 by WikiLeaks; this does not establish first public disclosure of every component. |
 | c. 2009 | leak | partial | Hubbard's spoken account of the incident behind OT III, as given to Class VIII students | [Class VIII Course, Lecture No. 10: Assists](#src-0039) ([cs.cmu.edu](https://www.cs.cmu.edu/~dst/OTIII/)) | unassessed | unreviewed | Lecture recorded in 1968; date of first public release unknown. Year is when Anonymous publicised the recording. |
@@ -397,7 +404,7 @@ Upper-level course materials containing a cosmological narrative (widely reporte
 **Claims**
 
 - `CLM-0002` *content* · **insufficient** · unreviewed: The OT III materials contain a cosmological narrative centred on a figure named Xenu.
-  - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) (no link recorded) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) (no link recorded) · [alt.religion.scientology postings](#src-0012) (no link recorded)
+  - Supported by: [Court records in Wollersheim v. Church of Scientology](#src-0010) (no link recorded) · [Declaration of Steven Fishman (Church of Scientology v. Fishman and Geertz)](#src-0011) ([scs.cmu.edu](https://www.scs.cmu.edu/~dst/Secrets/Fishman/Declaration/index.html)) · [alt.religion.scientology postings](#src-0012) ([groups.google.com](https://groups.google.com/g/alt.religion.scientology))
   - Assessment: Neither court file has yet been read for this dataset; the assessment rests on their reported contents. Separate court cases do not establish independent provenance of the exhibits. SRC-0012 drew partly on court-filed material. The assertion is retained pending direct inspection and source-dependence checks.
 - `CLM-0024` *content* · **single source** · reviewed: OT III describes Xenu, head of a Galactic Federation of 76 planets founded 95 million years ago, solving overpopulation by having people brought to Earth (called Teegeeack), placed by volcanoes and destroyed with hydrogen bombs; this is called Incident II. Xenu was later captured by loyal officers after a six-year battle and imprisoned in an electronic mountain trap. (written c. 1967)
   - Supported by: [The Fishman Affidavit: OT III, summary and comments](#src-0042) ([spaink.net](https://spaink.net/fishman/ot3.html))
@@ -508,16 +515,16 @@ Temple ceremony including covenants / signs and tokens.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no link recorded) | unassessed | unreviewed | Compares versions of the ceremony across time. |
+| 1990 | exposure publication | full |  | [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) ([search.worldcat.org](https://search.worldcat.org/title/22686324)) | unassessed | unreviewed | Compares versions of the ceremony across time. |
 | 1990 | journalism | reference | Names three elements dropped from the ceremony in 1990; does not describe the ceremony | [Mormons alter rituals seen as offensive](#src-0047) ([web.archive.org](http://web.archive.org/web/20191116050807/https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9005/900503/05030428.htm)) | unassessed | reviewed |  |
 | 2012 | leak | partial | Veil instructions: page, selected video frames and English automatic captions inspected; no full audio review. | [Episode 1: Mormon Temple: Veil Instructions](#src-0098) ([youtube.com](https://www.youtube.com/watch?v=Xg2bxBHbsIU)) | unassessed | reviewed | Upload dated 20 August 2012; recording date is not established. |
 | 2012 | leak | reference | Archive metadata advertises a full ceremony; the recording and its actual coverage were not inspected. | [Mormon Temple Ceremony (Internet Archive item)](#src-0099) ([archive.org](https://archive.org/details/MormonTempleCeremony)) | unassessed | unreviewed | The leak classification follows the advertised restricted subject; recording origin and acquisition route remain unestablished. |
-| c. 2017 | leak | partial | Extent not yet established; which ordinances are recorded still needs checking | [Hidden-camera recordings of LDS temple ordinances](#src-0041) (no link recorded) | unassessed | unreviewed | Covert video recordings made during the ceremony itself, not reconstructed from memory or text. |
+| 2013 | leak | partial | Identified endowment video; duration, uploader description and upload date checked, ordinance sequence not yet reviewed. | [Mormon Temple Endowment Ceremony (SLC live version): NewNameNoah recording](#src-0041) ([youtube.com](https://www.youtube.com/watch?v=b8sbYtFOnxk)) | unassessed | unreviewed | Uploaded 15 May 2013; uploader claims footage from two occasions in 2011–2012. This corrects the circa-2017 circulation-date placeholder. Covert origin and edited sequence remain uploader claims. |
 
 **Claims**
 
 - `CLM-0003` *change* · **single source** · unreviewed: Penalty gestures were removed from the endowment ceremony. (1990)
-  - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) (no link recorded)
+  - Supported by: [Evolution of the Mormon Temple Ceremony: 1842–1990](#src-0013) ([search.worldcat.org](https://search.worldcat.org/title/22686324))
   - Assessment: Only one source recorded so far; contemporary press reports would make it independently corroborated. The 1990 press report SRC-0047 lists other changes (CLM-0041) but does not mention the penalties.
 - `CLM-0041` *change* · **single source** · reviewed: In April 1990 the church dropped from the temple ceremony the vow in which women pledged obedience to their husbands, the wearing of face veils by women, and a portrayal of non-Mormon clergy as hirelings of Satan. (1990)
   - Supported by: [Mormons alter rituals seen as offensive](#src-0047) ([web.archive.org](http://web.archive.org/web/20191116050807/https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9005/900503/05030428.htm))
@@ -569,6 +576,51 @@ The leaders' manual of church administration, including procedures for church di
   - Where: SRC-0073: opening paragraphs
   - Assessment: Church-owned source reporting the church's own release. Whether the 2020 text keeps everything that Book 1 restricted has not been compared.
 
+<a id="item-0059"></a>
+
+### Second anointing: Phillips’s participant account and limits on discussion
+
+`ITEM-0059` · initiatory rite · recorded status: unknown
+
+A described temple ordinance involving washing, anointing and a private spousal blessing.
+
+- **Restricted to:** Invited couples in the participant account; recipients charged not to disclose receipt, and teachers directed not to discuss the ordinance
+- **How:** controlled access
+- **Stated reason:** Phillips attributes secrecy to limiting demand and comparisons among members; this is his report of an explanation given to him
+- **Notes:** Scope basis: participant-reported secrecy and actual ceremony content in SRC-0112, plus the independently issued discussion restriction in SRC-0113. The manual does not authenticate the details of Phillips’s ceremony. His account is retrospective and memory was refreshed from published descriptions.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+|  | voluntary release | reference | Official manual’s restriction on discussing the named ordinance only. | [Doctrines of the Gospel Teacher Manual, chapter 19: Eternal Life](#src-0113) ([churchofjesuschrist.org](https://www.churchofjesuschrist.org/study/manual/doctrines-of-the-gospel/chapter-19?lang=eng)) | verified | reviewed | No ceremony content is disclosed by this notice; publication year unestablished. |
+| 2008 | defector testimony | partial | Invitation, secrecy instructions, ceremony description and memory caveat in archived transcription. | [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing)) | unassessed | reviewed | Not an independently authenticated original script or a 2002 recording. |
+
+**Claims**
+
+- `CLM-0230` *content* · **single source** · reviewed: Phillips says the invitation required secrecy even from his children, with concern about demand and comparisons among members offered as reasons. (Phillips’s recollection of 19 May 2002, published 2008)
+  - Supported by: [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing))
+  - Where: SRC-0112: Invitation
+  - Assessment: A participant’s report of instructions and their stated rationale; the official manual does not independently verify this conversation.
+- `CLM-0231` *content* · **single source** · reviewed: He describes an officiator washing his feet and anointing him, and anointing his wife with queen-and-priestess language. (Phillips’s recollection of 19 May 2002, published 2008)
+  - Supported by: [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing))
+  - Where: SRC-0112: At the Temple; ordinances I and II, part one
+  - Assessment: Checked the cited passage. Attribution and historical limits are retained; no independent corroboration or present-day applicability is established.
+- `CLM-0232` *content* · **single source** · reviewed: He describes a private second part in which his wife washed his feet and pronounced a blessing with her hands on his head. (Phillips’s recollection of 19 May 2002, published 2008)
+  - Supported by: [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing))
+  - Where: SRC-0112: Ordinance of Second Anointings, part two
+  - Assessment: Checked the cited passage. Attribution and historical limits are retained; no independent corroboration or present-day applicability is established.
+- `CLM-0233` *content* · **single source** · reviewed: Phillips understood the ordinance as assuring exaltation, with stated exceptions, rather than merely repeating conditional promises. (Phillips’s recollection of 19 May 2002, published 2008)
+  - Supported by: [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing))
+  - Where: SRC-0112: Preparation; ordinance II, part one
+  - Assessment: His doctrinal interpretation and recollection, not a finding that every recipient or current official teaching gives the same interpretation.
+- `CLM-0234` *other* · **single source** · reviewed: Phillips warns that nearly six years had elapsed and that he reviewed published accounts to refresh his memory. (Phillips’s recollection of 19 May 2002, published 2008)
+  - Supported by: [My Second Anointing Experience](#src-0112) ([bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing))
+  - Where: SRC-0112: At the Temple, paragraph immediately before ordinance I
+  - Assessment: This caveat limits treatment of his wording as verbatim liturgy and its independence from earlier descriptions.
+- `CLM-0235` *content* · **single source** · reviewed: The church teacher manual directs teachers not to discuss or answer questions about the second anointing. (Online chapter inspected 2026-11-04)
+  - Supported by: [Doctrines of the Gospel Teacher Manual, chapter 19: Eternal Life](#src-0113) ([churchofjesuschrist.org](https://www.churchofjesuschrist.org/study/manual/doctrines-of-the-gospel/chapter-19?lang=eng))
+  - Where: SRC-0113: chapter 19, Introduction caution
+  - Assessment: Direct official textual restriction. It does not establish performance frequency, the details of Phillips’s ceremony or that the restriction exists because misconduct is being concealed.
+
 <a id="trad-0006"></a>
 
 ## Druze
@@ -608,6 +660,46 @@ The core scriptural corpus of the Druze faith.
   - Supported by: [Exposé de la religion des Druzes](#src-0014) ([archive.org](https://archive.org/details/exposdelareligi00sacygoog))
   - Where: vol. 1, Introduction, pp. iii–iv
   - Assessment: Checked against the Internet Archive text on 2026-11-04. De Sacy's own summary of the Druze manuscripts in European libraries, not a translation of a single passage.
+
+<a id="item-0063"></a>
+
+### Mithaq Wali-al-Zaman: printed induction covenant
+
+`ITEM-0063` · initiatory rite · recorded status: unknown
+
+A translated covenant of allegiance, renunciation and spiritual consequences in an exposed collection of sacred extracts.
+
+- **Restricted to:** The translated covenant addresses a named pledger; Hitti separately describes probation and secrecy for admission to the learned rank
+- **How:** vow, controlled access
+- **Stated reason:** A reason for restricting access is not established by the inspected passages
+- **Notes:** Scope basis: the actual covenant text is printed at pp. 57–58, alongside the book’s discussion of closed induction at pp. 42–43. This is not a complete witnessed ceremony, a modern conversion route, or proof that every clause was literally enforced. Arabic manuscript collation remains outstanding.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1928 | academic research | partial | Appendix A’s translated covenant at pp. 57–58, with closed-admission discussion at pp. 42–43. | [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age)) | probable | reviewed | Year identifies the cited publication, not an established earliest-ever disclosure or present-day practice. |
+
+**Claims**
+
+- `CLM-0255` *content* · **single source** · reviewed: The covenant declares the pledger sound in mind and body and acting without duress, then renounces other religions and pledges obedience to al-Hakim. (Historical covenant in Hitti’s 1928 translation; performance date unestablished)
+  - Supported by: [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age))
+  - Where: SRC-0118: Appendix A, p. 57
+  - Assessment: The written declaration of free will is not independent evidence of consent in any actual induction.
+- `CLM-0256` *content* · **single source** · reviewed: The translated pledge surrenders the speaker’s soul, body, possessions and children to al-Hakim and accepts decisions whether favourable or adverse. (Historical covenant in Hitti’s 1928 translation; performance date unestablished)
+  - Supported by: [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age))
+  - Where: SRC-0118: Appendix A, p. 57
+  - Assessment: Textual allegiance language, not proof of a legal transfer of property or custody, literal enforcement, or current practice.
+- `CLM-0257` *content* · **single source** · reviewed: The covenant says apostasy or disobedience forfeits divine protection and benefits conferred by the ministers and incurs punishment. (Historical covenant in Hitti’s 1928 translation; performance date unestablished)
+  - Supported by: [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age))
+  - Where: SRC-0118: Appendix A, pp. 57–58
+  - Assessment: A translated religious sanction; no particular historical execution or physical enforcement is established.
+- `CLM-0258` *content* · **single source** · reviewed: The closing formula associates Hamzah with guiding respondents and vengeance against polytheists and apostates, including sword language. (Historical covenant in Hitti’s 1928 translation; performance date unestablished)
+  - Supported by: [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age))
+  - Where: SRC-0118: Appendix A, p. 58, closing formula
+  - Assessment: Preserved as wording and imagery in the translation, not a finding of an actual campaign or a contemporary instruction.
+- `CLM-0259` *content* · **single source** · reviewed: Hitti describes admission to the learned rank as requiring trustworthiness, secrecy and prolonged probation before induction. (Historical covenant in Hitti’s 1928 translation; performance date unestablished)
+  - Supported by: [The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings](#src-0118) ([sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age))
+  - Where: SRC-0118: chapter V, pp. 42–43
+  - Assessment: This contextual account does not establish that Appendix A is a complete transcript of that ceremony or that the same admission procedure applies today.
 
 <a id="trad-0007"></a>
 
@@ -903,7 +995,7 @@ The Upanishads, regarded as part of the Veda, and the teaching of their meaning,
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1657 | academic research | full | Fifty Upanishads, in Persian. | [Sirr-i Akbar (The Great Secret)](#src-0022) (no link recorded) | unassessed | unreviewed | Made for a Mughal prince, outside the Brahmanical rules of transmission. |
+| 1657 | academic research | full | Fifty Upanishads, in Persian. | [Sirr-i Akbar (The Great Secret)](#src-0022) ([lib.uchicago.edu](https://www.lib.uchicago.edu/e/collections/mideast/microformat/manuweba-h.html)) | unassessed | unreviewed | Made for a Mughal prince, outside the Brahmanical rules of transmission. |
 | 1801 | academic research | full | The same fifty Upanishads, in Latin from the Persian. | [Oupnek'hat (id est, Secretum tegendum)](#src-0023) ([archive.org](https://archive.org/details/india.history.resource.37602)) | unassessed | unreviewed |  |
 
 **Claims**
@@ -1095,19 +1187,18 @@ Ceremonies are held by clans and religious societies in the Hopi villages. Wikid
 
 ### Powamu ceremony and Katsina society initiation
 
-`ITEM-0021` · initiatory rite · recorded status: practiced
+`ITEM-0021` · initiatory rite · recorded status: unknown
 
 A winter ceremony in which children are initiated into the Katsina society.
 
 - **Restricted to:** Initiated members of the Katsina and Powamu societies
-- **How:** grade requirement, social sanction
-- **Stated reason:** Ceremonial knowledge belongs to the societies and clans responsible for it and may not be shared outside them
-- **Status evidence:** provisional; no dated status claims linked.
-- **Notes:** Hopi villages have restricted outsiders' access to many ceremonies and banned photography and recording.
+- **How:** grade requirement, controlled access, social sanction
+- **Stated reason:** Voth reports a chief’s prohibition on disclosure and warning of Katsina punishment; no broader motive is established here
+- **Notes:** Hopi villages have restricted outsiders' access to many ceremonies and banned photography and recording. Scope basis: explicit secrecy instructions at SRC-0034 p. 93 and graded access at p. 105. The historical Oraibi account does not establish current practice; First Mesa material remains separately unreviewed.
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1901 | academic research | full | The ceremony at Oraibi, with photographs. | [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth)) | unassessed | unreviewed |  |
+| 1901 | academic research | partial | Selected Oraibi initiation passages at printed pp. 93–94, 105 and 120; pp. 93 and 120 checked visually. | [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth)) | probable | reviewed | The publication contains a wider cycle and photographs; the whole publication was not inspected. The separate Stephen disclosure is not upgraded. |
 | 1936 | academic research | partial | Ceremonies at First Mesa, 1891–1894. | [Hopi Journal of Alexander M. Stephen](#src-0035) ([openlibrary.org](https://openlibrary.org/works/OL7608010W)) | unassessed | unreviewed |  |
 
 **Claims**
@@ -1116,14 +1207,30 @@ A winter ceremony in which children are initiated into the Katsina society.
   - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
   - Where: pp. 94–95, 103–104
   - Assessment: Checked against the Internet Archive text on 2026-11-04.
-- `CLM-0020` *content* · **single source** · reviewed: During the night dance that follows, the Powamu Katsinas dance unmasked, and the newly initiated children learn for the first time that the Katsinas are Hopi men. (by 1901 (Oraibi))
+- `CLM-0020` *content* · **single source** · reviewed: According to Voth, novices taught to regard the Katsinas as supernatural beings learn at the unmasked night dance that the performers are Hopi people. (by 1901 (Oraibi))
   - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
   - Where: p. 120
-  - Assessment: Checked against the Internet Archive text on 2026-11-04. SRC-0035 (Stephen's First Mesa journal) is a candidate for independent corroboration.
+  - Assessment: Printed p. 120 checked visually against the scan on 2026-11-04. This is the source’s account of performers and novices’ prior understanding, not independent verification of every participant’s beliefs or a conclusion about spiritual reality. Stephen’s separate First Mesa account remains unreviewed as corroboration.
 - `CLM-0067` *suppression* (community pressure) · **single source** · reviewed: In 1994 the chairman of the Hopi Tribe wrote to dozens of museums and archives asking them to close Hopi collections to researchers without the tribe's written permission. Tribal leaders singled out H. R. Voth's photographs and field notes as harmful because they made esoteric ritual knowledge public. The Mennonite Library and Archives at Bethel College, a major holder of Voth material, still granted permission to publish a Voth photograph in 1998. (1994–1998)
   - Supported by: [Cultural Records in Question: Information and Its Moral Dilemmas](#src-0066) ([web.archive.org](https://web.archive.org/web/20090109071033/http://crm.cr.nps.gov/archive/21-6/21-6-5.pdf))
   - Where: SRC-0066: p. 18 (the 1994 letter); p. 19 (Voth and Bethel College)
   - Assessment: Brown's account draws on his interviews at the Hopi Cultural Preservation Office in 1997. The letter itself has not been located.
+- `CLM-0242` *content* · **single source** · reviewed: Voth reports that the chief forbids initiates to disclose what they saw even to parents and supplies a cover explanation for questions about Chowilawu. (Historical Oraibi account published in 1901)
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: SRC-0034: p. 93
+  - Assessment: Page image checked. The instruction is reported by Voth, whose speech rendering is introduced as a summary rather than a verbatim transcript.
+- `CLM-0243` *content* · **single source** · reviewed: Katsina initiation grants access to songs, traditions and impersonation, while leading the dancers as naamu remains a Powamu-member prerogative. (Historical Oraibi account published in 1901)
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: SRC-0034: p. 105
+  - Assessment: Checked the cited passage. This is an attributed historical text/account, with no independent corroboration or current-practice inference.
+- `CLM-0244` *content* · **single source** · reviewed: The account includes girls and women among Powamu members but assigns different ceremonial roles to them. (Historical Oraibi account published in 1901)
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: SRC-0034: pp. 93–94
+  - Assessment: Retains the source’s role distinctions; it does not claim equal access to every phase or a rule applying to all Hopi villages.
+- `CLM-0245` *other* · **single source** · reviewed: Voth relates an origin tradition explaining flogging as punishment for a boy’s disclosure and a warning to other novices. (Historical Oraibi account published in 1901)
+  - Supported by: [The Oraibi Powamu Ceremony (Field Columbian Museum Anthropological Series 3.2)](#src-0034) ([archive.org](https://archive.org/details/oraibipowamucere03voth))
+  - Where: SRC-0034: p. 105, origin tradition following initiation account
+  - Assessment: An expressly reported origin tradition, not a separately established historical punishment or proof of a particular executed sanction.
 
 <a id="trad-0019"></a>
 
@@ -1397,7 +1504,7 @@ Ceremonies, song verses, films, sound recordings and sacred objects recorded or 
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1971 | academic research | partial | Ceremonial song verses with translations; not the films, objects or full ceremonies | [Songs of Central Australia](#src-0065) (no link recorded) | unassessed | unreviewed |  |
+| 1971 | academic research | partial | Ceremonial song verses with translations; not the films, objects or full ceremonies | [Songs of Central Australia](#src-0065) ([ci.nii.ac.jp](https://ci.nii.ac.jp/ncid/BA28923776)) | unassessed | unreviewed |  |
 
 **Claims**
 
@@ -1465,16 +1572,16 @@ Knowledge of sacred sites and objects, paintings and rock engravings explained t
 
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
-| 1976 | academic research | partial | Descriptions and photographs of sacred sites and objects, paintings and rock engravings | [Nomads of the Australian Desert](#src-0062) (no link recorded) | unassessed | unreviewed | The book has not been read for this dataset; coverage is as described in SRC-0074 and SRC-0063. |
+| 1976 | academic research | partial | Descriptions and photographs of sacred sites and objects, paintings and rock engravings | [Nomads of the Australian Desert](#src-0062) ([ci.nii.ac.jp](https://ci.nii.ac.jp/ncid/BA25339706)) | unassessed | unreviewed | The book has not been read for this dataset; coverage is as described in SRC-0074 and SRC-0063. |
 
 **Claims**
 
 - `CLM-0063` *suppression* (court injunction, publication withdrawn) · **single source** · reviewed: In 1976 Justice James Muirhead of the Northern Territory Supreme Court, on an ex parte application by members of the Pitjantjatjara Council heard in chambers, applied the equitable law of confidential information to restrain the book's sale, display and distribution in the Northern Territory. He called the book a magnificent publication but found that the plaintiffs would suffer damage and dislocation if its confidential material reached the uninitiated. The publisher Rigby then withdrew it; about 2,000 copies had been sold, several hundred were destroyed in a warehouse fire, and the rest were bought by the Aboriginal Arts Board. (1976)
-  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html))
+  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedJSchol/2002/1.html))
   - Where: SRC-0063: paras 2–3 and 11–16; SRC-0074: section 'Case law', text at notes 131–133 (citing 29 FLR 233 at 236)
   - Assessment: SRC-0074 (a Federal Court judge's paper) and SRC-0063 (journalism) agree on the court, judge, ex parte procedure, legal basis and territorial scope. They are not counted as independent because both rest on the same judgment, which has not been read for this dataset. The withdrawal and the figures for copies sold, burned and bought come from SRC-0063 alone, given as 'understood' without a source. SRC-0074 notes the case has limited weight as precedent because it was heard ex parte.
 - `CLM-0064` *stated reason* · **single source** · reviewed: The plaintiffs said the knowledge had been explained to Mountford in confidence by Pitjantjatjara people during his 1940 fieldwork, more than 35 years earlier, and was restricted by gender and initiation, so that publishing it breached a duty of confidence. They claimed to represent all Aboriginal people living on Pitjantjatjara traditional lands. (1976)
-  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html))
+  - Supported by: [Why a banned book of sacred Indigenous knowledge is still available for sale](#src-0063) ([crikey.com.au](https://www.crikey.com.au/2019/07/26/nomads-pitjantjara-banned-book/)) · [Legal protection of indigenous culture in Australia](#src-0074) ([austlii.edu.au](https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedJSchol/2002/1.html))
   - Where: SRC-0063: paras 14–15; SRC-0074: section 'Case law', text at note 132
   - Assessment: Both sources report the plaintiffs' case as recorded in the judgment, so they are not independent. Few, if any, of the original informants were alive in 1976 (SRC-0063).
 - `CLM-0065` *other* · **single source** · reviewed: The injunction has effect only in the Northern Territory. As of 2019 the book was held by at least 70 Australian libraries and offered by booksellers in Australia and abroad. (as of 2019)
@@ -1631,7 +1738,7 @@ The drum painted with figures of gods, spirits, people and animals, struck to mo
 | Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
 |---|---|---|---|---|---|---|---|
 |  | academic research | summary | How Paulsen grouped the figures (nature and Christian); no figure-by-figure meanings | [Anders Paulsen](#src-0079) ([snl.no](https://snl.no/Anders_Paulsen)) | verified | reviewed |  |
-| 1692 | court record | partial | Paulsen's own explanation of the 25 figures on his drum and of its uses, given in court | [Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692](#src-0080) (no link recorded) | unassessed | unreviewed | Recorded on 9–10 February 1692; coverage as described in SRC-0079. |
+| 1692 | court record | partial | Paulsen's own explanation of the 25 figures on his drum and of its uses, given in court | [Court record of the trial of Anders Paulsen, Vadsø, 9–10 February 1692](#src-0080) ([heimskringla.no](https://www.heimskringla.no/wiki/Forh%C3%B8rsprotokol_over_Anders_Poulsen)) | unassessed | unreviewed | Recorded on 9–10 February 1692; coverage as described in SRC-0079. Selected passages of a 1903-based edited transcription inspected on 2026-11-04; full original leaves and all 25 figure readings not collated. Disclosure review status remains unreviewed. |
 | 2022 | academic research | partial | Paulsen's explanation of all five rows of figures and of how he played the drum, quoted from the court record in translation | [The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives](#src-0086) ([stockholmuniversitypress.se](https://stockholmuniversitypress.se/site/chapters/10.16993/bbu.f)) | verified | reviewed |  |
 
 **Claims**
@@ -2274,6 +2381,424 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
   - Where: SRC-0107: pp. 115, 118–119
   - Assessment: This variation prevents the gift-and-tuition sequence being presented as a mandatory path for every angakkuq.
 
+<a id="trad-0044"></a>
+
+## Long Valley Patwin initiation in Loeb’s historical account
+
+`TRAD-0044` · indigenous tradition · founded  · Long Valley, northern California, United States · unknown
+
+Local historical versions recounted to Loeb in 1931, not a claim about all Patwin communities or present-day practice. Loeb names Wilson Lewis and his wife as the Long Valley interlocutors.
+
+<a id="item-0057"></a>
+
+### Long Valley thunder/kuksu initiation and its later hesi incorporation
+
+`ITEM-0057` · initiatory rite · recorded status: unknown
+
+Historical initiation combining concealed spirit representation, feigned death and bodily ordeals.
+
+- **Restricted to:** Adult men and boy initiates in the earlier ceremonial house; the later hesi account bars women, while the earlier rite has some scenes witnessed by mothers
+- **How:** controlled access, violence or threat
+- **Stated reason:** The source does not establish a participant-stated reason for restricting access
+- **Notes:** Scope basis: explicit initiation and exclusions in SRC-0110, pp. 223–225. Distinguish performed death from reported physical injury, and the earlier thunder ceremony from the later hesi form. Retrospective testimony is not direct observation by Loeb.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1933 | academic research | partial | Introduction and Long Valley initiation/hesi passages at pp. 139, 223–225. | [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf)) | probable | reviewed | Retrospective local testimony collected in 1931; no pan-Patwin inference. |
+
+**Claims**
+
+- `CLM-0216` *content* · **single source** · reviewed: Loeb describes a four-day boys’ initiation held before adult men, with restricted food and water and covered heads. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: pp. 223–224, Tribal Initiation
+  - Assessment: Checked the cited passage. Attribution and historical limits are retained; no independent corroboration or present-day applicability is established.
+- `CLM-0217` *content* · **single source** · reviewed: The account says women outside believed concealed bullroarers were thunder-man’s voice. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: pp. 224–225
+  - Assessment: A reported contrast between performers’ technique and outsiders’ belief; not independent verification of what every woman believed.
+- `CLM-0218` *content* · **single source** · reviewed: Initiates were instructed to feign death during the kuksu stabbing performance before being carried inside for revival. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: p. 225, first three paragraphs
+  - Assessment: Feigned death is explicit in the text. The passage is not evidence of killing and resurrecting children; it does not establish that every bodily act was harmless.
+- `CLM-0219` *content* · **single source** · reviewed: Loeb separately reports flint scratching that drew blood and left marks representing the preceding stabbings. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: p. 225, paragraph on kopa
+  - Assessment: Printed p. 225 visually checked. The source distinguishes feigned death from reported physical injury; the injury report itself remains single-source retrospective testimony.
+- `CLM-0220` *content* · **single source** · reviewed: The account says some boys tried to get away during the performance and were rounded up by kuksu impersonators. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: p. 225, second paragraph
+  - Assessment: Retained as reported coercion within this initiation, not as a general statement about all Patwin people.
+- `CLM-0221` *content* · **single source** · reviewed: Mothers participate outside in one earlier initiation scene, while Loeb describes the later hesi form as excluding women from its acts. (Long Valley historical forms recounted in 1931, published 1933)
+  - Supported by: [The Eastern Kuksu Cult](#src-0110) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf))
+  - Where: SRC-0110: p. 224, scene involving mothers; p. 225, Hesi
+  - Assessment: Preserves different stages and historical forms rather than treating women as absent from every part of one uniform ceremony.
+
+<a id="trad-0045"></a>
+
+## Sambia male initiation in Gilbert Herdt’s field accounts
+
+`TRAD-0045` · indigenous tradition · founded  · Eastern Highlands, Papua New Guinea · unknown
+
+Name and scope follow Herdt’s accounts. Neighbouring Anga peoples and later generations are not assigned the same practices. The later chapter explicitly limits its ethnography to 1993 and notes subsequent radical change.
+
+<a id="item-0058"></a>
+
+### Age-graded male initiation: concealed bloodletting and sexual rites
+
+`ITEM-0058` · initiatory rite · recorded status: unknown
+
+Historically documented secret initiation, coercive bodily ordeals and sexual rites involving boys and older initiates.
+
+- **Restricted to:** Knowledge distributed by initiation grade; particular procedures withheld from women, children and junior initiates
+- **How:** controlled access, grade requirement, violence or threat
+- **Stated reason:** Herdt reports beliefs about removing maternal contamination and enabling male development; these are reported rationales, not biological findings
+- **Notes:** Scope basis: explicit concealment and successive revelation in SRC-0111, p. 200. Sexual rites are summarized non-graphically. Same-author publications are not independent corroboration; recent practice is unestablished.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1982 | academic research | partial | Selected secrecy, initiation and observation passages read from scan/OCR; original journal page locators retained. | [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf)) | probable | reviewed | Original source includes graphic descriptions; dataset summaries of sexual rites remain non-graphic. |
+| 2011 | academic research | partial | Secrecy/discourse discussion and final historical-scope footnote. | [Talking About Sex: On the relationship between discourse, secrecy and sexual subjectivity in Melanesia](#src-0116) ([press-files.anu.edu.au](https://press-files.anu.edu.au/downloads/press/p146101/html/Text/ch12.html?page=17&referer=189)) | verified | reviewed | Same-author retrospective, not independent corroboration of the 1982 report. |
+
+**Claims**
+
+- `CLM-0222` *content* · **single source** · reviewed: Herdt says particular nosebleeding procedures were hidden from women, children and younger initiates until successive ritual revelations. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: p. 200
+  - Assessment: Core secrecy evidence checked against the page image. This is a specific graded restriction, not an inference from the topic being taboo.
+- `CLM-0223` *content* · **single source** · reviewed: Herdt reports enforced initiatory bloodletting alongside beatings, fasting, sleep deprivation and boys attempting escape. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: pp. 201–203
+  - Assessment: Reported observations and context, summarized without an operational procedure. No evidence of unchanged current practice follows.
+- `CLM-0224` *content* · **single source** · reviewed: The account reports secret sexual rites involving boys and older initiates as part of male initiation. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: pp. 195–196
+  - Assessment: Non-graphic summary of the reported sexual activity involving minors. It is not a claim of voluntary participation, an equivalence with adult sexual orientation, or a statement about neighbouring peoples.
+- `CLM-0225` *content* · **single source** · reviewed: The reported rationale treats maternal contamination as obstructing boys’ development and bloodletting as removing it. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: pp. 192, 195, 197–198
+  - Assessment: A reported belief, not a biological fact or medical recommendation.
+- `CLM-0226` *content* · **single source** · reviewed: Herdt distinguishes forced collective initiation from later private bloodletting described as voluntary adult practice. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: p. 192
+  - Assessment: The source’s developmental distinction is retained; this does not establish that an individual adult’s choice was free from social pressure.
+- `CLM-0227` *other* · **single source** · reviewed: Herdt criticizes earlier writing for playing down initiates’ fear and reports participants recalling that they expected to be killed. (Fieldwork in 1974–1976 and 1979, published 1982)
+  - Supported by: [Sambia Nosebleeding Rites and Male Proximity to Women](#src-0111) ([faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf))
+  - Where: SRC-0111: p. 216, footnote
+  - Assessment: An attributed scholarly criticism and reported recollection. It does not identify or prove a particular suppressed publication or an executed secrecy punishment.
+- `CLM-0228` *content* · **single source** · reviewed: Herdt distinguishes public, secret and private discourse, linking graded ritual knowledge to successive initiations. (2011 retrospective chapter; ethnography through 1993)
+  - Supported by: [Talking About Sex: On the relationship between discourse, secrecy and sexual subjectivity in Melanesia](#src-0116) ([press-files.anu.edu.au](https://press-files.anu.edu.au/downloads/press/p146101/html/Text/ch12.html?page=17&referer=189))
+  - Where: SRC-0116: discussion of the three discourse categories and six initiation grades
+  - Assessment: Same author and fieldwork lineage as SRC-0111. No claim of independent corroboration is made.
+- `CLM-0229` *other* · **single source** · reviewed: The later chapter explicitly limits its ethnographic focus to research through 1993 and notes radical change in subsequent fieldwork. (2011 retrospective chapter)
+  - Supported by: [Talking About Sex: On the relationship between discourse, secrecy and sexual subjectivity in Melanesia](#src-0116) ([press-files.anu.edu.au](https://press-files.anu.edu.au/downloads/press/p146101/html/Text/ch12.html?page=17&referer=189))
+  - Where: SRC-0116: final footnote
+  - Assessment: A limit on the source’s temporal coverage, not evidence sufficient to mark the entire rite discontinued or to date a specific change.
+
+<a id="trad-0046"></a>
+
+## Gardnerian Wicca in the exposed Book of Shadows recension
+
+`TRAD-0046` · religious branch · founded  · British-origin ritual texts; later exposed web compilation · unknown
+
+Scope is the exposed recension attributed to Gardner, not every coven or all Wicca. Editorial date estimates and Internet-copy history do not authenticate an ancient origin or present-day uniformity.
+
+<a id="item-0060"></a>
+
+### Exposed First-Degree Initiation and Book of Shadows preservation warning
+
+`ITEM-0060` · restricted scripture · recorded status: unknown
+
+An exposed ritual script with a confidentiality oath, binding, a blood-marked measure and scourging.
+
+- **Restricted to:** The exposed oath permits disclosure to a vouched-for, properly prepared person within the ritual circle
+- **How:** oath, controlled access
+- **Stated reason:** The warning portrays secrecy and destruction of writings as protection from persecution; its historical narrative is not independently established
+- **Notes:** Scope basis: explicit secrecy oath in SRC-0114, printed pp. 44–45, and restrictions on custody of writings at p. 22. Prescriptions are not proof of performance or consent in any actual coven. The copy’s editorial and manuscript fidelity remain uncertain.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+|  | exposure publication | reference | Editorial account of compilation, Internet-file origin and estimated dates. | [Gardnerian Book of Shadows: editorial index](#src-0115) ([sacred.plzhalp.us](https://sacred.plzhalp.us/pag/gbos/index.htm)) | unassessed | reviewed | Dating, original posting and manuscript fidelity remain uncertain. |
+| 2012 | exposure publication | partial | Edition notice; The Warning at printed p. 22; First-Degree Initiation at pp. 43–45. | [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf)) | uncertain | reviewed | 2012 is the stated web-edition year, not the first exposure or a verified manuscript date. |
+
+**Claims**
+
+- `CLM-0236` *content* · **single source** · reviewed: The exposed first-degree oath limits disclosure to a vouched-for, properly prepared person within the ritual circle. (Exposed recension in the stated 2012 web edition; composition dates unverified)
+  - Supported by: [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf))
+  - Where: SRC-0114: printed pp. 44–45 (PDF pp. 50–51)
+  - Assessment: Checked as a restriction stated by this exposed script. Manuscript fidelity and use in an actual coven remain uncertain.
+- `CLM-0237` *content* · **single source** · reviewed: The script prescribes binding, a blindfold and a body-measure cord marked with the postulant’s blood. (Exposed recension in the stated 2012 web edition; composition dates unverified)
+  - Supported by: [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf))
+  - Where: SRC-0114: printed pp. 44–45
+  - Assessment: Checked the cited passage. Attribution and historical limits are retained; no independent corroboration or present-day applicability is established.
+- `CLM-0238` *content* · **single source** · reviewed: The script calls for scourging as purification and asks the postulant’s willingness to undergo the ordeal. (Exposed recension in the stated 2012 web edition; composition dates unverified)
+  - Supported by: [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf))
+  - Where: SRC-0114: printed p. 44
+  - Assessment: The page image was checked. A scripted statement of willingness does not establish informed consent or actual performance.
+- `CLM-0239` *content* · **single source** · reviewed: The Warning requires guarding handwritten copies, memorizing material and destroying writings when danger threatens or a holder dies. (Exposed recension in the stated 2012 web edition; composition dates unverified)
+  - Supported by: [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf))
+  - Where: SRC-0114: printed p. 22, The Warning
+  - Assessment: Checked the cited passage. Attribution and historical limits are retained; no independent corroboration or present-day applicability is established.
+- `CLM-0240` *stated reason* · **single source** · reviewed: The warning justifies concealment through a narrative of persecution and torture. (Exposed recension in the stated 2012 web edition; composition dates unverified)
+  - Supported by: [The Gardnerian Book of Shadows, Global Grey web edition](#src-0114) ([priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf))
+  - Where: SRC-0114: printed p. 22, The Warning
+  - Assessment: The text’s own justification, not independent proof of a continuous ancient witch cult or of the events it evokes.
+- `CLM-0241` *other* · **single source** · reviewed: The editorial introduction attributes compilation to Aidan A. Kelly, describes a 1990s Internet-file origin and calls the section dates estimates. (Undated editorial web copy inspected 2026-11-04)
+  - Supported by: [Gardnerian Book of Shadows: editorial index](#src-0115) ([sacred.plzhalp.us](https://sacred.plzhalp.us/pag/gbos/index.htm))
+  - Where: SRC-0115: editorial introduction before the contents
+  - Assessment: The introduction itself varies between early and mid-1990s wording. No precise original posting date, official universal text or verified manuscript identity is asserted.
+
+<a id="trad-0047"></a>
+
+## Zuni initiatory fraternities in Stevenson’s account
+
+`TRAD-0047` · indigenous tradition · founded  · Zuni Pueblo, New Mexico, United States · unknown
+
+Scope is selected historical initiations, with Ko’tikili and Wood-fraternity rites recorded separately. Neither all Zuni ritual nor present-day practice is represented. The source identifies observations and reports unevenly; those distinctions remain attached.
+
+<a id="item-0061"></a>
+
+### Ko’tikili initiation and guarded mask knowledge
+
+`ITEM-0061` · initiatory rite · recorded status: unknown
+
+A historical initiation account with whipping, unveiling of human performers and warnings against disclosure.
+
+- **Restricted to:** Novices admitted with godfathers; access to the mask revelation guarded against intruders
+- **How:** controlled access, violence or threat
+- **Stated reason:** A reason for restricting access is not established by the inspected passages
+- **Notes:** Scope basis: Stevenson explicitly reports guarded mask removal and a secrecy threat at pp. 103–104. Her voluntary/involuntary labels are retained as source terminology, not independent consent assessments. A threatened punishment is not an established execution.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1904 | academic research | partial | Selected Ko’tikili initiation passages at pp. 102–104, including the mask revelation and secrecy threat. | [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich)) | probable | reviewed | Year identifies the cited publication, not an established earliest-ever disclosure or present-day practice. |
+
+**Claims**
+
+- `CLM-0246` *content* · **single source** · reviewed: Stevenson distinguishes earlier involuntary childhood initiation from a later initiation around twelve or thirteen that she calls voluntary. (Ko’tikili initiation labelled by Stevenson as witnessed in 1891, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 102
+  - Assessment: Source labels only: neither the terminology nor age establishes informed consent independently.
+- `CLM-0247` *content* · **single source** · reviewed: The described initiation includes yucca whipping, with the novice’s back covered and a godfather assisting. (Ko’tikili initiation labelled by Stevenson as witnessed in 1891, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 103
+  - Assessment: Checked the cited passage. This is an attributed historical text/account, with no independent corroboration or current-practice inference.
+- `CLM-0248` *content* · **single source** · reviewed: The boys’ eyes are covered during mask removal while attendants guard against intruders; afterwards the novices see the human performers. (Ko’tikili initiation labelled by Stevenson as witnessed in 1891, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: pp. 103–104
+  - Assessment: Printed p. 104 checked visually. This records performer identity and guarded access, not a finding about the truth of spiritual beliefs.
+- `CLM-0249` *content* · **single source** · reviewed: The account reports a threat of beheading with a stone knife if initiates disclose the secrets, especially mask knowledge. (Ko’tikili initiation labelled by Stevenson as witnessed in 1891, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 104
+  - Assessment: A reported threat, not evidence that a beheading occurred. The page image was checked.
+- `CLM-0250` *content* · **single source** · reviewed: Each initiate receives a rain-maker’s mask as personal property, with burial after the holder’s death prescribed in the account. (Ko’tikili initiation labelled by Stevenson as witnessed in 1891, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 103
+  - Assessment: Checked the cited passage. This is an attributed historical text/account, with no independent corroboration or current-practice inference.
+
+<a id="item-0062"></a>
+
+### ’Hle’wekwe Wood-fraternity initiation and sponsored sword training
+
+`ITEM-0062` · initiatory rite · recorded status: unknown
+
+An initiatory sequence involving preparation, prayers, medicine transmission and instruction with a wooden sword.
+
+- **Restricted to:** Fraternity members and sponsored novices; the source includes male and female participants
+- **How:** controlled access
+- **Stated reason:** A reason for restricting access is not established by the inspected passages
+- **Notes:** Scope basis: the source describes an actual novice sequence identified as occurring in 1892 (p. 451), at pp. 457–458 and distinguishes members from the uninitiated at pp. 451–452. Public festival dances and members’ preparation are separate phases. No physiological efficacy, safety or uniform present-day use is established.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1904 | academic research | partial | Wood-fraternity ceremony identified as occurring in 1892 at p. 451; preparation at pp. 451–452 and novice sequence at pp. 457–458. | [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich)) | probable | reviewed | Year identifies the cited publication, not an established earliest-ever disclosure or present-day practice. |
+
+**Claims**
+
+- `CLM-0251` *content* · **single source** · reviewed: Novices enter the chamber with fraternity fathers for a sequence of preparation, prayers and instruction. (Wood-fraternity initiation identified by Stevenson as occurring in 1892, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 457
+  - Assessment: Checked the cited passage. This is an attributed historical text/account, with no independent corroboration or current-practice inference.
+- `CLM-0252` *content* · **single source** · reviewed: The account describes emetic preparation and attributes throat/stomach preparation for sword swallowing to it. (Wood-fraternity initiation identified by Stevenson as occurring in 1892, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: pp. 452, 457
+  - Assessment: A source-attributed rationale, not a finding of efficacy or safety. No recipe, dose or practical swallowing instructions are supplied.
+- `CLM-0253` *content* · **single source** · reviewed: During initiation the sponsor demonstrates sword swallowing and transfers medicine to the novice before the novice’s attempt. (Wood-fraternity initiation identified by Stevenson as occurring in 1892, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: pp. 457–458
+  - Assessment: The source identifies the medicine plant as unclassified. This is an attributed ritual description, not a verified pharmacological mechanism.
+- `CLM-0254` *content* · **single source** · reviewed: The described cohort includes a woman novice whose sponsor performs the full swallowing in her place; the source describes later practice for women. (Wood-fraternity initiation identified by Stevenson as occurring in 1892, published 1904)
+  - Supported by: [The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies](#src-0117) ([archive.org](https://archive.org/details/thezueniindians00stevrich))
+  - Where: SRC-0117: p. 458 and footnote
+  - Assessment: A specific observed/described sequence, not an assertion that every female novice or every Zuni fraternity followed the same rule.
+
+<a id="trad-0048"></a>
+
+## Munduruku karoko custodianship in Murphy’s field account
+
+`TRAD-0048` · indigenous tradition · founded  · Savannah villages of the upper Tapajós region, Pará, Brazil · unknown
+
+Selected 1952–1953 field material, especially Cabruá and Cabitutú. Not all Munduruku communities or present-day transmission rules.
+
+<a id="item-0064"></a>
+
+### Karoko instruments, silently recalled songs and concealed installation
+
+`ITEM-0064` · restricted oral knowledge · recorded status: unknown
+
+A historical account of restricted instruments, associated words and the procedures used to conceal them during storage, manufacture and transfer.
+
+- **Restricted to:** The source describes male access to instruments and song instruction; viewing is forbidden to women
+- **How:** controlled access
+- **Stated reason:** A general reason for restricting transmission is not established by the inspected passages
+- **Notes:** Scope basis: explicit concealment and viewing prohibition at pp. 64–67, plus songs taught only to men at p. 65. Restricted sight is not the same as ignorance of performer identity. The origin narrative at pp. 89–91 is a myth, not established social history.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1958 | academic research | partial | Selected karoko passages pp. 63–67 and the separately labelled origin myth pp. 89–91; preface checked for field dates. | [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf)) | probable | reviewed | A publication year is not an established earliest disclosure date. For the mirrored manual, the dates of first online exposure and first inclusion of the selected prescriptions remain unestablished; exposure\_publication describes the inspected posting, not proof of an unauthorized leak. |
+
+**Claims**
+
+- `CLM-0260` *content* · **single source** · reviewed: Murphy describes a thatch-walled karoko chamber that conceals instruments whose sight is forbidden to women. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: p. 64
+  - Assessment: Page image checked. This is an explicit viewing rule, not a restriction inferred from sacred status.
+- `CLM-0261` *content* · **single source** · reviewed: Karoko song words are thought during playing rather than sung, and are taught only to men in Murphy’s account. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: p. 65
+  - Assessment: Attributed field account, not independently corroborated or evidence of present practice. The publication distinguishes observation from retrospective and mythical material.
+- `CLM-0262` *content* · **single source** · reviewed: The account describes offering food to the instrument openings to feed the spirits associated with them. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: p. 64
+  - Assessment: A reported action and attributed rationale; supernatural effects are not independently established.
+- `CLM-0263` *content* · **single source** · reviewed: Murphy says the sound is not presented as a spirit voice and women appear to know the players despite the viewing prohibition. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: p. 64
+  - Assessment: Checked visually. Preserve the qualifier appear; this challenges an assumption about deception without establishing every woman’s knowledge.
+- `CLM-0264` *content* · **single source** · reviewed: During the reported Cabitutú transfer, men shield the instruments with palm leaves while women remain inside the houses. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: pp. 65–66
+  - Assessment: The source identifies this transfer as occurring during fieldwork. Its exact date and independent corroboration remain unestablished.
+- `CLM-0265` *content* · **single source** · reviewed: The source describes concealed forest manufacture and an alternative name used before installation to avoid naming the instruments before women. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: p. 67
+  - Assessment: Attributed field account, not independently corroborated or evidence of present practice. The publication distinguishes observation from retrospective and mythical material.
+- `CLM-0266` *content* · **single source** · reviewed: A separately labelled origin myth attributes prior trumpet ownership to women and their subsequent appropriation to men. (Murphy’s 1952–1953 fieldwork and historical reports, published 1958)
+  - Supported by: [Mundurucú Religion](#src-0119) ([digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf))
+  - Where: SRC-0119: pp. 89–91
+  - Assessment: A recorded narrative, not proof of historical female rule, actual coercive events, or the author’s causal interpretation.
+
+<a id="trad-0049"></a>
+
+## Abakuá initiation in Lydia Cabrera’s collected accounts
+
+`TRAD-0049` · fraternal order · founded  · Cuba; accounts include Matanzas, Havana-area communities and Cárdenas · unknown
+
+A religious confraternity with local Potencias and differentiated ranks. Cabrera combines testimony and variants; publication in 1969 does not date every reported event. Not a uniform rule for every Abakuá community.
+
+<a id="item-0065"></a>
+
+### Abakuá admission oath and concealed Ekue consecration
+
+`ITEM-0065` · initiatory rite · recorded status: unknown
+
+An initiation account containing oath-taking, ritual markings, communion, restricted viewing and a warning against betrayal.
+
+- **Restricted to:** The described closed liturgy is for adepts; novices remain blindfolded through part of the sequence, and admission does not confer all esoteric knowledge
+- **How:** vow, controlled access, grade requirement, violence or threat
+- **Stated reason:** A general reason for restricting transmission is not established by the inspected passages
+- **Notes:** Scope basis: the secrecy commitment and closed liturgy are explicit at p. 139; pp. 165–166 describe controlled revelation and further knowledge transmission. Warnings, origin stories and locally reported ordeals are distinguished from verified enacted sanctions or uniform practice.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+| 1969 | academic research | partial | Secrecy framing pp. 139–140 and selected initiation passages pp. 161, 164–167; images 165–166 checked. | [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101)) | probable | reviewed | A publication year is not an established earliest disclosure date. For the mirrored manual, the dates of first online exposure and first inclusion of the selected prescriptions remain unestablished; exposure\_publication describes the inspected posting, not proof of an unauthorized leak. |
+
+**Claims**
+
+- `CLM-0267` *content* · **single source** · reviewed: Cabrera describes a secrecy commitment at admission and a closed liturgy among adepts in the Fambá. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 139
+  - Assessment: Explicit scope evidence. This does not imply every public Abakuá performance or every associated object is secret.
+- `CLM-0268` *content* · **single source** · reviewed: The initiation description includes purification, drawn body signs and blindfolding before the later consecration. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 161
+  - Assessment: These rayas are drawn signs in the cited passage; they must not automatically be translated as incisions.
+- `CLM-0269` *content* · **single source** · reviewed: The account includes rooster-blood communion interpreted by an informant through Sikán. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: pp. 164–165
+  - Assessment: Non-graphic account of ritual content and its attributed meaning, not evidence of efficacy. Animal blood is not human sacrifice.
+- `CLM-0270` *content* · **single source** · reviewed: The novice marks a cross on a drumhead and kisses it as part of the described oath sequence. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 165
+  - Assessment: Page image compared with OCR. This is the reported prescription/account, not independently documented performance.
+- `CLM-0271` *content* · **single source** · reviewed: Ekue is sounded above the blindfolded novice, who is later led away facing away from the curtain concealing it. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: pp. 165–166
+  - Assessment: Both page images checked. The later viewing of other sacred objects must not be turned into an assertion that Ekue itself is shown to every new initiate. No conclusion about spiritual reality follows.
+- `CLM-0272` *content* · **single source** · reviewed: Cabrera reproduces a warning that betrayal of the religion will be paid for with the initiate’s own skin. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 166
+  - Assessment: Warning checked against page image. The wording does not independently establish an executed punishment or a present-day enforcement rule.
+- `CLM-0273` *content* · **single source** · reviewed: The warning is translated into Spanish because the new initiate still lacks the secret language and knowledge transmitted by other initiates. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 166
+  - Assessment: Admission and subsequent knowledge transmission are distinct in this account; they are not independently verified for every Potencia.
+- `CLM-0274` *content* · **single source** · reviewed: Cabrera reports a painful chest ordeal in Sierón at Cárdenas, rather than presenting it as universal. (Accounts and recollections published by Cabrera in 1969; exact performance dates unestablished)
+  - Supported by: [Ritual y simbolos de la iniciación en la sociedad secreta Abakua](#src-0120) ([persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101))
+  - Where: SRC-0120: p. 167
+  - Assessment: A local historical report, not established direct observation or a standard modern rite. The surrounding recollections also discuss exaggerated ordeals and fear.
+
+<a id="trad-0050"></a>
+
+## Cuban Osha-Ifá in the Proyecto Orunmila Atefá compilation
+
+`TRAD-0050` · religion · founded  · Regla and Guanabacoa collection context, Havana, Cuba; diaspora web circulation · unknown
+
+The inspected source presents a practitioner compilation and acknowledges variation among religious branches. It does not represent every Cuban or West African Ifá lineage. Its stated manuscript-comparison process has not been independently audited.
+
+<a id="item-0066"></a>
+
+### Atefá room ceremony and lineage-specific initiation prescriptions
+
+`ITEM-0066` · initiatory rite · recorded status: unknown
+
+A practitioner-attributed initiation manual inspected through a file-sharing site’s extracted text, including an oath and conditional ritual directions.
+
+- **Restricted to:** The text addresses officiants and sponsors and prescribes a blindfolded novice phase; complete membership and attendance rules are not established here
+- **How:** controlled access, vow
+- **Stated reason:** A general reason for restricting transmission is not established by the inspected passages
+- **Notes:** Scope is the actual initiation prescription, not an inference that every page is confidential. This text has not been collated with the publisher edition, its underlying libretas or a performed ceremony. The presence of an oath does not establish a specific nondisclosure clause; no current-practice or efficacy claim is made.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Review | Notes |
+|---|---|---|---|---|---|---|---|
+|  | exposure publication | partial | Mirror text: imprint, introduction and selected pp. 23, 57–60, 98–99. The underlying PDF and complete manual were not inspected. | [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html)) | uncertain | reviewed | A publication year is not an established earliest disclosure date. For the mirrored manual, the dates of first online exposure and first inclusion of the selected prescriptions remain unestablished; exposure\_publication describes the inspected posting, not proof of an unauthorized leak. |
+
+**Claims**
+
+- `CLM-0275` *content* · **single source** · reviewed: The Atefá room sequence prescribes an oath involving a candle, followed by removal of the blindfold. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: p. 57, Ceremonia del cuarto
+  - Assessment: Checked the extracted text, not the underlying PDF, original manuscript or a performed ceremony. Copy fidelity and current practice remain unestablished.
+- `CLM-0276` *content* · **single source** · reviewed: For one Atemoleta choice, the text instructs the sponsor to replace the chosen object with the one it calls good. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: p. 58, Atemoleta
+  - Assessment: A conditional textual instruction, not observed behaviour or an established finding of fraud. The mirror’s terminology has not been collated with the print edition.
+- `CLM-0277` *content* · **single source** · reviewed: The text excludes an Awó with Ogbesa from the head-kicking ceremony because he would symbolically kick his own head. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: p. 59, Baile de Atemoleta
+  - Assessment: The stated reason is part of the prescription. It does not establish a physical assault on a person; the passage concerns the ritual object.
+- `CLM-0278` *content* · **single source** · reviewed: The washing section distinguishes the ordering of songs in the Miguel Febles and Tata Gaitán branches. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: p. 60, Lavatorio
+  - Assessment: A textual statement of lineage variation; neither sequence is assumed to apply to every Ifá community.
+- `CLM-0279` *content* · **single source** · reviewed: An early preparation directs the novice to have no contact with women from that point. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: p. 23, Como se hacen uno o dos Ifá
+  - Assessment: The inspected instruction does not establish its exact duration or justify translating contact as an invariably sexual prohibition.
+- `CLM-0280` *content* · **single source** · reviewed: The food sequence sends an officiant outside the igbódù doorway to offer portions to women and men who are not babalawos. (Prescriptions in the mirrored text with 2011/2012 imprint details; performance dates unestablished)
+  - Supported by: [Ceremonias de Atefá](#src-0121) ([pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html))
+  - Where: SRC-0121: pp. 98–99, food sequence after the offerings
+  - Assessment: This describes a boundary in one sequence. It does not establish total exclusion from every phase or from all Osha-Ifá rites.
+
 ## Sources
 
 <a id="src-0001"></a>
@@ -2284,7 +2809,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** published exposure
 - **Authenticity:** unassessed
+- **Verification:** OSINT check 2026-11-04: Located the 1723 text heading and introductory attribution in the hosted transcription of Knoop, Jones and Hamer’s The Early Masonic Catechisms (1943). This is a later reprint route, not an inspected original Flying-Post copy or a fresh review of all related claims.
 - **Rights:** public domain
+- **Links:** [skirret.com](https://skirret.com/papers/knoop/catechisms-old.html)
 - **Notes:** Printed in The Flying Post (London).
 - **Discloses:** [Craft degree rituals (Entered Apprentice / Fellow Craft / Master Mason)](#item-0001) · [Modes of recognition (signs / grips / passwords)](#item-0002)
 
@@ -2415,8 +2942,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** court filing
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: UCLA Library Special Collections, Louis Jolyon West papers (Collection 590), OAC https://oac.cdlib.org/findaid/ark:/13030/c84j0hcd is a finding-aid lead. The court exhibit itself was not recovered. Contemporary press reports document access disputes in November 1985; the 1985 date is retained rather than replaced by the 1986 verdict year.
 - **Rights:** court record
-- **Notes:** Confidential materials entered the public court file during the trial.
+- **Notes:** Confidential materials were reported accessible in the public court file during proceedings in 1985. Exact exhibits remain unrecovered.
 - **Discloses:** [OT III materials](#item-0006)
 - **Cited in claims:** `CLM-0002`
 
@@ -2428,8 +2956,16 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** court filing
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: CMU transcription index and declaration text inspected. The index identifies the 9 April 1993 declaration but says its OT II/III texts were removed. Course-labelled external links are not verified payloads; separate Spaink summaries are not the full exhibits. The index also identifies an OT VIII forgery dispute. No authenticity upgrade applies to the collection or its components.
 - **Rights:** court record
-- **Notes:** Exhibits included upper-level course materials.
+- **Links:** [www.scs.cmu.edu](https://www.scs.cmu.edu/~dst/Secrets/Fishman/Declaration/index.html)
+- **Notes:** Exhibits reportedly included upper-level course materials. The recovered URL is a collection index, not a complete copy of OT III; see ARTF-0043 and the dated discovery log.
+- **Artifact `ARTF-0043`:** collection; metadata_only; [open](https://www.scs.cmu.edu/~dst/Secrets/Fishman/Declaration/index.html); inspected 2026-11-04
+  - Inspected: Collection index, declaration/exhibit labels, removal notice, external destinations and OT VIII dispute reference
+  - media_type: text/html
+  - size_bytes: 3626
+  - sha256: 98e17df3b642f64d57dc33445e7273fc2ce902fe48b0af55ca03f7b6c4d75972
+  - Notes: Complete HTML capture of the index only; underlying exhibits are separate resources. Its hash does not identify the OT III text.
 - **Discloses:** [OT III materials](#item-0006)
 - **Cited in claims:** `CLM-0002`
 
@@ -2441,7 +2977,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** anonymous posting
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: public group archive and its historical-content notice inspected. This is a collection-level route. No exact 1994–1995 message ID, original posting headers, complete OT III post or attached exhibit was recovered; no full-disclosure or independence assessment follows from the group page.
 - **Rights:** unknown
+- **Links:** [groups.google.com](https://groups.google.com/g/alt.religion.scientology)
 - **Notes:** Led to RTC v. Netcom and other copyright suits.
 - **Discloses:** [OT III materials](#item-0006)
 - **Cited in claims:** `CLM-0002`
@@ -2454,7 +2992,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** published exposure
 - **Authenticity:** unassessed
+- **Verification:** OSINT check 2026-11-04: Located the matching bibliographic record and the authors’ publication list at https://utlm.org/books/ . The catalogue route is not a full-text inspection. A separate online digital edition has a changed 1840–1990 title span and is not silently substituted for the 1990 work.
 - **Rights:** copyrighted
+- **Links:** [WorldCat 22686324](https://search.worldcat.org/title/22686324)
 - **Discloses:** [Temple endowment ceremony](#item-0007)
 - **Cited in claims:** `CLM-0003`
 
@@ -2571,8 +3111,10 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** archival collection
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: University of Chicago holdings list, entry 943, identifies Sirr-i Akbar (Sirr al-asrar) under Dara Shukuh and a 1993 microform of Nadwat al-ulama radif 20 Hindu-shinasi. This is a bibliographic recovery route; no manuscript pages were inspected. Gallica ARK btv1b10099863d remains an uninspected candidate because its reader returned a verification page.
 - **Rights:** public domain
-- **Notes:** Persian translation of fifty Upanishads made with Banaras pandits.
+- **Links:** [www.lib.uchicago.edu](https://www.lib.uchicago.edu/e/collections/mideast/microformat/manuweba-h.html)
+- **Notes:** Persian translation of fifty Upanishads made with Banaras pandits. The 1993 microform date is distinct from the work’s 1657 composition; it does not date the underlying manuscript. No content hash or edition-year assignment is inferred from the holdings list.
 - **Discloses:** [Upanishads and Vedāntic instruction restricted by eligibility (adhikāra)](#item-0015)
 
 <a id="src-0023"></a>
@@ -2724,12 +3266,25 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 `SRC-0034` · H. R. Voth · 1901 · academic
 
 - **Provenance:** academic fieldwork
-- **Authenticity:** unassessed
+- **Authenticity:** probable
+- **Verification:** Captured the 266-page 1901 publication scan and Archive OCR. Read printed pp. 93–94, 105 and 120, and visually checked pp. 93 and 120. The publication identity is supported by scan/metadata; transcription, the missionary’s interpretation of beliefs and the completeness of his account were not independently verified.
 - **Rights:** public domain
 - **Links:** [Internet Archive oraibipowamucere03voth](https://archive.org/details/oraibipowamucere03voth)
-- **Notes:** Voth was a Mennonite missionary at Oraibi. Hopi people have objected strongly to his publications.
+- **Notes:** Voth was a Mennonite missionary at Oraibi. Hopi people have objected strongly to his publications. Current inspection is limited to selected Oraibi passages, not all images or the complete cycle.
+- **Artifact `ARTF-0027`:** document; partial; [open](https://archive.org/download/oraibipowamucere03voth/oraibipowamucere03voth.pdf); inspected 2026-11-04
+  - Inspected: Selected printed pp. 93–94, 105, 120; pp. 93 and 120 visually checked
+  - media_type: application/pdf
+  - size_bytes: 8927353
+  - sha256: 584aefc32b6459b09138525dce9a5ba6901a0d8779f5a1363faa8f072b10a099
+  - Notes: Complete 266-page scan captured after a resumed transfer; size matches the Archive manifest. The separate Stephen journal was not inspected.
+- **Artifact `ARTF-0031`:** document; partial; [open](https://archive.org/download/oraibipowamucere03voth/oraibipowamucere03voth_djvu.txt); inspected 2026-11-04
+  - Inspected: Selected passages corresponding to printed pp. 93–94, 105 and 120
+  - media_type: text/plain
+  - size_bytes: 309312
+  - sha256: 437e1e756ae0f08fe4814af918d330f9927b99997fd5cda584adc49d1fb2ac69
+  - Notes: Archive-provided OCR derivative with transcription errors. Hash identifies these text bytes, not the PDF or original manuscript; full-text capture does not mean full inspection.
 - **Discloses:** [Powamu ceremony and Katsina society initiation](#item-0021)
-- **Cited in claims:** `CLM-0019` · `CLM-0020`
+- **Cited in claims:** `CLM-0019` · `CLM-0020` · `CLM-0242` · `CLM-0243` · `CLM-0244` · `CLM-0245`
 
 <a id="src-0035"></a>
 
@@ -2815,20 +3370,34 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** published exposure
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: third-party transcript mirror inspected at the OT III/cartoon sequence and five embedded video references inventoried. Broadcast identity is also documented in ICO decision FS50358104 (3 February 2011). No film playback, original audio comparison, exact timestamps or completeness verification was performed.
 - **Rights:** copyrighted
-- **Notes:** Broadcast 27 April 1987. Reported to include an outline of the OT III story in cartoon form. Not yet viewed: the timestamps still need recording.
+- **Links:** [scicrit.wordpress.com](https://scicrit.wordpress.com/2014/02/05/scientology-the-road-to-total-freedom/)
+- **Notes:** Broadcast 27 April 1987; linked mirror posted 5 February 2014. The inspected transcript includes an OT III cosmology outline and descriptions of animation. This is transcript evidence, not a claim that the five-part film has been watched.
+- **Artifact `ARTF-0045`:** transcript; partial; [open](https://scicrit.wordpress.com/2014/02/05/scientology-the-road-to-total-freedom/); inspected 2026-11-04
+  - Inspected: Programme identity; OT III/cartoon passage; five video embed identifiers
+  - media_type: text/html
+  - size_bytes: 193020
+  - sha256: 7f159d220d6ee992b1153940177ccba7d7edec77d73346fa9ff591484baf5692
+  - Notes: Third-party transcript and embed inventory. No full broadcast or audio comparison. File hash identifies the captured webpage, not its advertised videos.
 - **Discloses:** [OT III materials](#item-0006)
 
 <a id="src-0041"></a>
 
-### Hidden-camera recordings of LDS temple ordinances
+### Mormon Temple Endowment Ceremony (SLC live version): NewNameNoah recording
 
-`SRC-0041` · Mike Norton (NewNameNoah) · c. 2017 · video
+`SRC-0041` · Mike Norton (NewNameNoah) · 2013 · video
 
 - **Provenance:** covert recording → defector account
 - **Authenticity:** unassessed
+- **Verification:** Local-browser recovery review 2026-11-04: exact video title, NewNameNoah channel, upload date 15 May 2013, duration 01:35:41 and expanded uploader description inspected. The uploader describes Salt Lake City footage from two occasions in 2011 and 2012, including a separately filmed veil segment. These are uploader assertions; authenticity, continuous coverage and audio wording remain unassessed. The circa-2017 seed collection reference is replaced by this identifiable recording.
 - **Rights:** unknown
-- **Notes:** Recordings made inside temples by a former member and posted online. They were circulating and being discussed by 27 January 2017. The original uploads, their dates and the ordinances each one covers are not yet identified; archive copies and file hashes are needed.
+- **Links:** [www.youtube.com](https://www.youtube.com/watch?v=b8sbYtFOnxk)
+- **Notes:** Linked by a 27 January 2017 MetaFilter discussion: https://www.metafilter.com/164786/Have-you-ever-wondered-what-goes-on-inside-a-Mormon-temple . Recording, upload and discussion dates are separate. The uploader credits a named caption contributor; platform notices also indicate automatic dubbing. No captions, full audio or complete footage were reviewed in this recovery pass; no original-file hash is asserted.
+- **Artifact `ARTF-0046`:** video; metadata_only; [open](https://www.youtube.com/watch?v=b8sbYtFOnxk); inspected 2026-11-04
+  - Inspected: Local-browser title, channel, 15 May 2013 upload date, 01:35:41 duration and expanded description
+  - media_type: text/html
+  - Notes: Playback availability observed and player paused near the beginning; no sampled-content review is claimed. Uploader discloses compilation across dates. No media payload was captured.
 - **Discloses:** [Temple endowment ceremony](#item-0007)
 
 <a id="src-0042"></a>
@@ -3091,6 +3660,7 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** scholarship
 - **Authenticity:** unassessed
+- **Verification:** OSINT bibliographic check 2026-11-04: Crossref returns the same chapter title with a Chapter Nine prefix and publication date 19 January 2022. An automated helper’s mismatch verdict was not adopted. The Handle now redirects to a Leiden Primo repository record; that landing-page response is not itself a PDF inspection.
 - **Rights:** copyrighted
 - **Links:** [hdl.handle.net](https://hdl.handle.net/1887/3309964) · [DOI 10.1515/9783110720211-009](https://doi.org/10.1515/9783110720211-009)
 - **Notes:** Chapter 9 of Fabio Rambelli and Or Porath (eds.), Rituals of Initiation and Consecration in Premodern Japan (De Gruyter, 2022), pp. 197–228. Free copy in the Leiden University repository.
@@ -3120,7 +3690,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** academic fieldwork
 - **Authenticity:** unassessed
+- **Verification:** OSINT check 2026-11-04: Located a specific CiNii catalogue record, with a separate institutional collection record at https://digital.library.adelaide.edu.au/items/c86a2557-3431-4268-bb9c-d658fddea2bd . This identifies a bibliographic/holding route, not a complete scan; content inspection and authenticity are not upgraded.
 - **Rights:** copyrighted
+- **Links:** [ci.nii.ac.jp](https://ci.nii.ac.jp/ncid/BA25339706)
 - **Notes:** Published by Rigby, Adelaide. Withdrawn from sale after Foster v Mountford (1976) 29 FLR 233, also reported as 14 ALR 71; copies remain in libraries and the second-hand trade.
 - **Discloses:** [Men's restricted ceremonies, sites and designs recorded by C. P. Mountford](#item-0031)
 
@@ -3159,7 +3731,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** academic fieldwork
 - **Authenticity:** unassessed
+- **Verification:** OSINT check 2026-11-04: Read the CiNii title, author, Angus and Robertson imprint, 1971 date and ISBN. The Adelaide thesis record exposes only title page, contents and summary, not the complete book: https://digital.library.adelaide.edu.au/items/7d2d147c-8f98-4843-be09-28c54bc7bbcd . This audit adds a catalogue route without claiming recovery of the song corpus.
 - **Rights:** copyrighted
+- **Links:** [ci.nii.ac.jp](https://ci.nii.ac.jp/ncid/BA28923776) · [ISBN 0207946574](https://openlibrary.org/isbn/0207946574)
 - **Notes:** Published by Angus and Robertson, Sydney. A study of Arrernte and neighbouring peoples' ceremonial song verses, with texts and translations.
 - **Discloses:** [Men's secret-sacred ceremonies, songs and tjurunga in the Strehlow Collection](#item-0032)
 
@@ -3225,7 +3799,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** defector account → scholarship
 - **Authenticity:** unassessed
+- **Verification:** OSINT check 2026-11-04: Read the Google Books bibliographic record for the 1996 Athlone edition and its original subtitle. The 2002 revised and 2018 digital editions have a different subtitle; their descriptions are not silently substituted for the first edition. No full-book inspection was performed in this audit.
 - **Rights:** copyrighted
+- **Links:** [books.google.com](https://books.google.com/books?hl=en&id=W0fYAAAAMAAJ) · [ISBN 0485114941](https://openlibrary.org/isbn/0485114941)
 - **Notes:** Published by Athlone (London) and George Braziller (New York). The author was Kalu Rinpoche's translator and, by her account, his secret consort.
 
 <a id="src-0071"></a>
@@ -3278,9 +3854,9 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** scholarship
 - **Authenticity:** verified
-- **Verification:** Read on 2026-11-04 from a copy of the AustLII page that the maintainer opened and pasted in; AustLII blocks automated access. Citation \[2002\] FedJSchol 1.
+- **Verification:** Read on 2026-11-04 from a copy of the AustLII page that the maintainer opened and pasted in; AustLII blocks automated access. Citation \[2002\] FedJSchol 1. Local browser re-read on 2026-11-04 through the working viewdoc URL, including the Foster v Mountford passage. The earlier static URL returned an automated-access failure; no source content was changed.
 - **Rights:** copyrighted
-- **Links:** [www.austlii.edu.au](https://www.austlii.edu.au/au/journals/FedJSchol/2002/1.html)
+- **Links:** [www.austlii.edu.au](https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedJSchol/2002/1.html)
 - **Notes:** Paper given at the 'Traditional Knowledge, Intellectual Property and Indigenous Culture' conference, Benjamin N. Cardozo School of Law, New York, 21–22 February 2002. Discusses Foster v Mountford in the section 'Case law', citing (1976) 29 FLR 233.
 - **Cited in claims:** `CLM-0063` · `CLM-0064`
 
@@ -3364,8 +3940,17 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 
 - **Provenance:** court filing → archival collection
 - **Authenticity:** unassessed
+- **Verification:** Recovery review 2026-11-04: inspected online transcription, opening testimony, selected drum figures, source credit and editorial footnotes. The page identifies Qvigstad’s 1903 edition, combining the 1692 court protocol with variants from Knag’s relation dated 1693 about a 1691 interrogation. This is an edited transcription, not an archival facsimile; the 1693 heading does not replace the 1692 trial date. Conflicting testimony and hostile judicial terminology remain attributed.
 - **Rights:** public domain
-- **Notes:** Not yet read for this dataset; known here through SRC-0078 and SRC-0079. SRC-0079 calls it the most extensive source material of all the Finnmark witchcraft cases.
+- **Linked copy:** 1903 edition
+- **Links:** [www.heimskringla.no](https://www.heimskringla.no/wiki/Forh%C3%B8rsprotokol_over_Anders_Poulsen)
+- **Notes:** Original archival leaves have not been collated. The earlier evidence came through SRC-0078/SRC-0079 and SRC-0086, which derive from this record; the recovered transcription is not an independent witness. Edition year 1903 identifies the transcription’s credited print base, not the date of the webpage.
+- **Artifact `ARTF-0044`:** transcript; partial; [open](https://www.heimskringla.no/wiki/Forh%C3%B8rsprotokol_over_Anders_Poulsen); inspected 2026-11-04
+  - Inspected: Opening interrogation, selected drum-figure explanations, source credit and editorial footnotes 1–3
+  - media_type: text/html
+  - size_bytes: 67342
+  - sha256: 8d5a09c187d69302ae100e7b36641ee68b97ffe86129218ed608146d9046e056
+  - Notes: Edited web transcription attributed to Qvigstad 1903; not the original court manuscript. Full captured HTML includes navigation; only the stated passages were reviewed.
 - **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
 
 <a id="src-0081"></a>
@@ -3835,3 +4420,316 @@ Paid instruction, restricted training space, visionary exercises and magic-song 
 - **Artifact `ARTF-0017`:** video; partial; [open](https://www.youtube.com/watch?v=CqWoosEGy2Q); inspected 2026-11-04
   - Inspected: Expanded description and upload date; frames at 03:07, 04:10 and 05:13 of the 10:26 YouTube upload
   - Notes: No media payload captured, complete soundtrack listened to or transcript obtained. Retained as a contextual discovery lead after the associated unpublished item and claims were withdrawn. No secret-content claim is supported by this artifact, and no payload hash or exact byte count is claimed.
+
+<a id="src-0110"></a>
+
+### The Eastern Kuksu Cult
+
+`SRC-0110` · E. M. Loeb · 1933 · academic
+
+- **Provenance:** academic fieldwork → archival collection
+- **Authenticity:** probable
+- **Verification:** Captured the complete institutional PDF. Read the introduction at printed p. 139 and the Long Valley account at pp. 223–225; visually checked p. 225 (PDF p. 94). The introduction dates interviews to summer 1931 and identifies the Long Valley interlocutors. Retrospective reports were not relabelled as Loeb’s witnessed performances.
+- **Rights:** unknown
+- **Links:** [digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf)
+- **Notes:** University of California Publications in American Archaeology and Ethnology 33(2), pp. 139–232; issued 3 February 1933. The comparative sections on other Patwin and Maidu groups were not treated as one uniform rite. Rights status was not established through a copyright or renewal assessment.
+- **Artifact `ARTF-0018`:** document; partial; [open](https://digicoll.lib.berkeley.edu/record/82905/files/ucp033-003.pdf); inspected 2026-11-04
+  - Inspected: Introduction p. 139; Long Valley pp. 223–225; p. 225 visually checked
+  - media_type: application/pdf
+  - size_bytes: 11112104
+  - sha256: 1e0245e8092e1f573a615b453c474d121c48aa31438c581a1683a9b4af5cf0c5
+  - Notes: Complete 103-page scan captured; selected pages inspected. Journal text and local historical versions are distinguished.
+- **Discloses:** [Long Valley thunder/kuksu initiation and its later hesi incorporation](#item-0057)
+- **Cited in claims:** `CLM-0216` · `CLM-0217` · `CLM-0218` · `CLM-0219` · `CLM-0220` · `CLM-0221`
+
+<a id="src-0111"></a>
+
+### Sambia Nosebleeding Rites and Male Proximity to Women
+
+`SRC-0111` · Gilbert H. Herdt · 1982 · academic
+
+- **Provenance:** academic fieldwork → archival collection
+- **Authenticity:** probable
+- **Verification:** Retrieved a 22-page image PDF hosted on a faculty site. Generated OCR and read selected journal pages, especially pp. 189, 192, 195–196, 200–203 and 216. Visually checked the title page and pp. 200–201. Journal pagination, not the course-reader folio numbers, supplies locators. Not every OCR line was collated.
+- **Rights:** copyrighted
+- **Links:** [www.faculty.fairfield.edu](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf)
+- **Notes:** Ethos 10(3), pp. 189–231. Title page identifies fieldwork in 1974–1976 and 1979; the p. 200 footnote dates the main ethnographic present to 1974–1976. This scan is not the book or film Guardians of the Flutes.
+- **Artifact `ARTF-0019`:** document; partial; [open](https://www.faculty.fairfield.edu/dcrawford/herdt.pdf); inspected 2026-11-04
+  - Inspected: Selected journal pp. 189, 192, 195–196, 200–203, 208–210 and 216; title and pp. 200–201 visually checked
+  - media_type: application/pdf
+  - size_bytes: 1886332
+  - sha256: 23a3d324108d499b1448e9f255f2607bcb48f835c5109229577ba8b56c5ef020
+  - Notes: Complete 22-page image PDF captured. Most pages are two-page spreads; course-reader folios are not journal locators. Original scan has no extractable text.
+- **Artifact `ARTF-0020`:** document; partial; no HTTP link recorded; inspected 2026-11-04
+  - Inspected: Locally generated OCR: selected passages corresponding to the cited journal pages
+  - media_type: text/plain
+  - size_bytes: 108671
+  - sha256: b1924f95d569290ed02fa179d2e49e90278514bb4bcb81365a642f7fc0fec3d6
+  - Notes: Derivative made with pdftoppm at 1800-pixel scale and Tesseract, with PDF-page markers. Hash identifies OCR bytes, not the scan. OCR errors remain; only selected page images were collated.
+- **Discloses:** [Age-graded male initiation: concealed bloodletting and sexual rites](#item-0058)
+- **Cited in claims:** `CLM-0222` · `CLM-0223` · `CLM-0224` · `CLM-0225` · `CLM-0226` · `CLM-0227`
+
+<a id="src-0112"></a>
+
+### My Second Anointing Experience
+
+`SRC-0112` · Tom Phillips; transcription preserved by the B. H. Roberts Foundation · 2008 · testimony
+
+- **Provenance:** defector account → archival collection
+- **Authenticity:** unassessed
+- **Verification:** Read the archived transcription’s invitation, preparation, ceremony and recollection caveat. The archive attributes the account to Phillips, dated 21 January 2008. His admission of consulting published accounts was retained; no independent witness to his claimed 2002 event or original contemporaneous recording was inspected.
+- **Rights:** copyrighted
+- **Links:** [bhroberts.org](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing)
+- **Notes:** The account identifies 19 May 2002 as the ceremony date. It is a first-person retrospective exposure, not an original officiator’s script. An attempted MormonThink PDF retrieval failed TLS hostname validation; no bypass or hash of that PDF is claimed.
+- **Artifact `ARTF-0021`:** document; partial; [open](https://bhroberts.org/records/fWrZbd-17raDb/tom_phillips_provides_a_contemporary_account_of_the_second_anointing); inspected 2026-11-04
+  - Inspected: Archived transcription: invitation, preparation, ceremony description and memory caveat
+  - media_type: text/html
+  - size_bytes: 66589
+  - sha256: cc38897adf8fe0c5814202a35f2bab4ae5422e2194f2fa3bdc0621de65bf212c
+  - Notes: Complete HTML response captured; selected account sections inspected. Not an original 2002 recording or a hash of the failed MormonThink PDF.
+- **Discloses:** [Second anointing: Phillips’s participant account and limits on discussion](#item-0059)
+- **Cited in claims:** `CLM-0230` · `CLM-0231` · `CLM-0232` · `CLM-0233` · `CLM-0234`
+
+<a id="src-0113"></a>
+
+### Doctrines of the Gospel Teacher Manual, chapter 19: Eternal Life
+
+`SRC-0113` · The Church of Jesus Christ of Latter-day Saints · website
+
+- **Provenance:** official release
+- **Authenticity:** verified
+- **Verification:** Read and captured the official church chapter on 2026-11-04. Its Introduction directs teachers not to discuss or answer questions about the second anointing. Official publication identity is established; the first-edition date was not established from the inspected chapter, whose citation has an empty year.
+- **Rights:** copyrighted
+- **Links:** [www.churchofjesuschrist.org](https://www.churchofjesuschrist.org/study/manual/doctrines-of-the-gospel/chapter-19?lang=eng)
+- **Notes:** The page identifies print pp. 67–69. It establishes an instructional restriction, not Phillips’s event, a full liturgy or present-day frequency of performance.
+- **Artifact `ARTF-0022`:** document; partial; [open](https://www.churchofjesuschrist.org/study/manual/doctrines-of-the-gospel/chapter-19?lang=eng); inspected 2026-11-04
+  - Inspected: Chapter title, print-page reference and Introduction caution
+  - media_type: text/html
+  - size_bytes: 163572
+  - sha256: 67a71ef89eae597c46622ad8a55a7acbd529dac1915cf7057a7513308062cd74
+  - Notes: Complete HTML captured; the discussion restriction was checked. Other chapter teachings were not reviewed as ritual disclosures.
+- **Discloses:** [Second anointing: Phillips’s participant account and limits on discussion](#item-0059)
+- **Cited in claims:** `CLM-0235`
+
+<a id="src-0114"></a>
+
+### The Gardnerian Book of Shadows, Global Grey web edition
+
+`SRC-0114` · Attributed to Gerald E. Gardner; web edition by Global Grey · book
+
+- **Provenance:** published exposure → archival collection
+- **Authenticity:** uncertain
+- **Verification:** Captured the 68-page PDF and read the edition notice, printed p. 22 and pp. 43–45. Visually checked printed p. 44 (PDF p. 50). The notice identifies Global Grey 2012. Original manuscripts, whole-recension fidelity and dates assigned to individual sections were not authenticated.
+- **Rights:** unknown
+- **Linked copy:** 2012 edition
+- **Links:** [priory-of-sion.com](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf)
+- **Notes:** The imprint claims a Creative Commons-style licence; authority to license all underlying text was not established. Headings such as 1953 and 1957 concern attributed composition, not a proven first public release. The mirror’s name is not evidence of ritual authenticity.
+- **Artifact `ARTF-0023`:** document; partial; [open](https://priory-of-sion.com/biblios/images/Gardnerian-Book-Of-Shadows.pdf); inspected 2026-11-04
+  - Inspected: PDF p. 3 edition notice; printed p. 22 and pp. 43–45; printed p. 44 visually checked
+  - media_type: application/pdf
+  - size_bytes: 1048578
+  - sha256: a2aead6cf15a235e9c5427560a2e201b3e3a6b1bc5a499bd26cf860912cdb262
+  - Notes: Complete 68-page PDF captured, selected sections inspected. A mirror file, not an authenticated Gardner manuscript; the stated licence’s scope is unverified.
+- **Discloses:** [Exposed First-Degree Initiation and Book of Shadows preservation warning](#item-0060)
+- **Cited in claims:** `CLM-0236` · `CLM-0237` · `CLM-0238` · `CLM-0239` · `CLM-0240`
+
+<a id="src-0115"></a>
+
+### Gardnerian Book of Shadows: editorial index
+
+`SRC-0115` · Editor not identified; page attributes compilation to Aidan A. Kelly · website
+
+- **Provenance:** published exposure → archival collection
+- **Authenticity:** unassessed
+- **Verification:** Read and captured the editorial introduction. It describes a 1990s Internet-file origin, says section dates are estimates and attributes compilation to Aidan A. Kelly. The introduction itself uses both early and mid-1990s descriptions, so no exact initial posting date was accepted.
+- **Rights:** unknown
+- **Links:** [sacred.plzhalp.us](https://sacred.plzhalp.us/pag/gbos/index.htm)
+- **Notes:** Editorial statements about the exposed recension are not a manuscript collation or independent proof of practices in any coven. Selected PDF passages agree in subject and commentary, but whole-copy identity was not established.
+- **Artifact `ARTF-0024`:** document; partial; [open](https://sacred.plzhalp.us/pag/gbos/index.htm); inspected 2026-11-04
+  - Inspected: Editorial introduction, compilation attribution and dating caveats
+  - media_type: text/html
+  - size_bytes: 4548
+  - sha256: b5bf2dbd86c745d01d5c7bfaad243d6cf49022ed23da7ac4d0ef5dc8004bc803
+  - Notes: Complete HTML captured. The introduction was checked; linked ritual pages were not all inspected. This is not a second independent ritual witness.
+- **Discloses:** [Exposed First-Degree Initiation and Book of Shadows preservation warning](#item-0060)
+- **Cited in claims:** `CLM-0241`
+
+<a id="src-0116"></a>
+
+### Talking About Sex: On the relationship between discourse, secrecy and sexual subjectivity in Melanesia
+
+`SRC-0116` · Gilbert Herdt · 2011 · academic
+
+- **Provenance:** academic fieldwork → scholarship
+- **Authenticity:** verified
+- **Verification:** Read the publisher HTML’s distinctions between public, secret and private discourse, its six-grade discussion, its critique of earlier ethnography and its final scope footnote. Checked the official ANU Press book record for the October 2011 publication. The final footnote limits this account to research through 1993 and refers to subsequent radical change.
+- **Rights:** copyrighted
+- **Links:** [press-files.anu.edu.au](https://press-files.anu.edu.au/downloads/press/p146101/html/Text/ch12.html?page=17&referer=189)
+- **Notes:** Chapter 12 of Echoes of the Tambaran, edited by David Lipset and Paul Roscoe. Same investigator and fieldwork lineage as SRC-0111; not an independent witness. No contemporary unchanged-practice claim follows.
+- **Artifact `ARTF-0025`:** document; partial; [open](https://press-files.anu.edu.au/downloads/press/p146101/html/Text/ch12.html?page=17&referer=189); inspected 2026-11-04
+  - Inspected: Discussion of discourse categories and initiation grades; final temporal-scope footnote
+  - media_type: text/html
+  - size_bytes: 62992
+  - sha256: d6a41e1479f2a44a7dfdfb0aa45d326eb4dae5cd4af7d3b2a1eae8b1a2beaa45
+  - Notes: Complete chapter HTML captured, selected paragraphs inspected. This retrospective shares the fieldworker and upstream material of SRC-0111.
+- **Discloses:** [Age-graded male initiation: concealed bloodletting and sexual rites](#item-0058)
+- **Cited in claims:** `CLM-0228` · `CLM-0229`
+
+<a id="src-0117"></a>
+
+### The Zuni Indians: Their Mythology, Esoteric Fraternities, and Ceremonies
+
+`SRC-0117` · Matilda Coxe Stevenson · 1904 · report
+
+- **Provenance:** academic fieldwork → archival collection
+- **Authenticity:** probable
+- **Verification:** Captured the 918-page report scan and Archive OCR. Read selected printed pp. 102–104, 451–452, 457–458, with p. 104 visually checked. The report title page at PDF p. 7 gives 1904, as does Archive metadata; the Smithsonian repository record instead lists 1905. The discrepancy is retained rather than silently treating the dates as identical.
+- **Rights:** public domain
+- **Links:** [Internet Archive thezueniindians00stevrich](https://archive.org/details/thezueniindians00stevrich)
+- **Notes:** Twenty-third Annual Report of the Bureau of American Ethnology, 1901–1902, report publication 1904. The author labels the Ko’tikili observation as witnessed in 1891 and the Wood-fraternity initiation as occurring in 1892. Selected passages were inspected, not the entire book. Human performers do not independently settle the religious meaning of the personation.
+- **Artifact `ARTF-0026`:** document; partial; [open](https://archive.org/download/thezueniindians00stevrich/thezueniindians00stevrich.pdf); inspected 2026-11-04
+  - Inspected: Report title page (PDF p. 7); selected printed pp. 102–104, 451–452, 457–458; p. 104 visually checked
+  - media_type: application/pdf
+  - size_bytes: 47312248
+  - sha256: 531d725baa3c6b918ea08f3bf21e6d6eb642a3e1110f9539ce6052d246bf3044
+  - Notes: Complete 918-page scan captured after a resumed transfer; size matches the Archive manifest. Selected passages only, not the entire report.
+- **Artifact `ARTF-0030`:** document; partial; [open](https://archive.org/download/thezueniindians00stevrich/thezueniindians00stevrich_djvu.txt); inspected 2026-11-04
+  - Inspected: Selected Ko’tikili and Wood-fraternity passages; compared with PDF text and selected images
+  - media_type: text/plain
+  - size_bytes: 2350493
+  - sha256: d85019c27257d3c7a1051d31d9defa5ac54a0899771e0abc0ee8860332427771
+  - Notes: Archive-provided OCR derivative with transcription errors. Hash identifies these text bytes, not the PDF or original manuscript; full-text capture does not mean full inspection.
+- **Discloses:** [Ko’tikili initiation and guarded mask knowledge](#item-0061) · [’Hle’wekwe Wood-fraternity initiation and sponsored sword training](#item-0062)
+- **Cited in claims:** `CLM-0246` · `CLM-0247` · `CLM-0248` · `CLM-0249` · `CLM-0250` · `CLM-0251` · `CLM-0252` · `CLM-0253` · `CLM-0254`
+
+<a id="src-0118"></a>
+
+### The Origins of the Druze People and Religion, with Extracts from Their Sacred Writings
+
+`SRC-0118` · Philip K. Hitti · 1928 · book
+
+- **Provenance:** scholarship → archival collection
+- **Authenticity:** probable
+- **Verification:** Read the host’s title transcription identifying Columbia University Press, 1928; chapter V’s learned-rank discussion at pp. 42–43; and Appendix A’s complete translated covenant at pp. 57–58. Direct HTML capture returned HTTP 403, while the web reader exposed the text. No print/manuscript collation or complete ceremony observation was performed.
+- **Rights:** public domain
+- **Links:** [sacred-texts.com](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age)
+- **Notes:** Public-domain US edition. The book’s dated racial classifications, claims of an unchanging society and speculative generalizations were not adopted. The specific translated text is distinguished from an assertion about current Druze beliefs or practice.
+- **Artifact `ARTF-0028`:** document; partial; [open](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/appendix-a-covenant-of-induction-into-the-religion-of-the-ruler-of-the-age); inspected 2026-11-04
+  - Inspected: Appendix A, pp. 57–58, complete translated covenant in the web reader
+  - media_type: text/html
+  - Notes: Text read through the web reader. Direct capture returned HTTP 403; no exact-byte hash or size is asserted. Not collated against the Arabic manuscript or print.
+- **Artifact `ARTF-0029`:** document; partial; [open](https://sacred-texts.com/book/origins-of-the-druze-people-and-religion/chapter-v-druze-theology-and-its-sources); inspected 2026-11-04
+  - Inspected: Chapter V, pp. 42–43, discussion of secrecy, probation and induction
+  - media_type: text/html
+  - Notes: Text read through the web reader. Direct capture returned HTTP 403; no exact-byte hash or size is asserted. Not collated against the Arabic manuscript or print.
+- **Discloses:** [Mithaq Wali-al-Zaman: printed induction covenant](#item-0063)
+- **Cited in claims:** `CLM-0255` · `CLM-0256` · `CLM-0257` · `CLM-0258` · `CLM-0259`
+
+<a id="src-0119"></a>
+
+### Mundurucú Religion
+
+`SRC-0119` · Robert F. Murphy · 1958 · book
+
+- **Provenance:** academic fieldwork → archival collection
+- **Authenticity:** probable
+- **Verification:** Captured the complete 158-page PDF. Checked the issue page (8 October 1958), preface p. iii, selected pp. 63–67 and the trumpet origin narrative pp. 89–91. Printed p. 64 was checked visually. The preface dates collaborative fieldwork with Yolanda Murphy to 1952–1953 and distinguishes remembered material from witnessed events; p. 65 identifies a transfer ceremony during fieldwork.
+- **Rights:** unknown
+- **Links:** [digicoll.lib.berkeley.edu](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf)
+- **Notes:** University of California Publications in American Archaeology and Ethnology, volume 49, no. 1. Publication identity is supported; the field interpretations are not independently corroborated. The words contemporary and today refer to the source period. Copyright/renewal status was not established. The author explicitly says that the actual karoko music was not recorded (p. 64).
+- **Artifact `ARTF-0032`:** document; partial; [open](https://digicoll.lib.berkeley.edu/record/82998/files/ucp049-002.pdf); inspected 2026-11-04
+  - Inspected: Issue page; preface p. iii; selected pp. 63–67, 89–91; printed p. 64 checked visually
+  - media_type: application/pdf
+  - size_bytes: 24459143
+  - sha256: 1938d56b5d6237c223390d6d8b85161c74fc487c3b0e22cec1bf2cc5dfcfd0c6
+  - Notes: Complete 158-page PDF captured and parsed, with end-of-file marker checked. Full capture does not mean full reading. No audio payload is present or claimed.
+- **Discloses:** [Karoko instruments, silently recalled songs and concealed installation](#item-0064)
+- **Cited in claims:** `CLM-0260` · `CLM-0261` · `CLM-0262` · `CLM-0263` · `CLM-0264` · `CLM-0265` · `CLM-0266`
+
+<a id="src-0120"></a>
+
+### Ritual y simbolos de la iniciación en la sociedad secreta Abakua
+
+`SRC-0120` · Lydia Cabrera · 1969 · academic
+
+- **Provenance:** academic fieldwork → archival collection
+- **Authenticity:** probable
+- **Verification:** Read selected page-level OCR for pp. 139–140, 161 and 164–167; checked page images 165–166. The page service supplies both OCR and images; OCR has obvious errors and is not an independent witness. The advertised PDF returned HTTP 403 and was not captured. The article identifies interviews and recollections, but these selected passages do not establish an exact field date or direct observation of every step.
+- **Rights:** copyrighted
+- **Links:** [www.persee.fr](https://www.persee.fr/doc/jsa_0037-9174_1969_num_58_1_2101) · [DOI 10.3406/jsa.1969.2101](https://doi.org/10.3406/jsa.1969.2101)
+- **Notes:** Journal de la Société des Américanistes 58 (1969), pp. 139–171. The article compares variants and includes the author’s interpretations; neither its generalizations nor quoted prejudice are adopted as facts. A locally reported painful ordeal is not extended to all initiations. Statements about efficacy or supernatural acceptance remain attributed beliefs.
+- **Artifact `ARTF-0033`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0139_0000); inspected 2026-11-04
+  - Inspected: Article page 139, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 2209
+  - sha256: c3234bfb8e507e90bca3f5a08a6b8704f4e093e049cb271153e40ddb53a9f96e
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0034`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0140_0000); inspected 2026-11-04
+  - Inspected: Article page 140, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3565
+  - sha256: d3f5f24a20e1c124085635b2acd01c34d4d335f3a80be0568bd69edec6c6748b
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0035`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0161_0000); inspected 2026-11-04
+  - Inspected: Article page 161, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3543
+  - sha256: 4f70b99f41011d17ebb26b794cf7839833d35cc7be7b3d9be6cc4bf39a01e26e
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0036`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0164_0000); inspected 2026-11-04
+  - Inspected: Article page 164, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3438
+  - sha256: 36ddfc5d435e516e084bfa153e7bad28b9b6fde1b65d77c8b3ce4e6acf5b5fb6
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0037`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0165_0000); inspected 2026-11-04
+  - Inspected: Article page 165, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3469
+  - sha256: 3f5f958db14cb1bb397b917913891de5e0c7f3913184ae7c3699516d418bb45f
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0038`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0166_0000); inspected 2026-11-04
+  - Inspected: Article page 166, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3458
+  - sha256: 15317e217880f5ce7f5414fc49997680bac48d8efdf20ca05342f216bb01b4f6
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0039`:** document; partial; [open](https://www.persee.fr/doc/page/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0167_0000); inspected 2026-11-04
+  - Inspected: Article page 167, OCR text body; corresponding images checked only for pp. 165–166
+  - media_type: text/html
+  - size_bytes: 3538
+  - sha256: 6e609d29d44cb34fc62f2908afa59889107b684f2c3b23208e2ba93153109ff1
+  - Notes: Captured page-service HTML contains OCR and an image reference; it is not the original page-image bytes or an independent witness. The full article PDF was not retrieved.
+- **Artifact `ARTF-0040`:** image; partial; [open](https://www.persee.fr/renderPage/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0165_0000_710.jpg); inspected 2026-11-04
+  - Inspected: Page 165 image checked against the page OCR
+  - media_type: image/jpeg
+  - size_bytes: 180578
+  - sha256: 1efc3b8ea5525e0ff93cde39a6adab8ab3252a4df19f299d3d5c65ce8083c83e
+  - Notes: Repository-rendered page image, not a photograph of a performed initiation. Hash identifies the captured JPEG derivative.
+- **Artifact `ARTF-0041`:** image; partial; [open](https://www.persee.fr/renderPage/jsa_0037-9174_1969_num_58_1_2101/jsa_0037-9174_1969_num_58_1_T1_0166_0000_710.jpg); inspected 2026-11-04
+  - Inspected: Page 166 image checked against the page OCR
+  - media_type: image/jpeg
+  - size_bytes: 169660
+  - sha256: e07f2cb6ab566af89905a0d373cd1085248d9889684eb8e9c9bf2b62857bd649
+  - Notes: Repository-rendered page image, not a photograph of a performed initiation. Hash identifies the captured JPEG derivative.
+- **Discloses:** [Abakuá admission oath and concealed Ekue consecration](#item-0065)
+- **Cited in claims:** `CLM-0267` · `CLM-0268` · `CLM-0269` · `CLM-0270` · `CLM-0271` · `CLM-0272` · `CLM-0273` · `CLM-0274`
+
+<a id="src-0121"></a>
+
+### Ceremonias de Atefá
+
+`SRC-0121` · Ernesto Valdés Jane (compiler) · 2001 · book
+
+- **Provenance:** member publication → anonymous posting
+- **Authenticity:** uncertain
+- **Verification:** Read the mirror’s actual extracted text: imprint and collection introduction, and selected printed pp. 23, 57–60 and 98–99. The imprint claims editions in 2001, 2004 and 2007, carries a present-edition copyright of 2011 and repeating 2012 footers. No single edition\_year is assigned. The site credits uploader Juan Perez, whose identity and authority are unverified. Direct capture failed DNS resolution; the web reader exposed the text, while the Download File link returned to the same page. No PDF bytes or hash are claimed.
+- **Rights:** copyrighted
+- **Links:** [pdfcoffee.com](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html) · [ISBN 9781105021794](https://openlibrary.org/isbn/9781105021794)
+- **Notes:** The attribution is to a practitioner compilation, not to the file-sharing uploader. The introduction describes collected priestly manuscripts and comparison across houses; that is the compiler’s account, not an audited chain of custody. The mirror has not been compared against the publisher edition or the manuscripts and is not labelled an authenticated leak. Instruction, actual performance and claimed efficacy are separate questions.
+- **Artifact `ARTF-0042`:** document; partial; [open](https://pdfcoffee.com/142689299-ceremonias-de-atefapdf-5-pdf-free.html); inspected 2026-11-04
+  - Inspected: Mirror’s extracted imprint and introduction; selected printed pp. 23, 57–60, 98–99; no PDF page images
+  - media_type: text/html
+  - Notes: Read through the web reader. Direct HTTPS capture failed DNS resolution; Download File returned to the same page. No exact-byte hash, size, retrieved PDF or verified upload date is asserted. This is an extracted-text artifact, not an authenticated manuscript or insider leak.
+- **Discloses:** [Atefá room ceremony and lineage-specific initiation prescriptions](#item-0066)
+- **Cited in claims:** `CLM-0275` · `CLM-0276` · `CLM-0277` · `CLM-0278` · `CLM-0279` · `CLM-0280`
