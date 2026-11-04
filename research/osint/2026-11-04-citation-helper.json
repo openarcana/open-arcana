@@ -1,0 +1,199 @@
+{
+  "checked_on": "2026-11-04",
+  "provider": "Scholar Sidekick",
+  "limitation": "Automated triage only. A book review resolved from an ISBN is not the cited book; verdicts require primary metadata review.",
+  "entries": [
+    {
+      "id": "SRC-0043",
+      "citation": {
+        "title": "Report of Case Study No. 29: The response of the Jehovah's Witnesses and Watchtower Bible and Tract Society of Australia Ltd to allegations of child sexual abuse",
+        "isbn": "978-1-925289-89-3",
+        "year": 2016
+      }
+    },
+    {
+      "id": "SRC-0046",
+      "citation": {
+        "title": "The transfer of the physical penalties from the obligations",
+        "isbn": "0907655130",
+        "year": 1987
+      }
+    },
+    {
+      "id": "SRC-0059",
+      "citation": {
+        "title": "Religious Rituals in Shugendō: A Summary",
+        "doi": "10.18874/jjrs.16.2-3.1989.101-116",
+        "year": 1989
+      }
+    },
+    {
+      "id": "SRC-0060",
+      "citation": {
+        "title": "The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane",
+        "doi": "10.1515/9783110720211-009",
+        "year": 2022
+      }
+    },
+    {
+      "id": "SRC-0068",
+      "citation": {
+        "title": "Kiss of the Yoginī: \"Tantric Sex\" in Its South Asian Contexts",
+        "isbn": "0226894835",
+        "year": 2003
+      }
+    },
+    {
+      "id": "SRC-0082",
+      "citation": {
+        "title": "María Sabina: Her Life and Chants",
+        "isbn": "091552032X",
+        "year": 1977
+      }
+    },
+    {
+      "id": "SRC-0086",
+      "citation": {
+        "title": "The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives",
+        "doi": "10.16993/bbu.f",
+        "year": 2022
+      }
+    },
+    {
+      "id": "SRC-0095",
+      "citation": {
+        "title": "Fire-Faith and the Gnostic Neo-Templars: Aleister Crowley’s Gnostic Catholic Mass and Its c. 1917 German Translation by Theodor Reuss",
+        "doi": "10.1163/15700593-tat00022",
+        "year": 2024
+      }
+    },
+    {
+      "id": "SRC-0104",
+      "citation": {
+        "title": "Fin de un mundo: Los Selk’nam de Tierra del Fuego",
+        "isbn": "9568136592"
+      }
+    },
+    {
+      "id": "SRC-0120",
+      "citation": {
+        "title": "Ritual y simbolos de la iniciación en la sociedad secreta Abakua",
+        "doi": "10.3406/jsa.1969.2101",
+        "year": 1969
+      }
+    },
+    {
+      "id": "SRC-0121",
+      "citation": {
+        "title": "Ceremonias de Atefá",
+        "isbn": "9781105021794",
+        "year": 2001
+      }
+    }
+  ],
+  "result": {
+    "kind": "audit",
+    "summary": "11 checked — 1 mismatched, 2 not found, 3 ambiguous",
+    "title": null,
+    "authorsShort": null,
+    "year": null,
+    "container": null,
+    "doi": null,
+    "identifiers": [],
+    "reference": null,
+    "style": null,
+    "verdict": null,
+    "confidence": null,
+    "mismatches": [],
+    "retraction": null,
+    "auditRows": [
+      {
+        "index": 1,
+        "verdict": "matched",
+        "title": "Report of Case Study No. 29",
+        "doi": null,
+        "retracted": false
+      },
+      {
+        "index": 2,
+        "verdict": "not_found",
+        "title": null,
+        "doi": null,
+        "retracted": false
+      },
+      {
+        "index": 3,
+        "verdict": "matched",
+        "title": "Religious rituals in Shugendo: A summary",
+        "doi": "10.18874/jjrs.16.2-3.1989.101-116",
+        "retracted": false
+      },
+      {
+        "index": 4,
+        "verdict": "mismatch",
+        "title": "Chapter Nine The Cultural History of Kanjō in Japan: The Integration of the Sacred and the Profane",
+        "doi": "10.1515/9783110720211-009",
+        "retracted": false
+      },
+      {
+        "index": 5,
+        "verdict": "ambiguous",
+        "title": "<i>Kiss of the Yoginī: “Tantric Sex” in Its South Asian Contexts</i>. By David Gordon  White. Chicago: University of Chicago Press, 2003. Pp. xx+372. $43.00.",
+        "doi": "10.1086/503727",
+        "retracted": false
+      },
+      {
+        "index": 6,
+        "verdict": "ambiguous",
+        "title": "<i>María Sabina: Her Life and Chants</i>",
+        "doi": "10.1080/02791072.1982.10471940",
+        "retracted": false
+      },
+      {
+        "index": 7,
+        "verdict": "matched",
+        "title": "The Witchcraft Trial against Anders Poulsen, Vadsø 1692: Critical Perspectives",
+        "doi": "10.16993/bbu.f",
+        "retracted": false
+      },
+      {
+        "index": 8,
+        "verdict": "matched",
+        "title": "Fire-Faith and the Gnostic Neo-Templars",
+        "doi": "10.1163/15700593-tat00022",
+        "retracted": false
+      },
+      {
+        "index": 9,
+        "verdict": "not_found",
+        "title": null,
+        "doi": null,
+        "retracted": false
+      },
+      {
+        "index": 10,
+        "verdict": "matched",
+        "title": "Ritual y simbolos de la iniciación en la sociedad secreta Abakua",
+        "doi": "10.3406/jsa.1969.2101",
+        "retracted": false
+      },
+      {
+        "index": 11,
+        "verdict": "ambiguous",
+        "title": "Ceremonias de Atefá",
+        "doi": null,
+        "retracted": false
+      }
+    ],
+    "auditCounts": {
+      "total": 11,
+      "matched": 5,
+      "mismatch": 1,
+      "ambiguous": 3,
+      "not_found": 2,
+      "errored": 0,
+      "retracted": 0
+    },
+    "truncated": 0
+  }
+}

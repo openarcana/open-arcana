@@ -12,6 +12,7 @@ Knowledge kept secret can be difficult to examine, compare or preserve. Open Arc
 
 - **[CATALOG.md](CATALOG.md)**: every tradition, restricted item, disclosure and source on one page, with links to Wikidata, Open Library, Internet Archive and CourtListener.
 - **[QUALITY.md](QUALITY.md)**: review counts and record-level evidence gaps, regenerated from the CSVs.
+- **[OSINT audit](research/OSINT.md)**: dated link/redirect receipts, identifier and metadata checks, capture rehashing and unresolved access limits across the catalogue.
 - **[Open in Datasette Lite](https://lite.datasette.io/?url=https://raw.githubusercontent.com/openarcana/open-arcana/main/exports/open-arcana.sqlite)**: the SQLite export as searchable, filterable tables in your browser, with SQL.
 
 ## What it covers
@@ -72,6 +73,8 @@ All media and acquisition routes are eligible within scope: leaks, audio, video,
 
 Research batches keep [search and source-inspection records](research/) so readers can inspect selection decisions, passages read and unresolved access gaps.
 
+The [source discovery and evidence verification workflow](research/OSINT.md) applies across all eligible channels, using OSINT, archival research and digital source verification. A [validated search log](research/searches/2026-11-04-recovery.jsonl) records actual queries, tools, recovery roles, inspected parts and access limits. Crossref metadata, authorized library/browser inspection and unconventional source routes are complementary; none automatically validates a claim.
+
 The [Indigenous coverage register](research/INDIGENOUS_COVERAGE.md) maps the current items and remaining regional and source-inspection gaps. Community names, periods and transmission rules remain specific; historical accounts do not establish current practice.
 
 Every JSONL record includes `dataset` (version, metadata license and `snapshot_sha256`) and `quality_issues` for the record, its item and its cited sources. Claim records include the full `tradition`, just as disclosure records do. The snapshot is the SHA-256 of the UTF-8 JSON encoding of `manifest.json`'s `canonical_inputs`, with keys sorted and separators `,` and `:`. It identifies the descriptor and CSV bytes, independent of the optional Parquet exports. Source-copy hashes are separate and are never invented from a title, URL or dataset checksum.
@@ -111,6 +114,7 @@ python3 scripts/build.py                  # validate + exports + CATALOG.md + QU
 python3 scripts/build.py --check          # validate only; no files written
 python3 scripts/build.py --check-exports  # also check export parity and checksums; no files written
 python3 -m unittest discover -s tests -v
+python3 scripts/osint.py --check          # offline identifier checks; no network or writes
 ```
 
 Requires only Python 3.9 or later. Parquet exports are written if `pyarrow` is installed; otherwise old generated Parquet files are removed to prevent stale copies. Existing Parquet files require `pyarrow` for `--check-exports`. Structural and evidence-label inconsistencies fail validation. Missing assessments, locators, hashes and dated status evidence appear in the quality backlog and remain available for research.
