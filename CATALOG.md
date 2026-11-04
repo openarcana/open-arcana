@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-30 traditions · 38 restricted items · 70 disclosures · 96 claims · 83 sources
+30 traditions · 38 restricted items · 70 disclosures · 96 claims · 84 sources
 
 ## Traditions
 
@@ -1311,10 +1311,10 @@ The initiation of a new hamatsa, who is held to be taken away to the woods by th
   - Supported by: [The Social Organization and the Secret Societies of the Kwakiutl Indians](#src-0076) ([archive.org](https://archive.org/details/socialorganizati00boas))
   - Where: SRC-0076: p. 440
   - Assessment: Boas reports this as the account of Q'omEna'kula, who took part and had died a few years before Boas wrote; Q'omEna'kula told him fresh human flesh was much harder to eat than dried corpses. Testimony relayed second-hand; no independent source recorded yet. Checked against the Internet Archive text on 2026-11-04.
-- `CLM-0085` *suppression* (official condemnation) · **single source** · reviewed: The potlatch was illegal under Canada's Indian Act from 1885 to 1951. People who attended Chief Dan Cranmer's potlatch at Village Island in 1921 were charged and tried; the chiefs were made to sign a promise to give up the potlatch, twenty who refused were jailed, and the community's masks and regalia (the Potlatch Collection) were taken under this agreement. The law was dropped from the Indian Act in 1951 but never formally repealed. (1885–1951)
-  - Supported by: [The Meaning of U'mista](#src-0077) ([umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php))
-  - Where: SRC-0077: whole page
-  - Assessment: Community source. The page does not list which hamatsa regalia were among the confiscated items, or the text of the statute. Read on 2026-11-04.
+- `CLM-0085` *suppression* (official condemnation) · **single source** · reviewed: Section 3 of the 1884 amendment to the Indian Act made it a misdemeanour, punishable by two to six months' imprisonment, to take part in or encourage the 'Potlach' festival or the 'Tamanawas' dance, and the potlatch stayed illegal from 1885 to 1951. People who attended Chief Dan Cranmer's potlatch at Village Island in 1921 were charged and tried; the chiefs were made to sign a promise to give up the potlatch, twenty who refused were jailed, and the community's masks and regalia (the Potlatch Collection) were taken under this agreement. The law was dropped from the Indian Act in 1951 but never formally repealed. (1885–1951)
+  - Supported by: [An Act further to amend "The Indian Act, 1880" (Statutes of Canada 1884, chapter 27)](#src-0084) ([collections.ubcic.bc.ca](https://collections.ubcic.bc.ca/s/fndds/item/12383)) · [The Meaning of U'mista](#src-0077) ([umistapotlatch.ca](https://umistapotlatch.ca/nos_masques_come_home-our_masks_come_home-eng.php))
+  - Where: SRC-0084: section 3; SRC-0077: whole page
+  - Assessment: The statute and the community's account are independent, but each supports a different part of the statement (the law; the 1921 prosecutions and confiscation), so the 1921 events rest on SRC-0077 alone. Neither says whether hamatsa regalia was among the confiscated items, or whether the 'Tamanawas' dance of the statute covered the hamatsa rites. Read on 2026-11-04.
 
 <a id="trad-0029"></a>
 
@@ -2532,3 +2532,17 @@ An all-night rite in which a healer and the participants eat psilocybin mushroom
 - **Links:** [erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml)
 - **Notes:** From the author's Mushroom Pioneers; archived by Erowid with his permission (page last modified 21 February 2015). Draws mainly on Wasson and Estrada. Read in Chrome on 2026-11-04.
 - **Cited in claims:** `CLM-0093` · `CLM-0095`
+
+<a id="src-0084"></a>
+
+### An Act further to amend "The Indian Act, 1880" (Statutes of Canada 1884, chapter 27)
+
+`SRC-0084` · Parliament of Canada · 1884 · court record
+
+- **Provenance:** official release
+- **Authenticity:** probable
+- **Verification:** Read on 2026-11-04 in a typed transcription (PDF) held in the UBCIC Library & Archives First Nations Digital Document Source, opened in Chrome. Chapter number, title and assent date of 19 April 1884 agree with the scanned copies described by the Gladue Rights Research Database; not yet compared with the printed statute book.
+- **Rights:** public domain
+- **Links:** [collections.ubcic.bc.ca](https://collections.ubcic.bc.ca/s/fndds/item/12383)
+- **Notes:** Assented to 19 April 1884. Section 3 is the potlatch ban.
+- **Cited in claims:** `CLM-0085`
