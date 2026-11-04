@@ -586,14 +586,15 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 |---|---|---|---|---|---|---|
 | 1995 | court record | reference | Inquires into whether the knowledge was fabricated; does not publish it. | [Report of the Hindmarsh Island Bridge Royal Commission](#src-0036) (no online copy) | unassessed |  |
 | 1998 | academic research | reference |  | [Ngarrindjeri Wurruwarrin: A World That Is, Was, and Will Be](#src-0038) ([openlibrary.org](https://openlibrary.org/works/OL2266943W)) | unassessed |  |
-| 2001 | court record | reference | Judgment on whether the knowledge was fabricated; does not publish it. | [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106)) | unassessed |  |
+| 2001 | court record | reference | Judgment on whether the knowledge was fabricated; does not publish it. | [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106)) | verified |  |
 
 **Claims**
 
 - `CLM-0007` *other* · **contradicted**: The restricted women's knowledge about Hindmarsh Island was fabricated. (1994–1995)
   - Supported by: [Report of the Hindmarsh Island Bridge Royal Commission](#src-0036) (no online copy)
   - Contradicted by: [Chapman v Luminis Pty Ltd (No 5) [2001] FCA 1106](#src-0037) ([judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106))
-  - Assessment: The Royal Commission (1995) concluded it was fabricated, without evidence from the women proposing it. In 2001 von Doussa J, who heard evidence from some of them, said he was not satisfied it was fabricated or that it was not part of genuine Aboriginal tradition. The two are independent bodies that heard different evidence.
+  - Where: SRC-0036: report of 19 December 1995; SRC-0037: paras 133, 199, 330
+  - Assessment: The Royal Commission (1995) concluded the whole of the women's business was a fabrication. The judgment records that Dr Kartinyeri did not give evidence to the Commission and that the contents of the sealed envelopes were not before it (para 133). In 2001 von Doussa J heard evidence from several Ngarrindjeri women supporting its genuineness (para 330) and was not satisfied, on the balance of probabilities, that it was fabricated or was not part of Aboriginal tradition (para 199). The two bodies are independent and heard different evidence. Checked against the judgment text on 2026-11-04.
 
 ## Sources
 
@@ -1054,7 +1055,7 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 - **Authenticity:** unassessed
 - **Rights:** unknown
 - **Links:** [Wikidata `Q5766130`](https://www.wikidata.org/wiki/Q5766130)
-- **Notes:** Wikidata item is for the Royal Commission. The women proposing the restricted knowledge declined to give evidence.
+- **Notes:** Wikidata item is for the Royal Commission. Reported 19 December 1995. Dr Kartinyeri did not give evidence, and the sealed envelopes were not before the Commission (SRC-0037, para 133).
 - **Discloses:** [Women's restricted knowledge concerning Kumarangk (Hindmarsh Island)](#item-0022)
 - **Cited in claims:** `CLM-0007`
 
@@ -1065,7 +1066,8 @@ Knowledge asserted in 1994 by a group of Ngarrindjeri women opposing a bridge to
 `SRC-0037` · Federal Court of Australia (von Doussa J) · 2001 · court record
 
 - **Provenance:** court filing
-- **Authenticity:** unassessed
+- **Authenticity:** verified
+- **Verification:** Read on the Federal Court of Australia's own judgments site on 2026-11-04: von Doussa J, Adelaide, 21 August 2001; application dismissed.
 - **Rights:** court record
 - **Links:** [www.judgments.fedcourt.gov.au](https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2001/2001fca1106)
 - **Notes:** Reported as (2001) 123 FCR 62.
