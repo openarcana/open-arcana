@@ -1,13 +1,13 @@
 id,item_id,source_id,year,date_precision,disclosure_method,extent,coverage,review_status,notes
 DISC-0001,ITEM-0001,SRC-0001,1723,year,exposure_publication,partial,,unreviewed,One of the earliest printed exposures.
 DISC-0002,ITEM-0002,SRC-0001,1723,year,exposure_publication,partial,,unreviewed,
-DISC-0003,ITEM-0001,SRC-0002,1730,year,exposure_publication,full,,unreviewed,Earliest known description of the third degree.
+DISC-0003,ITEM-0001,SRC-0002,1730,year,exposure_publication,full,,unreviewed,Earliest known printed description of the third degree.
 DISC-0004,ITEM-0002,SRC-0002,1730,year,exposure_publication,full,,unreviewed,
 DISC-0005,ITEM-0001,SRC-0003,1760,year,exposure_publication,full,,unreviewed,
 DISC-0006,ITEM-0001,SRC-0004,1762,year,exposure_publication,full,,unreviewed,
 DISC-0007,ITEM-0001,SRC-0005,1826,year,defector_testimony,full,,unreviewed,Author was a self-described former member.
 DISC-0008,ITEM-0001,SRC-0006,1866,year,exposure_publication,full,,unreviewed,
-DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,,unreviewed,S. L. MacGregor Mathers sought an injunction in 1910; it was lifted on appeal.
+DISC-0009,ITEM-0003,SRC-0007,1909,circa,defector_testimony,partial,"The Neophyte ritual (No. II, September 1909); the signs, grip, grand word and password are not printed",unreviewed,"Crowley had been a member of the Golden Dawn and its Second Order. The 1910 injunction concerned No. III (DISC-0045), not this number."
 DISC-0010,ITEM-0003,SRC-0008,1937,year,defector_testimony,full,"Rituals of the Outer Order grades (Neophyte to Philosophus) and the Portal, including steps, signs, grips, words and passwords",unreviewed,Rituals are in Volume Two (1938). Regardie had been a member of the Stella Matutina.
 DISC-0011,ITEM-0004,SRC-0008,1937,year,defector_testimony,full,,unreviewed,
 DISC-0012,ITEM-0005,SRC-0009,1973,year,exposure_publication,full,,unreviewed,
@@ -43,3 +43,4 @@ DISC-0041,ITEM-0006,SRC-0040,1987,year,journalism,summary,Outline of the OT III 
 DISC-0042,ITEM-0007,SRC-0041,2017,circa,leak,partial,Extent not yet established; which ordinances are recorded still needs checking,unreviewed,"Covert video recordings made during the ceremony itself, not reconstructed from memory or text."
 DISC-0043,ITEM-0006,SRC-0042,1996,circa,journalism,partial,Summary of OT III with quotations of Hubbard's handwritten text and of the Incident I and II descriptions,unreviewed,Spaink withdrew the full text on legal advice and published this summary instead.
 DISC-0044,ITEM-0010,SRC-0043,2016,month,court_record,partial,"Provisions on child sexual abuse: scriptural offences, standards of proof, investigation and judicial committees",unreviewed,Quoted and summarised from the handbook in evidence before the Royal Commission (public hearing July–August 2015).
+DISC-0045,ITEM-0003,SRC-0007,1910,month,defector_testimony,partial,"The ritual of the 5°=6° grade of Adeptus Minor (No. III, March 1910); not yet compared with Regardie for completeness",unreviewed,"S. L. MacGregor Mathers sought an injunction against this number. Its editorial note says an order restraining publication was made two days after advance copies were delivered, continued by Bucknill J, and dissolved by the Court of Appeal."

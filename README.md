@@ -6,7 +6,7 @@ An open, versioned, machine-readable dataset documenting **secrecy in religious,
 
 Secret knowledge carries authority largely because it is hidden. Open Arcana makes it possible to look at that knowledge as it is: to study it, compare it across traditions, preserve it before it is lost, and let people, researchers and AI systems reason about it from every perspective, including the traditions' own.
 
-> **Status: v0.2, seed data.** Every record is currently `unreviewed`. Treat it as a starting point, not as verified fact.
+> **Status: v0.2, seed data.** Most claims have been checked against their sources (`reviewed`), but nearly all rest on a single source and most sources' authenticity is still `unassessed`. Treat it as a starting point, not as verified fact.
 
 ## Browse
 

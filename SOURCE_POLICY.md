@@ -38,6 +38,7 @@ Every source records how it came to light in its `provenance` field. When materi
 | Value | Meaning |
 |---|---|
 | `official_release` | Published or released by the tradition itself |
+| `member_publication` | Published by a member or teacher on their own authority, not by the tradition as a body |
 | `published_exposure` | Published exposure whose author's access is not established |
 | `defector_account` | Published or given by a former member with firsthand access |
 | `court_filing` | Entered in a court file or other legal record |
@@ -47,7 +48,8 @@ Every source records how it came to light in its `provenance` field. When materi
 | `covert_recording` | Recorded on audio, video or camera by an attendee without the tradition's permission |
 | `anonymous_posting` | Posted anonymously, with no traceable chain of custody |
 | `archival_collection` | Held in a library, archive or manuscript collection |
-| `academic_fieldwork` | Gathered by researchers through fieldwork or interviews |
+| `academic_fieldwork` | Gathered by researchers through fieldwork, interviews or excavation |
+| `scholarship` | Edited, translated or analysed by scholars from texts and other existing material, without fieldwork |
 | `reconstruction` | Pieced together from fragments or secondary accounts |
 | `unknown` | Origin not established |
 

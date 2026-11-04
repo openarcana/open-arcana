@@ -282,6 +282,7 @@
               "required": true,
               "enum_list": [
                 "official_release",
+                "member_publication",
                 "published_exposure",
                 "defector_account",
                 "court_filing",
@@ -292,6 +293,7 @@
                 "anonymous_posting",
                 "archival_collection",
                 "academic_fieldwork",
+                "scholarship",
                 "reconstruction",
                 "unknown"
               ]
