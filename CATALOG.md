@@ -4,7 +4,7 @@
 
 > Generated from [`data/`](data/) by `scripts/build.py`. Edit the CSVs, not this file. Records marked *unreviewed* have not been checked yet.
 
-29 traditions · 37 restricted items · 68 disclosures · 88 claims · 80 sources
+30 traditions · 38 restricted items · 70 disclosures · 96 claims · 83 sources
 
 ## Traditions
 
@@ -37,6 +37,7 @@
 - [Midewiwin (Grand Medicine Society)](#trad-0027) (1 item)
 - [Kwakwaka'wakw religion](#trad-0028) (1 item)
 - [Sámi religion (noaidi practice)](#trad-0029) (1 item)
+- [Mazatec mushroom religion](#trad-0030) (1 item)
 - [Sources](#sources)
 
 <a id="trad-0001"></a>
@@ -1356,6 +1357,67 @@ The drum painted with figures of gods, spirits, people and animals, struck to mo
   - Where: SRC-0078: return section; SRC-0079: final section
   - Assessment: Both sources agree on the 1979 deposit and the 2022 transfer; SRC-0078 dates the Danish Ministry of Culture announcement to 24 January 2022. Read on 2026-11-04.
 
+<a id="trad-0030"></a>
+
+## Mazatec mushroom religion
+
+`TRAD-0030` · indigenous tradition · founded pre-Columbian (mushroom rites); blended with Catholicism after the conquest · Sierra Mazateca (Huautla de Jiménez and neighbouring towns), Oaxaca, Mexico · active
+
+Healers (curanderos, sabios) hold night vigils with psilocybin mushrooms, which they call the saint children. Wikidata has items for the Mazatec people (Q1262708) and for María Sabina (Q442467) but not for the religion.
+
+<a id="item-0038"></a>
+
+### The mushroom vigil (velada) and the 'saint children'
+
+`ITEM-0038` · closed liturgy · currently modified
+
+An all-night rite in which a healer and the participants eat psilocybin mushrooms in the dark, and the healer chants and consults the mushrooms about sickness, lost things and absent people.
+
+- **Restricted to:** Mazatec families and patients gathered by a healer; kept from outsiders until 1955
+- **How:** social sanction, oral only
+- **Stated reason:** Outsiders who take the mushrooms without need spoil them: they lose their purity and force (CLM-0094)
+- **Notes:** Made public by R. Gordon Wasson's account in Life (1957) of a vigil led by María Sabina, whom he called Eva Mendez.
+
+| Year | Method | Extent | Coverage | Source | Source authenticity | Notes |
+|---|---|---|---|---|---|---|
+| 1957 | journalism | summary | One vigil (Huautla, 29–30 June 1955) described step by step, with photographs and the purposes for which the mushrooms are consulted; no chant texts | [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) | verified | Published 13 May 1957. (reviewed) |
+| 1977 | voluntary release | partial | The healer's own account of her vigils and their rules, with transcribed chants; read only through search-inside passages so far | [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) | unassessed |  |
+
+**Claims**
+
+- `CLM-0089` *content* · **single source** · reviewed: About twenty people gathered at night in the lower room of a house and were first served chocolate. At about 10:30 the curandera cleaned the mushrooms and, with prayers, passed them through the smoke of resin incense before an altar with Christian images. She shared them out among the adults, always counting them in pairs: thirteen pairs each for herself and her daughter, six pairs for each visitor; children were not given any. Before midnight she snuffed out the last candle with a flower from the altar, and the rite went on in total darkness until dawn, with the curandera and her daughter chanting in turn. (1955)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100))
+  - Where: SRC-0081: pp. 102, 109
+  - Assessment: Wasson calls the curandera Eva Mendez (CLM-0093). SRC-0083 gives the same outline (copal smoke, pairs, darkness), but largely from Wasson, so it is not counted as independent. Read on Google Books on 2026-11-04.
+- `CLM-0090` *content* · **single source** · reviewed: The mushrooms are not treated as a cure in themselves: people 'consult' them in grave trouble. They are asked what caused an illness, whether the patient will live or die and what will help; who stole a donkey and where it will be found; and whether a son who has gone away is alive, in jail, married or prospering. (1950s)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100))
+  - Where: SRC-0081: p. 118
+  - Assessment: Wasson adds that when the verdict is death the patient and family resign themselves and begin preparing the wake. Read on Google Books on 2026-11-04.
+- `CLM-0091` *historical practice* · **single source** · reviewed: Before Wasson came, no Mazatec revealed what they knew about the mushrooms to outsiders. Mazatecs spoke of the vigils in a low voice and avoided saying the mushrooms' Mazatec name, calling them the little things or the little saints, as their ancestors had. (before 1955)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0082: p. 79
+  - Assessment: María Sabina's own testimony. Wasson says (SRC-0081, p. 101) that the mushrooms had been a secret of certain Indian peoples for centuries and that no anthropologist had described the rite, which is consistent but is his own judgement rather than evidence of the practice. Read in the Internet Archive search-inside text on 2026-11-04.
+- `CLM-0092` *other* · **independently corroborated** · reviewed: Wasson was admitted through the town's síndico: he asked the official, Filemón, in confidence and using the Mazatec name of the mushroom, to help him learn its secrets, and Filemón led him to the curandera. María Sabina later said she had only obeyed the síndico. (1955)
+  - Supported by: [Seeking the Magic Mushroom](#src-0081) ([books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)) · [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0081: p. 102; SRC-0082: p. 79
+  - Assessment: Wasson's and María Sabina's accounts are independent of each other and agree on the síndico's role. SRC-0083 instead names her friend Cayetano as the go-between; María Sabina also mentions Cayetano bringing the foreigners (SRC-0082, p. 20). Read on 2026-11-04.
+- `CLM-0093` *other* · **single source** · reviewed: In Life Wasson called the curandera Eva Mendez and the language Mixeteco. The curandera was María Sabina of Huautla de Jiménez, and the language Mazatec; the names were changed to protect her from thrill-seekers. (1957)
+  - Supported by: [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0083: introduction and section on childhood
+  - Assessment: The names as printed are in SRC-0081 (pp. 101–102). The identification and the stated motive rest on SRC-0083, which also says Valentina Wasson gave the language as Mixtec in This Week (1958) for the same reason. Read on 2026-11-04.
+- `CLM-0094` *stated reason* · **single source** · reviewed: María Sabina said that before Wasson the saint children lifted her up, but that from the moment the foreigners arrived they lost their purity and force: the foreigners spoiled them, and there was no remedy. (1970s)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0082: p. 20 (quoted in Wasson's introduction), p. 91
+  - Assessment: Her own words, as recorded by Estrada. Elsewhere she says that showing her wisdom to foreigners was not in itself wrong, because the children are the blood of Christ (p. 79). SRC-0083 adds, citing Estrada, that the mushrooms had always been used to cure the sick and that the foreigners came only out of curiosity or to find God. Read in the Internet Archive search-inside text on 2026-11-04.
+- `CLM-0095` *suppression* (community pressure) · **single source** · reviewed: María Sabina's house was burned down. She did not know why, but some people thought it was because she had revealed the ancestral secret of Mazatec medicine to foreigners. (after 1955)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr)) · [María Sabina: Saint Mother of the Sacred Mushrooms](#src-0083) ([erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml))
+  - Where: SRC-0082: p. 79; SRC-0083: section The Coming of the Foreigners
+  - Assessment: SRC-0083 draws on SRC-0082 and is not independent. It adds that she was arrested and jailed several times by local officials over her vigils with foreigners; no page in Estrada has been found for this yet. The motive is reported as other people's belief, not established. Read on 2026-11-04.
+- `CLM-0096` *change* · **single source** · reviewed: Wasson himself concluded that a practice carried on in secret for centuries had been aired, and that the airing spelled its end. (1970s)
+  - Supported by: [María Sabina: Her Life and Chants](#src-0082) ([archive.org](https://archive.org/details/marasabinaherl00estr))
+  - Where: SRC-0082: p. 20 (Wasson's introduction)
+  - Assessment: Wasson's judgement, not a description of current practice. SRC-0083 describes the arrival of thousands of foreign seekers in the 1960s, the sale of mushrooms to tourists, a local ban on mushroom use and the expulsion of foreigners by federal authorities. Read on 2026-11-04.
+
 ## Sources
 
 <a id="src-0001"></a>
@@ -2427,3 +2489,46 @@ The drum painted with figures of gods, spirits, people and animals, struck to mo
 - **Rights:** public domain
 - **Notes:** Not yet read for this dataset; known here through SRC-0078 and SRC-0079. SRC-0079 calls it the most extensive source material of all the Finnmark witchcraft cases.
 - **Discloses:** [The noaidi drum (goavddis) and the meaning of its figures](#item-0037)
+
+<a id="src-0081"></a>
+
+### Seeking the Magic Mushroom
+
+`SRC-0081` · R. Gordon Wasson · 1957 · periodical
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** verified
+- **Verification:** Read in the full-view scan of the issue on Google Books on 2026-11-04 (OCR of the page images); the issue, date, title and pages match the standard citation.
+- **Rights:** copyrighted
+- **Links:** [books.google.com](https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100)
+- **Notes:** Life 42, no. 19 (13 May 1957), pp. 100–102, 109–120, in the series Great Adventures. Wasson's account of the vigil he attended at Huautla de Jiménez on 29–30 June 1955. Calls the curandera 'Eva Mendez' and the language 'Mixeteco' (CLM-0093).
+- **Discloses:** [The mushroom vigil (velada) and the 'saint children'](#item-0038)
+- **Cited in claims:** `CLM-0089` · `CLM-0090` · `CLM-0092`
+
+<a id="src-0082"></a>
+
+### María Sabina: Her Life and Chants
+
+`SRC-0082` · Alvaro Estrada; introduction by R. Gordon Wasson · 1977 · book
+
+- **Provenance:** academic fieldwork
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Linked copy:** 1981 edition
+- **Links:** [Internet Archive `marasabinaherl00estr`](https://archive.org/details/marasabinaherl00estr) · [ISBN `091552032X`](https://openlibrary.org/isbn/091552032X)
+- **Notes:** María Sabina's account of her life, told in Mazatec to Estrada, himself from Huautla, and first published in Spanish as Vida de María Sabina; linked copy is the English edition (Santa Barbara: Ross-Erikson, 1981). The Internet Archive copy is restricted to print-disabled patrons; the passages used here were read through its search-inside results in Chrome on 2026-11-04.
+- **Discloses:** [The mushroom vigil (velada) and the 'saint children'](#item-0038)
+- **Cited in claims:** `CLM-0091` · `CLM-0092` · `CLM-0094` · `CLM-0095` · `CLM-0096`
+
+<a id="src-0083"></a>
+
+### María Sabina: Saint Mother of the Sacred Mushrooms
+
+`SRC-0083` · John W. Allen · website
+
+- **Provenance:** scholarship
+- **Authenticity:** unassessed
+- **Rights:** copyrighted
+- **Links:** [erowid.org](https://erowid.org/plants/mushrooms/mushrooms_article6.shtml)
+- **Notes:** From the author's Mushroom Pioneers; archived by Erowid with his permission (page last modified 21 February 2015). Draws mainly on Wasson and Estrada. Read in Chrome on 2026-11-04.
+- **Cited in claims:** `CLM-0093` · `CLM-0095`
